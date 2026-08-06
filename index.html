@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Splatboard</title>
+<meta name="theme-color" content="#121212">
+<link rel="icon" href="leeeeroyj.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="brand">
+    <img class="mascot" src="leeeeroyj.png" alt="" width="348" height="340">
+    <img class="handle" src="handle.svg" alt="…LEEEEROYJ">
+  </div>
+  <div class="titles">
+    <h1><img class="wordmark" src="wordmark.svg" alt="Splatboard"></h1>
+    <p class="tagline">Please Respawn Responsibly.</p>
+  </div>
+</header>
+
+<div class="chips">
+  <div class="chip">Total Splats <b id="total">—</b></div>
+  <div class="chip">Unique Players <b id="unique">—</b></div>
+  <div class="chip">Top Victim <b id="top">—</b></div>
+</div>
+
+<main>
+  <section>
+    <h2>Top Splats</h2>
+    <div id="wall" class="wall"></div>
+  </section>
+
+  <section id="recent-section" hidden>
+    <h2>Recent Splats</h2>
+    <ol id="recent" class="recent"></ol>
+  </section>
+</main>
+
+<footer>
+  <p>Updated <span id="generated">—</span></p>
+  <p class="disclaimer">
+    Splatboard is a personal development project, and the figures above are test
+    data from building it &mdash; not a real or verified scoreboard.
+    Not affiliated with, endorsed by, or sponsored by Nintendo.
+    Splatoon and Splatoon&nbsp;3 are trademarks of Nintendo.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

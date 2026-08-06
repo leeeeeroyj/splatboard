@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-08-06T17:55:23+00:00",
+  "totals": {
+    "splats": 11,
+    "unique_players": 9,
+    "top": "3.14Aliens"
+  },
+  "players": [
+    {
+      "name": "3.14Aliens",
+      "splats": 2,
+      "first": "2026-08-06T03:40:53+00:00",
+      "last": "2026-08-06T03:42:28+00:00",
+      "sessions": 1,
+      "wordmark": "names/1c985f97677b.svg"
+    },
+    {
+      "name": "Mitski",
+      "splats": 2,
+      "first": "2026-08-06T04:11:25+00:00",
+      "last": "2026-08-06T04:12:32+00:00",
+      "sessions": 1,
+      "wordmark": "names/7b16dc269329.svg"
+    },
+    {
+      "name": "AngelSaint",
+      "splats": 1,
+      "first": "2026-08-06T04:04:01+00:00",
+      "last": "2026-08-06T04:04:01+00:00",
+      "sessions": 1,
+      "wordmark": "names/6646088da7d8.svg"
+    },
+    {
+      "name": "GLOOBY!!!!",
+      "splats": 1,
+      "first": "2026-08-06T03:32:31+00:00",
+      "last": "2026-08-06T03:32:31+00:00",
+      "sessions": 1,
+      "wordmark": "names/554fff92c37a.svg"
+    },
+    {
+      "name": "Parkeг",
+      "splats": 1,
+      "first": "2026-08-06T04:10:15+00:00",
+      "last": "2026-08-06T04:10:15+00:00",
+      "sessions": 1,
+      "wordmark": "names/c436bba5025e.svg"
+    },
+    {
+      "name": "Starbreed",
+      "splats": 1,
+      "first": "2026-08-06T04:08:17+00:00",
+      "last": "2026-08-06T04:08:17+00:00",
+      "sessions": 1,
+      "wordmark": "names/e32f26884136.svg"
+    },
+    {
+      "name": "~^~",
+      "splats": 1,
+      "first": "2026-08-06T04:03:50+00:00",
+      "last": "2026-08-06T04:03:50+00:00",
+      "sessions": 1,
+      "wordmark": "names/455ee0b78213.svg"
+    },
+    {
+      "name": "εIι!! ´∀｀",
+      "splats": 1,
+      "first": "2026-08-06T03:41:24+00:00",
+      "last": "2026-08-06T03:41:24+00:00",
+      "sessions": 1,
+      "wordmark": "names/38c01f9fb1bb.svg"
+    },
+    {
+      "name": "すっびー",
+      "splats": 1,
+      "first": "2026-08-06T03:40:15+00:00",
+      "last": "2026-08-06T03:40:15+00:00",
+      "sessions": 1,
+      "wordmark": "names/c8a6ddc3c87e.svg"
+    }
+  ],
+  "recent": [
+    {
+      "name": "Mitski",
+      "ts": "2026-08-06T04:12:32+00:00",
+      "wordmark": "names/7b16dc269329.svg"
+    },
+    {
+      "name": "Mitski",
+      "ts": "2026-08-06T04:11:25+00:00",
+      "wordmark": "names/7b16dc269329.svg"
+    },
+    {
+      "name": "Parkeг",
+      "ts": "2026-08-06T04:10:15+00:00",
+      "wordmark": "names/c436bba5025e.svg"
+    },
+    {
+      "name": "Starbreed",
+      "ts": "2026-08-06T04:08:17+00:00",
+      "wordmark": "names/e32f26884136.svg"
+    },
+    {
+      "name": "AngelSaint",
+      "ts": "2026-08-06T04:04:01+00:00",
+      "wordmark": "names/6646088da7d8.svg"
+    },
+    {
+      "name": "~^~",
+      "ts": "2026-08-06T04:03:50+00:00",
+      "wordmark": "names/455ee0b78213.svg"
+    },
+    {
+      "name": "3.14Aliens",
+      "ts": "2026-08-06T03:42:28+00:00",
+      "wordmark": "names/1c985f97677b.svg"
+    },
+    {
+      "name": "εIι!! ´∀｀",
+      "ts": "2026-08-06T03:41:24+00:00",
+      "wordmark": "names/38c01f9fb1bb.svg"
+    },
+    {
+      "name": "3.14Aliens",
+      "ts": "2026-08-06T03:40:53+00:00",
+      "wordmark": "names/1c985f97677b.svg"
+    },
+    {
+      "name": "すっびー",
+      "ts": "2026-08-06T03:40:15+00:00",
+      "wordmark": "names/c8a6ddc3c87e.svg"
+    },
+    {
+      "name": "GLOOBY!!!!",
+      "ts": "2026-08-06T03:32:31+00:00",
+      "wordmark": "names/554fff92c37a.svg"
+    }
+  ],
+  "sessions": [
+    {
+      "label": "",
+      "started_at": "2026-08-06T04:02:24+00:00",
+      "splats": 6
+    },
+    {
+      "label": "",
+      "started_at": "2026-08-06T03:29:03+00:00",
+      "splats": 5
+    }
+  ]
+}

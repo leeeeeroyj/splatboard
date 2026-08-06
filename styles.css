@@ -1,0 +1,200 @@
+:root {
+  /* Palette built around the mascot: sandy skin, olive gear, purple ink, lime
+     highlights. Contrast is measured, not eyeballed -- tests/test_web_palette.py
+     asserts the ratios these choices depend on.
+
+     Two constraints worth knowing before editing a value:
+       Purple Ink is only 4.14:1 on Deep Sea (and white on purple is 4.15), so
+       it is a fill and a glow, never small text.
+       True Squid Olive reaches 4.54 on the background but 4.22 on a panel, so
+       small text uses a lightened tint and the brand olive is kept for borders,
+       where contrast doesn't gate legibility. */
+  --bg:     #121212;   /* Deep Sea                            */
+  --panel:  #1A1A18;   /* warm lift off the background        */
+  --line:   #2A2C26;   /* olive-tinted border                 */
+  --ink:    #F7F5F0;   /* Fresh White        17.2 on bg       */
+  --dim:    #868B79;   /* lightened olive     5.34 / 4.97     */
+  --olive:  #7A7F6E;   /* Squid Olive -- decoration only      */
+  --purple: #8A4FFF;   /* Purple Ink  -- fills and glow only  */
+  --lime:   #C6F24A;   /* Lime Shock         14.5 on bg       */
+  --sand:   #F4C78A;   /* Sandy Fin          11.9 on bg       */
+
+  --display: "Arial Black", "Arial Bold", "Segoe UI Black", "Helvetica Neue",
+             system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(60vw 40vh at 15% -5%, #8A4FFF26, transparent 65%),
+    radial-gradient(55vw 40vh at 90% 0%, #C6F24A14, transparent 60%),
+    var(--bg);
+  font: 16px/1.55 ui-rounded, "Segoe UI", system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(16px, 4vw, 48px);
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 48px 20px 22px;
+}
+/* Character and tag travel together, so the name reads as a caption on the art
+   rather than as a label on the title. Both are sized off one width, which is
+   what keeps them optically centred on each other -- leeeeroyj.png is cropped
+   to the character's ink for the same reason: its original canvas carried 113px
+   of transparent padding under the feet and sat 20px off centre, so the gap and
+   the misalignment were in the image, not in this rule. */
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: none;
+  width: clamp(150px, 25vw, 215px);
+}
+.mascot {
+  width: 88%;
+  height: auto;
+  filter: drop-shadow(0 10px 22px #0009);
+}
+.handle { width: 100%; height: auto; }
+.titles { text-align: left; }
+/* Title and tag are outlined vector paths, not live text -- the site
+   deliberately ships no font binary. See tools/make_wordmark.py. */
+.wordmark {
+  display: block;
+  width: clamp(280px, 52vw, 520px);
+  height: auto;
+}
+.tagline { color: var(--dim); margin: 14px 0 0; }
+
+/* Their own centred row under the heading, not tucked beside it. */
+.chips {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 4px 20px 8px;
+}
+.chip {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 18px;
+  color: var(--dim);
+  font-size: 14px;
+}
+.chip b { color: var(--lime); margin-left: 7px; font-size: 16px; }
+
+main { max-width: 1080px; margin: 0 auto; padding: 8px 20px 40px; }
+section { margin-top: 34px; }
+h2 {
+  font-family: var(--display);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: var(--dim);
+  margin: 0 0 14px;
+}
+.empty { color: var(--dim); font-style: italic; }
+
+.wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 14px;
+}
+.card {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 22px 16px 18px;
+  text-align: center;
+  transition: transform .15s ease, border-color .15s ease;
+}
+.card:hover { transform: translateY(-3px); border-color: var(--olive); }
+.card.podium {
+  border-color: var(--sand);
+  background: linear-gradient(180deg, #F4C78A12, transparent 60%), var(--panel);
+}
+.rank {
+  position: absolute; top: 10px; left: 10px;
+  /* Sandy Fin, not Purple Ink: this is small text on a fill, and dark-on-sand
+     is 11.9:1 where anything on purple would be about 4.1. */
+  background: var(--sand); color: var(--bg);
+  font-family: var(--display);
+  font-size: 11px;
+  padding: 2px 9px; border-radius: 999px;
+}
+.face {
+  width: 62px; height: 62px; margin: 0 auto 12px;
+  display: grid; place-items: center;
+  font-size: 30px;
+  background: #ffffff0d;
+  border-radius: 50%;
+}
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  /* Nametags can be 10 wide characters; keep them on the card. */
+  overflow-wrap: anywhere;
+}
+
+/* A name rendered as outlines. Sized by height so every name shares a cap
+   height regardless of length; max-width lets a long one shrink rather than
+   overflow its card. The .plain fallback matches the same optical size for
+   names the font couldn't set. */
+.namemark {
+  display: inline-block;
+  height: 34px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.namemark.small { height: 26px; }
+.namemark.plain { height: auto; font-weight: 700; }
+.namemark.small.plain { font-size: 15px; }
+.count { margin: 0 0 12px; color: var(--dim); font-size: 14px; }
+.count b { color: var(--lime); font-size: 19px; margin-right: 4px; }
+.meter { height: 6px; background: #ffffff0f; border-radius: 999px; overflow: hidden; }
+.meter span {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, var(--purple), var(--lime));
+}
+
+.recent { list-style: none; margin: 0; padding: 0; }
+.recent li {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 9px 14px;
+  border-bottom: 1px solid #ffffff0a;
+}
+.recent .who { font-weight: 600; overflow-wrap: anywhere; }
+.recent time { color: var(--dim); font-size: 13px; white-space: nowrap; }
+
+footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 20px 40px; }
+.disclaimer {
+  max-width: 68ch;
+  margin: 14px auto 0;
+  font-size: 12px;
+  line-height: 1.6;
+  opacity: .85;
+}
+
+/* Stacked and centred once the mascot and text no longer sit side by side. */
+@media (max-width: 620px) {
+  .hero { flex-direction: column; gap: 18px; padding-bottom: 14px; }
+  .titles { text-align: center; }
+  .wordmark { width: min(86vw, 380px); margin: 0 auto; }
+  .brand { width: min(56vw, 240px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card { transition: none; }
+}
