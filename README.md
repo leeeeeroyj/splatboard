@@ -8,6 +8,7 @@ The data comes from reading the game's kill-feed banners off a capture card duri
 
 ## Not affiliated with Nintendo
 
+
 Splatboard is a personal development project and is not affiliated with,
 endorsed by, or sponsored by Nintendo. Splatoon and Splatoon 3 are trademarks
 of Nintendo.
