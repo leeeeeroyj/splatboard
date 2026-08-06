@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-06T17:55:23+00:00",
+  "generated_at": "2026-08-06T19:34:02+00:00",
   "totals": {
-    "splats": 11,
-    "unique_players": 9,
+    "splats": 15,
+    "unique_players": 12,
     "top": "3.14Aliens"
   },
   "players": [
@@ -23,6 +23,14 @@
       "wordmark": "names/7b16dc269329.svg"
     },
     {
+      "name": "Shiny ΄ト==､",
+      "splats": 2,
+      "first": "2026-08-06T19:27:26+00:00",
+      "last": "2026-08-06T19:27:41+00:00",
+      "sessions": 1,
+      "wordmark": "names/7347aeff43ac.svg"
+    },
+    {
       "name": "AngelSaint",
       "splats": 1,
       "first": "2026-08-06T04:04:01+00:00",
@@ -31,12 +39,28 @@
       "wordmark": "names/6646088da7d8.svg"
     },
     {
+      "name": "Awesome",
+      "splats": 1,
+      "first": "2026-08-06T19:25:24+00:00",
+      "last": "2026-08-06T19:25:24+00:00",
+      "sessions": 1,
+      "wordmark": "names/ca6ca17b1b8b.svg"
+    },
+    {
       "name": "GLOOBY!!!!",
       "splats": 1,
       "first": "2026-08-06T03:32:31+00:00",
       "last": "2026-08-06T03:32:31+00:00",
       "sessions": 1,
       "wordmark": "names/554fff92c37a.svg"
+    },
+    {
+      "name": "Kie",
+      "splats": 1,
+      "first": "2026-08-06T19:27:00+00:00",
+      "last": "2026-08-06T19:27:00+00:00",
+      "sessions": 1,
+      "wordmark": "names/2d8aa22740ab.svg"
     },
     {
       "name": "Parkeг",
@@ -80,6 +104,26 @@
     }
   ],
   "recent": [
+    {
+      "name": "Shiny ΄ト==､",
+      "ts": "2026-08-06T19:27:41+00:00",
+      "wordmark": "names/7347aeff43ac.svg"
+    },
+    {
+      "name": "Shiny ΄ト==､",
+      "ts": "2026-08-06T19:27:26+00:00",
+      "wordmark": "names/7347aeff43ac.svg"
+    },
+    {
+      "name": "Kie",
+      "ts": "2026-08-06T19:27:00+00:00",
+      "wordmark": "names/2d8aa22740ab.svg"
+    },
+    {
+      "name": "Awesome",
+      "ts": "2026-08-06T19:25:24+00:00",
+      "wordmark": "names/ca6ca17b1b8b.svg"
+    },
     {
       "name": "Mitski",
       "ts": "2026-08-06T04:12:32+00:00",
@@ -137,6 +181,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "test 1",
+      "started_at": "2026-08-06T19:23:42+00:00",
+      "splats": 4
+    },
     {
       "label": "",
       "started_at": "2026-08-06T04:02:24+00:00",
