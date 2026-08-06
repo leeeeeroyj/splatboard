@@ -2,6 +2,8 @@
 
 A scoreboard showing players I've splatted in Splatoon 3.
 
+🌐 https://leeeeeroyj.github.io/splatboard/
+
 The data comes from reading the game's kill-feed banners off a capture card during live game play. 
 
 ## Not affiliated with Nintendo
