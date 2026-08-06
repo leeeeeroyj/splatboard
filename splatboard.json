@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-08-06T19:34:02+00:00",
+  "generated_at": "2026-08-06T23:53:33+00:00",
   "totals": {
-    "splats": 15,
-    "unique_players": 12,
-    "top": "3.14Aliens"
+    "splats": 31,
+    "unique_players": 19,
+    "top": "MbnI_2011"
   },
   "players": [
+    {
+      "name": "MbnI_2011",
+      "splats": 5,
+      "first": "2026-08-06T23:46:49+00:00",
+      "last": "2026-08-06T23:51:12+00:00",
+      "sessions": 1,
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "eгspoke sw",
+      "splats": 4,
+      "first": "2026-08-06T23:42:40+00:00",
+      "last": "2026-08-06T23:51:28+00:00",
+      "sessions": 1,
+      "wordmark": "names/bf4d2d2509c9.svg"
+    },
+    {
+      "name": "Dman",
+      "splats": 3,
+      "first": "2026-08-06T23:40:00+00:00",
+      "last": "2026-08-06T23:46:48+00:00",
+      "sessions": 1,
+      "wordmark": "names/51bfbdb4a841.svg"
+    },
     {
       "name": "3.14Aliens",
       "splats": 2,
@@ -29,6 +53,14 @@
       "last": "2026-08-06T19:27:41+00:00",
       "sessions": 1,
       "wordmark": "names/7347aeff43ac.svg"
+    },
+    {
+      "name": "*dyIan*",
+      "splats": 1,
+      "first": "2026-08-06T23:52:18+00:00",
+      "last": "2026-08-06T23:52:18+00:00",
+      "sessions": 1,
+      "wordmark": "names/875b9a94cc7d.svg"
     },
     {
       "name": "AngelSaint",
@@ -79,6 +111,22 @@
       "wordmark": "names/e32f26884136.svg"
     },
     {
+      "name": "erspoke sw",
+      "splats": 1,
+      "first": "2026-08-06T23:51:31+00:00",
+      "last": "2026-08-06T23:51:31+00:00",
+      "sessions": 1,
+      "wordmark": "names/c58e58ea0d76.svg"
+    },
+    {
+      "name": "j4z",
+      "splats": 1,
+      "first": "2026-08-06T23:50:30+00:00",
+      "last": "2026-08-06T23:50:30+00:00",
+      "sessions": 1,
+      "wordmark": "names/9970ad07f5ad.svg"
+    },
+    {
       "name": "~^~",
       "splats": 1,
       "first": "2026-08-06T04:03:50+00:00",
@@ -101,9 +149,97 @@
       "last": "2026-08-06T03:40:15+00:00",
       "sessions": 1,
       "wordmark": "names/c8a6ddc3c87e.svg"
+    },
+    {
+      "name": "クロ。。",
+      "splats": 1,
+      "first": "2026-08-06T23:45:08+00:00",
+      "last": "2026-08-06T23:45:08+00:00",
+      "sessions": 1,
+      "wordmark": "names/74bffe31136e.svg"
     }
   ],
   "recent": [
+    {
+      "name": "*dyIan*",
+      "ts": "2026-08-06T23:52:18+00:00",
+      "wordmark": "names/875b9a94cc7d.svg"
+    },
+    {
+      "name": "erspoke sw",
+      "ts": "2026-08-06T23:51:31+00:00",
+      "wordmark": "names/c58e58ea0d76.svg"
+    },
+    {
+      "name": "eгspoke sw",
+      "ts": "2026-08-06T23:51:28+00:00",
+      "wordmark": "names/bf4d2d2509c9.svg"
+    },
+    {
+      "name": "MbnI_2011",
+      "ts": "2026-08-06T23:51:12+00:00",
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "eгspoke sw",
+      "ts": "2026-08-06T23:50:32+00:00",
+      "wordmark": "names/bf4d2d2509c9.svg"
+    },
+    {
+      "name": "j4z",
+      "ts": "2026-08-06T23:50:30+00:00",
+      "wordmark": "names/9970ad07f5ad.svg"
+    },
+    {
+      "name": "MbnI_2011",
+      "ts": "2026-08-06T23:49:38+00:00",
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "MbnI_2011",
+      "ts": "2026-08-06T23:47:52+00:00",
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "eгspoke sw",
+      "ts": "2026-08-06T23:47:32+00:00",
+      "wordmark": "names/bf4d2d2509c9.svg"
+    },
+    {
+      "name": "MbnI_2011",
+      "ts": "2026-08-06T23:47:21+00:00",
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "MbnI_2011",
+      "ts": "2026-08-06T23:46:49+00:00",
+      "wordmark": "names/bdb3832b5636.svg"
+    },
+    {
+      "name": "Dman",
+      "ts": "2026-08-06T23:46:48+00:00",
+      "wordmark": "names/51bfbdb4a841.svg"
+    },
+    {
+      "name": "クロ。。",
+      "ts": "2026-08-06T23:45:08+00:00",
+      "wordmark": "names/74bffe31136e.svg"
+    },
+    {
+      "name": "eгspoke sw",
+      "ts": "2026-08-06T23:42:40+00:00",
+      "wordmark": "names/bf4d2d2509c9.svg"
+    },
+    {
+      "name": "Dman",
+      "ts": "2026-08-06T23:41:18+00:00",
+      "wordmark": "names/51bfbdb4a841.svg"
+    },
+    {
+      "name": "Dman",
+      "ts": "2026-08-06T23:40:00+00:00",
+      "wordmark": "names/51bfbdb4a841.svg"
+    },
     {
       "name": "Shiny ΄ト==､",
       "ts": "2026-08-06T19:27:41+00:00",
@@ -181,6 +317,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "after work session",
+      "started_at": "2026-08-06T23:39:25+00:00",
+      "splats": 16
+    },
     {
       "label": "test 1",
       "started_at": "2026-08-06T19:23:42+00:00",
