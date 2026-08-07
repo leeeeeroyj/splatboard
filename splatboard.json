@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:54:50+00:00",
+  "generated_at": "2026-08-07T21:47:04+00:00",
   "totals": {
     "splats": 39,
     "unique_players": 23,
@@ -11,381 +11,319 @@
       "splats": 5,
       "first": "2026-08-06T23:46:49+00:00",
       "last": "2026-08-06T23:51:12+00:00",
-      "sessions": 1,
-      "wordmark": "names/c181c01541dc.svg"
+      "sessions": 1
     },
     {
       "name": "erspoke sw",
       "splats": 5,
       "first": "2026-08-06T23:42:40+00:00",
       "last": "2026-08-06T23:51:31+00:00",
-      "sessions": 1,
-      "wordmark": "names/c58e58ea0d76.svg"
+      "sessions": 1
     },
     {
       "name": "Dman",
       "splats": 3,
       "first": "2026-08-06T23:40:00+00:00",
       "last": "2026-08-06T23:46:48+00:00",
-      "sessions": 1,
-      "wordmark": "names/51bfbdb4a841.svg"
+      "sessions": 1
     },
     {
       "name": "3.14Aliens",
       "splats": 2,
       "first": "2026-08-06T03:40:53+00:00",
       "last": "2026-08-06T03:42:28+00:00",
-      "sessions": 1,
-      "wordmark": "names/1c985f97677b.svg"
+      "sessions": 1
     },
     {
       "name": "Mitski",
       "splats": 2,
       "first": "2026-08-06T04:11:25+00:00",
       "last": "2026-08-06T04:12:32+00:00",
-      "sessions": 1,
-      "wordmark": "names/7b16dc269329.svg"
+      "sessions": 1
     },
     {
       "name": "Qifrey<3",
       "splats": 2,
       "first": "2026-08-07T03:20:25+00:00",
       "last": "2026-08-07T03:21:19+00:00",
-      "sessions": 1,
-      "wordmark": "names/601a1ec60456.svg"
+      "sessions": 1
     },
     {
       "name": "Shiny ΄ト==､",
       "splats": 2,
       "first": "2026-08-06T19:27:26+00:00",
       "last": "2026-08-06T19:27:41+00:00",
-      "sessions": 1,
-      "wordmark": "names/7347aeff43ac.svg"
+      "sessions": 1
     },
     {
       "name": "val",
       "splats": 2,
       "first": "2026-08-07T03:16:03+00:00",
       "last": "2026-08-07T03:21:42+00:00",
-      "sessions": 1,
-      "wordmark": "names/39f69c278f46.svg"
+      "sessions": 1
     },
     {
       "name": "★Cαlαmιtγ★",
       "splats": 2,
       "first": "2026-08-07T03:16:04+00:00",
       "last": "2026-08-07T03:17:15+00:00",
-      "sessions": 1,
-      "wordmark": "names/7be7e6436e20.svg"
+      "sessions": 1
     },
     {
       "name": "*dylan*",
       "splats": 1,
       "first": "2026-08-06T23:52:18+00:00",
       "last": "2026-08-06T23:52:18+00:00",
-      "sessions": 1,
-      "wordmark": "names/db86a3670918.svg"
+      "sessions": 1
     },
     {
       "name": "AngelSaint",
       "splats": 1,
       "first": "2026-08-06T04:04:01+00:00",
       "last": "2026-08-06T04:04:01+00:00",
-      "sessions": 1,
-      "wordmark": "names/6646088da7d8.svg"
+      "sessions": 1
     },
     {
       "name": "Awesome",
       "splats": 1,
       "first": "2026-08-06T19:25:24+00:00",
       "last": "2026-08-06T19:25:24+00:00",
-      "sessions": 1,
-      "wordmark": "names/ca6ca17b1b8b.svg"
+      "sessions": 1
     },
     {
       "name": "GLOOBY!!!!",
       "splats": 1,
       "first": "2026-08-06T03:32:31+00:00",
       "last": "2026-08-06T03:32:31+00:00",
-      "sessions": 1,
-      "wordmark": "names/554fff92c37a.svg"
+      "sessions": 1
     },
     {
       "name": "Kie",
       "splats": 1,
       "first": "2026-08-06T19:27:00+00:00",
       "last": "2026-08-06T19:27:00+00:00",
-      "sessions": 1,
-      "wordmark": "names/2d8aa22740ab.svg"
+      "sessions": 1
     },
     {
       "name": "Mizi",
       "splats": 1,
       "first": "2026-08-07T03:21:02+00:00",
       "last": "2026-08-07T03:21:02+00:00",
-      "sessions": 1,
-      "wordmark": "names/101ff170ea81.svg"
+      "sessions": 1
     },
     {
       "name": "Parker",
       "splats": 1,
       "first": "2026-08-06T04:10:15+00:00",
       "last": "2026-08-06T04:10:15+00:00",
-      "sessions": 1,
-      "wordmark": "names/809243bd6ea1.svg"
+      "sessions": 1
     },
     {
       "name": "Poppy",
       "splats": 1,
       "first": "2026-08-07T03:16:41+00:00",
       "last": "2026-08-07T03:16:41+00:00",
-      "sessions": 1,
-      "wordmark": "names/3636d753a951.svg"
+      "sessions": 1
     },
     {
       "name": "Starbreed",
       "splats": 1,
       "first": "2026-08-06T04:08:17+00:00",
       "last": "2026-08-06T04:08:17+00:00",
-      "sessions": 1,
-      "wordmark": "names/e32f26884136.svg"
+      "sessions": 1
     },
     {
       "name": "j4z",
       "splats": 1,
       "first": "2026-08-06T23:50:30+00:00",
       "last": "2026-08-06T23:50:30+00:00",
-      "sessions": 1,
-      "wordmark": "names/9970ad07f5ad.svg"
+      "sessions": 1
     },
     {
       "name": "~^~",
       "splats": 1,
       "first": "2026-08-06T04:03:50+00:00",
       "last": "2026-08-06T04:03:50+00:00",
-      "sessions": 1,
-      "wordmark": "names/455ee0b78213.svg"
+      "sessions": 1
     },
     {
       "name": "εIι!! ´∀｀",
       "splats": 1,
       "first": "2026-08-06T03:41:24+00:00",
       "last": "2026-08-06T03:41:24+00:00",
-      "sessions": 1,
-      "wordmark": "names/38c01f9fb1bb.svg"
+      "sessions": 1
     },
     {
       "name": "すっびー",
       "splats": 1,
       "first": "2026-08-06T03:40:15+00:00",
       "last": "2026-08-06T03:40:15+00:00",
-      "sessions": 1,
-      "wordmark": "names/c8a6ddc3c87e.svg"
+      "sessions": 1
     },
     {
       "name": "クロ。。",
       "splats": 1,
       "first": "2026-08-06T23:45:08+00:00",
       "last": "2026-08-06T23:45:08+00:00",
-      "sessions": 1,
-      "wordmark": "names/74bffe31136e.svg"
+      "sessions": 1
     }
   ],
   "recent": [
     {
       "name": "val",
-      "ts": "2026-08-07T03:21:42+00:00",
-      "wordmark": "names/39f69c278f46.svg"
+      "ts": "2026-08-07T03:21:42+00:00"
     },
     {
       "name": "Qifrey<3",
-      "ts": "2026-08-07T03:21:19+00:00",
-      "wordmark": "names/601a1ec60456.svg"
+      "ts": "2026-08-07T03:21:19+00:00"
     },
     {
       "name": "Mizi",
-      "ts": "2026-08-07T03:21:02+00:00",
-      "wordmark": "names/101ff170ea81.svg"
+      "ts": "2026-08-07T03:21:02+00:00"
     },
     {
       "name": "Qifrey<3",
-      "ts": "2026-08-07T03:20:25+00:00",
-      "wordmark": "names/601a1ec60456.svg"
+      "ts": "2026-08-07T03:20:25+00:00"
     },
     {
       "name": "★Cαlαmιtγ★",
-      "ts": "2026-08-07T03:17:15+00:00",
-      "wordmark": "names/7be7e6436e20.svg"
+      "ts": "2026-08-07T03:17:15+00:00"
     },
     {
       "name": "Poppy",
-      "ts": "2026-08-07T03:16:41+00:00",
-      "wordmark": "names/3636d753a951.svg"
+      "ts": "2026-08-07T03:16:41+00:00"
     },
     {
       "name": "★Cαlαmιtγ★",
-      "ts": "2026-08-07T03:16:04+00:00",
-      "wordmark": "names/7be7e6436e20.svg"
+      "ts": "2026-08-07T03:16:04+00:00"
     },
     {
       "name": "val",
-      "ts": "2026-08-07T03:16:03+00:00",
-      "wordmark": "names/39f69c278f46.svg"
+      "ts": "2026-08-07T03:16:03+00:00"
     },
     {
       "name": "*dylan*",
-      "ts": "2026-08-06T23:52:18+00:00",
-      "wordmark": "names/db86a3670918.svg"
+      "ts": "2026-08-06T23:52:18+00:00"
     },
     {
       "name": "erspoke sw",
-      "ts": "2026-08-06T23:51:31+00:00",
-      "wordmark": "names/c58e58ea0d76.svg"
+      "ts": "2026-08-06T23:51:31+00:00"
     },
     {
       "name": "erspoke sw",
-      "ts": "2026-08-06T23:51:28+00:00",
-      "wordmark": "names/c58e58ea0d76.svg"
+      "ts": "2026-08-06T23:51:28+00:00"
     },
     {
       "name": "Mbnl_2011",
-      "ts": "2026-08-06T23:51:12+00:00",
-      "wordmark": "names/c181c01541dc.svg"
+      "ts": "2026-08-06T23:51:12+00:00"
     },
     {
       "name": "erspoke sw",
-      "ts": "2026-08-06T23:50:32+00:00",
-      "wordmark": "names/c58e58ea0d76.svg"
+      "ts": "2026-08-06T23:50:32+00:00"
     },
     {
       "name": "j4z",
-      "ts": "2026-08-06T23:50:30+00:00",
-      "wordmark": "names/9970ad07f5ad.svg"
+      "ts": "2026-08-06T23:50:30+00:00"
     },
     {
       "name": "Mbnl_2011",
-      "ts": "2026-08-06T23:49:38+00:00",
-      "wordmark": "names/c181c01541dc.svg"
+      "ts": "2026-08-06T23:49:38+00:00"
     },
     {
       "name": "Mbnl_2011",
-      "ts": "2026-08-06T23:47:52+00:00",
-      "wordmark": "names/c181c01541dc.svg"
+      "ts": "2026-08-06T23:47:52+00:00"
     },
     {
       "name": "erspoke sw",
-      "ts": "2026-08-06T23:47:32+00:00",
-      "wordmark": "names/c58e58ea0d76.svg"
+      "ts": "2026-08-06T23:47:32+00:00"
     },
     {
       "name": "Mbnl_2011",
-      "ts": "2026-08-06T23:47:21+00:00",
-      "wordmark": "names/c181c01541dc.svg"
+      "ts": "2026-08-06T23:47:21+00:00"
     },
     {
       "name": "Mbnl_2011",
-      "ts": "2026-08-06T23:46:49+00:00",
-      "wordmark": "names/c181c01541dc.svg"
+      "ts": "2026-08-06T23:46:49+00:00"
     },
     {
       "name": "Dman",
-      "ts": "2026-08-06T23:46:48+00:00",
-      "wordmark": "names/51bfbdb4a841.svg"
+      "ts": "2026-08-06T23:46:48+00:00"
     },
     {
       "name": "クロ。。",
-      "ts": "2026-08-06T23:45:08+00:00",
-      "wordmark": "names/74bffe31136e.svg"
+      "ts": "2026-08-06T23:45:08+00:00"
     },
     {
       "name": "erspoke sw",
-      "ts": "2026-08-06T23:42:40+00:00",
-      "wordmark": "names/c58e58ea0d76.svg"
+      "ts": "2026-08-06T23:42:40+00:00"
     },
     {
       "name": "Dman",
-      "ts": "2026-08-06T23:41:18+00:00",
-      "wordmark": "names/51bfbdb4a841.svg"
+      "ts": "2026-08-06T23:41:18+00:00"
     },
     {
       "name": "Dman",
-      "ts": "2026-08-06T23:40:00+00:00",
-      "wordmark": "names/51bfbdb4a841.svg"
+      "ts": "2026-08-06T23:40:00+00:00"
     },
     {
       "name": "Shiny ΄ト==､",
-      "ts": "2026-08-06T19:27:41+00:00",
-      "wordmark": "names/7347aeff43ac.svg"
+      "ts": "2026-08-06T19:27:41+00:00"
     },
     {
       "name": "Shiny ΄ト==､",
-      "ts": "2026-08-06T19:27:26+00:00",
-      "wordmark": "names/7347aeff43ac.svg"
+      "ts": "2026-08-06T19:27:26+00:00"
     },
     {
       "name": "Kie",
-      "ts": "2026-08-06T19:27:00+00:00",
-      "wordmark": "names/2d8aa22740ab.svg"
+      "ts": "2026-08-06T19:27:00+00:00"
     },
     {
       "name": "Awesome",
-      "ts": "2026-08-06T19:25:24+00:00",
-      "wordmark": "names/ca6ca17b1b8b.svg"
+      "ts": "2026-08-06T19:25:24+00:00"
     },
     {
       "name": "Mitski",
-      "ts": "2026-08-06T04:12:32+00:00",
-      "wordmark": "names/7b16dc269329.svg"
+      "ts": "2026-08-06T04:12:32+00:00"
     },
     {
       "name": "Mitski",
-      "ts": "2026-08-06T04:11:25+00:00",
-      "wordmark": "names/7b16dc269329.svg"
+      "ts": "2026-08-06T04:11:25+00:00"
     },
     {
       "name": "Parker",
-      "ts": "2026-08-06T04:10:15+00:00",
-      "wordmark": "names/809243bd6ea1.svg"
+      "ts": "2026-08-06T04:10:15+00:00"
     },
     {
       "name": "Starbreed",
-      "ts": "2026-08-06T04:08:17+00:00",
-      "wordmark": "names/e32f26884136.svg"
+      "ts": "2026-08-06T04:08:17+00:00"
     },
     {
       "name": "AngelSaint",
-      "ts": "2026-08-06T04:04:01+00:00",
-      "wordmark": "names/6646088da7d8.svg"
+      "ts": "2026-08-06T04:04:01+00:00"
     },
     {
       "name": "~^~",
-      "ts": "2026-08-06T04:03:50+00:00",
-      "wordmark": "names/455ee0b78213.svg"
+      "ts": "2026-08-06T04:03:50+00:00"
     },
     {
       "name": "3.14Aliens",
-      "ts": "2026-08-06T03:42:28+00:00",
-      "wordmark": "names/1c985f97677b.svg"
+      "ts": "2026-08-06T03:42:28+00:00"
     },
     {
       "name": "εIι!! ´∀｀",
-      "ts": "2026-08-06T03:41:24+00:00",
-      "wordmark": "names/38c01f9fb1bb.svg"
+      "ts": "2026-08-06T03:41:24+00:00"
     },
     {
       "name": "3.14Aliens",
-      "ts": "2026-08-06T03:40:53+00:00",
-      "wordmark": "names/1c985f97677b.svg"
+      "ts": "2026-08-06T03:40:53+00:00"
     },
     {
       "name": "すっびー",
-      "ts": "2026-08-06T03:40:15+00:00",
-      "wordmark": "names/c8a6ddc3c87e.svg"
+      "ts": "2026-08-06T03:40:15+00:00"
     },
     {
       "name": "GLOOBY!!!!",
-      "ts": "2026-08-06T03:32:31+00:00",
-      "wordmark": "names/554fff92c37a.svg"
+      "ts": "2026-08-06T03:32:31+00:00"
     }
   ],
   "sessions": [
@@ -414,5 +352,6 @@
       "started_at": "2026-08-06T03:29:03+00:00",
       "splats": 5
     }
-  ]
+  ],
+  "name_font": "names.woff2"
 }

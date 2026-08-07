@@ -32,9 +32,12 @@ function whenText(iso) {
   return days < 30 ? `${days}d ago` : then.toLocaleDateString();
 }
 
-/* Names are shown in the game's own lettering, outlined at export time rather
-   than set in a webfont (see lettering.py). Anything the font couldn't set has
-   no `wordmark` and falls back to plain text -- a scoreboard must never drop a
+/* Names are shown in the game's own lettering, either as live text in a subset
+   of the face or as outlines rendered at export time -- config's
+   web.name_style picks, and export.py writes the output to match.
+
+   Either way an entry without a `wordmark` is set as text, so this branch
+   serves both: in font mode nothing has one. A scoreboard must never drop a
    player just because it can't style them. */
 function nameNode(entry, className) {
   if (entry.wordmark) {
@@ -162,6 +165,10 @@ function renderRecent() {
 }
 
 function render(data) {
+  // Points CSS at the shipped face, and is the only thing that does -- so an
+  // export that shipped no font leaves the family unreferenced and unfetched.
+  document.documentElement.classList.toggle("font-names", Boolean(data.name_font));
+
   const totals = data.totals || {};
   document.getElementById("total").textContent = totals.splats ?? 0;
   document.getElementById("unique").textContent = totals.unique_players ?? 0;

@@ -78,8 +78,9 @@ body {
 }
 .handle { width: 100%; height: auto; }
 .titles { text-align: left; }
-/* Title and tag are outlined vector paths, not live text -- the site
-   deliberately ships no font binary. See tools/make_wordmark.py. */
+/* Title and tag are outlined vector paths, not live text. They're fixed
+   strings, so there is nothing a font would buy them. See
+   tools/make_wordmark.py -- player names are the separate question, below. */
 .wordmark {
   display: block;
   width: clamp(280px, 52vw, 520px);
@@ -186,10 +187,10 @@ h2 {
   overflow-wrap: anywhere;
 }
 
-/* A name rendered as outlines. Sized by height so every name shares a cap
-   height regardless of length; max-width lets a long one shrink rather than
-   overflow its card. The .plain fallback matches the same optical size for
-   names the font couldn't set. */
+/* A name rendered as outlines (export's "outline" mode). Sized by height so
+   every name shares a cap height regardless of length; max-width lets a long
+   one shrink rather than overflow its card. The .plain fallback matches the
+   same optical size for names the font couldn't set. */
 .namemark {
   display: inline-block;
   height: 34px;
@@ -199,6 +200,37 @@ h2 {
 .namemark.small { height: 26px; }
 .namemark.plain { height: auto; font-weight: 700; }
 .namemark.small.plain { font-size: 15px; }
+
+/* Names in the game's own face (export's "font" mode).
+
+   The subset is generated per export and holds only the characters the
+   published names use -- see export.py's write_name_font. A face declared here
+   is not fetched until something is actually set in it, so in outline mode,
+   where nothing names this family, the browser never asks for a file the export
+   didn't write. That's what keeps the toggle honest rather than 404-ing. */
+@font-face {
+  font-family: Blitz;
+  src: url("names.woff2") format("woff2");
+  font-display: swap;
+}
+/* .font-names is set on <html> by app.js, from `name_font` in the JSON. The
+   .plain qualifier isn't a fallback here: in font mode every name takes
+   nameNode's text branch, so .plain is simply what a name element is. It also
+   wins the specificity tie against the .plain rules above regardless of order. */
+.font-names .namemark.plain {
+  font-family: Blitz, var(--display);
+  height: auto;
+  /* 17px matches the outlines' optical size: their box is the font's line box
+     (ascent 1380 + descent 620 + padding = 2040 units), so 34px of box is
+     34 x 1000/2040 = 16.7px of em, putting caps at 12.8px either way. */
+  font-size: 17px;
+  /* Blitz ships one weight. Left to inherit, .recent .who's 600 and .plain's
+     700 would both have the browser synthesize a bold, and this face's strokes
+     thicken straight into each other. */
+  font-weight: normal;
+  font-synthesis-weight: none;
+}
+.font-names .namemark.small.plain { font-size: 13px; }
 .count { margin: 0 0 12px; color: var(--dim); font-size: 14px; }
 .count b { color: var(--lime); font-size: 19px; margin-right: 4px; }
 .meter { height: 6px; background: #ffffff0f; border-radius: 999px; overflow: hidden; }
