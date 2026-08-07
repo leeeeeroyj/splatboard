@@ -26,9 +26,22 @@
 body {
   margin: 0;
   color: var(--ink);
+  /* Sticker-pattern texture under the glows, held down by a veil so it stays a
+     texture rather than becoming competition for the text.
+
+     70% is the knee of the curve, measured off rendered pages rather than
+     reasoned about: lightened olive over the brightest background pixel goes
+     4.55 (no pattern) -> 4.28 (60% veil) -> 4.38 (70%) -> 4.40 (80%). Past 70%
+     the pattern fades for hundredths of a ratio, because what is left is the
+     two glows below, not the artwork. Across 95% of the background every text
+     colour sits at 4.9+ either way.
+
+     Fixed, so the pattern stays put and never has to tile -- it doesn't. */
   background:
     radial-gradient(60vw 40vh at 15% -5%, #8A4FFF26, transparent 65%),
     radial-gradient(55vw 40vh at 90% 0%, #C6F24A14, transparent 60%),
+    linear-gradient(#121212B3, #121212B3),
+    url("pattern.jpg") center center / cover fixed no-repeat,
     var(--bg);
   font: 16px/1.55 ui-rounded, "Segoe UI", system-ui, -apple-system, sans-serif;
   min-height: 100vh;
@@ -74,27 +87,40 @@ body {
 }
 .tagline { color: var(--dim); margin: 14px 0 0; }
 
-/* Their own centred row under the heading, not tucked beside it. */
-.chips {
+main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
+
+/* The two tallies and the search share one row above the wall: the counts are
+   a caption on the board, and the search is how anyone outside the top ten
+   finds themselves. Wraps to stacked rows when the row runs out of width. */
+.toolbar {
   display: flex;
-  gap: 10px;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 4px 20px 8px;
+  gap: 12px 22px;
 }
-.chip {
+.tally { margin: 0; color: var(--dim); font-size: 14px; }
+.tally b { color: var(--lime); font-size: 17px; }
+
+.toolbar input {
+  /* Pushed to the far end so the tallies and the search read as two things,
+     not one run-on row. */
+  margin-left: auto;
+  flex: 0 1 340px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 9px 18px;
-  color: var(--dim);
-  font-size: 14px;
+  padding: 10px 16px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
 }
-.chip b { color: var(--lime); margin-left: 7px; font-size: 16px; }
+.toolbar input::placeholder { color: var(--dim); }
+.toolbar input:focus-visible {
+  outline: none;
+  border-color: var(--olive);
+  box-shadow: 0 0 0 3px #8A4FFF33;   /* Purple Ink as glow -- never as text */
+}
 
-main { max-width: 1080px; margin: 0 auto; padding: 8px 20px 40px; }
 section { margin-top: 34px; }
 h2 {
   font-family: var(--display);
@@ -105,6 +131,9 @@ h2 {
   margin: 0 0 14px;
 }
 .empty { color: var(--dim); font-style: italic; }
+/* The wall is a grid, so an empty note would otherwise be squeezed into one
+   190px column and wrap mid-sentence. */
+.wall .empty { grid-column: 1 / -1; }
 
 .wall {
   display: grid;
@@ -133,6 +162,15 @@ h2 {
   font-family: var(--display);
   font-size: 11px;
   padding: 2px 9px; border-radius: 999px;
+}
+/* First place is marked, not numbered -- the trophy is the mark itself, so it
+   drops the pill's fill rather than sitting on one. */
+.rank.trophy {
+  background: none;
+  padding: 0;
+  top: 11px; left: 9px;
+  font-size: 20px;
+  line-height: 1;
 }
 .face {
   width: 62px; height: 62px; margin: 0 auto 12px;
@@ -178,6 +216,28 @@ h2 {
 .recent .who { font-weight: 600; overflow-wrap: anywhere; }
 .recent time { color: var(--dim); font-size: 13px; white-space: nowrap; }
 
+.pager {
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+/* A display value here outranks the UA's [hidden] rule, so a single-page list
+   would keep its pager. Restate it rather than dropping the flex. */
+.pager[hidden] { display: none; }
+.pager button {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 16px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.pager button:hover:not(:disabled) { border-color: var(--olive); }
+.pager button:disabled { color: var(--dim); cursor: default; opacity: .55; }
+.pager span { color: var(--dim); font-size: 13px; }
+
 footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 20px 40px; }
 .disclaimer {
   max-width: 68ch;
@@ -193,6 +253,9 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
   .titles { text-align: center; }
   .wordmark { width: min(86vw, 380px); margin: 0 auto; }
   .brand { width: min(56vw, 240px); }
+  /* Once the search drops onto its own line there is nothing to sit apart
+     from, so the auto margin would only indent it off the content edge. */
+  .toolbar input { margin-left: 0; flex-basis: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {

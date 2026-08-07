@@ -2,6 +2,15 @@
 
 const CREATURES = ["🦑", "🐙", "🦐", "🦀", "🐡", "🐠", "🦞", "🐟", "🌊", "💥", "🎯", "⭐"];
 
+const TROPHY = "🏆";
+const WALL_LIMIT = 10;   // the wall is a podium, not a directory -- search finds the rest
+const PAGE_SIZE = 20;
+
+let RANKED = [];         // every player, rank attached before any slicing
+let RECENT = [];         // the full history, newest first
+let query = "";
+let page = 1;
+
 /* Same name always gets the same creature, so a player keeps their face
    between exports. A hash, not an index -- ranks shuffle as counts change. */
 function creatureFor(name) {
@@ -42,76 +51,143 @@ function nameNode(entry, className) {
   return span;
 }
 
+/* Plain substring, deliberately. Nametags are already stylised unicode
+   (`☆Vαмρlιηg☆`), so anything cleverer would be guessing at what someone meant
+   to type rather than matching what they did. */
+function matches(name) {
+  return !query || name.toLowerCase().includes(query);
+}
+
+function emptyNote(text) {
+  const p = document.createElement("p");
+  p.className = "empty";
+  p.textContent = text;              // textContent: `text` can carry the query
+  return p;
+}
+
+/* `badge` is the corner mark -- a rank, a trophy, or null for no mark. */
+function playerCard(p, badge) {
+  const card = document.createElement("article");
+  card.className = "card" + (p.rank <= 3 ? " podium" : "");
+
+  if (badge) {
+    const mark = document.createElement("span");
+    mark.className = badge === TROPHY ? "rank trophy" : "rank";
+    mark.textContent = badge;
+    card.append(mark);
+  }
+
+  const face = document.createElement("div");
+  face.className = "face";
+  face.textContent = creatureFor(p.name);
+
+  const name = document.createElement("h3");
+  name.append(nameNode(p, "namemark"));
+
+  const count = document.createElement("p");
+  count.className = "count";
+  const n = document.createElement("b");
+  n.textContent = p.splats;
+  count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
+
+  // Scaled against the board leader, not the leader of this view, so a meter
+  // means the same thing whether or not a search is running.
+  const meter = document.createElement("div");
+  meter.className = "meter";
+  const fill = document.createElement("span");
+  fill.style.width = `${Math.max(3, (p.splats / RANKED[0].splats) * 100)}%`;
+  meter.append(fill);
+
+  card.append(face, name, count, meter);
+  if (p.last) card.title = `Last splatted ${whenText(p.last)}`;
+  return card;
+}
+
+/* Ten cards unfiltered; a search shows every hit instead, because the whole
+   point of searching is to find yourself wherever you actually sit. */
+function renderWall() {
+  const wall = document.getElementById("wall");
+  wall.replaceChildren();
+
+  const shown = query ? RANKED.filter((p) => matches(p.name)) : RANKED.slice(0, WALL_LIMIT);
+
+  if (!shown.length) {
+    wall.append(emptyNote(query ? "No player matches that name." : "No splats yet."));
+    return;
+  }
+
+  for (const p of shown) {
+    // The leader gets the trophy: "#1" would only repeat what first place
+    // already says. Off the podium a badge is noise -- under a search it's
+    // the answer, so every hit carries its real position.
+    const badge = p.rank === 1 ? TROPHY : p.rank <= 3 || query ? `#${p.rank}` : null;
+    wall.append(playerCard(p, badge));
+  }
+}
+
+function renderRecent() {
+  // Hidden on an empty history, but not on an empty search -- a section that
+  // vanishes as you type reads as a bug.
+  document.getElementById("recent-section").hidden = !RECENT.length;
+  if (!RECENT.length) return;
+
+  const hits = RECENT.filter((r) => matches(r.name));
+  const pages = Math.max(1, Math.ceil(hits.length / PAGE_SIZE));
+  page = Math.min(Math.max(1, page), pages);
+  const start = (page - 1) * PAGE_SIZE;
+
+  const list = document.getElementById("recent");
+  list.replaceChildren();
+  list.start = start + 1;            // keeps numbering global if it's ever shown
+
+  const note = document.getElementById("recent-empty");
+  note.hidden = hits.length > 0;
+  note.textContent = "No splats by that name.";
+
+  for (const r of hits.slice(start, start + PAGE_SIZE)) {
+    const li = document.createElement("li");
+    const who = document.createElement("span");
+    who.className = "who";
+    who.append(nameNode(r, "namemark small"));
+    const when = document.createElement("time");
+    when.textContent = whenText(r.ts);
+    li.append(who, when);
+    list.append(li);
+  }
+
+  document.getElementById("recent-pager").hidden = pages < 2;
+  document.getElementById("page-label").textContent = `Page ${page} of ${pages}`;
+  document.getElementById("prev").disabled = page === 1;
+  document.getElementById("next").disabled = page === pages;
+}
+
 function render(data) {
   const totals = data.totals || {};
   document.getElementById("total").textContent = totals.splats ?? 0;
   document.getElementById("unique").textContent = totals.unique_players ?? 0;
-  document.getElementById("top").textContent = totals.top ?? "—";
   document.getElementById("generated").textContent = whenText(data.generated_at) || "—";
 
   const players = data.players || [];
-  const wall = document.getElementById("wall");
-  wall.replaceChildren();
+  RANKED = players.map((p, i) => ({ ...p, rank: i + 1 }));
+  RECENT = data.recent || [];
 
-  if (!players.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty";
-    empty.textContent = "No splats yet.";
-    wall.append(empty);
-  }
-
-  const most = players.length ? players[0].splats : 1;
-  players.forEach((p, i) => {
-    const card = document.createElement("article");
-    card.className = "card" + (i < 3 ? " podium" : "");
-
-    if (i < 3) {
-      const rank = document.createElement("span");
-      rank.className = "rank";
-      rank.textContent = `#${i + 1}`;
-      card.append(rank);
-    }
-
-    const face = document.createElement("div");
-    face.className = "face";
-    face.textContent = creatureFor(p.name);
-
-    const name = document.createElement("h3");
-    name.append(nameNode(p, "namemark"));
-
-    const count = document.createElement("p");
-    count.className = "count";
-    const n = document.createElement("b");
-    n.textContent = p.splats;
-    count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
-
-    const meter = document.createElement("div");
-    meter.className = "meter";
-    const fill = document.createElement("span");
-    fill.style.width = `${Math.max(3, (p.splats / most) * 100)}%`;
-    meter.append(fill);
-
-    card.append(face, name, count, meter);
-    if (p.last) card.title = `Last splatted ${whenText(p.last)}`;
-    wall.append(card);
+  document.getElementById("search").addEventListener("input", (e) => {
+    query = e.target.value.trim().toLowerCase();
+    page = 1;
+    renderWall();
+    renderRecent();
+  });
+  document.getElementById("prev").addEventListener("click", () => {
+    page -= 1;
+    renderRecent();
+  });
+  document.getElementById("next").addEventListener("click", () => {
+    page += 1;
+    renderRecent();
   });
 
-  const recent = data.recent || [];
-  if (recent.length) {
-    document.getElementById("recent-section").hidden = false;
-    const list = document.getElementById("recent");
-    list.replaceChildren();
-    for (const r of recent.slice(0, 20)) {
-      const li = document.createElement("li");
-      const who = document.createElement("span");
-      who.className = "who";
-      who.append(nameNode(r, "namemark small"));
-      const when = document.createElement("time");
-      when.textContent = whenText(r.ts);
-      li.append(who, when);
-      list.append(li);
-    }
-  }
+  renderWall();
+  renderRecent();
 }
 
 fetch("splatboard.json", { cache: "no-store" })

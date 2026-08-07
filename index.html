@@ -20,21 +20,28 @@
   </div>
 </header>
 
-<div class="chips">
-  <div class="chip">Total Splats <b id="total">—</b></div>
-  <div class="chip">Unique Players <b id="unique">—</b></div>
-  <div class="chip">Top Victim <b id="top">—</b></div>
-</div>
-
 <main>
+  <div class="toolbar">
+    <p class="tally">Total Splats: <b id="total">—</b></p>
+    <p class="tally">Unique Players: <b id="unique">—</b></p>
+    <input id="search" type="search" placeholder="Find your name…"
+           autocomplete="off" spellcheck="false" aria-label="Search players">
+  </div>
+
   <section>
     <h2>Top Splats</h2>
     <div id="wall" class="wall"></div>
   </section>
 
   <section id="recent-section" hidden>
-    <h2>Recent Splats</h2>
+    <h2>Freshly Inked</h2>
     <ol id="recent" class="recent"></ol>
+    <p id="recent-empty" class="empty" hidden></p>
+    <nav id="recent-pager" class="pager" aria-label="Freshly inked pages" hidden>
+      <button id="prev" type="button">‹ Prev</button>
+      <span id="page-label"></span>
+      <button id="next" type="button">Next ›</button>
+    </nav>
   </section>
 </main>
 

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-06T23:53:33+00:00",
+  "generated_at": "2026-08-07T03:54:50+00:00",
   "totals": {
-    "splats": 31,
-    "unique_players": 19,
-    "top": "MbnI_2011"
+    "splats": 39,
+    "unique_players": 23,
+    "top": "Mbnl_2011"
   },
   "players": [
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "splats": 5,
       "first": "2026-08-06T23:46:49+00:00",
       "last": "2026-08-06T23:51:12+00:00",
       "sessions": 1,
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
-      "name": "eгspoke sw",
-      "splats": 4,
+      "name": "erspoke sw",
+      "splats": 5,
       "first": "2026-08-06T23:42:40+00:00",
-      "last": "2026-08-06T23:51:28+00:00",
+      "last": "2026-08-06T23:51:31+00:00",
       "sessions": 1,
-      "wordmark": "names/bf4d2d2509c9.svg"
+      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
       "name": "Dman",
@@ -47,6 +47,14 @@
       "wordmark": "names/7b16dc269329.svg"
     },
     {
+      "name": "Qifrey<3",
+      "splats": 2,
+      "first": "2026-08-07T03:20:25+00:00",
+      "last": "2026-08-07T03:21:19+00:00",
+      "sessions": 1,
+      "wordmark": "names/601a1ec60456.svg"
+    },
+    {
       "name": "Shiny ΄ト==､",
       "splats": 2,
       "first": "2026-08-06T19:27:26+00:00",
@@ -55,12 +63,28 @@
       "wordmark": "names/7347aeff43ac.svg"
     },
     {
-      "name": "*dyIan*",
+      "name": "val",
+      "splats": 2,
+      "first": "2026-08-07T03:16:03+00:00",
+      "last": "2026-08-07T03:21:42+00:00",
+      "sessions": 1,
+      "wordmark": "names/39f69c278f46.svg"
+    },
+    {
+      "name": "★Cαlαmιtγ★",
+      "splats": 2,
+      "first": "2026-08-07T03:16:04+00:00",
+      "last": "2026-08-07T03:17:15+00:00",
+      "sessions": 1,
+      "wordmark": "names/7be7e6436e20.svg"
+    },
+    {
+      "name": "*dylan*",
       "splats": 1,
       "first": "2026-08-06T23:52:18+00:00",
       "last": "2026-08-06T23:52:18+00:00",
       "sessions": 1,
-      "wordmark": "names/875b9a94cc7d.svg"
+      "wordmark": "names/db86a3670918.svg"
     },
     {
       "name": "AngelSaint",
@@ -95,12 +119,28 @@
       "wordmark": "names/2d8aa22740ab.svg"
     },
     {
-      "name": "Parkeг",
+      "name": "Mizi",
+      "splats": 1,
+      "first": "2026-08-07T03:21:02+00:00",
+      "last": "2026-08-07T03:21:02+00:00",
+      "sessions": 1,
+      "wordmark": "names/101ff170ea81.svg"
+    },
+    {
+      "name": "Parker",
       "splats": 1,
       "first": "2026-08-06T04:10:15+00:00",
       "last": "2026-08-06T04:10:15+00:00",
       "sessions": 1,
-      "wordmark": "names/c436bba5025e.svg"
+      "wordmark": "names/809243bd6ea1.svg"
+    },
+    {
+      "name": "Poppy",
+      "splats": 1,
+      "first": "2026-08-07T03:16:41+00:00",
+      "last": "2026-08-07T03:16:41+00:00",
+      "sessions": 1,
+      "wordmark": "names/3636d753a951.svg"
     },
     {
       "name": "Starbreed",
@@ -109,14 +149,6 @@
       "last": "2026-08-06T04:08:17+00:00",
       "sessions": 1,
       "wordmark": "names/e32f26884136.svg"
-    },
-    {
-      "name": "erspoke sw",
-      "splats": 1,
-      "first": "2026-08-06T23:51:31+00:00",
-      "last": "2026-08-06T23:51:31+00:00",
-      "sessions": 1,
-      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
       "name": "j4z",
@@ -161,9 +193,49 @@
   ],
   "recent": [
     {
-      "name": "*dyIan*",
+      "name": "val",
+      "ts": "2026-08-07T03:21:42+00:00",
+      "wordmark": "names/39f69c278f46.svg"
+    },
+    {
+      "name": "Qifrey<3",
+      "ts": "2026-08-07T03:21:19+00:00",
+      "wordmark": "names/601a1ec60456.svg"
+    },
+    {
+      "name": "Mizi",
+      "ts": "2026-08-07T03:21:02+00:00",
+      "wordmark": "names/101ff170ea81.svg"
+    },
+    {
+      "name": "Qifrey<3",
+      "ts": "2026-08-07T03:20:25+00:00",
+      "wordmark": "names/601a1ec60456.svg"
+    },
+    {
+      "name": "★Cαlαmιtγ★",
+      "ts": "2026-08-07T03:17:15+00:00",
+      "wordmark": "names/7be7e6436e20.svg"
+    },
+    {
+      "name": "Poppy",
+      "ts": "2026-08-07T03:16:41+00:00",
+      "wordmark": "names/3636d753a951.svg"
+    },
+    {
+      "name": "★Cαlαmιtγ★",
+      "ts": "2026-08-07T03:16:04+00:00",
+      "wordmark": "names/7be7e6436e20.svg"
+    },
+    {
+      "name": "val",
+      "ts": "2026-08-07T03:16:03+00:00",
+      "wordmark": "names/39f69c278f46.svg"
+    },
+    {
+      "name": "*dylan*",
       "ts": "2026-08-06T23:52:18+00:00",
-      "wordmark": "names/875b9a94cc7d.svg"
+      "wordmark": "names/db86a3670918.svg"
     },
     {
       "name": "erspoke sw",
@@ -171,19 +243,19 @@
       "wordmark": "names/c58e58ea0d76.svg"
     },
     {
-      "name": "eгspoke sw",
+      "name": "erspoke sw",
       "ts": "2026-08-06T23:51:28+00:00",
-      "wordmark": "names/bf4d2d2509c9.svg"
+      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "ts": "2026-08-06T23:51:12+00:00",
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
-      "name": "eгspoke sw",
+      "name": "erspoke sw",
       "ts": "2026-08-06T23:50:32+00:00",
-      "wordmark": "names/bf4d2d2509c9.svg"
+      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
       "name": "j4z",
@@ -191,29 +263,29 @@
       "wordmark": "names/9970ad07f5ad.svg"
     },
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "ts": "2026-08-06T23:49:38+00:00",
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "ts": "2026-08-06T23:47:52+00:00",
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
-      "name": "eгspoke sw",
+      "name": "erspoke sw",
       "ts": "2026-08-06T23:47:32+00:00",
-      "wordmark": "names/bf4d2d2509c9.svg"
+      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "ts": "2026-08-06T23:47:21+00:00",
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
-      "name": "MbnI_2011",
+      "name": "Mbnl_2011",
       "ts": "2026-08-06T23:46:49+00:00",
-      "wordmark": "names/bdb3832b5636.svg"
+      "wordmark": "names/c181c01541dc.svg"
     },
     {
       "name": "Dman",
@@ -226,9 +298,9 @@
       "wordmark": "names/74bffe31136e.svg"
     },
     {
-      "name": "eгspoke sw",
+      "name": "erspoke sw",
       "ts": "2026-08-06T23:42:40+00:00",
-      "wordmark": "names/bf4d2d2509c9.svg"
+      "wordmark": "names/c58e58ea0d76.svg"
     },
     {
       "name": "Dman",
@@ -271,9 +343,9 @@
       "wordmark": "names/7b16dc269329.svg"
     },
     {
-      "name": "Parkeг",
+      "name": "Parker",
       "ts": "2026-08-06T04:10:15+00:00",
-      "wordmark": "names/c436bba5025e.svg"
+      "wordmark": "names/809243bd6ea1.svg"
     },
     {
       "name": "Starbreed",
@@ -317,6 +389,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "collecting stats",
+      "started_at": "2026-08-07T03:13:30+00:00",
+      "splats": 8
+    },
     {
       "label": "after work session",
       "started_at": "2026-08-06T23:39:25+00:00",
