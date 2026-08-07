@@ -16,6 +16,8 @@ The export directory is committed to a github repo, which generates a new build 
 
 ***[Click to view …LEEEEROYJ's Splatboard](https://leeeeeroyj.github.io/splatboard/)***
 
-### Not affiliated with Nintendo
+---
+<br><br>
+<sup>**Not affiliated with Nintendo** - Splatboard is a personal development project and is not affiliated with, endorsed by, or sponsored by Nintendo. Splatoon and Splatoon 3 are trademarks of Nintendo. Thanks [Cat with Monocle](https://catwithmonocle.com/news/2022/09/07/splatoon-3-pattern-version-2-wallpaper/) for the Splatboard background.</sup>
 
-Splatboard is a personal development project and is not affiliated with, endorsed by, or sponsored by Nintendo. Splatoon and Splatoon 3 are trademarks of Nintendo. <br>Credit to [Cat with Monocle](https://catwithmonocle.com/news/2022/09/07/splatoon-3-pattern-version-2-wallpaper/) for the Splatboard background.
+Made with 🫟 and 🤖 by …LEEEEROYJ
