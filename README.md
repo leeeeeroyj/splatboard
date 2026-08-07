@@ -6,7 +6,11 @@ The data comes from reading the game's kill-feed banners off my capture card dur
 
 A python app watches the capture card and monitors for splat notifications to pop up. When it sees one, it captures a screenshot and tries to read the player's name. It can get pretty close, but it's not perfect. The special/foreign characters and ASCII art players put in there names can throw it off. 
 
+![Watch this!](demo.gif)
+
 For names that return a low confidence score, it puts them in a bucket for me to review. The admin shows the screenshot of the players name and allows for easy adjustments.
+
+![Admin Review](admin-review.png)
 
 If someone changes their name, like Jim is J1M and J1MB0, I can group them all as a single player and combines their stats.
 
