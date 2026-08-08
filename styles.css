@@ -4,20 +4,20 @@
      asserts the ratios these choices depend on.
 
      Two constraints worth knowing before editing a value:
-       Purple Ink is only 4.14:1 on Deep Sea (and white on purple is 4.15), so
-       it is a fill and a glow, never small text.
-       True Squid Olive reaches 4.54 on the background but 4.22 on a panel, so
+       Purple Ink is only 4.27:1 on Deep Sea (and white on purple is 4.15), so
+       it is a fill, never small text.
+       True Squid Olive reaches 4.68 on the background but 4.17 on a panel, so
        small text uses a lightened tint and the brand olive is kept for borders,
        where contrast doesn't gate legibility. */
-  --bg:     #121212;   /* Deep Sea                            */
-  --panel:  #1A1A18;   /* warm lift off the background        */
+  --bg:     #0E0E0E;   /* Deep Sea                            */
+  --panel:  #1B1B1B;   /* neutral lift off the background     */
   --line:   #2A2C26;   /* olive-tinted border                 */
-  --ink:    #F7F5F0;   /* Fresh White        17.2 on bg       */
-  --dim:    #868B79;   /* lightened olive     5.34 / 4.97     */
+  --ink:    #F7F5F0;   /* Fresh White        17.7 on bg       */
+  --dim:    #868B79;   /* lightened olive     5.50 / 4.91     */
   --olive:  #7A7F6E;   /* Squid Olive -- decoration only      */
-  --purple: #8A4FFF;   /* Purple Ink  -- fills and glow only  */
-  --lime:   #C6F24A;   /* Lime Shock         14.5 on bg       */
-  --sand:   #F4C78A;   /* Sandy Fin          11.9 on bg       */
+  --purple: #8A4FFF;   /* Purple Ink  -- fills only           */
+  --lime:   #C6F24A;   /* Lime Shock         14.9 on bg       */
+  --sand:   #F4C78A;   /* Sandy Fin          12.3 on bg       */
 
   --display: "Arial Black", "Arial Bold", "Segoe UI Black", "Helvetica Neue",
              system-ui, sans-serif;
@@ -26,21 +26,25 @@
 body {
   margin: 0;
   color: var(--ink);
-  /* Sticker-pattern texture under the glows, held down by a veil so it stays a
-     texture rather than becoming competition for the text.
+  /* Sticker-pattern texture under a veil, so it stays a texture rather than
+     becoming competition for the text.
 
-     70% is the knee of the curve, measured off rendered pages rather than
-     reasoned about: lightened olive over the brightest background pixel goes
-     4.55 (no pattern) -> 4.28 (60% veil) -> 4.38 (70%) -> 4.40 (80%). Past 70%
-     the pattern fades for hundredths of a ratio, because what is left is the
-     two glows below, not the artwork. Across 95% of the background every text
-     colour sits at 4.9+ either way.
+     The field is deliberately colourless: dark grey at the top of the page,
+     near-black below. The pattern is already neutral (its pixels run 17-30 with
+     zero saturation), so the only thing that ever tinted this background was
+     the wash on top of it -- an 8% lime one rendered as khaki (30,33,23), which
+     read as sand next to text that is genuinely sand. The lift is grey now, and
+     the brand colours live in the text, meters and badges instead.
+
+     80% veil rather than 70%: with no glow under it, what the veil is holding
+     down is the artwork itself. The tightest spot on the page is the lightened
+     olive where the grey lift sits over the brightest pattern pixel -- 4.86 at
+     a 70% veil, 4.96 at 80%; off the lift it is 5.4 either way.
 
      Fixed, so the pattern stays put and never has to tile -- it doesn't. */
   background:
-    radial-gradient(60vw 40vh at 15% -5%, #8A4FFF26, transparent 65%),
-    radial-gradient(55vw 40vh at 90% 0%, #C6F24A14, transparent 60%),
-    linear-gradient(#121212B3, #121212B3),
+    radial-gradient(75vw 45vh at 50% -10%, #2C2C2C59, transparent 70%),
+    linear-gradient(#0E0E0ECC, #0E0E0ECC),
     url("pattern.jpg") center center / cover fixed no-repeat,
     var(--bg);
   font: 16px/1.55 ui-rounded, "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -151,9 +155,12 @@ h2 {
   transition: transform .15s ease, border-color .15s ease;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--olive); }
+/* Brighter than the rest, not warmer: the sand border and the trophy already
+   mark the top three, and a tinted fill was the one genuinely sandy background
+   on the page. */
 .card.podium {
   border-color: var(--sand);
-  background: linear-gradient(180deg, #F4C78A12, transparent 60%), var(--panel);
+  background: linear-gradient(180deg, #FFFFFF0F, transparent 60%), var(--panel);
 }
 .rank {
   position: absolute; top: 10px; left: 10px;
