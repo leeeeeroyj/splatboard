@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-08-08T02:19:43+00:00",
+  "generated_at": "2026-08-08T20:24:50+00:00",
   "totals": {
-    "splats": 53,
-    "unique_players": 32,
+    "splats": 62,
+    "unique_players": 37,
+    "assists": 2,
     "top": "Mbnl_2011"
   },
   "players": [
@@ -26,6 +27,16 @@
       "first": "2026-08-06T23:40:00+00:00",
       "last": "2026-08-06T23:46:48+00:00",
       "sessions": 1
+    },
+    {
+      "name": "Error.....",
+      "splats": 3,
+      "first": "2026-08-08T20:19:17+00:00",
+      "last": "2026-08-08T20:19:53+00:00",
+      "sessions": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "avatar": "faces/bd0fbd9f8214.png"
     },
     {
       "name": "Her Romeo",
@@ -84,11 +95,31 @@
       "sessions": 1
     },
     {
+      "name": "Snackatron",
+      "splats": 2,
+      "first": "2026-08-08T17:49:25+00:00",
+      "last": "2026-08-08T17:50:14+00:00",
+      "sessions": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/0af0b7cf1337.png"
+    },
+    {
       "name": "val",
       "splats": 2,
       "first": "2026-08-07T03:16:03+00:00",
       "last": "2026-08-07T03:21:42+00:00",
       "sessions": 1
+    },
+    {
+      "name": "ñarou",
+      "splats": 2,
+      "first": "2026-08-08T20:19:28+00:00",
+      "last": "2026-08-08T20:20:01+00:00",
+      "sessions": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/e9aeb363e954.png"
     },
     {
       "name": "★Cαlαmιtγ★",
@@ -154,6 +185,16 @@
       "sessions": 1
     },
     {
+      "name": "Lazyman :3",
+      "splats": 1,
+      "first": "2026-08-08T20:20:56+00:00",
+      "last": "2026-08-08T20:20:56+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/38d5c4dbaf47.png"
+    },
+    {
       "name": "Lt",
       "splats": 1,
       "first": "2026-08-07T22:31:04+00:00",
@@ -203,6 +244,17 @@
       "sessions": 1
     },
     {
+      "name": "mimic",
+      "splats": 1,
+      "first": "2026-08-08T20:14:33+00:00",
+      "last": "2026-08-08T20:14:33+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/76c54c7e6882.png"
+    },
+    {
       "name": "~^~",
       "splats": 1,
       "first": "2026-08-06T04:03:50+00:00",
@@ -232,6 +284,42 @@
     }
   ],
   "recent": [
+    {
+      "name": "Lazyman :3",
+      "ts": "2026-08-08T20:20:56+00:00"
+    },
+    {
+      "name": "ñarou",
+      "ts": "2026-08-08T20:20:01+00:00"
+    },
+    {
+      "name": "Error.....",
+      "ts": "2026-08-08T20:19:53+00:00"
+    },
+    {
+      "name": "Error.....",
+      "ts": "2026-08-08T20:19:35+00:00"
+    },
+    {
+      "name": "ñarou",
+      "ts": "2026-08-08T20:19:28+00:00"
+    },
+    {
+      "name": "Error.....",
+      "ts": "2026-08-08T20:19:17+00:00"
+    },
+    {
+      "name": "mimic",
+      "ts": "2026-08-08T20:14:33+00:00"
+    },
+    {
+      "name": "Snackatron",
+      "ts": "2026-08-08T17:50:14+00:00"
+    },
+    {
+      "name": "Snackatron",
+      "ts": "2026-08-08T17:49:25+00:00"
+    },
     {
       "name": "a crab",
       "ts": "2026-08-08T02:17:29+00:00"
@@ -446,6 +534,16 @@
     }
   ],
   "sessions": [
+    {
+      "label": "feature test",
+      "started_at": "2026-08-08T20:11:18+00:00",
+      "splats": 7
+    },
+    {
+      "label": "feature test",
+      "started_at": "2026-08-08T17:48:03+00:00",
+      "splats": 2
+    },
     {
       "label": "friday turf",
       "started_at": "2026-08-08T02:07:12+00:00",

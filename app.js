@@ -80,9 +80,30 @@ function playerCard(p, badge) {
     card.append(mark);
   }
 
+  // A real avatar off the results scoreboard when there is one, and the
+  // generated creature when there isn't. Both branches have to keep working:
+  // an avatar only exists for players seen on a scoreboard, so anyone splatted
+  // before match tracking existed -- or in a match whose results were missed --
+  // still needs a face.
   const face = document.createElement("div");
   face.className = "face";
-  face.textContent = creatureFor(p.name);
+  if (p.avatar) {
+    const img = document.createElement("img");
+    img.src = p.avatar;
+    img.alt = "";
+    img.loading = "lazy";
+    img.width = 96;
+    img.height = 96;
+    // If the file is missing the card falls back rather than showing a broken
+    // image, since the JSON and the folder are written separately.
+    img.addEventListener("error", () => {
+      face.textContent = creatureFor(p.name);
+    });
+    face.classList.add("photo");
+    face.append(img);
+  } else {
+    face.textContent = creatureFor(p.name);
+  }
 
   const name = document.createElement("h3");
   name.append(nameNode(p, "namemark"));
