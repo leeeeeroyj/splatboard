@@ -22,19 +22,25 @@
 
 <main>
   <div class="toolbar">
-    <p class="tally">Total Splats: <b id="total">—</b></p>
-    <p class="tally">Unique Players: <b id="unique">—</b></p>
     <input id="search" type="search" placeholder="Find your name…"
            autocomplete="off" spellcheck="false" aria-label="Search players">
   </div>
 
+  <!-- Every figure on the page, the two totals included. Splats and players are
+       always there; the match figures only appear once a results screen has
+       been read, so an export from before they existed still renders. -->
   <section>
-    <h2>Top Splats</h2>
+    <h2><img class="heading" src="h-career.svg" alt="Career"></h2>
+    <dl class="career" id="career"></dl>
+  </section>
+
+  <section>
+    <h2><img class="heading" src="h-top-splats.svg" alt="Top Splats"></h2>
     <div id="wall" class="wall"></div>
   </section>
 
   <section id="recent-section" hidden>
-    <h2>Freshly Inked</h2>
+    <h2><img class="heading" src="h-freshly-inked.svg" alt="Freshly Inked"></h2>
     <ol id="recent" class="recent"></ol>
     <p id="recent-empty" class="empty" hidden></p>
     <nav id="recent-pager" class="pager" aria-label="Freshly inked pages" hidden>

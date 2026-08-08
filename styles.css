@@ -127,14 +127,11 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
 }
 
 section { margin-top: 34px; }
-h2 {
-  font-family: var(--display);
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1.6px;
-  color: var(--dim);
-  margin: 0 0 14px;
-}
+/* Headings are outlined SVG in the title's own face -- see
+   tools/make_wordmark.py. Sized by height so every heading shares a cap height
+   whatever its length, and the h2 keeps its own box for the alt text. */
+h2 { margin: 0 0 14px; line-height: 0; }
+.heading { display: block; height: 15px; width: auto; }
 .empty { color: var(--dim); font-style: italic; }
 /* The wall is a grid, so an empty note would otherwise be squeezed into one
    190px column and wrap mid-sentence. */
@@ -145,14 +142,37 @@ h2 {
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
 }
+/* A hang tag, the way the game draws its cards: a slot punched through the top
+   that the card could hang from. The slot is a pseudo-element in the page
+   background's own colour rather than a real hole -- the card sits on a fixed
+   background image, so a transparent cut-out would show the pattern scrolling
+   underneath it and stop reading as a hole at all. */
 .card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 22px 16px 18px;
+  padding: 40px 16px 18px;
   text-align: center;
   transition: transform .15s ease, border-color .15s ease;
+}
+/* The grid stretches every card in a row to the tallest, and a splashtag is
+   taller than a meter -- so without this a card carrying a meter left a gap
+   under it while its neighbour's tag sat flush. Pushing the last element down
+   lines the footers up whichever one a card has. */
+.card > :last-child { margin-top: auto; }
+.card::before {
+  content: "";
+  position: absolute;
+  top: 13px; left: 50%;
+  width: 46px; height: 11px;
+  margin-left: -23px;
+  background: #08080B;
+  border-radius: 999px;
+  /* A hair of inner shadow so the slot reads as punched rather than printed. */
+  box-shadow: inset 0 1px 2px #0000009e, 0 1px 0 #ffffff0f;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--olive); }
 /* Brighter than the rest, not warmer: the sand border and the trophy already
@@ -163,7 +183,7 @@ h2 {
   background: linear-gradient(180deg, #FFFFFF0F, transparent 60%), var(--panel);
 }
 .rank {
-  position: absolute; top: 10px; left: 10px;
+  position: absolute; top: 12px; left: 10px;
   /* Sandy Fin, not Purple Ink: this is small text on a fill, and dark-on-sand
      is 11.9:1 where anything on purple would be about 4.1. */
   background: var(--sand); color: var(--bg);
@@ -176,7 +196,7 @@ h2 {
 .rank.trophy {
   background: none;
   padding: 0;
-  top: 11px; left: 9px;
+  top: 8px; left: 9px;
   font-size: 20px;
   line-height: 1;
 }
@@ -250,7 +270,22 @@ h2 {
 }
 .font-names .namemark.small.plain { font-size: 13px; }
 .count { margin: 0 0 12px; color: var(--dim); font-size: 14px; }
-.count b { color: var(--lime); font-size: 19px; margin-right: 4px; }
+.card .meter { margin-bottom: 2px; }
+/* The count in Blitz, like every other figure on the page. One weight only, so
+   synthesis is off for the same reason .namemark turns it off. */
+.count b {
+  font-family: Blitz, var(--display);
+  font-weight: normal;
+  font-synthesis-weight: none;
+  color: var(--lime); font-size: 19px; margin-right: 4px;
+}
+/* The player's splashtag, in the strip the meter used to occupy. 492x148 as
+   cropped, so it keeps that ratio and simply takes the card's width. */
+.card .splashtag {
+  display: block;
+  width: 100%; height: auto;
+  border-radius: 6px;
+}
 .meter { height: 6px; background: #ffffff0f; border-radius: 999px; overflow: hidden; }
 .meter span {
   display: block; height: 100%;
@@ -310,4 +345,32 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
 
 @media (prefers-reduced-motion: reduce) {
   .card { transition: none; }
+}
+
+/* Every figure on the page, wrapping into as many columns as fit. A definition
+   list because that is what these are -- a term and its value. Each pair sits
+   in its own box and the box is reversed, so the value reads first and the
+   label captions it, without the markup having to lie about which is which. */
+.career {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: 16px 14px;
+  margin: 0;
+}
+.career .stat { display: flex; flex-direction: column-reverse; }
+.career dt {
+  font-size: 12px; text-transform: uppercase; letter-spacing: .6px;
+  color: var(--dim);
+}
+.career dd {
+  margin: 0 0 1px;
+  /* Blitz, at the size the two totals were already set at. The face ships one
+     weight, so a synthesized bold would thicken its strokes into each other --
+     the same reason .namemark turns synthesis off. */
+  font-family: Blitz, var(--display);
+  font-weight: normal;
+  font-synthesis-weight: none;
+  font-size: 17px;
+  color: var(--lime);
+  overflow-wrap: anywhere;
 }

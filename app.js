@@ -68,6 +68,17 @@ function emptyNote(text) {
   return p;
 }
 
+/* Scaled against the board leader, not the leader of this view, so a meter means
+   the same thing whether or not a search is running. */
+function meterFor(p) {
+  const meter = document.createElement("div");
+  meter.className = "meter";
+  const fill = document.createElement("span");
+  fill.style.width = `${Math.max(3, (p.splats / RANKED[0].splats) * 100)}%`;
+  meter.append(fill);
+  return meter;
+}
+
 /* `badge` is the corner mark -- a rank, a trophy, or null for no mark. */
 function playerCard(p, badge) {
   const card = document.createElement("article");
@@ -114,17 +125,62 @@ function playerCard(p, badge) {
   n.textContent = p.splats;
   count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
 
-  // Scaled against the board leader, not the leader of this view, so a meter
-  // means the same thing whether or not a search is running.
-  const meter = document.createElement("div");
-  meter.className = "meter";
-  const fill = document.createElement("span");
-  fill.style.width = `${Math.max(3, (p.splats / RANKED[0].splats) * 100)}%`;
-  meter.append(fill);
+  // The player's own splashtag where the meter used to be. Without one the card
+  // falls back to the meter: a tag only exists for someone seen on an intro
+  // screen, and a card with a blank strip would read as broken.
+  let footer;
+  if (p.splashtag) {
+    footer = document.createElement("img");
+    footer.className = "splashtag";
+    footer.src = p.splashtag;
+    footer.alt = "";
+    footer.loading = "lazy";
+    footer.addEventListener("error", () => footer.replaceWith(meterFor(p)));
+  } else {
+    footer = meterFor(p);
+  }
 
-  card.append(face, name, count, meter);
+  card.append(face, name, count, footer);
   if (p.last) card.title = `Last splatted ${whenText(p.last)}`;
   return card;
+}
+
+/* Career figures, rendered only where there is something to say. A stat that
+   has never been recorded is left out rather than shown as a dash: an empty row
+   reads as a broken number, where an absent one reads as "not yet". */
+function renderCareer(totals, career) {
+  const c = career || {};
+  const quickest = c.quickest_splat;
+  const rows = [
+    ["Total Splats", totals.splats ?? 0],
+    ["Unique Players", totals.unique_players ?? 0],
+    ["Matches", c.matches],
+    ["Record", c.wins != null
+      ? `${c.wins}W ${c.losses}L${c.draws ? ` ${c.draws}D` : ""}` : null],
+    ["Best Match", c.best_splats],
+    ["Splats / Match", c.avg_splats],
+    ["Best Turf", c.best_points != null ? `${c.best_points}p` : null],
+    ["Average Turf", c.avg_points != null ? `${c.avg_points}p` : null],
+    ["Quickest Splat", quickest ? `${quickest.seconds}s` : null],
+    ["Quickest Victim", quickest ? quickest.name : null],
+    ["Assists", totals.assists],
+    ["Disconnects", c.disconnects],
+  ].filter(([, value]) => value !== null && value !== undefined);
+
+  // Each pair is its own box so the value can sit above its label without
+  // breaking the term/definition pairing a <dl> is for -- CSS reverses them.
+  const list = document.getElementById("career");
+  list.replaceChildren();
+  for (const [label, value] of rows) {
+    const cell = document.createElement("div");
+    cell.className = "stat";
+    const dt = document.createElement("dt");
+    dt.textContent = label;
+    const dd = document.createElement("dd");
+    dd.textContent = String(value);       // textContent: a name lands in here
+    cell.append(dt, dd);
+    list.append(cell);
+  }
 }
 
 /* Ten cards unfiltered; a search shows every hit instead, because the whole
@@ -191,9 +247,8 @@ function render(data) {
   document.documentElement.classList.toggle("font-names", Boolean(data.name_font));
 
   const totals = data.totals || {};
-  document.getElementById("total").textContent = totals.splats ?? 0;
-  document.getElementById("unique").textContent = totals.unique_players ?? 0;
   document.getElementById("generated").textContent = whenText(data.generated_at) || "—";
+  renderCareer(totals, data.career);
 
   const players = data.players || [];
   RANKED = players.map((p, i) => ({ ...p, rank: i + 1 }));
