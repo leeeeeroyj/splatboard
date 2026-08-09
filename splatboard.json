@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-09T20:41:45+00:00",
+  "generated_at": "2026-08-09T21:28:07+00:00",
   "totals": {
-    "splats": 93,
-    "unique_players": 54,
+    "splats": 100,
+    "unique_players": 58,
     "assists": 15,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 20,
-    "wins": 16,
-    "losses": 4,
+    "matches": 22,
+    "wins": 17,
+    "losses": 5,
     "draws": 0,
-    "avg_splats": 4.25,
+    "avg_splats": 4.18,
     "best_splats": 9,
-    "avg_points": 993,
+    "avg_points": 981,
     "best_points": 1421,
     "disconnects": 4,
     "quickest_splat": {
@@ -46,6 +46,18 @@
       "per_match": 4.0,
       "avatar": "faces/858b87aff7c0.png",
       "splashtag": "faces/858b87aff7c0-tag.png"
+    },
+    {
+      "name": "★βigβxtch☆",
+      "splats": 4,
+      "first": "2026-08-09T21:05:50+00:00",
+      "last": "2026-08-09T21:07:34+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 4,
+      "per_match": 4.0,
+      "avatar": "faces/413752f3db03.png",
+      "splashtag": "faces/413752f3db03-tag.png"
     },
     {
       "name": "AngeI",
@@ -391,6 +403,18 @@
       "avatar": "faces/be75f392bd14.png"
     },
     {
+      "name": "Lit3DonaId",
+      "splats": 1,
+      "first": "2026-08-09T21:11:29+00:00",
+      "last": "2026-08-09T21:11:29+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/d2bafe742f6d.png",
+      "splashtag": "faces/d2bafe742f6d-tag.png"
+    },
+    {
       "name": "Miyagi",
       "splats": 1,
       "first": "2026-08-09T03:52:20+00:00",
@@ -557,6 +581,18 @@
       "avatar": "faces/576e5ca45f52.png"
     },
     {
+      "name": "ju4viø",
+      "splats": 1,
+      "first": "2026-08-09T21:10:34+00:00",
+      "last": "2026-08-09T21:10:34+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/c5c3ac5ba83f.png",
+      "splashtag": "faces/c5c3ac5ba83f-tag.png"
+    },
+    {
       "name": "megaIicios",
       "splats": 1,
       "first": "2026-08-09T14:35:32+00:00",
@@ -625,9 +661,49 @@
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/cca8c94c4c4f.png"
+    },
+    {
+      "name": "☆Pancakes☆",
+      "splats": 1,
+      "first": "2026-08-09T21:12:20+00:00",
+      "last": "2026-08-09T21:12:20+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/853f8ec2479b.png",
+      "splashtag": "faces/853f8ec2479b-tag.png"
     }
   ],
   "recent": [
+    {
+      "name": "☆Pancakes☆",
+      "ts": "2026-08-09T21:12:20+00:00"
+    },
+    {
+      "name": "Lit3DonaId",
+      "ts": "2026-08-09T21:11:29+00:00"
+    },
+    {
+      "name": "ju4viø",
+      "ts": "2026-08-09T21:10:34+00:00"
+    },
+    {
+      "name": "★βigβxtch☆",
+      "ts": "2026-08-09T21:07:34+00:00"
+    },
+    {
+      "name": "★βigβxtch☆",
+      "ts": "2026-08-09T21:07:16+00:00"
+    },
+    {
+      "name": "★βigβxtch☆",
+      "ts": "2026-08-09T21:06:36+00:00"
+    },
+    {
+      "name": "★βigβxtch☆",
+      "ts": "2026-08-09T21:05:50+00:00"
+    },
     {
       "name": "∴〒σrなど∵",
       "ts": "2026-08-09T19:59:07+00:00"
@@ -1002,6 +1078,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "Sunday Funday",
+      "started_at": "2026-08-09T21:02:45+00:00",
+      "splats": 7
+    },
     {
       "label": "Sunday Funday",
       "started_at": "2026-08-09T19:47:47+00:00",
