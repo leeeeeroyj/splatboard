@@ -142,11 +142,11 @@ h2 { margin: 0 0 14px; line-height: 0; }
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
 }
-/* A hang tag, the way the game draws its cards: a slot punched through the top
-   that the card could hang from. The slot is a pseudo-element in the page
-   background's own colour rather than a real hole -- the card sits on a fixed
-   background image, so a transparent cut-out would show the pattern scrolling
-   underneath it and stop reading as a hole at all. */
+/* A hang tag, the way the game draws its cards: a keyhole punched through the
+   top that the card could hang from. It is two pseudo-elements filled darker
+   than the card rather than a real hole -- the card sits on a fixed background
+   image, so a transparent cut-out would show the pattern scrolling underneath
+   it and stop reading as a hole at all. */
 .card {
   position: relative;
   display: flex;
@@ -173,6 +173,20 @@ h2 { margin: 0 0 14px; line-height: 0; }
   border-radius: 999px;
   /* A hair of inner shadow so the slot reads as punched rather than printed. */
   box-shadow: inset 0 1px 2px #0000009e, 0 1px 0 #ffffff0f;
+}
+/* The stub that sits on the bar, making the cut-out an upside-down T -- the
+   keyhole the game hangs its cards from. It overlaps the bar by a pixel so the
+   two shapes meet without a seam between them, and carries no bottom highlight
+   for the same reason. */
+.card::after {
+  content: "";
+  position: absolute;
+  top: 4px; left: 50%;
+  width: 20px; height: 10px;
+  margin-left: -10px;
+  background: #08080B;
+  border-radius: 999px 999px 0 0;
+  box-shadow: inset 0 1px 2px #0000009e;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--olive); }
 /* Brighter than the rest, not warmer: the sand border and the trophy already

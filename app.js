@@ -125,6 +125,16 @@ function playerCard(p, badge) {
   n.textContent = p.splats;
   count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
 
+  // How many matches we've actually shared. Absent for anyone splatted before
+  // match tracking existed, or whose results screen was missed -- the card says
+  // nothing rather than claiming a zero it can't stand behind.
+  if (p.matches) {
+    const m = document.createElement("b");
+    m.textContent = p.matches;
+    count.append(document.createTextNode(" · "), m,
+                 document.createTextNode(p.matches === 1 ? " match" : " matches"));
+  }
+
   // The player's own splashtag where the meter used to be. Without one the card
   // falls back to the meter: a tag only exists for someone seen on an intro
   // screen, and a card with a blank strip would read as broken.

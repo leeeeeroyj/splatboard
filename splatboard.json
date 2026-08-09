@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-09T01:01:40+00:00",
+  "generated_at": "2026-08-09T04:05:34+00:00",
   "totals": {
-    "splats": 21,
-    "unique_players": 14,
-    "assists": 2,
+    "splats": 44,
+    "unique_players": 28,
+    "assists": 4,
     "top": "GeeO"
   },
   "career": {
-    "matches": 5,
-    "wins": 4,
-    "losses": 1,
+    "matches": 9,
+    "wins": 6,
+    "losses": 3,
     "draws": 0,
-    "avg_splats": 4.2,
+    "avg_splats": 4.22,
     "best_splats": 6,
-    "avg_points": 855,
-    "best_points": 956,
+    "avg_points": 971,
+    "best_points": 1421,
     "disconnects": 1,
     "quickest_splat": {
       "seconds": 16.4,
@@ -35,11 +35,33 @@
       "avatar": "faces/aa9342827904.png"
     },
     {
+      "name": "RookiĦ",
+      "splats": 3,
+      "first": "2026-08-09T03:46:59+00:00",
+      "last": "2026-08-09T03:48:03+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "avatar": "faces/0986aa0e6fe5.png",
+      "splashtag": "faces/0986aa0e6fe5-tag.png"
+    },
+    {
+      "name": "ilovenuggs",
+      "splats": 3,
+      "first": "2026-08-09T03:59:33+00:00",
+      "last": "2026-08-09T04:00:09+00:00",
+      "sessions": 1,
+      "best_match": 3,
+      "per_match": 3.0
+    },
+    {
       "name": "DGiorno",
       "splats": 2,
       "first": "2026-08-09T00:07:59+00:00",
       "last": "2026-08-09T00:11:35+00:00",
       "sessions": 1,
+      "matches": 2,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/fd51323015e8.png"
@@ -57,11 +79,36 @@
       "splashtag": "faces/f49446d2bb63-tag.png"
     },
     {
+      "name": "MrDuffyFun",
+      "splats": 2,
+      "first": "2026-08-09T03:50:42+00:00",
+      "last": "2026-08-09T03:51:58+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/3bbf3fa537f5.png",
+      "splashtag": "faces/3bbf3fa537f5-tag.png"
+    },
+    {
+      "name": "Potato♪",
+      "splats": 2,
+      "first": "2026-08-09T03:51:36+00:00",
+      "last": "2026-08-09T03:51:53+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/9a4c518dc20f.png",
+      "splashtag": "faces/9a4c518dc20f-tag.png"
+    },
+    {
       "name": "Riptide",
       "splats": 2,
       "first": "2026-08-09T00:49:38+00:00",
       "last": "2026-08-09T00:51:41+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 2,
       "per_match": 2.0,
       "avatar": "faces/2bfd4000c69f.png",
@@ -73,6 +120,7 @@
       "first": "2026-08-09T00:45:56+00:00",
       "last": "2026-08-09T00:50:18+00:00",
       "sessions": 1,
+      "matches": 2,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/76fcc1032c92.png",
@@ -88,6 +136,45 @@
       "best_match": 2,
       "per_match": 2.0,
       "avatar": "faces/e06902185d58.png"
+    },
+    {
+      "name": "caIamazon",
+      "splats": 2,
+      "first": "2026-08-09T04:00:17+00:00",
+      "last": "2026-08-09T04:01:29+00:00",
+      "sessions": 1,
+      "best_match": 2,
+      "per_match": 2.0
+    },
+    {
+      "name": "j4z",
+      "splats": 2,
+      "first": "2026-08-09T03:56:19+00:00",
+      "last": "2026-08-09T03:56:27+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/9970ad07f5ad.png",
+      "splashtag": "faces/9970ad07f5ad-tag.png"
+    },
+    {
+      "name": "∞ JRampage",
+      "splats": 2,
+      "first": "2026-08-09T03:42:51+00:00",
+      "last": "2026-08-09T03:43:33+00:00",
+      "sessions": 1,
+      "best_match": 2,
+      "per_match": 2.0
+    },
+    {
+      "name": "Hikihwua",
+      "splats": 1,
+      "first": "2026-08-09T04:01:32+00:00",
+      "last": "2026-08-09T04:01:32+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0
     },
     {
       "name": "Hr_*/měħb_",
@@ -106,10 +193,23 @@
       "first": "2026-08-09T00:51:58+00:00",
       "last": "2026-08-09T00:51:58+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/5c30130b1e48.png",
       "splashtag": "faces/5c30130b1e48-tag.png"
+    },
+    {
+      "name": "Miyagi",
+      "splats": 1,
+      "first": "2026-08-09T03:52:20+00:00",
+      "last": "2026-08-09T03:52:20+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/9a34cbedfda0.png",
+      "splashtag": "faces/9a34cbedfda0-tag.png"
     },
     {
       "name": "Ren☆",
@@ -123,11 +223,35 @@
       "avatar": "faces/3d163e721d64.png"
     },
     {
+      "name": "SARS",
+      "splats": 1,
+      "first": "2026-08-09T03:43:28+00:00",
+      "last": "2026-08-09T03:43:28+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/1fc2e8ffc9ae.png"
+    },
+    {
+      "name": "Sam",
+      "splats": 1,
+      "first": "2026-08-09T03:50:51+00:00",
+      "last": "2026-08-09T03:50:51+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/265dc298e876.png",
+      "splashtag": "faces/265dc298e876-tag.png"
+    },
+    {
       "name": "SassyPants",
       "splats": 1,
       "first": "2026-08-09T00:06:57+00:00",
       "last": "2026-08-09T00:06:57+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/1b511129cf4c.png"
@@ -138,6 +262,7 @@
       "first": "2026-08-09T00:47:16+00:00",
       "last": "2026-08-09T00:47:16+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/257939105be1.png",
@@ -155,11 +280,47 @@
       "avatar": "faces/17167825fc42.png"
     },
     {
+      "name": "hunter",
+      "splats": 1,
+      "first": "2026-08-09T03:55:37+00:00",
+      "last": "2026-08-09T03:55:37+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/6e2f9e6111e7.png",
+      "splashtag": "faces/6e2f9e6111e7-tag.png"
+    },
+    {
+      "name": "i see you.",
+      "splats": 1,
+      "first": "2026-08-09T03:43:44+00:00",
+      "last": "2026-08-09T03:43:44+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/576e5ca45f52.png"
+    },
+    {
+      "name": "newb",
+      "splats": 1,
+      "first": "2026-08-09T03:48:03+00:00",
+      "last": "2026-08-09T03:48:03+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/3fc37875052a.png",
+      "splashtag": "faces/3fc37875052a-tag.png"
+    },
+    {
       "name": "αGentleman",
       "splats": 1,
       "first": "2026-08-09T00:45:04+00:00",
       "last": "2026-08-09T00:45:04+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/bf39d4e7079c.png",
@@ -171,12 +332,105 @@
       "first": "2026-08-09T00:07:39+00:00",
       "last": "2026-08-09T00:07:39+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/cca8c94c4c4f.png"
     }
   ],
   "recent": [
+    {
+      "name": "Hikihwua",
+      "ts": "2026-08-09T04:01:32+00:00"
+    },
+    {
+      "name": "caIamazon",
+      "ts": "2026-08-09T04:01:29+00:00"
+    },
+    {
+      "name": "caIamazon",
+      "ts": "2026-08-09T04:00:17+00:00"
+    },
+    {
+      "name": "ilovenuggs",
+      "ts": "2026-08-09T04:00:09+00:00"
+    },
+    {
+      "name": "ilovenuggs",
+      "ts": "2026-08-09T03:59:45+00:00"
+    },
+    {
+      "name": "ilovenuggs",
+      "ts": "2026-08-09T03:59:33+00:00"
+    },
+    {
+      "name": "j4z",
+      "ts": "2026-08-09T03:56:27+00:00"
+    },
+    {
+      "name": "j4z",
+      "ts": "2026-08-09T03:56:19+00:00"
+    },
+    {
+      "name": "hunter",
+      "ts": "2026-08-09T03:55:37+00:00"
+    },
+    {
+      "name": "Miyagi",
+      "ts": "2026-08-09T03:52:20+00:00"
+    },
+    {
+      "name": "MrDuffyFun",
+      "ts": "2026-08-09T03:51:58+00:00"
+    },
+    {
+      "name": "Potato♪",
+      "ts": "2026-08-09T03:51:53+00:00"
+    },
+    {
+      "name": "Potato♪",
+      "ts": "2026-08-09T03:51:36+00:00"
+    },
+    {
+      "name": "Sam",
+      "ts": "2026-08-09T03:50:51+00:00"
+    },
+    {
+      "name": "MrDuffyFun",
+      "ts": "2026-08-09T03:50:42+00:00"
+    },
+    {
+      "name": "newb",
+      "ts": "2026-08-09T03:48:03+00:00"
+    },
+    {
+      "name": "RookiĦ",
+      "ts": "2026-08-09T03:48:03+00:00"
+    },
+    {
+      "name": "RookiĦ",
+      "ts": "2026-08-09T03:48:00+00:00"
+    },
+    {
+      "name": "RookiĦ",
+      "ts": "2026-08-09T03:46:59+00:00"
+    },
+    {
+      "name": "i see you.",
+      "ts": "2026-08-09T03:43:44+00:00"
+    },
+    {
+      "name": "∞ JRampage",
+      "ts": "2026-08-09T03:43:33+00:00"
+    },
+    {
+      "name": "SARS",
+      "ts": "2026-08-09T03:43:28+00:00"
+    },
+    {
+      "name": "∞ JRampage",
+      "ts": "2026-08-09T03:42:51+00:00"
+    },
     {
       "name": "JJ.",
       "ts": "2026-08-09T00:51:58+00:00"
@@ -263,6 +517,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "New stats 2",
+      "started_at": "2026-08-09T03:39:31+00:00",
+      "splats": 23
+    },
     {
       "label": "New stats 2",
       "started_at": "2026-08-09T00:43:53+00:00",
