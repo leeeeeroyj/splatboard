@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-09T21:28:07+00:00",
+  "generated_at": "2026-08-09T21:56:24+00:00",
   "totals": {
-    "splats": 100,
-    "unique_players": 58,
-    "assists": 15,
+    "splats": 110,
+    "unique_players": 64,
+    "assists": 18,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 22,
-    "wins": 17,
+    "matches": 25,
+    "wins": 20,
     "losses": 5,
     "draws": 0,
-    "avg_splats": 4.18,
+    "avg_splats": 4.08,
     "best_splats": 9,
-    "avg_points": 981,
+    "avg_points": 988,
     "best_points": 1421,
     "disconnects": 4,
     "quickest_splat": {
@@ -92,6 +92,18 @@
       "per_match": 3.0,
       "avatar": "faces/9c0a985ed3fb.png",
       "splashtag": "faces/9c0a985ed3fb-tag.png"
+    },
+    {
+      "name": "Nadji",
+      "splats": 3,
+      "first": "2026-08-09T21:37:37+00:00",
+      "last": "2026-08-09T21:51:10+00:00",
+      "sessions": 1,
+      "matches": 2,
+      "best_match": 2,
+      "per_match": 1.5,
+      "avatar": "faces/4cf0ac4b707f.png",
+      "splashtag": "faces/4cf0ac4b707f-tag.png"
     },
     {
       "name": "R",
@@ -197,6 +209,18 @@
       "splashtag": "faces/3bbf3fa537f5-tag.png"
     },
     {
+      "name": "Nnc⇔_⇔",
+      "splats": 2,
+      "first": "2026-08-09T21:38:29+00:00",
+      "last": "2026-08-09T21:39:09+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/4075e857cbcd.png",
+      "splashtag": "faces/4075e857cbcd-tag.png"
+    },
+    {
       "name": "P4POI☆",
       "splats": 2,
       "first": "2026-08-09T15:12:30+00:00",
@@ -280,6 +304,18 @@
       "splashtag": "faces/9970ad07f5ad-tag.png"
     },
     {
+      "name": "sglily",
+      "splats": 2,
+      "first": "2026-08-09T21:43:01+00:00",
+      "last": "2026-08-09T21:44:40+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/3ac806b6899a.png",
+      "splashtag": "faces/3ac806b6899a-tag.png"
+    },
+    {
       "name": "∞ JRampage",
       "splats": 2,
       "first": "2026-08-09T03:42:51+00:00",
@@ -358,6 +394,18 @@
       "avatar": "faces/0b5b99fbae23.png"
     },
     {
+      "name": "Gènesis R.",
+      "splats": 1,
+      "first": "2026-08-09T21:43:10+00:00",
+      "last": "2026-08-09T21:43:10+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/b73d6f614324.png",
+      "splashtag": "faces/b73d6f614324-tag.png"
+    },
+    {
       "name": "Hr_*/měħb_",
       "splats": 1,
       "first": "2026-08-09T00:18:33+00:00",
@@ -392,6 +440,18 @@
       "splashtag": "faces/5c30130b1e48-tag.png"
     },
     {
+      "name": "Kayas",
+      "splats": 1,
+      "first": "2026-08-09T21:50:07+00:00",
+      "last": "2026-08-09T21:50:07+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/34c4df24b71f.png",
+      "splashtag": "faces/34c4df24b71f-tag.png"
+    },
+    {
       "name": "KаtNaρFevr",
       "splats": 1,
       "first": "2026-08-09T19:56:05+00:00",
@@ -413,6 +473,15 @@
       "per_match": 1.0,
       "avatar": "faces/d2bafe742f6d.png",
       "splashtag": "faces/d2bafe742f6d-tag.png"
+    },
+    {
+      "name": "Meila",
+      "splats": 1,
+      "first": "2026-08-09T21:39:11+00:00",
+      "last": "2026-08-09T21:39:11+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0
     },
     {
       "name": "Miyagi",
@@ -676,6 +745,46 @@
     }
   ],
   "recent": [
+    {
+      "name": "Nadji",
+      "ts": "2026-08-09T21:51:10+00:00"
+    },
+    {
+      "name": "Kayas",
+      "ts": "2026-08-09T21:50:07+00:00"
+    },
+    {
+      "name": "sglily",
+      "ts": "2026-08-09T21:44:40+00:00"
+    },
+    {
+      "name": "Gènesis R.",
+      "ts": "2026-08-09T21:43:10+00:00"
+    },
+    {
+      "name": "sglily",
+      "ts": "2026-08-09T21:43:01+00:00"
+    },
+    {
+      "name": "Meila",
+      "ts": "2026-08-09T21:39:11+00:00"
+    },
+    {
+      "name": "Nnc⇔_⇔",
+      "ts": "2026-08-09T21:39:09+00:00"
+    },
+    {
+      "name": "Nadji",
+      "ts": "2026-08-09T21:39:00+00:00"
+    },
+    {
+      "name": "Nnc⇔_⇔",
+      "ts": "2026-08-09T21:38:29+00:00"
+    },
+    {
+      "name": "Nadji",
+      "ts": "2026-08-09T21:37:37+00:00"
+    },
     {
       "name": "☆Pancakes☆",
       "ts": "2026-08-09T21:12:20+00:00"
@@ -1078,6 +1187,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "Sunday Funday",
+      "started_at": "2026-08-09T21:32:30+00:00",
+      "splats": 10
+    },
     {
       "label": "Sunday Funday",
       "started_at": "2026-08-09T21:02:45+00:00",
