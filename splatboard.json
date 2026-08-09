@@ -1,25 +1,170 @@
 {
-  "generated_at": "2026-08-08T23:56:22+00:00",
+  "generated_at": "2026-08-09T00:25:49+00:00",
   "totals": {
-    "splats": 0,
-    "unique_players": 0,
+    "splats": 12,
+    "unique_players": 8,
     "assists": 0,
-    "top": null
+    "top": "GeeO"
   },
   "career": {
-    "matches": 0,
-    "wins": 0,
-    "losses": 0,
+    "matches": 3,
+    "wins": 2,
+    "losses": 1,
     "draws": 0,
-    "avg_splats": null,
-    "best_splats": null,
-    "avg_points": null,
-    "best_points": null,
-    "disconnects": 0,
-    "quickest_splat": null
+    "avg_splats": 4.0,
+    "best_splats": 6,
+    "avg_points": 849,
+    "best_points": 956,
+    "disconnects": 1,
+    "quickest_splat": {
+      "seconds": 18.5,
+      "name": "GeeO",
+      "match_id": 4
+    }
   },
-  "players": [],
-  "recent": [],
-  "sessions": [],
-  "name_font": null
+  "players": [
+    {
+      "name": "GeeO",
+      "splats": 3,
+      "first": "2026-08-09T00:16:35+00:00",
+      "last": "2026-08-09T00:19:07+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "avatar": "faces/aa9342827904.png"
+    },
+    {
+      "name": "DGiorno",
+      "splats": 2,
+      "first": "2026-08-09T00:07:59+00:00",
+      "last": "2026-08-09T00:11:35+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/fd51323015e8.png"
+    },
+    {
+      "name": "Whocares",
+      "splats": 2,
+      "first": "2026-08-09T00:17:27+00:00",
+      "last": "2026-08-09T00:18:45+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/e06902185d58.png"
+    },
+    {
+      "name": "Hr_*/měħb_",
+      "splats": 1,
+      "first": "2026-08-09T00:18:33+00:00",
+      "last": "2026-08-09T00:18:33+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/97cffba750c4.png"
+    },
+    {
+      "name": "Ren☆",
+      "splats": 1,
+      "first": "2026-08-09T00:10:43+00:00",
+      "last": "2026-08-09T00:10:43+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/3d163e721d64.png"
+    },
+    {
+      "name": "SassyPants",
+      "splats": 1,
+      "first": "2026-08-09T00:06:57+00:00",
+      "last": "2026-08-09T00:06:57+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/1b511129cf4c.png"
+    },
+    {
+      "name": "Triscut",
+      "splats": 1,
+      "first": "2026-08-09T00:05:49+00:00",
+      "last": "2026-08-09T00:05:49+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/17167825fc42.png"
+    },
+    {
+      "name": "↑κrıs↓",
+      "splats": 1,
+      "first": "2026-08-09T00:07:39+00:00",
+      "last": "2026-08-09T00:07:39+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/cca8c94c4c4f.png"
+    }
+  ],
+  "recent": [
+    {
+      "name": "GeeO",
+      "ts": "2026-08-09T00:19:07+00:00"
+    },
+    {
+      "name": "Whocares",
+      "ts": "2026-08-09T00:18:45+00:00"
+    },
+    {
+      "name": "Hr_*/měħb_",
+      "ts": "2026-08-09T00:18:33+00:00"
+    },
+    {
+      "name": "GeeO",
+      "ts": "2026-08-09T00:18:29+00:00"
+    },
+    {
+      "name": "Whocares",
+      "ts": "2026-08-09T00:17:27+00:00"
+    },
+    {
+      "name": "GeeO",
+      "ts": "2026-08-09T00:16:35+00:00"
+    },
+    {
+      "name": "DGiorno",
+      "ts": "2026-08-09T00:11:35+00:00"
+    },
+    {
+      "name": "Ren☆",
+      "ts": "2026-08-09T00:10:43+00:00"
+    },
+    {
+      "name": "DGiorno",
+      "ts": "2026-08-09T00:07:59+00:00"
+    },
+    {
+      "name": "↑κrıs↓",
+      "ts": "2026-08-09T00:07:39+00:00"
+    },
+    {
+      "name": "SassyPants",
+      "ts": "2026-08-09T00:06:57+00:00"
+    },
+    {
+      "name": "Triscut",
+      "ts": "2026-08-09T00:05:49+00:00"
+    }
+  ],
+  "sessions": [
+    {
+      "label": "New stats",
+      "started_at": "2026-08-09T00:02:50+00:00",
+      "splats": 12
+    }
+  ],
+  "name_font": "names.woff2"
 }
