@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-09T22:12:27+00:00",
+  "generated_at": "2026-08-09T22:38:33+00:00",
   "totals": {
-    "splats": 110,
-    "unique_players": 64,
-    "assists": 18,
+    "splats": 132,
+    "unique_players": 72,
+    "assists": 20,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 25,
-    "wins": 19,
+    "matches": 29,
+    "wins": 23,
     "losses": 5,
     "draws": 0,
-    "avg_splats": 4.08,
+    "avg_splats": 4.28,
     "best_splats": 9,
-    "avg_points": 988,
+    "avg_points": 986,
     "best_points": 1421,
     "disconnects": 4,
     "quickest_splat": {
@@ -25,15 +25,27 @@
   "players": [
     {
       "name": "GHΦらT",
-      "splats": 6,
+      "splats": 7,
       "first": "2026-08-09T14:39:46+00:00",
-      "last": "2026-08-09T15:17:20+00:00",
-      "sessions": 1,
-      "matches": 4,
+      "last": "2026-08-09T22:24:55+00:00",
+      "sessions": 2,
+      "matches": 5,
       "best_match": 4,
-      "per_match": 2.0,
+      "per_match": 1.75,
       "splashtag": "faces/d06c47919e6f-tag.png",
       "avatar": "faces/d06c47919e6f.png"
+    },
+    {
+      "name": "arc507",
+      "splats": 5,
+      "first": "2026-08-09T22:30:27+00:00",
+      "last": "2026-08-09T22:31:55+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 5,
+      "per_match": 5.0,
+      "avatar": "faces/d66a316ddca1.png",
+      "splashtag": "faces/d66a316ddca1-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -46,6 +58,18 @@
       "per_match": 4.0,
       "avatar": "faces/858b87aff7c0.png",
       "splashtag": "faces/858b87aff7c0-tag.png"
+    },
+    {
+      "name": "kerara☆«ケロ",
+      "splats": 4,
+      "first": "2026-08-09T22:20:21+00:00",
+      "last": "2026-08-09T22:29:37+00:00",
+      "sessions": 1,
+      "matches": 3,
+      "best_match": 2,
+      "per_match": 1.33,
+      "avatar": "faces/6822f57595f2.png",
+      "splashtag": "faces/6822f57595f2-tag.png"
     },
     {
       "name": "★βigβxtch☆",
@@ -151,6 +175,18 @@
       "splashtag": "faces/485b84407cbf-tag.png"
     },
     {
+      "name": "trinket 1",
+      "splats": 3,
+      "first": "2026-08-09T22:20:33+00:00",
+      "last": "2026-08-09T22:22:15+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "avatar": "faces/afeed2bdbaa1.png",
+      "splashtag": "faces/afeed2bdbaa1-tag.png"
+    },
+    {
       "name": "womyxd",
       "splats": 3,
       "first": "2026-08-09T14:41:13+00:00",
@@ -174,6 +210,30 @@
       "splashtag": "faces/8f9fe45094c8-tag.png"
     },
     {
+      "name": "AFTOM",
+      "splats": 2,
+      "first": "2026-08-09T22:35:02+00:00",
+      "last": "2026-08-09T22:36:47+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/fe43be4c2ec3.png",
+      "splashtag": "faces/fe43be4c2ec3-tag.png"
+    },
+    {
+      "name": "CrazyCat☆",
+      "splats": 2,
+      "first": "2026-08-09T22:35:57+00:00",
+      "last": "2026-08-09T22:36:44+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/1485c5639d4b.png",
+      "splashtag": "faces/1485c5639d4b-tag.png"
+    },
+    {
       "name": "DGiorno",
       "splats": 2,
       "first": "2026-08-09T00:07:59+00:00",
@@ -184,6 +244,30 @@
       "per_match": 1.0,
       "avatar": "faces/fd51323015e8.png",
       "splashtag": "faces/fd51323015e8-tag.png"
+    },
+    {
+      "name": "Dewyгay",
+      "splats": 2,
+      "first": "2026-08-09T22:27:11+00:00",
+      "last": "2026-08-09T22:35:43+00:00",
+      "sessions": 1,
+      "matches": 4,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/629f2be5ed77.png",
+      "splashtag": "faces/629f2be5ed77-tag.png"
+    },
+    {
+      "name": "Dоty",
+      "splats": 2,
+      "first": "2026-08-09T22:27:14+00:00",
+      "last": "2026-08-09T22:27:32+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/d6927e6e0e38.png",
+      "splashtag": "faces/d6927e6e0e38-tag.png"
     },
     {
       "name": "MUJERRRRRR",
@@ -633,6 +717,18 @@
       "avatar": "faces/17167825fc42.png"
     },
     {
+      "name": "Tristonian",
+      "splats": 1,
+      "first": "2026-08-09T22:32:09+00:00",
+      "last": "2026-08-09T22:32:09+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/8ae3ea8a9f6f.png",
+      "splashtag": "faces/8ae3ea8a9f6f-tag.png"
+    },
+    {
       "name": "hunter",
       "splats": 1,
       "first": "2026-08-09T03:55:37+00:00",
@@ -752,6 +848,94 @@
     }
   ],
   "recent": [
+    {
+      "name": "AFTOM",
+      "ts": "2026-08-09T22:36:47+00:00"
+    },
+    {
+      "name": "CrazyCat☆",
+      "ts": "2026-08-09T22:36:44+00:00"
+    },
+    {
+      "name": "CrazyCat☆",
+      "ts": "2026-08-09T22:35:57+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-09T22:35:43+00:00"
+    },
+    {
+      "name": "AFTOM",
+      "ts": "2026-08-09T22:35:02+00:00"
+    },
+    {
+      "name": "Tristonian",
+      "ts": "2026-08-09T22:32:09+00:00"
+    },
+    {
+      "name": "arc507",
+      "ts": "2026-08-09T22:31:55+00:00"
+    },
+    {
+      "name": "arc507",
+      "ts": "2026-08-09T22:31:33+00:00"
+    },
+    {
+      "name": "arc507",
+      "ts": "2026-08-09T22:31:04+00:00"
+    },
+    {
+      "name": "arc507",
+      "ts": "2026-08-09T22:30:43+00:00"
+    },
+    {
+      "name": "arc507",
+      "ts": "2026-08-09T22:30:27+00:00"
+    },
+    {
+      "name": "kerara☆«ケロ",
+      "ts": "2026-08-09T22:29:37+00:00"
+    },
+    {
+      "name": "Dоty",
+      "ts": "2026-08-09T22:27:32+00:00"
+    },
+    {
+      "name": "Dоty",
+      "ts": "2026-08-09T22:27:14+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-09T22:27:11+00:00"
+    },
+    {
+      "name": "kerara☆«ケロ",
+      "ts": "2026-08-09T22:26:41+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-09T22:24:55+00:00"
+    },
+    {
+      "name": "trinket 1",
+      "ts": "2026-08-09T22:22:15+00:00"
+    },
+    {
+      "name": "trinket 1",
+      "ts": "2026-08-09T22:21:11+00:00"
+    },
+    {
+      "name": "kerara☆«ケロ",
+      "ts": "2026-08-09T22:20:41+00:00"
+    },
+    {
+      "name": "trinket 1",
+      "ts": "2026-08-09T22:20:33+00:00"
+    },
+    {
+      "name": "kerara☆«ケロ",
+      "ts": "2026-08-09T22:20:21+00:00"
+    },
     {
       "name": "Nadji",
       "ts": "2026-08-09T21:51:10+00:00"
@@ -1194,6 +1378,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "Sunday Funday",
+      "started_at": "2026-08-09T22:15:22+00:00",
+      "splats": 22
+    },
     {
       "label": "Sunday Funday",
       "started_at": "2026-08-09T21:32:30+00:00",
