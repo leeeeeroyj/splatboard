@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-09T15:01:56+00:00",
+  "generated_at": "2026-08-09T15:25:26+00:00",
   "totals": {
-    "splats": 68,
-    "unique_players": 41,
-    "assists": 10,
+    "splats": 79,
+    "unique_players": 47,
+    "assists": 15,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 15,
-    "wins": 12,
+    "matches": 18,
+    "wins": 15,
     "losses": 3,
     "draws": 0,
-    "avg_splats": 4.53,
+    "avg_splats": 4.17,
     "best_splats": 9,
-    "avg_points": 994,
+    "avg_points": 982,
     "best_points": 1421,
-    "disconnects": 1,
+    "disconnects": 3,
     "quickest_splat": {
       "seconds": 12.7,
       "name": "GHΦらT",
@@ -25,13 +25,13 @@
   "players": [
     {
       "name": "GHΦらT",
-      "splats": 5,
+      "splats": 6,
       "first": "2026-08-09T14:39:46+00:00",
-      "last": "2026-08-09T14:58:00+00:00",
+      "last": "2026-08-09T15:17:20+00:00",
       "sessions": 1,
-      "matches": 2,
+      "matches": 3,
       "best_match": 4,
-      "per_match": 2.5,
+      "per_match": 2.0,
       "avatar": "faces/d06c47919e6f.png"
     },
     {
@@ -55,6 +55,13 @@
       "best_match": 3,
       "per_match": 3.0,
       "avatar": "faces/9c0a985ed3fb.png"
+    },
+    {
+      "name": "R",
+      "splats": 3,
+      "first": "2026-08-09T15:03:04+00:00",
+      "last": "2026-08-09T15:03:24+00:00",
+      "sessions": 1
     },
     {
       "name": "RookiĦ",
@@ -150,6 +157,18 @@
       "splashtag": "faces/3bbf3fa537f5-tag.png"
     },
     {
+      "name": "P4POI☆",
+      "splats": 2,
+      "first": "2026-08-09T15:12:30+00:00",
+      "last": "2026-08-09T15:13:01+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/1b5c988fc63a.png",
+      "splashtag": "faces/1b5c988fc63a-tag.png"
+    },
+    {
       "name": "Potato♪",
       "splats": 2,
       "first": "2026-08-09T03:51:36+00:00",
@@ -229,6 +248,18 @@
       "avatar": "faces/93ce8e487fb7.png"
     },
     {
+      "name": "｀｀Red[HL]",
+      "splats": 2,
+      "first": "2026-08-09T15:13:12+00:00",
+      "last": "2026-08-09T15:13:36+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/114f8dba9978.png",
+      "splashtag": "faces/114f8dba9978-tag.png"
+    },
+    {
       "name": "Bro",
       "splats": 1,
       "first": "2026-08-09T14:56:01+00:00",
@@ -258,6 +289,17 @@
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/97cffba750c4.png"
+    },
+    {
+      "name": "IiIa",
+      "splats": 1,
+      "first": "2026-08-09T15:17:28+00:00",
+      "last": "2026-08-09T15:17:28+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/bb8934d493f4.png"
     },
     {
       "name": "JJ.",
@@ -296,6 +338,15 @@
       "splashtag": "faces/07f24c146c9c-tag.png"
     },
     {
+      "name": "Persona :]",
+      "splats": 1,
+      "first": "2026-08-09T15:03:08+00:00",
+      "last": "2026-08-09T15:03:08+00:00",
+      "sessions": 1,
+      "avatar": "faces/142b2fd82488.png",
+      "splashtag": "faces/142b2fd82488-tag.png"
+    },
+    {
       "name": "QyuBee",
       "splats": 1,
       "first": "2026-08-09T14:58:53+00:00",
@@ -305,6 +356,17 @@
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/823af3e4feac.png"
+    },
+    {
+      "name": "Raya",
+      "splats": 1,
+      "first": "2026-08-09T15:17:27+00:00",
+      "last": "2026-08-09T15:17:27+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/50344c6cbbb1.png"
     },
     {
       "name": "Ren☆",
@@ -488,6 +550,50 @@
     }
   ],
   "recent": [
+    {
+      "name": "IiIa",
+      "ts": "2026-08-09T15:17:28+00:00"
+    },
+    {
+      "name": "Raya",
+      "ts": "2026-08-09T15:17:27+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-09T15:17:20+00:00"
+    },
+    {
+      "name": "｀｀Red[HL]",
+      "ts": "2026-08-09T15:13:36+00:00"
+    },
+    {
+      "name": "｀｀Red[HL]",
+      "ts": "2026-08-09T15:13:12+00:00"
+    },
+    {
+      "name": "P4POI☆",
+      "ts": "2026-08-09T15:13:01+00:00"
+    },
+    {
+      "name": "P4POI☆",
+      "ts": "2026-08-09T15:12:30+00:00"
+    },
+    {
+      "name": "R",
+      "ts": "2026-08-09T15:03:24+00:00"
+    },
+    {
+      "name": "R",
+      "ts": "2026-08-09T15:03:16+00:00"
+    },
+    {
+      "name": "Persona :]",
+      "ts": "2026-08-09T15:03:08+00:00"
+    },
+    {
+      "name": "R",
+      "ts": "2026-08-09T15:03:04+00:00"
+    },
     {
       "name": "MR_COOPER™",
       "ts": "2026-08-09T15:00:31+00:00"
@@ -765,7 +871,7 @@
     {
       "label": "Sunday Funday",
       "started_at": "2026-08-09T14:34:49+00:00",
-      "splats": 30
+      "splats": 41
     },
     {
       "label": "New stats 2",
