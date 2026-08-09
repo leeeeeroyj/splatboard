@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T15:25:26+00:00",
+  "generated_at": "2026-08-09T15:57:10+00:00",
   "totals": {
     "splats": 79,
     "unique_players": 47,
@@ -32,6 +32,7 @@
       "matches": 3,
       "best_match": 4,
       "per_match": 2.0,
+      "splashtag": "faces/d06c47919e6f-tag.png",
       "avatar": "faces/d06c47919e6f.png"
     },
     {
@@ -54,7 +55,8 @@
       "matches": 1,
       "best_match": 3,
       "per_match": 3.0,
-      "avatar": "faces/9c0a985ed3fb.png"
+      "avatar": "faces/9c0a985ed3fb.png",
+      "splashtag": "faces/9c0a985ed3fb-tag.png"
     },
     {
       "name": "R",
