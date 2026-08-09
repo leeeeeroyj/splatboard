@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:59:01+00:00",
+  "generated_at": "2026-08-09T19:07:39+00:00",
   "totals": {
     "splats": 79,
     "unique_players": 47,
@@ -269,8 +269,10 @@
       "first": "2026-08-09T14:56:01+00:00",
       "last": "2026-08-09T14:56:01+00:00",
       "sessions": 1,
+      "matches": 1,
       "best_match": 1,
-      "per_match": 1.0
+      "per_match": 1.0,
+      "avatar": "faces/022a3d560c18.png"
     },
     {
       "name": "EJ",
