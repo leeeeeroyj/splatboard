@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T15:57:10+00:00",
+  "generated_at": "2026-08-09T18:59:01+00:00",
   "totals": {
     "splats": 79,
     "unique_players": 47,
@@ -63,7 +63,9 @@
       "splats": 3,
       "first": "2026-08-09T15:03:04+00:00",
       "last": "2026-08-09T15:03:24+00:00",
-      "sessions": 1
+      "sessions": 1,
+      "avatar": "faces/06576556d1ad.png",
+      "splashtag": "faces/06576556d1ad-tag.png"
     },
     {
       "name": "RookiĦ",
