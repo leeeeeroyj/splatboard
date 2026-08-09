@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-09T00:25:49+00:00",
+  "generated_at": "2026-08-09T01:01:40+00:00",
   "totals": {
-    "splats": 12,
-    "unique_players": 8,
-    "assists": 0,
+    "splats": 21,
+    "unique_players": 14,
+    "assists": 2,
     "top": "GeeO"
   },
   "career": {
-    "matches": 3,
-    "wins": 2,
+    "matches": 5,
+    "wins": 4,
     "losses": 1,
     "draws": 0,
-    "avg_splats": 4.0,
+    "avg_splats": 4.2,
     "best_splats": 6,
-    "avg_points": 849,
+    "avg_points": 855,
     "best_points": 956,
     "disconnects": 1,
     "quickest_splat": {
-      "seconds": 18.5,
-      "name": "GeeO",
-      "match_id": 4
+      "seconds": 16.4,
+      "name": "αGentleman",
+      "match_id": 5
     }
   },
   "players": [
@@ -45,6 +45,40 @@
       "avatar": "faces/fd51323015e8.png"
     },
     {
+      "name": "MUJERRRRRR",
+      "splats": 2,
+      "first": "2026-08-09T00:45:11+00:00",
+      "last": "2026-08-09T00:45:43+00:00",
+      "sessions": 1,
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/f49446d2bb63.png",
+      "splashtag": "faces/f49446d2bb63-tag.png"
+    },
+    {
+      "name": "Riptide",
+      "splats": 2,
+      "first": "2026-08-09T00:49:38+00:00",
+      "last": "2026-08-09T00:51:41+00:00",
+      "sessions": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "avatar": "faces/2bfd4000c69f.png",
+      "splashtag": "faces/2bfd4000c69f-tag.png"
+    },
+    {
+      "name": "Turtle_OH",
+      "splats": 2,
+      "first": "2026-08-09T00:45:56+00:00",
+      "last": "2026-08-09T00:50:18+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/76fcc1032c92.png",
+      "splashtag": "faces/76fcc1032c92-tag.png"
+    },
+    {
       "name": "Whocares",
       "splats": 2,
       "first": "2026-08-09T00:17:27+00:00",
@@ -65,6 +99,17 @@
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/97cffba750c4.png"
+    },
+    {
+      "name": "JJ.",
+      "splats": 1,
+      "first": "2026-08-09T00:51:58+00:00",
+      "last": "2026-08-09T00:51:58+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/5c30130b1e48.png",
+      "splashtag": "faces/5c30130b1e48-tag.png"
     },
     {
       "name": "Ren☆",
@@ -88,6 +133,17 @@
       "avatar": "faces/1b511129cf4c.png"
     },
     {
+      "name": "Splatster",
+      "splats": 1,
+      "first": "2026-08-09T00:47:16+00:00",
+      "last": "2026-08-09T00:47:16+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/257939105be1.png",
+      "splashtag": "faces/257939105be1-tag.png"
+    },
+    {
       "name": "Triscut",
       "splats": 1,
       "first": "2026-08-09T00:05:49+00:00",
@@ -97,6 +153,17 @@
       "best_match": 1,
       "per_match": 1.0,
       "avatar": "faces/17167825fc42.png"
+    },
+    {
+      "name": "αGentleman",
+      "splats": 1,
+      "first": "2026-08-09T00:45:04+00:00",
+      "last": "2026-08-09T00:45:04+00:00",
+      "sessions": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "avatar": "faces/bf39d4e7079c.png",
+      "splashtag": "faces/bf39d4e7079c-tag.png"
     },
     {
       "name": "↑κrıs↓",
@@ -110,6 +177,42 @@
     }
   ],
   "recent": [
+    {
+      "name": "JJ.",
+      "ts": "2026-08-09T00:51:58+00:00"
+    },
+    {
+      "name": "Riptide",
+      "ts": "2026-08-09T00:51:41+00:00"
+    },
+    {
+      "name": "Turtle_OH",
+      "ts": "2026-08-09T00:50:18+00:00"
+    },
+    {
+      "name": "Riptide",
+      "ts": "2026-08-09T00:49:38+00:00"
+    },
+    {
+      "name": "Splatster",
+      "ts": "2026-08-09T00:47:16+00:00"
+    },
+    {
+      "name": "Turtle_OH",
+      "ts": "2026-08-09T00:45:56+00:00"
+    },
+    {
+      "name": "MUJERRRRRR",
+      "ts": "2026-08-09T00:45:43+00:00"
+    },
+    {
+      "name": "MUJERRRRRR",
+      "ts": "2026-08-09T00:45:11+00:00"
+    },
+    {
+      "name": "αGentleman",
+      "ts": "2026-08-09T00:45:04+00:00"
+    },
     {
       "name": "GeeO",
       "ts": "2026-08-09T00:19:07+00:00"
@@ -160,6 +263,11 @@
     }
   ],
   "sessions": [
+    {
+      "label": "New stats 2",
+      "started_at": "2026-08-09T00:43:53+00:00",
+      "splats": 9
+    },
     {
       "label": "New stats",
       "started_at": "2026-08-09T00:02:50+00:00",
