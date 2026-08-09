@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:28:12+00:00",
+  "generated_at": "2026-08-09T20:41:45+00:00",
   "totals": {
     "splats": 93,
     "unique_players": 54,
@@ -157,7 +157,8 @@
       "matches": 2,
       "best_match": 1,
       "per_match": 1.0,
-      "avatar": "faces/fd51323015e8.png"
+      "avatar": "faces/fd51323015e8.png",
+      "splashtag": "faces/fd51323015e8-tag.png"
     },
     {
       "name": "MUJERRRRRR",
@@ -564,7 +565,8 @@
       "matches": 1,
       "best_match": 1,
       "per_match": 1.0,
-      "avatar": "faces/68b506f87414.png"
+      "avatar": "faces/68b506f87414.png",
+      "splashtag": "faces/68b506f87414-tag.png"
     },
     {
       "name": "newb",
