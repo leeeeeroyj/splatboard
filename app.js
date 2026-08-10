@@ -1,24 +1,16 @@
-/* Splatboard -- renders splatboard.json. No dependencies, no build step. */
-
 const CREATURES = ["🦑", "🐙", "🦐", "🦀", "🐡", "🐠", "🦞", "🐟", "🌊", "💥", "🎯", "⭐"];
-
 const TROPHY = "🏆";
-const WALL_LIMIT = 10;   // the wall is a podium, not a directory -- search finds the rest
+const WALL_LIMIT = 10;
 const PAGE_SIZE = 20;
-
-let RANKED = [];         // every player, rank attached before any slicing
-let RECENT = [];         // the full history, newest first
+let RANKED = [];
+let RECENT = [];
 let query = "";
 let page = 1;
-
-/* Same name always gets the same creature, so a player keeps their face
-   between exports. A hash, not an index -- ranks shuffle as counts change. */
 function creatureFor(name) {
   let h = 0;
   for (const ch of name) h = (h * 31 + ch.codePointAt(0)) >>> 0;
   return CREATURES[h % CREATURES.length];
 }
-
 function whenText(iso) {
   if (!iso) return "";
   const then = new Date(iso);
@@ -31,45 +23,29 @@ function whenText(iso) {
   const days = Math.round(hrs / 24);
   return days < 30 ? `${days}d ago` : then.toLocaleDateString();
 }
-
-/* Names are shown in the game's own lettering, either as live text in a subset
-   of the face or as outlines rendered at export time -- config's
-   web.name_style picks, and export.py writes the output to match.
-
-   Either way an entry without a `wordmark` is set as text, so this branch
-   serves both: in font mode nothing has one. A scoreboard must never drop a
-   player just because it can't style them. */
 function nameNode(entry, className) {
   if (entry.wordmark) {
     const img = document.createElement("img");
     img.className = className;
     img.src = entry.wordmark;
-    img.alt = entry.name;                  // the name stays readable as text
+    img.alt = entry.name;
     img.loading = "lazy";
     return img;
   }
   const span = document.createElement("span");
   span.className = className + " plain";
-  span.textContent = entry.name;           // textContent: names are user data
+  span.textContent = entry.name;
   return span;
 }
-
-/* Plain substring, deliberately. Nametags are already stylised unicode
-   (`☆Vαмρlιηg☆`), so anything cleverer would be guessing at what someone meant
-   to type rather than matching what they did. */
 function matches(name) {
   return !query || name.toLowerCase().includes(query);
 }
-
 function emptyNote(text) {
   const p = document.createElement("p");
   p.className = "empty";
-  p.textContent = text;              // textContent: `text` can carry the query
+  p.textContent = text;
   return p;
 }
-
-/* Scaled against the board leader, not the leader of this view, so a meter means
-   the same thing whether or not a search is running. */
 function meterFor(p) {
   const meter = document.createElement("div");
   meter.className = "meter";
@@ -78,24 +54,15 @@ function meterFor(p) {
   meter.append(fill);
   return meter;
 }
-
-/* `badge` is the corner mark -- a rank, a trophy, or null for no mark. */
 function playerCard(p, badge) {
   const card = document.createElement("article");
   card.className = "card" + (p.rank <= 3 ? " podium" : "");
-
   if (badge) {
     const mark = document.createElement("span");
     mark.className = badge === TROPHY ? "rank trophy" : "rank";
     mark.textContent = badge;
     card.append(mark);
   }
-
-  // A real avatar off the results scoreboard when there is one, and the
-  // generated creature when there isn't. Both branches have to keep working:
-  // an avatar only exists for players seen on a scoreboard, so anyone splatted
-  // before match tracking existed -- or in a match whose results were missed --
-  // still needs a face.
   const face = document.createElement("div");
   face.className = "face";
   if (p.avatar) {
@@ -105,8 +72,6 @@ function playerCard(p, badge) {
     img.loading = "lazy";
     img.width = 96;
     img.height = 96;
-    // If the file is missing the card falls back rather than showing a broken
-    // image, since the JSON and the folder are written separately.
     img.addEventListener("error", () => {
       face.textContent = creatureFor(p.name);
     });
@@ -115,29 +80,21 @@ function playerCard(p, badge) {
   } else {
     face.textContent = creatureFor(p.name);
   }
-
   const name = document.createElement("h3");
   name.append(nameNode(p, "namemark"));
-
   const count = document.createElement("p");
   count.className = "count";
   const n = document.createElement("b");
   n.textContent = p.splats;
-  count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
-
-  // How many matches we've actually shared. Absent for anyone splatted before
-  // match tracking existed, or whose results screen was missed -- the card says
-  // nothing rather than claiming a zero it can't stand behind.
   if (p.matches) {
     const m = document.createElement("b");
     m.textContent = p.matches;
-    count.append(document.createTextNode(" · "), m,
+    count.append(n, document.createTextNode(" times in "), m,
                  document.createTextNode(p.matches === 1 ? " match" : " matches"));
+  } else {
+    count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
   }
-
-  // The player's own splashtag where the meter used to be. Without one the card
-  // falls back to the meter: a tag only exists for someone seen on an intro
-  // screen, and a card with a blank strip would read as broken.
+  const met = metLines(p);
   let footer;
   if (p.splashtag) {
     footer = document.createElement("img");
@@ -149,91 +106,174 @@ function playerCard(p, badge) {
   } else {
     footer = meterFor(p);
   }
-
-  card.append(face, name, count, footer);
+  const front = document.createElement("div");
+  front.className = "card-front";
+  front.append(face, name, count);
+  if (met) front.append(met);
+  front.append(footer);
+  const inner = document.createElement("div");
+  inner.className = "card-inner";
+  inner.append(front);
+  const back = cardBack(p);
+  if (back) {
+    inner.append(back);
+    makeFlippable(card, p);
+  }
+  card.append(inner);
   if (p.last) card.title = `Last splatted ${whenText(p.last)}`;
   return card;
 }
-
-/* Career figures, rendered only where there is something to say. A stat that
-   has never been recorded is left out rather than shown as a dash: an empty row
-   reads as a broken number, where an absent one reads as "not yet". */
-function renderCareer(totals, career) {
-  const c = career || {};
-  const quickest = c.quickest_splat;
-  const rows = [
-    ["Total Splats", totals.splats ?? 0],
-    ["Unique Players", totals.unique_players ?? 0],
-    ["Matches", c.matches],
-    ["Record", c.wins != null
-      ? `${c.wins}W ${c.losses}L${c.draws ? ` ${c.draws}D` : ""}` : null],
-    ["Best Match", c.best_splats],
-    ["Splats / Match", c.avg_splats],
-    ["Best Turf", c.best_points != null ? `${c.best_points}p` : null],
-    ["Average Turf", c.avg_points != null ? `${c.avg_points}p` : null],
-    ["Quickest Splat", quickest ? `${quickest.seconds}s` : null],
-    ["Quickest Victim", quickest ? quickest.name : null],
-    ["Assists", totals.assists],
-    ["Disconnects", c.disconnects],
-  ].filter(([, value]) => value !== null && value !== undefined);
-
-  // Each pair is its own box so the value can sit above its label without
-  // breaking the term/definition pairing a <dl> is for -- CSS reverses them.
-  const list = document.getElementById("career");
-  list.replaceChildren();
-  for (const [label, value] of rows) {
-    const cell = document.createElement("div");
-    cell.className = "stat";
+function stat(label, value) {
+  const dt = document.createElement("dt");
+  dt.textContent = label;
+  const dd = document.createElement("dd");
+  dd.textContent = value;
+  return [dt, dd];
+}
+function record(block) {
+  return `${block.wins}-${block.losses}`;
+}
+function metLines(p) {
+  if (!p.met) return null;
+  const seen = [p.met.first, p.met.last].map((when) =>
+    `${new Date(when.at).toLocaleDateString()} - `
+    + (when.side === "with" ? "Good Guy" : "Bad Guy"));
+  const rows = seen[0] === seen[1]
+    ? [["Seen", seen[0]]]
+    : [["First seen", seen[0]], ["Last seen", seen[1]]];
+  const list = document.createElement("dl");
+  list.className = "met";
+  for (const [label, when] of rows) {
+    const row = document.createElement("div");
     const dt = document.createElement("dt");
     dt.textContent = label;
     const dd = document.createElement("dd");
-    dd.textContent = String(value);       // textContent: a name lands in here
-    cell.append(dt, dd);
-    list.append(cell);
+    dd.textContent = when;
+    row.append(dt, dd);
+    list.append(row);
+  }
+  return list;
+}
+function cardBack(p) {
+  if (!p.versus && !p.alongside) return null;
+  const back = document.createElement("div");
+  back.className = "card-back";
+  const seat = document.createElement("span");
+  seat.className = "seat";
+  seat.textContent = `#${p.rank} of ${RANKED.length}`;
+  back.append(seat);
+  if (p.versus) {
+    const list = document.createElement("dl");
+    list.className = "record-list";
+    list.append(...stat("faced", p.versus.matches),
+                ...stat("record", record(p.versus)));
+    if (p.best_match) list.append(...stat("best", p.best_match));
+    if (p.per_match) list.append(...stat("average", p.per_match));
+    back.append(heading("Bad Guy Stats"), list);
+  }
+  if (p.alongside) {
+    const list = document.createElement("dl");
+    list.className = "record-list";
+    list.append(...stat("together", p.alongside.matches),
+                ...stat("record", record(p.alongside)));
+    if (p.alongside.their_splats != null) {
+      list.append(...stat("their splats", p.alongside.their_splats));
+    }
+    back.append(heading("Good Guy Stats"), list);
+  }
+  return back;
+}
+function heading(text) {
+  const head = document.createElement("h4");
+  head.textContent = text;
+  return head;
+}
+function makeFlippable(card, p) {
+  card.classList.add("flippable");
+  card.tabIndex = 0;
+  card.setAttribute("role", "button");
+  card.setAttribute("aria-pressed", "false");
+  card.setAttribute("aria-label", `${p.name} — more`);
+  const toggle = () => {
+    const open = card.classList.toggle("flipped");
+    card.setAttribute("aria-pressed", String(open));
+  };
+  card.addEventListener("click", toggle);
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      toggle();
+    }
+  });
+}
+function renderCareer(totals, career) {
+  const c = career || {};
+  const quickest = c.quickest_splat;
+  const blocks = [
+    [
+      ["Matches", c.matches],
+      ["Record", c.wins != null
+        ? `${c.wins}W ${c.losses}L${c.draws ? ` ${c.draws}D` : ""}` : null],
+      ["Disconnects", c.disconnects],
+      ["Total Splats", totals.splats ?? 0],
+      ["Assists", totals.assists],
+      ["Unique Victims", totals.unique_players ?? 0],
+    ],
+    [
+      ["Best Match", c.best_splats],
+      ["Quickest Splat", quickest ? `${quickest.seconds}s` : null],
+      ["Best Turf", c.best_points != null ? `${c.best_points}p` : null],
+      ["Splats / Match", c.avg_splats],
+      ["Quickest Victim", quickest ? quickest.name : null],
+      ["Average Turf", c.avg_points != null ? `${c.avg_points}p` : null],
+    ],
+  ];
+  const wrap = document.getElementById("career");
+  wrap.replaceChildren();
+  for (const rows of blocks) {
+    const shown = rows.filter(([, v]) => v !== null && v !== undefined);
+    if (!shown.length) continue;
+    const list = document.createElement("dl");
+    list.className = "career";
+    for (const [label, value] of shown) {
+      const cell = document.createElement("div");
+      cell.className = "stat";
+      const dt = document.createElement("dt");
+      dt.textContent = label;
+      const dd = document.createElement("dd");
+      dd.textContent = String(value);
+      cell.append(dt, dd);
+      list.append(cell);
+    }
+    wrap.append(list);
   }
 }
-
-/* Ten cards unfiltered; a search shows every hit instead, because the whole
-   point of searching is to find yourself wherever you actually sit. */
 function renderWall() {
   const wall = document.getElementById("wall");
   wall.replaceChildren();
-
   const shown = query ? RANKED.filter((p) => matches(p.name)) : RANKED.slice(0, WALL_LIMIT);
-
   if (!shown.length) {
     wall.append(emptyNote(query ? "No player matches that name." : "No splats yet."));
     return;
   }
-
   for (const p of shown) {
-    // The leader gets the trophy: "#1" would only repeat what first place
-    // already says. Off the podium a badge is noise -- under a search it's
-    // the answer, so every hit carries its real position.
     const badge = p.rank === 1 ? TROPHY : p.rank <= 3 || query ? `#${p.rank}` : null;
     wall.append(playerCard(p, badge));
   }
 }
-
 function renderRecent() {
-  // Hidden on an empty history, but not on an empty search -- a section that
-  // vanishes as you type reads as a bug.
   document.getElementById("recent-section").hidden = !RECENT.length;
   if (!RECENT.length) return;
-
   const hits = RECENT.filter((r) => matches(r.name));
   const pages = Math.max(1, Math.ceil(hits.length / PAGE_SIZE));
   page = Math.min(Math.max(1, page), pages);
   const start = (page - 1) * PAGE_SIZE;
-
   const list = document.getElementById("recent");
   list.replaceChildren();
-  list.start = start + 1;            // keeps numbering global if it's ever shown
-
+  list.start = start + 1;
   const note = document.getElementById("recent-empty");
   note.hidden = hits.length > 0;
   note.textContent = "No splats by that name.";
-
   for (const r of hits.slice(start, start + PAGE_SIZE)) {
     const li = document.createElement("li");
     const who = document.createElement("span");
@@ -244,26 +284,22 @@ function renderRecent() {
     li.append(who, when);
     list.append(li);
   }
-
   document.getElementById("recent-pager").hidden = pages < 2;
   document.getElementById("page-label").textContent = `Page ${page} of ${pages}`;
   document.getElementById("prev").disabled = page === 1;
   document.getElementById("next").disabled = page === pages;
 }
-
 function render(data) {
-  // Points CSS at the shipped face, and is the only thing that does -- so an
-  // export that shipped no font leaves the family unreferenced and unfetched.
   document.documentElement.classList.toggle("font-names", Boolean(data.name_font));
-
   const totals = data.totals || {};
   document.getElementById("generated").textContent = whenText(data.generated_at) || "—";
   renderCareer(totals, data.career);
-
   const players = data.players || [];
   RANKED = players.map((p, i) => ({ ...p, rank: i + 1 }));
   RECENT = data.recent || [];
-
+  document.getElementById("wall-blurb").textContent = data.owner
+    ? `Players splatted the most by ${data.owner}.`
+    : "Players splatted the most.";
   document.getElementById("search").addEventListener("input", (e) => {
     query = e.target.value.trim().toLowerCase();
     page = 1;
@@ -278,11 +314,9 @@ function render(data) {
     page += 1;
     renderRecent();
   });
-
   renderWall();
   renderRecent();
 }
-
 fetch("splatboard.json", { cache: "no-store" })
   .then((r) => {
     if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);

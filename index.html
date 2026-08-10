@@ -19,26 +19,20 @@
     <p class="tagline">Please Respawn Responsibly.</p>
   </div>
 </header>
-
 <main>
   <div class="toolbar">
     <input id="search" type="search" placeholder="Find your name…"
            autocomplete="off" spellcheck="false" aria-label="Search players">
   </div>
-
-  <!-- Every figure on the page, the two totals included. Splats and players are
-       always there; the match figures only appear once a results screen has
-       been read, so an export from before they existed still renders. -->
   <section>
     <h2><img class="heading" src="h-career.svg" alt="Career"></h2>
-    <dl class="career" id="career"></dl>
+    <div class="career-blocks" id="career"></div>
   </section>
-
   <section>
     <h2><img class="heading" src="h-top-splats.svg" alt="Top Splats"></h2>
+    <p class="blurb" id="wall-blurb"></p>
     <div id="wall" class="wall"></div>
   </section>
-
   <section id="recent-section" hidden>
     <h2><img class="heading" src="h-freshly-inked.svg" alt="Freshly Inked"></h2>
     <ol id="recent" class="recent"></ol>
@@ -50,7 +44,6 @@
     </nav>
   </section>
 </main>
-
 <footer>
   <p>Updated <span id="generated">—</span></p>
   <p class="disclaimer">
@@ -60,7 +53,6 @@
     Splatoon and Splatoon&nbsp;3 are trademarks of Nintendo.
   </p>
 </footer>
-
 <script src="app.js"></script>
 </body>
 </html>

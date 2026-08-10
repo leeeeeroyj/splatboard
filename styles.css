@@ -1,24 +1,13 @@
 :root {
-  /* Palette built around the mascot: sandy skin, olive gear, purple ink, lime
-     highlights. Contrast is measured, not eyeballed -- tests/test_web_palette.py
-     asserts the ratios these choices depend on.
-
-     Two constraints worth knowing before editing a value:
-       Purple Ink is only 4.27:1 on Deep Sea (and white on purple is 4.15), so
-       it is a fill, never small text.
-       True Squid Olive reaches 4.68 on the background but 4.17 on a panel, so
-       small text uses a lightened tint and the brand olive is kept for borders,
-       where contrast doesn't gate legibility. */
-  --bg:     #0E0E0E;   /* Deep Sea                            */
-  --panel:  #1B1B1B;   /* neutral lift off the background     */
-  --line:   #2A2C26;   /* olive-tinted border                 */
-  --ink:    #F7F5F0;   /* Fresh White        17.7 on bg       */
-  --dim:    #868B79;   /* lightened olive     5.50 / 4.91     */
-  --olive:  #7A7F6E;   /* Squid Olive -- decoration only      */
-  --purple: #8A4FFF;   /* Purple Ink  -- fills only           */
-  --lime:   #C6F24A;   /* Lime Shock         14.9 on bg       */
-  --sand:   #F4C78A;   /* Sandy Fin          12.3 on bg       */
-
+  --bg:     #0E0E0E;
+  --panel:  #1B1B1B;
+  --line:   #2A2C26;
+  --ink:    #F7F5F0;
+  --dim:    #868B79;
+  --olive:  #7A7F6E;
+  --purple: #8A4FFF;
+  --lime:   #C6F24A;
+  --sand:   #F4C78A;
   --display: "Arial Black", "Arial Bold", "Segoe UI Black", "Helvetica Neue",
              system-ui, sans-serif;
 }
@@ -26,22 +15,6 @@
 body {
   margin: 0;
   color: var(--ink);
-  /* Sticker-pattern texture under a veil, so it stays a texture rather than
-     becoming competition for the text.
-
-     The field is deliberately colourless: dark grey at the top of the page,
-     near-black below. The pattern is already neutral (its pixels run 17-30 with
-     zero saturation), so the only thing that ever tinted this background was
-     the wash on top of it -- an 8% lime one rendered as khaki (30,33,23), which
-     read as sand next to text that is genuinely sand. The lift is grey now, and
-     the brand colours live in the text, meters and badges instead.
-
-     80% veil rather than 70%: with no glow under it, what the veil is holding
-     down is the artwork itself. The tightest spot on the page is the lightened
-     olive where the grey lift sits over the brightest pattern pixel -- 4.86 at
-     a 70% veil, 4.96 at 80%; off the lift it is 5.4 either way.
-
-     Fixed, so the pattern stays put and never has to tile -- it doesn't. */
   background:
     radial-gradient(75vw 45vh at 50% -10%, #2C2C2C59, transparent 70%),
     linear-gradient(#0E0E0ECC, #0E0E0ECC),
@@ -50,7 +23,6 @@ body {
   font: 16px/1.55 ui-rounded, "Segoe UI", system-ui, -apple-system, sans-serif;
   min-height: 100vh;
 }
-
 .hero {
   display: flex;
   align-items: center;
@@ -61,12 +33,6 @@ body {
   margin: 0 auto;
   padding: 48px 20px 22px;
 }
-/* Character and tag travel together, so the name reads as a caption on the art
-   rather than as a label on the title. Both are sized off one width, which is
-   what keeps them optically centred on each other -- leeeeroyj.png is cropped
-   to the character's ink for the same reason: its original canvas carried 113px
-   of transparent padding under the feet and sat 20px off centre, so the gap and
-   the misalignment were in the image, not in this rule. */
 .brand {
   display: flex;
   flex-direction: column;
@@ -82,21 +48,14 @@ body {
 }
 .handle { width: 100%; height: auto; }
 .titles { text-align: left; }
-/* Title and tag are outlined vector paths, not live text. They're fixed
-   strings, so there is nothing a font would buy them. See
-   tools/make_wordmark.py -- player names are the separate question, below. */
 .wordmark {
   display: block;
   width: clamp(280px, 52vw, 520px);
   height: auto;
 }
 .tagline { color: var(--dim); margin: 14px 0 0; }
-
+.blurb { color: var(--dim); font-size: 13px; margin: -6px 0 14px; }
 main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
-
-/* The two tallies and the search share one row above the wall: the counts are
-   a caption on the board, and the search is how anyone outside the top ten
-   finds themselves. Wraps to stacked rows when the row runs out of width. */
 .toolbar {
   display: flex;
   align-items: center;
@@ -105,10 +64,7 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
 }
 .tally { margin: 0; color: var(--dim); font-size: 14px; }
 .tally b { color: var(--lime); font-size: 17px; }
-
 .toolbar input {
-  /* Pushed to the far end so the tallies and the search read as two things,
-     not one run-on row. */
   margin-left: auto;
   flex: 0 1 340px;
   background: var(--panel);
@@ -123,30 +79,18 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
 .toolbar input:focus-visible {
   outline: none;
   border-color: var(--olive);
-  box-shadow: 0 0 0 3px #8A4FFF33;   /* Purple Ink as glow -- never as text */
+  box-shadow: 0 0 0 3px #8A4FFF33;
 }
-
 section { margin-top: 34px; }
-/* Headings are outlined SVG in the title's own face -- see
-   tools/make_wordmark.py. Sized by height so every heading shares a cap height
-   whatever its length, and the h2 keeps its own box for the alt text. */
 h2 { margin: 0 0 14px; line-height: 0; }
 .heading { display: block; height: 15px; width: auto; }
 .empty { color: var(--dim); font-style: italic; }
-/* The wall is a grid, so an empty note would otherwise be squeezed into one
-   190px column and wrap mid-sentence. */
 .wall .empty { grid-column: 1 / -1; }
-
 .wall {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
 }
-/* A hang tag, the way the game draws its cards: a keyhole punched through the
-   top that the card could hang from. It is two pseudo-elements filled darker
-   than the card rather than a real hole -- the card sits on a fixed background
-   image, so a transparent cut-out would show the pattern scrolling underneath
-   it and stop reading as a hole at all. */
 .card {
   position: relative;
   display: flex;
@@ -158,11 +102,7 @@ h2 { margin: 0 0 14px; line-height: 0; }
   text-align: center;
   transition: transform .15s ease, border-color .15s ease;
 }
-/* The grid stretches every card in a row to the tallest, and a splashtag is
-   taller than a meter -- so without this a card carrying a meter left a gap
-   under it while its neighbour's tag sat flush. Pushing the last element down
-   lines the footers up whichever one a card has. */
-.card > :last-child { margin-top: auto; }
+.card-front > :last-child { margin-top: auto; }
 .card::before {
   content: "";
   position: absolute;
@@ -171,13 +111,8 @@ h2 { margin: 0 0 14px; line-height: 0; }
   margin-left: -23px;
   background: #08080B;
   border-radius: 999px;
-  /* A hair of inner shadow so the slot reads as punched rather than printed. */
   box-shadow: inset 0 1px 2px #0000009e, 0 1px 0 #ffffff0f;
 }
-/* The stub that sits on the bar, making the cut-out an upside-down T -- the
-   keyhole the game hangs its cards from. It overlaps the bar by a pixel so the
-   two shapes meet without a seam between them, and carries no bottom highlight
-   for the same reason. */
 .card::after {
   content: "";
   position: absolute;
@@ -189,24 +124,72 @@ h2 { margin: 0 0 14px; line-height: 0; }
   box-shadow: inset 0 1px 2px #0000009e;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--olive); }
-/* Brighter than the rest, not warmer: the sand border and the trophy already
-   mark the top three, and a tinted fill was the one genuinely sandy background
-   on the page. */
+.card { perspective: 900px; }
+.card.flippable { cursor: pointer; }
+.card-inner {
+  display: grid; flex: 1;
+  transform-style: preserve-3d;
+  transition: transform .5s cubic-bezier(.2, .7, .3, 1);
+}
+.card.flipped .card-inner { transform: rotateY(180deg); }
+.card-front, .card-back {
+  grid-area: 1 / 1;
+  display: flex; flex-direction: column;
+  backface-visibility: hidden;
+}
+.card-back {
+  transform: rotateY(180deg);
+  text-align: left;
+  gap: 2px;
+  padding-top: 22px;
+}
+.card-back h4 {
+  margin: 0;
+  font-size: 11px; text-transform: uppercase; letter-spacing: .6px;
+  color: var(--dim); font-weight: normal;
+}
+.card-back h4 + .record-list { margin-bottom: 8px; }
+.seat {
+  position: absolute; top: 0; right: 0;
+  background: #ffffff14; color: var(--dim);
+  font-family: var(--display); font-size: 10px;
+  letter-spacing: .4px;
+  padding: 3px 9px; border-radius: 999px;
+}
+.record-list {
+  display: grid; grid-template-columns: 1fr auto;
+  align-items: baseline; gap: 0 8px; margin: 2px 0 0;
+}
+.record-list dt {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .4px;
+  color: var(--dim);
+}
+.record-list dd {
+  margin: 0; text-align: right;
+  font-family: Blitz, var(--display);
+  font-weight: normal;
+  font-synthesis-weight: none;
+  font-size: 14px;
+  color: var(--lime);
+}
+.met { margin: -6px 0 12px; font-size: 10.5px; color: var(--dim); }
+.met > div {
+  display: flex; flex-wrap: wrap;
+  justify-content: center; align-items: baseline;
+  gap: 0 5px;
+}
+.met dd { margin: 0; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .card.podium {
   border-color: var(--sand);
   background: linear-gradient(180deg, #FFFFFF0F, transparent 60%), var(--panel);
 }
 .rank {
   position: absolute; top: 12px; left: 10px;
-  /* Sandy Fin, not Purple Ink: this is small text on a fill, and dark-on-sand
-     is 11.9:1 where anything on purple would be about 4.1. */
   background: var(--sand); color: var(--bg);
   font-family: var(--display);
   font-size: 11px;
   padding: 2px 9px; border-radius: 999px;
 }
-/* First place is marked, not numbered -- the trophy is the mark itself, so it
-   drops the pill's fill rather than sitting on one. */
 .rank.trophy {
   background: none;
   padding: 0;
@@ -221,10 +204,6 @@ h2 { margin: 0 0 14px; line-height: 0; }
   background: #ffffff0d;
   border-radius: 50%;
 }
-/* The player's own avatar, cropped off the results scoreboard. The crop is a
-   square that includes the ring the game draws around the icon, so it is
-   clipped to the same circle the generated creature sits in and the two kinds
-   of card stay the same shape. */
 .face.photo { overflow: hidden; }
 .face.photo img {
   width: 100%; height: 100%;
@@ -235,66 +214,38 @@ h2 { margin: 0 0 14px; line-height: 0; }
 .card h3 {
   margin: 0 0 8px;
   font-size: 16px;
-  /* Nametags can be 10 wide characters; keep them on the card. */
   overflow-wrap: anywhere;
 }
-
-/* A name rendered as outlines (export's "outline" mode). Sized by height so
-   every name shares a cap height regardless of length; max-width lets a long
-   one shrink rather than overflow its card. The .plain fallback matches the
-   same optical size for names the font couldn't set. */
 .namemark {
   display: inline-block;
-  height: 34px;
+  height: clamp(30px, 1.1vw + 26px, 41px);
   max-width: 100%;
   vertical-align: middle;
 }
 .namemark.small { height: 26px; }
 .namemark.plain { height: auto; font-weight: 700; }
 .namemark.small.plain { font-size: 15px; }
-
-/* Names in the game's own face (export's "font" mode).
-
-   The subset is generated per export and holds only the characters the
-   published names use -- see export.py's write_name_font. A face declared here
-   is not fetched until something is actually set in it, so in outline mode,
-   where nothing names this family, the browser never asks for a file the export
-   didn't write. That's what keeps the toggle honest rather than 404-ing. */
 @font-face {
   font-family: Blitz;
   src: url("names.woff2") format("woff2");
   font-display: swap;
 }
-/* .font-names is set on <html> by app.js, from `name_font` in the JSON. The
-   .plain qualifier isn't a fallback here: in font mode every name takes
-   nameNode's text branch, so .plain is simply what a name element is. It also
-   wins the specificity tie against the .plain rules above regardless of order. */
 .font-names .namemark.plain {
   font-family: Blitz, var(--display);
   height: auto;
-  /* 17px matches the outlines' optical size: their box is the font's line box
-     (ascent 1380 + descent 620 + padding = 2040 units), so 34px of box is
-     34 x 1000/2040 = 16.7px of em, putting caps at 12.8px either way. */
-  font-size: 17px;
-  /* Blitz ships one weight. Left to inherit, .recent .who's 600 and .plain's
-     700 would both have the browser synthesize a bold, and this face's strokes
-     thicken straight into each other. */
+  font-size: clamp(15px, .54vw + 12.8px, 20px);
   font-weight: normal;
   font-synthesis-weight: none;
 }
 .font-names .namemark.small.plain { font-size: 13px; }
 .count { margin: 0 0 12px; color: var(--dim); font-size: 14px; }
 .card .meter { margin-bottom: 2px; }
-/* The count in Blitz, like every other figure on the page. One weight only, so
-   synthesis is off for the same reason .namemark turns it off. */
 .count b {
   font-family: Blitz, var(--display);
   font-weight: normal;
   font-synthesis-weight: none;
   color: var(--lime); font-size: 19px; margin-right: 4px;
 }
-/* The player's splashtag, in the strip the meter used to occupy. 492x148 as
-   cropped, so it keeps that ratio and simply takes the card's width. */
 .card .splashtag {
   display: block;
   width: 100%; height: auto;
@@ -305,7 +256,6 @@ h2 { margin: 0 0 14px; line-height: 0; }
   display: block; height: 100%;
   background: linear-gradient(90deg, var(--purple), var(--lime));
 }
-
 .recent { list-style: none; margin: 0; padding: 0; }
 .recent li {
   display: flex; justify-content: space-between; align-items: center; gap: 12px;
@@ -314,14 +264,11 @@ h2 { margin: 0 0 14px; line-height: 0; }
 }
 .recent .who { font-weight: 600; overflow-wrap: anywhere; }
 .recent time { color: var(--dim); font-size: 13px; white-space: nowrap; }
-
 .pager {
   display: flex; align-items: center; justify-content: center;
   gap: 12px;
   margin-top: 16px;
 }
-/* A display value here outranks the UA's [hidden] rule, so a single-page list
-   would keep its pager. Restate it rather than dropping the flex. */
 .pager[hidden] { display: none; }
 .pager button {
   background: var(--panel);
@@ -336,7 +283,6 @@ h2 { margin: 0 0 14px; line-height: 0; }
 .pager button:hover:not(:disabled) { border-color: var(--olive); }
 .pager button:disabled { color: var(--dim); cursor: default; opacity: .55; }
 .pager span { color: var(--dim); font-size: 13px; }
-
 footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 20px 40px; }
 .disclaimer {
   max-width: 68ch;
@@ -345,31 +291,37 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
   line-height: 1.6;
   opacity: .85;
 }
-
-/* Stacked and centred once the mascot and text no longer sit side by side. */
 @media (max-width: 620px) {
   .hero { flex-direction: column; gap: 18px; padding-bottom: 14px; }
   .titles { text-align: center; }
   .wordmark { width: min(86vw, 380px); margin: 0 auto; }
   .brand { width: min(56vw, 240px); }
-  /* Once the search drops onto its own line there is nothing to sit apart
-     from, so the auto margin would only indent it off the content edge. */
   .toolbar input { margin-left: 0; flex-basis: 100%; }
 }
-
 @media (prefers-reduced-motion: reduce) {
   .card { transition: none; }
+  .card-inner { transition: none; }
+  .card.flipped .card-inner { transform: none; }
+  .card-back { transform: none; visibility: hidden; }
+  .card.flipped .card-back { visibility: visible; }
+  .card.flipped .card-front { visibility: hidden; }
 }
-
-/* Every figure on the page, wrapping into as many columns as fit. A definition
-   list because that is what these are -- a term and its value. Each pair sits
-   in its own box and the box is reversed, so the value reads first and the
-   label captions it, without the markup having to lie about which is which. */
+.career-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 40px;
+}
 .career {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px 14px;
   margin: 0;
+}
+@media (max-width: 860px) {
+  .career-blocks { grid-template-columns: 1fr; gap: 20px; }
+}
+@media (max-width: 420px) {
+  .career { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 .career .stat { display: flex; flex-direction: column-reverse; }
 .career dt {
@@ -378,9 +330,6 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
 }
 .career dd {
   margin: 0 0 1px;
-  /* Blitz, at the size the two totals were already set at. The face ships one
-     weight, so a synthesized bold would thicken its strokes into each other --
-     the same reason .namemark turns synthesis off. */
   font-family: Blitz, var(--display);
   font-weight: normal;
   font-synthesis-weight: none;
