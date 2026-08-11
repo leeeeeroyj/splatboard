@@ -8,6 +8,7 @@
   --purple: #8A4FFF;
   --lime:   #C6F24A;
   --sand:   #F4C78A;
+  --sunk:   #141414;
   --display: "Arial Black", "Arial Bold", "Segoe UI Black", "Helvetica Neue",
              system-ui, sans-serif;
 }
@@ -51,6 +52,7 @@ body {
 .wordmark {
   display: block;
   width: clamp(280px, 52vw, 520px);
+  max-width: 100%;
   height: auto;
 }
 .tagline { color: var(--dim); margin: 14px 0 0; }
@@ -65,8 +67,8 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
 .tally { margin: 0; color: var(--dim); font-size: 14px; }
 .tally b { color: var(--lime); font-size: 17px; }
 .toolbar input {
-  margin-left: auto;
-  flex: 0 1 340px;
+  width: clamp(240px, 30vw, 340px);
+  max-width: 100%;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -75,6 +77,8 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
   font: inherit;
   font-size: 15px;
 }
+.toolbar > section { margin-top: 0; }
+.toolbar .find { margin-left: auto; }
 .toolbar input::placeholder { color: var(--dim); }
 .toolbar input:focus-visible {
   outline: none;
@@ -82,15 +86,55 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
   box-shadow: 0 0 0 3px #8A4FFF33;
 }
 section { margin-top: 34px; }
-h2 { margin: 0 0 14px; line-height: 0; }
-.heading { display: block; height: 15px; width: auto; }
+h2 { margin: 0 0 11px; line-height: 0; }
+.heading { display: block; height: 18.5px; width: auto; }
 .empty { color: var(--dim); font-style: italic; }
 .wall .empty { grid-column: 1 / -1; }
-.wall {
+.wall, .awards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
 }
+.awards { margin-top: 34px; }
+.awards[hidden] { display: none; }
+.award.wide { grid-column: span 2; }
+.award { display: flex; flex-direction: column; }
+.award h2 { margin-bottom: 8px; }
+.award .blurb { margin: 0 0 10px; min-height: 2.6em; }
+.card.award-card { flex: 1; }
+.card.award-card {
+  background: var(--sunk);
+  padding: 34px 14px 18px;
+  justify-content: center;
+}
+.card.award-card:hover { transform: none; border-color: var(--line); }
+.laureate {
+  display: flex; flex-direction: column; align-items: center;
+  text-align: center;
+}
+.laureate .face { width: 62px; height: 62px; margin: 0 auto 10px; }
+.laureate .namemark { margin-bottom: 6px; }
+.laureate .count { margin: 0; }
+.squad-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.squad-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: clamp(72px, 7vw, 96px);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.squad-list .face { width: 46px; height: 46px; margin: 0 0 2px; font-size: 22px; }
+.squad-list .count { margin: 0; font-size: 11px; }
+.squad-list .count b { font-size: 14px; margin-right: 3px; }
 .card {
   position: relative;
   display: flex;
@@ -296,7 +340,8 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
   .titles { text-align: center; }
   .wordmark { width: min(86vw, 380px); margin: 0 auto; }
   .brand { width: min(56vw, 240px); }
-  .toolbar input { margin-left: 0; flex-basis: 100%; }
+  .toolbar .find { width: 100%; margin-left: 0; }
+  .award.wide { grid-column: auto; }
 }
 @media (prefers-reduced-motion: reduce) {
   .card { transition: none; }

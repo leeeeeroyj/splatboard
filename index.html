@@ -21,8 +21,11 @@
 </header>
 <main>
   <div class="toolbar">
-    <input id="search" type="search" placeholder="Find your name…"
-           autocomplete="off" spellcheck="false" aria-label="Search players">
+    <section class="find">
+      <h2><img class="heading" src="h-search.svg" alt="Search"></h2>
+      <input id="search" type="search" placeholder="Find your name…"
+             autocomplete="off" spellcheck="false" aria-label="Search players">
+    </section>
   </div>
   <section>
     <h2><img class="heading" src="h-career.svg" alt="Career"></h2>
@@ -33,6 +36,7 @@
     <p class="blurb" id="wall-blurb"></p>
     <div id="wall" class="wall"></div>
   </section>
+  <section class="awards" id="awards" hidden></section>
   <section id="recent-section" hidden>
     <h2><img class="heading" src="h-freshly-inked.svg" alt="Freshly Inked"></h2>
     <ol id="recent" class="recent"></ol>

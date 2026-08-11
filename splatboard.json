@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T04:33:26+00:00",
+  "generated_at": "2026-08-11T23:49:12+00:00",
   "totals": {
     "splats": 175,
     "unique_players": 98,
@@ -22,6 +22,72 @@
       "match_id": 12
     }
   },
+  "squad": [
+    {
+      "name": "GHΦらT",
+      "matches": 10,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    {
+      "name": "MR_COOPER™",
+      "matches": 3,
+      "avatar": "faces/9c0a985ed3fb.png"
+    },
+    {
+      "name": "Niathо",
+      "matches": 2,
+      "avatar": "faces/5d623da0573f.png"
+    }
+  ],
+  "awards": {
+    "assassin": {
+      "name": "GHΦらT",
+      "splats": 7,
+      "matches": 5,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    "quickest": {
+      "name": "GHΦらT",
+      "seconds": 12.7,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    "nemesis": {
+      "name": "GHΦらT",
+      "matches": 5,
+      "wins": 4,
+      "losses": 1,
+      "their_splats": 4.2,
+      "their_deaths": 4.0,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    "bogeyman": {
+      "name": "BooYAH",
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "their_splats": 5.0,
+      "their_deaths": 4.0,
+      "avatar": "faces/82f223d091cf.png"
+    },
+    "hard_to_kill": {
+      "name": "SARS",
+      "matches": 2,
+      "wins": 1,
+      "losses": 0,
+      "their_splats": 2.5,
+      "their_deaths": 2.0,
+      "avatar": "faces/1fc2e8ffc9ae.png"
+    },
+    "lucky_charm": {
+      "name": "MR_COOPER™",
+      "matches": 3,
+      "wins": 3,
+      "losses": 0,
+      "their_splats": 6.0,
+      "their_deaths": 4.3,
+      "avatar": "faces/9c0a985ed3fb.png"
+    }
+  },
   "players": [
     {
       "name": "GHΦらT",
@@ -35,13 +101,15 @@
         "matches": 5,
         "wins": 4,
         "losses": 1,
-        "their_splats": 4.2
+        "their_splats": 4.2,
+        "their_deaths": 4.0
       },
       "alongside": {
         "matches": 10,
         "wins": 7,
         "losses": 2,
-        "their_splats": 3.2
+        "their_splats": 3.2,
+        "their_deaths": 3.6
       },
       "met": {
         "first": {
@@ -70,7 +138,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 8.0
+        "their_splats": 8.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -84,8 +153,8 @@
           "side": "against"
         }
       },
-      "splashtag": "faces/d66a316ddca1-tag.png",
-      "avatar": "faces/d66a316ddca1.png"
+      "avatar": "faces/d66a316ddca1.png",
+      "splashtag": "faces/d66a316ddca1-tag.png"
     },
     {
       "name": "◇BENREY1ī◇",
@@ -99,7 +168,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -113,8 +183,8 @@
           "side": "against"
         }
       },
-      "splashtag": "faces/aa5174492556-tag.png",
-      "avatar": "faces/aa5174492556.png"
+      "avatar": "faces/aa5174492556.png",
+      "splashtag": "faces/aa5174492556-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -128,7 +198,8 @@
         "matches": 2,
         "wins": 1,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 4.5
       },
       "met": {
         "first": {
@@ -157,7 +228,8 @@
         "matches": 3,
         "wins": 3,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 2.3
       },
       "met": {
         "first": {
@@ -186,7 +258,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -215,7 +288,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -244,13 +318,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 4.0
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -279,13 +355,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 8.0
       },
       "alongside": {
         "matches": 3,
         "wins": 3,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 4.3
       },
       "met": {
         "first": {
@@ -314,13 +392,15 @@
         "matches": 2,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 3.5
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -357,7 +437,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -386,7 +467,8 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -415,7 +497,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -444,7 +527,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -472,7 +556,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -501,7 +586,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -530,7 +616,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -558,7 +645,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -587,7 +675,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -616,7 +705,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 8.0
       },
       "met": {
         "first": {
@@ -645,7 +735,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -674,7 +765,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -703,7 +795,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -731,7 +824,8 @@
       "versus": {
         "matches": 1,
         "wins": 0,
-        "losses": 1
+        "losses": 1,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -760,7 +854,8 @@
         "matches": 2,
         "wins": 1,
         "losses": 1,
-        "their_splats": 4.5
+        "their_splats": 4.5,
+        "their_deaths": 3.5
       },
       "met": {
         "first": {
@@ -789,7 +884,8 @@
         "matches": 4,
         "wins": 4,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 3.2
       },
       "met": {
         "first": {
@@ -817,7 +913,8 @@
       "versus": {
         "matches": 1,
         "wins": 1,
-        "losses": 0
+        "losses": 0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -846,13 +943,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 5.0
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 8.0
+        "their_splats": 8.0,
+        "their_deaths": 1.0
       },
       "met": {
         "first": {
@@ -881,7 +980,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -909,7 +1009,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -938,7 +1039,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -967,7 +1069,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -996,7 +1099,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1025,7 +1129,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1054,13 +1159,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 6.0
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 7.0
       },
       "met": {
         "first": {
@@ -1089,7 +1196,8 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1118,7 +1226,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1146,7 +1255,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1175,7 +1285,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 7.0
       },
       "met": {
         "first": {
@@ -1204,7 +1315,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1248,7 +1360,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 8.0
       },
       "met": {
         "first": {
@@ -1276,7 +1389,8 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
-        "their_splats": 2.5
+        "their_splats": 2.5,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1305,7 +1419,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1334,13 +1449,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 5.0
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1369,7 +1486,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1397,7 +1515,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1426,7 +1545,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 9.0
+        "their_splats": 9.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1469,7 +1589,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1498,7 +1619,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1526,7 +1648,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1583,7 +1706,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1612,7 +1736,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1640,7 +1765,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1669,7 +1795,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 0.0
+        "their_splats": 0.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1698,7 +1825,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1727,7 +1855,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -1755,7 +1884,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1784,7 +1914,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1821,7 +1952,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1858,7 +1990,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1885,7 +2018,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1914,7 +2048,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -1942,7 +2077,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -1970,7 +2106,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -1999,13 +2136,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 3.0
       },
       "alongside": {
         "matches": 2,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.5
+        "their_splats": 2.5,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2042,7 +2181,8 @@
       "versus": {
         "matches": 1,
         "wins": 0,
-        "losses": 1
+        "losses": 1,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -2071,7 +2211,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 8.0
+        "their_splats": 8.0,
+        "their_deaths": 1.0
       },
       "met": {
         "first": {
@@ -2100,7 +2241,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2129,7 +2271,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 4.0
+        "their_splats": 4.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2157,7 +2300,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -2185,7 +2329,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -2213,7 +2358,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2271,7 +2417,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 6.0
       },
       "met": {
         "first": {
@@ -2300,7 +2447,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 2.0
+        "their_splats": 2.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -2329,7 +2477,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2358,13 +2507,15 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 2.0
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2401,7 +2552,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2430,7 +2582,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 3.0
       },
       "met": {
         "first": {
@@ -2459,7 +2612,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2488,7 +2642,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2517,7 +2672,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -2546,13 +2702,15 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 8.0
+        "their_splats": 8.0,
+        "their_deaths": 2.0
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 3.0
+        "their_splats": 3.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2581,7 +2739,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {
@@ -2610,7 +2769,8 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 1.0
+        "their_splats": 1.0,
+        "their_deaths": 4.0
       },
       "met": {
         "first": {
@@ -2638,7 +2798,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 5.0
+        "their_splats": 5.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2667,7 +2828,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 6.0
+        "their_splats": 6.0,
+        "their_deaths": 2.0
       },
       "met": {
         "first": {
@@ -2696,7 +2858,8 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 7.0
+        "their_splats": 7.0,
+        "their_deaths": 5.0
       },
       "met": {
         "first": {

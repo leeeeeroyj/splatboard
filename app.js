@@ -54,15 +54,7 @@ function meterFor(p) {
   meter.append(fill);
   return meter;
 }
-function playerCard(p, badge) {
-  const card = document.createElement("article");
-  card.className = "card" + (p.rank <= 3 ? " podium" : "");
-  if (badge) {
-    const mark = document.createElement("span");
-    mark.className = badge === TROPHY ? "rank trophy" : "rank";
-    mark.textContent = badge;
-    card.append(mark);
-  }
+function faceNode(p) {
   const face = document.createElement("div");
   face.className = "face";
   if (p.avatar) {
@@ -80,20 +72,41 @@ function playerCard(p, badge) {
   } else {
     face.textContent = creatureFor(p.name);
   }
+  return face;
+}
+function countLine(...parts) {
+  const line = document.createElement("p");
+  line.className = "count";
+  parts.forEach((part, i) => {
+    if (i % 2) {
+      line.append(document.createTextNode(part));
+    } else {
+      const figure = document.createElement("b");
+      figure.textContent = part;
+      line.append(figure);
+    }
+  });
+  return line;
+}
+function splatLine(p) {
+  return p.matches
+    ? countLine(p.splats, " times in ", p.matches,
+                p.matches === 1 ? " match" : " matches")
+    : countLine(p.splats, p.splats === 1 ? " splat" : " splats");
+}
+function playerCard(p, badge) {
+  const card = document.createElement("article");
+  card.className = "card" + (p.rank <= 3 ? " podium" : "");
+  if (badge) {
+    const mark = document.createElement("span");
+    mark.className = badge === TROPHY ? "rank trophy" : "rank";
+    mark.textContent = badge;
+    card.append(mark);
+  }
+  const face = faceNode(p);
   const name = document.createElement("h3");
   name.append(nameNode(p, "namemark"));
-  const count = document.createElement("p");
-  count.className = "count";
-  const n = document.createElement("b");
-  n.textContent = p.splats;
-  if (p.matches) {
-    const m = document.createElement("b");
-    m.textContent = p.matches;
-    count.append(n, document.createTextNode(" times in "), m,
-                 document.createTextNode(p.matches === 1 ? " match" : " matches"));
-  } else {
-    count.append(n, document.createTextNode(p.splats === 1 ? " splat" : " splats"));
-  }
+  const count = splatLine(p);
   const met = metLines(p);
   let footer;
   if (p.splashtag) {
@@ -208,7 +221,6 @@ function makeFlippable(card, p) {
 }
 function renderCareer(totals, career) {
   const c = career || {};
-  const quickest = c.quickest_splat;
   const blocks = [
     [
       ["Matches", c.matches],
@@ -221,10 +233,8 @@ function renderCareer(totals, career) {
     ],
     [
       ["Best Match", c.best_splats],
-      ["Quickest Splat", quickest ? `${quickest.seconds}s` : null],
       ["Best Turf", c.best_points != null ? `${c.best_points}p` : null],
       ["Splats / Match", c.avg_splats],
-      ["Quickest Victim", quickest ? quickest.name : null],
       ["Average Turf", c.avg_points != null ? `${c.avg_points}p` : null],
     ],
   ];
@@ -247,6 +257,79 @@ function renderCareer(totals, career) {
     }
     wrap.append(list);
   }
+}
+function plural(n, one, many) {
+  return n === 1 ? one : (many || `${one}s`);
+}
+const AWARDS = [
+  { key: "squad", art: "h-top-squad.svg", title: "Top Squad", wide: true,
+    blurb: (owner) => `${owner || "My"}'s top teammates.` },
+  { key: "assassin", art: "h-splat-assassin.svg", title: "Splat Assassin",
+    blurb: "The player with the most splats recorded.",
+    line: (a) => (a.matches
+      ? [a.splats, plural(a.splats, " splat") + " in ", a.matches,
+         plural(a.matches, " match", " matches")]
+      : [a.splats, plural(a.splats, " splat")]) },
+  { key: "quickest", art: "h-fastest-splat.svg", title: "Fastest Splat",
+    blurb: "Splatted sooner after a match started than anyone.",
+    line: (a) => [`${a.seconds}s`, " into a match"] },
+  { key: "nemesis", art: "h-nemesis.svg", title: "Nemesis",
+    blurb: "Turned up on the other team more than anyone.",
+    line: (a) => [a.matches, plural(a.matches, " match", " matches") + " faced"] },
+  { key: "hard_to_kill", art: "h-hard-to-kill.svg", title: "Hard to Kill",
+    blurb: "The teammate splatted least often, match for match.",
+    line: (a) => [a.their_deaths, " times a match"] },
+  { key: "lucky_charm", art: "h-lucky-charm.svg", title: "Lucky Charm",
+    blurb: "The teammate I win beside most often.",
+    line: (a) => [a.wins, " of ", a.matches, " won together"] },
+  { key: "bogeyman", art: "h-bogeyman.svg", title: "Bogeyman",
+    blurb: "Beat me across more matches than anyone.",
+    line: (a) => [a.losses, plural(a.losses, " loss", " losses") + " against them"] },
+];
+function laureate(who, line) {
+  const block = document.createElement("div");
+  block.className = "laureate";
+  block.append(faceNode(who), nameNode(who, "namemark"), line);
+  return block;
+}
+function squadSeats(squad) {
+  const list = document.createElement("ul");
+  list.className = "squad-list";
+  for (const mate of squad) {
+    const li = document.createElement("li");
+    li.append(faceNode(mate), nameNode(mate, "namemark small"),
+              countLine(mate.matches, plural(mate.matches, " match", " matches")));
+    list.append(li);
+  }
+  return list;
+}
+function renderAwards(data, squad) {
+  const row = document.getElementById("awards");
+  row.replaceChildren();
+  for (const award of AWARDS) {
+    const won = award.key === "squad" ? squad : (data.awards || {})[award.key];
+    if (!won || (Array.isArray(won) && !won.length)) continue;
+    const block = document.createElement("div");
+    block.className = "award" + (award.wide ? " wide" : "");
+    const head = document.createElement("h2");
+    const art = document.createElement("img");
+    art.className = "heading";
+    art.src = award.art;
+    art.alt = award.title;
+    head.append(art);
+    const blurb = document.createElement("p");
+    blurb.className = "blurb";
+    blurb.textContent = typeof award.blurb === "function"
+      ? award.blurb(data.owner) : award.blurb;
+    const card = document.createElement("article");
+    card.className = "card award-card";
+    card.append(award.key === "squad"
+      ? squadSeats(won)
+      : laureate(won, countLine(...award.line(won))));
+    block.append(head, blurb, card);
+    row.append(block);
+  }
+  row.hidden = !row.children.length;
 }
 function renderWall() {
   const wall = document.getElementById("wall");
@@ -314,6 +397,7 @@ function render(data) {
     page += 1;
     renderRecent();
   });
+  renderAwards(data, data.squad || []);
   renderWall();
   renderRecent();
 }
