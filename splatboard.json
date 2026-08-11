@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-10T04:10:24+00:00",
+  "generated_at": "2026-08-11T04:24:44+00:00",
   "totals": {
-    "splats": 162,
-    "unique_players": 89,
-    "assists": 22,
+    "splats": 181,
+    "unique_players": 100,
+    "assists": 24,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 35,
-    "wins": 24,
-    "losses": 9,
+    "matches": 39,
+    "wins": 26,
+    "losses": 11,
     "draws": 0,
-    "avg_splats": 4.4,
+    "avg_splats": 4.44,
     "best_splats": 9,
-    "avg_points": 979,
+    "avg_points": 981,
     "best_points": 1421,
     "disconnects": 5,
     "quickest_splat": {
@@ -84,8 +84,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d66a316ddca1.png",
-      "splashtag": "faces/d66a316ddca1-tag.png"
+      "splashtag": "faces/d66a316ddca1-tag.png",
+      "avatar": "faces/d66a316ddca1.png"
     },
     {
       "name": "◇BENREY1ī◇",
@@ -113,8 +113,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/aa5174492556.png",
-      "splashtag": "faces/aa5174492556-tag.png"
+      "splashtag": "faces/aa5174492556-tag.png",
+      "avatar": "faces/aa5174492556.png"
     },
     {
       "name": "I'ma bot",
@@ -259,6 +259,41 @@
         }
       },
       "avatar": "faces/1eab65361f63.png"
+    },
+    {
+      "name": "CurIy fry",
+      "splats": 3,
+      "first": "2026-08-11T04:11:30+00:00",
+      "last": "2026-08-11T04:12:44+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 3.0
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 2.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-11T04:10:01+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/65dbeb65a466.png",
+      "splashtag": "faces/65dbeb65a466-tag.png"
     },
     {
       "name": "GeeO",
@@ -482,6 +517,35 @@
       "avatar": "faces/2d4a88229cc6.png"
     },
     {
+      "name": "kоzukеn",
+      "splats": 3,
+      "first": "2026-08-11T04:11:05+00:00",
+      "last": "2026-08-11T04:12:49+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 4.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:10:01+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T04:10:01+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/749e0959a038.png",
+      "splashtag": "faces/749e0959a038-tag.png"
+    },
+    {
       "name": "trinket 1",
       "splats": 3,
       "first": "2026-08-09T22:20:33+00:00",
@@ -537,6 +601,35 @@
         }
       },
       "avatar": "faces/a18dd58f6f9a.png"
+    },
+    {
+      "name": "īentacooI",
+      "splats": 3,
+      "first": "2026-08-11T04:05:43+00:00",
+      "last": "2026-08-11T04:06:55+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 2.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/b24596d867cb.png",
+      "splashtag": "faces/b24596d867cb-tag.png"
     },
     {
       "name": "■Jαγ◎¹",
@@ -626,6 +719,35 @@
       "splashtag": "faces/fe43be4c2ec3-tag.png"
     },
     {
+      "name": "BooYAH",
+      "splats": 2,
+      "first": "2026-08-11T02:50:47+00:00",
+      "last": "2026-08-11T02:51:15+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 5.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/82f223d091cf.png",
+      "splashtag": "faces/82f223d091cf-tag.png"
+    },
+    {
       "name": "CrazyCat☆",
       "splats": 2,
       "first": "2026-08-09T22:35:57+00:00",
@@ -653,6 +775,34 @@
       },
       "avatar": "faces/1485c5639d4b.png",
       "splashtag": "faces/1485c5639d4b-tag.png"
+    },
+    {
+      "name": "CαIιiε♪",
+      "splats": 2,
+      "first": "2026-08-11T02:50:47+00:00",
+      "last": "2026-08-11T02:51:24+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/6f364cc6c108.png",
+      "splashtag": "faces/6f364cc6c108-tag.png"
     },
     {
       "name": "DGiorno",
@@ -1229,6 +1379,41 @@
       "splashtag": "faces/d86b5c62caa0-tag.png"
     },
     {
+      "name": "Amel",
+      "splats": 1,
+      "first": "2026-08-11T02:53:53+00:00",
+      "last": "2026-08-11T02:53:53+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 3.0
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 5.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/bd81c3cd2b5b.png",
+      "splashtag": "faces/bd81c3cd2b5b-tag.png"
+    },
+    {
       "name": "Bro",
       "splats": 1,
       "first": "2026-08-09T14:56:01+00:00",
@@ -1329,6 +1514,35 @@
       "avatar": "faces/85bd1620194e.png"
     },
     {
+      "name": "DRINKING!!",
+      "splats": 1,
+      "first": "2026-08-11T02:56:34+00:00",
+      "last": "2026-08-11T02:56:34+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 3.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/bd9b6012cf32.png",
+      "splashtag": "faces/bd9b6012cf32-tag.png"
+    },
+    {
       "name": "EJ",
       "splats": 1,
       "first": "2026-08-09T14:41:34+00:00",
@@ -1355,6 +1569,63 @@
         }
       },
       "avatar": "faces/0b5b99fbae23.png"
+    },
+    {
+      "name": "Fern",
+      "splats": 1,
+      "first": "2026-08-11T04:10:49+00:00",
+      "last": "2026-08-11T04:10:49+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 2.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:10:01+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T04:10:01+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/94b5c4a4194f.png"
+    },
+    {
+      "name": "GayShrimp",
+      "splats": 1,
+      "first": "2026-08-11T02:53:56+00:00",
+      "last": "2026-08-11T02:53:56+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "their_splats": 1.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/abd0225b948d.png",
+      "splashtag": "faces/abd0225b948d-tag.png"
     },
     {
       "name": "Gènesis R.",
@@ -2016,6 +2287,35 @@
       "splashtag": "faces/8ae3ea8a9f6f-tag.png"
     },
     {
+      "name": "[CA]→Oro◇",
+      "splats": 1,
+      "first": "2026-08-11T04:06:02+00:00",
+      "last": "2026-08-11T04:06:02+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 6.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/6a10114ad2b9.png",
+      "splashtag": "faces/6a10114ad2b9-tag.png"
+    },
+    {
       "name": "`…mimi °♪′",
       "splats": 1,
       "first": "2026-08-10T03:33:18+00:00",
@@ -2144,6 +2444,35 @@
       "last": "2026-08-10T03:20:27+00:00",
       "best_match": 1,
       "per_match": 1.0
+    },
+    {
+      "name": "lacrimosa",
+      "splats": 1,
+      "first": "2026-08-11T02:51:31+00:00",
+      "last": "2026-08-11T02:51:31+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "their_splats": 1.0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/2285a7bfd06f.png",
+      "splashtag": "faces/2285a7bfd06f-tag.png"
     },
     {
       "name": "megaIicios",
@@ -2442,6 +2771,82 @@
     }
   ],
   "recent": [
+    {
+      "name": "kоzukеn",
+      "ts": "2026-08-11T04:12:49+00:00"
+    },
+    {
+      "name": "CurIy fry",
+      "ts": "2026-08-11T04:12:44+00:00"
+    },
+    {
+      "name": "CurIy fry",
+      "ts": "2026-08-11T04:12:03+00:00"
+    },
+    {
+      "name": "kоzukеn",
+      "ts": "2026-08-11T04:11:30+00:00"
+    },
+    {
+      "name": "CurIy fry",
+      "ts": "2026-08-11T04:11:30+00:00"
+    },
+    {
+      "name": "kоzukеn",
+      "ts": "2026-08-11T04:11:05+00:00"
+    },
+    {
+      "name": "Fern",
+      "ts": "2026-08-11T04:10:49+00:00"
+    },
+    {
+      "name": "īentacooI",
+      "ts": "2026-08-11T04:06:55+00:00"
+    },
+    {
+      "name": "īentacooI",
+      "ts": "2026-08-11T04:06:20+00:00"
+    },
+    {
+      "name": "[CA]→Oro◇",
+      "ts": "2026-08-11T04:06:02+00:00"
+    },
+    {
+      "name": "īentacooI",
+      "ts": "2026-08-11T04:05:43+00:00"
+    },
+    {
+      "name": "DRINKING!!",
+      "ts": "2026-08-11T02:56:34+00:00"
+    },
+    {
+      "name": "GayShrimp",
+      "ts": "2026-08-11T02:53:56+00:00"
+    },
+    {
+      "name": "Amel",
+      "ts": "2026-08-11T02:53:53+00:00"
+    },
+    {
+      "name": "lacrimosa",
+      "ts": "2026-08-11T02:51:31+00:00"
+    },
+    {
+      "name": "CαIιiε♪",
+      "ts": "2026-08-11T02:51:24+00:00"
+    },
+    {
+      "name": "BooYAH",
+      "ts": "2026-08-11T02:51:15+00:00"
+    },
+    {
+      "name": "CαIιiε♪",
+      "ts": "2026-08-11T02:50:47+00:00"
+    },
+    {
+      "name": "BooYAH",
+      "ts": "2026-08-11T02:50:47+00:00"
+    },
     {
       "name": "☆frιsκ",
       "ts": "2026-08-10T03:34:53+00:00"
