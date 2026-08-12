@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T04:39:42+00:00",
+  "generated_at": "2026-08-12T18:10:21+00:00",
   "totals": {
     "splats": 216,
-    "unique_players": 113,
+    "unique_players": 111,
     "assists": 28,
     "top": "GHΦらT"
   },
@@ -34,9 +34,9 @@
       "avatar": "faces/9c0a985ed3fb.png"
     },
     {
-      "name": "Niathо",
+      "name": "Alec",
       "matches": 2,
-      "avatar": "faces/5d623da0573f.png"
+      "avatar": "faces/092b24e95b09.png"
     }
   ],
   "awards": {
@@ -93,15 +93,15 @@
       "avatar": "faces/9c0a985ed3fb.png"
     },
     "hard_to_kill": {
-      "name": "SARS",
+      "name": "Alec",
       "matches": 2,
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
-      "splats": 5,
-      "their_splats": 2.5,
+      "splats": 8,
+      "their_splats": 4.0,
       "their_deaths": 2.0,
-      "avg_points": 1030,
-      "avatar": "faces/1fc2e8ffc9ae.png"
+      "avg_points": 1066,
+      "avatar": "faces/092b24e95b09.png"
     },
     "lucky_charm": {
       "name": "MR_COOPER™",
@@ -284,7 +284,7 @@
       "splashtag": "faces/858b87aff7c0-tag.png"
     },
     {
-      "name": "kerara☆«ケロ",
+      "name": "kеrara☆«ケ0",
       "splats": 4,
       "first": "2026-08-09T22:20:21+00:00",
       "last": "2026-08-09T22:29:37+00:00",
@@ -312,8 +312,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/6822f57595f2.png",
-      "splashtag": "faces/6822f57595f2-tag.png"
+      "avatar": "faces/f0702de31ca6.png",
+      "splashtag": "faces/f0702de31ca6-tag.png"
     },
     {
       "name": "★βigβxtch☆",
@@ -651,17 +651,17 @@
       "splats": 3,
       "first": "2026-08-09T00:47:16+00:00",
       "last": "2026-08-09T14:47:10+00:00",
-      "matches": 2,
+      "matches": 3,
       "best_match": 2,
       "per_match": 1.5,
       "versus": {
-        "matches": 2,
-        "wins": 2,
+        "matches": 3,
+        "wins": 3,
         "losses": 0,
         "splats": 10,
         "their_splats": 5.0,
-        "their_deaths": 4.0,
-        "avg_points": 769
+        "their_deaths": 3.3,
+        "avg_points": 874
       },
       "met": {
         "first": {
@@ -677,6 +677,38 @@
       },
       "avatar": "faces/257939105be1.png",
       "splashtag": "faces/257939105be1-tag.png"
+    },
+    {
+      "name": "TentacooI",
+      "splats": 3,
+      "first": "2026-08-11T04:05:43+00:00",
+      "last": "2026-08-11T04:06:55+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 829
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-11T04:04:45+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/e41703a6c654.png",
+      "splashtag": "faces/e41703a6c654-tag.png"
     },
     {
       "name": "cucumber.",
@@ -774,7 +806,7 @@
       "splashtag": "faces/749e0959a038-tag.png"
     },
     {
-      "name": "trinket 1",
+      "name": "trinket",
       "splats": 3,
       "first": "2026-08-09T22:20:33+00:00",
       "last": "2026-08-09T22:22:15+00:00",
@@ -802,8 +834,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/afeed2bdbaa1.png",
-      "splashtag": "faces/afeed2bdbaa1-tag.png"
+      "avatar": "faces/f17ddf18dbf3.png",
+      "splashtag": "faces/f17ddf18dbf3-tag.png"
     },
     {
       "name": "womyxd",
@@ -835,38 +867,6 @@
         }
       },
       "avatar": "faces/a18dd58f6f9a.png"
-    },
-    {
-      "name": "īentacooI",
-      "splats": 3,
-      "first": "2026-08-11T04:05:43+00:00",
-      "last": "2026-08-11T04:06:55+00:00",
-      "matches": 1,
-      "best_match": 3,
-      "per_match": 3.0,
-      "versus": {
-        "matches": 1,
-        "wins": 0,
-        "losses": 1,
-        "splats": 2,
-        "their_splats": 2.0,
-        "their_deaths": 3.0,
-        "avg_points": 829
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-11T04:04:45+00:00",
-          "map": "Inkblot Art Academy",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-11T04:04:45+00:00",
-          "map": "Inkblot Art Academy",
-          "side": "against"
-        }
-      },
-      "avatar": "faces/b24596d867cb.png",
-      "splashtag": "faces/b24596d867cb-tag.png"
     },
     {
       "name": "■Jαγ◎¹",
@@ -1061,7 +1061,7 @@
       "splashtag": "faces/1485c5639d4b-tag.png"
     },
     {
-      "name": "CαIιiε♪",
+      "name": "Cαlliε♪",
       "splats": 2,
       "first": "2026-08-11T02:50:47+00:00",
       "last": "2026-08-11T02:51:24+00:00",
@@ -1076,6 +1076,14 @@
         "their_deaths": 2.0,
         "avg_points": 940
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_splats": 3.0,
+        "avg_points": 112
+      },
       "met": {
         "first": {
           "at": "2026-08-11T02:48:54+00:00",
@@ -1083,30 +1091,39 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-11T02:48:54+00:00",
-          "map": "Hammerhead Bridge",
-          "side": "against"
+          "at": "2026-08-11T02:53:33+00:00",
+          "map": "Scorch Gorge",
+          "side": "with"
         }
       },
-      "avatar": "faces/6f364cc6c108.png",
-      "splashtag": "faces/6f364cc6c108-tag.png"
+      "avatar": "faces/47aa08ff33c1.png",
+      "splashtag": "faces/47aa08ff33c1-tag.png"
     },
     {
       "name": "DGiorno",
       "splats": 2,
       "first": "2026-08-09T00:07:59+00:00",
       "last": "2026-08-09T00:11:35+00:00",
-      "matches": 2,
+      "matches": 3,
       "best_match": 1,
       "per_match": 1.0,
       "versus": {
-        "matches": 2,
-        "wins": 1,
+        "matches": 3,
+        "wins": 2,
         "losses": 1,
-        "splats": 9,
-        "their_splats": 4.5,
-        "their_deaths": 3.5,
-        "avg_points": 986
+        "splats": 13,
+        "their_splats": 4.3,
+        "their_deaths": 3.3,
+        "avg_points": 882
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_splats": 5.0,
+        "their_deaths": 4.0,
+        "avg_points": 829
       },
       "met": {
         "first": {
@@ -1115,13 +1132,20 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-09T00:10:08+00:00",
-          "map": "Museum d'Alfonsino",
+          "at": "2026-08-09T14:48:44+00:00",
+          "map": "Um'ami Ruins",
           "side": "against"
         }
       },
       "avatar": "faces/fd51323015e8.png",
       "splashtag": "faces/fd51323015e8-tag.png"
+    },
+    {
+      "name": "DJηακαmµrα",
+      "splats": 2,
+      "first": "2026-08-09T19:59:01+00:00",
+      "last": "2026-08-09T19:59:05+00:00",
+      "avatar": "faces/4fa165e730dd.png"
     },
     {
       "name": "Dewyгay",
@@ -1460,6 +1484,37 @@
       "splashtag": "faces/2bfd4000c69f-tag.png"
     },
     {
+      "name": "Sleepy",
+      "splats": 2,
+      "first": "2026-08-09T14:54:02+00:00",
+      "last": "2026-08-09T14:54:03+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_splats": 4.0,
+        "their_deaths": 2.0,
+        "avg_points": 709
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T14:53:04+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-09T14:53:04+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/4f39f493473f.png"
+    },
+    {
       "name": "Snyfггrгrг",
       "splats": 2,
       "first": "2026-08-12T02:18:31+00:00",
@@ -1587,7 +1642,7 @@
       "splashtag": "faces/9970ad07f5ad-tag.png"
     },
     {
-      "name": "sglily",
+      "name": "sgliIy",
       "splats": 2,
       "first": "2026-08-09T21:43:01+00:00",
       "last": "2026-08-09T21:44:40+00:00",
@@ -1615,8 +1670,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/3ac806b6899a.png",
-      "splashtag": "faces/3ac806b6899a-tag.png"
+      "avatar": "faces/0350888a57e4.png",
+      "splashtag": "faces/0350888a57e4-tag.png"
     },
     {
       "name": "trina",
@@ -1961,20 +2016,6 @@
       "splashtag": "faces/323039d647e8-tag.png"
     },
     {
-      "name": "DJηακαmµrα",
-      "splats": 1,
-      "first": "2026-08-09T19:59:05+00:00",
-      "last": "2026-08-09T19:59:05+00:00",
-      "avatar": "faces/4fa165e730dd.png"
-    },
-    {
-      "name": "DJηακαmµгα",
-      "splats": 1,
-      "first": "2026-08-09T19:59:01+00:00",
-      "last": "2026-08-09T19:59:01+00:00",
-      "avatar": "faces/85bd1620194e.png"
-    },
-    {
       "name": "DRINKING!!",
       "splats": 1,
       "first": "2026-08-11T02:56:34+00:00",
@@ -2240,21 +2281,21 @@
       "splats": 1,
       "first": "2026-08-09T00:51:58+00:00",
       "last": "2026-08-09T00:51:58+00:00",
-      "matches": 1,
+      "matches": 2,
       "best_match": 1,
       "per_match": 1.0,
       "versus": {
-        "matches": 1,
+        "matches": 2,
         "wins": 1,
-        "losses": 0,
-        "splats": 0,
-        "their_splats": 0.0,
+        "losses": 1,
+        "splats": 6,
+        "their_splats": 3.0,
         "their_deaths": 3.0,
-        "avg_points": 961
+        "avg_points": 846
       },
       "met": {
         "first": {
-          "at": "2026-08-09T00:49:15+00:00",
+          "at": "2026-08-09T00:10:08+00:00",
           "map": "Museum d'Alfonsino",
           "side": "against"
         },
@@ -2363,7 +2404,7 @@
       "splashtag": "faces/8bda7919abe2-tag.png"
     },
     {
-      "name": "Lew□□",
+      "name": "Lewis",
       "splats": 1,
       "first": "2026-08-12T03:51:06+00:00",
       "last": "2026-08-12T03:51:06+00:00",
@@ -2379,6 +2420,14 @@
         "their_deaths": 6.0,
         "avg_points": 633
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 0,
+        "their_deaths": 7.0,
+        "avg_points": 587
+      },
       "met": {
         "first": {
           "at": "2026-08-12T03:49:46+00:00",
@@ -2386,13 +2435,13 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-12T03:49:46+00:00",
-          "map": "Mincemeat Metalworks",
-          "side": "against"
+          "at": "2026-08-12T03:54:32+00:00",
+          "map": "Robo ROM-en",
+          "side": "with"
         }
       },
-      "avatar": "faces/09d5af513238.png",
-      "splashtag": "faces/09d5af513238-tag.png"
+      "avatar": "faces/0360f42911bd.png",
+      "splashtag": "faces/0360f42911bd-tag.png"
     },
     {
       "name": "Lit3DonaId",
@@ -2459,12 +2508,36 @@
       "splashtag": "faces/493667cbfe23-tag.png"
     },
     {
-      "name": "Meila",
+      "name": "Melia",
       "splats": 1,
       "first": "2026-08-09T21:39:11+00:00",
       "last": "2026-08-09T21:39:11+00:00",
+      "matches": 1,
       "best_match": 1,
-      "per_match": 1.0
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_splats": 7.0,
+        "their_deaths": 4.0,
+        "avg_points": 865
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T21:36:46+00:00",
+          "map": "Undertow Spillway",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-09T21:36:46+00:00",
+          "map": "Undertow Spillway",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/60aa7dd10198.png",
+      "splashtag": "faces/60aa7dd10198-tag.png"
     },
     {
       "name": "Miyagi",
@@ -2704,15 +2777,6 @@
       "splashtag": "faces/1fc2e8ffc9ae-tag.png"
     },
     {
-      "name": "SIeepy",
-      "splats": 1,
-      "first": "2026-08-09T14:54:03+00:00",
-      "last": "2026-08-09T14:54:03+00:00",
-      "best_match": 1,
-      "per_match": 1.0,
-      "avatar": "faces/bf5c28047d7d.png"
-    },
-    {
       "name": "Sam",
       "splats": 1,
       "first": "2026-08-09T03:50:51+00:00",
@@ -2808,37 +2872,6 @@
       "splashtag": "faces/1b511129cf4c-tag.png"
     },
     {
-      "name": "Sleepy",
-      "splats": 1,
-      "first": "2026-08-09T14:54:02+00:00",
-      "last": "2026-08-09T14:54:02+00:00",
-      "matches": 1,
-      "best_match": 1,
-      "per_match": 1.0,
-      "versus": {
-        "matches": 1,
-        "wins": 1,
-        "losses": 0,
-        "splats": 4,
-        "their_splats": 4.0,
-        "their_deaths": 2.0,
-        "avg_points": 709
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T14:53:04+00:00",
-          "map": "Mahi-Mahi Resort",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T14:53:04+00:00",
-          "map": "Mahi-Mahi Resort",
-          "side": "against"
-        }
-      },
-      "avatar": "faces/4f39f493473f.png"
-    },
-    {
       "name": "Stan Yuju",
       "splats": 1,
       "first": "2026-08-12T01:52:40+00:00",
@@ -2906,8 +2939,32 @@
       "splats": 1,
       "first": "2026-08-12T02:24:46+00:00",
       "last": "2026-08-12T02:24:46+00:00",
+      "matches": 1,
       "best_match": 1,
-      "per_match": 1.0
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_splats": 3.0,
+        "their_deaths": 2.0,
+        "avg_points": 865
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T02:22:00+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T02:22:00+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/251ee3e5acc3.png",
+      "splashtag": "faces/251ee3e5acc3-tag.png"
     },
     {
       "name": "Triscut",
@@ -3145,8 +3202,32 @@
       "splats": 1,
       "first": "2026-08-10T03:20:27+00:00",
       "last": "2026-08-10T03:20:27+00:00",
+      "matches": 1,
       "best_match": 1,
-      "per_match": 1.0
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_splats": 4.0,
+        "their_deaths": 3.0,
+        "avg_points": 810
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-10T03:17:53+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-10T03:17:53+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/19dece7f6964.png",
+      "splashtag": "faces/19dece7f6964-tag.png"
     },
     {
       "name": "lacrimosa",
@@ -3610,7 +3691,7 @@
       "ts": "2026-08-12T03:51:08+00:00"
     },
     {
-      "name": "Lew□□",
+      "name": "Lewis",
       "ts": "2026-08-12T03:51:06+00:00"
     },
     {
@@ -3766,11 +3847,11 @@
       "ts": "2026-08-11T04:10:49+00:00"
     },
     {
-      "name": "īentacooI",
+      "name": "TentacooI",
       "ts": "2026-08-11T04:06:55+00:00"
     },
     {
-      "name": "īentacooI",
+      "name": "TentacooI",
       "ts": "2026-08-11T04:06:20+00:00"
     },
     {
@@ -3778,7 +3859,7 @@
       "ts": "2026-08-11T04:06:02+00:00"
     },
     {
-      "name": "īentacooI",
+      "name": "TentacooI",
       "ts": "2026-08-11T04:05:43+00:00"
     },
     {
@@ -3798,7 +3879,7 @@
       "ts": "2026-08-11T02:51:31+00:00"
     },
     {
-      "name": "CαIιiε♪",
+      "name": "Cαlliε♪",
       "ts": "2026-08-11T02:51:24+00:00"
     },
     {
@@ -3806,7 +3887,7 @@
       "ts": "2026-08-11T02:51:15+00:00"
     },
     {
-      "name": "CαIιiε♪",
+      "name": "Cαlliε♪",
       "ts": "2026-08-11T02:50:47+00:00"
     },
     {
@@ -3978,7 +4059,7 @@
       "ts": "2026-08-09T22:30:27+00:00"
     },
     {
-      "name": "kerara☆«ケロ",
+      "name": "kеrara☆«ケ0",
       "ts": "2026-08-09T22:29:37+00:00"
     },
     {
@@ -3994,7 +4075,7 @@
       "ts": "2026-08-09T22:27:11+00:00"
     },
     {
-      "name": "kerara☆«ケロ",
+      "name": "kеrara☆«ケ0",
       "ts": "2026-08-09T22:26:41+00:00"
     },
     {
@@ -4002,23 +4083,23 @@
       "ts": "2026-08-09T22:24:55+00:00"
     },
     {
-      "name": "trinket 1",
+      "name": "trinket",
       "ts": "2026-08-09T22:22:15+00:00"
     },
     {
-      "name": "trinket 1",
+      "name": "trinket",
       "ts": "2026-08-09T22:21:11+00:00"
     },
     {
-      "name": "kerara☆«ケロ",
+      "name": "kеrara☆«ケ0",
       "ts": "2026-08-09T22:20:41+00:00"
     },
     {
-      "name": "trinket 1",
+      "name": "trinket",
       "ts": "2026-08-09T22:20:33+00:00"
     },
     {
-      "name": "kerara☆«ケロ",
+      "name": "kеrara☆«ケ0",
       "ts": "2026-08-09T22:20:21+00:00"
     },
     {
@@ -4030,7 +4111,7 @@
       "ts": "2026-08-09T21:50:07+00:00"
     },
     {
-      "name": "sglily",
+      "name": "sgliIy",
       "ts": "2026-08-09T21:44:40+00:00"
     },
     {
@@ -4038,11 +4119,11 @@
       "ts": "2026-08-09T21:43:10+00:00"
     },
     {
-      "name": "sglily",
+      "name": "sgliIy",
       "ts": "2026-08-09T21:43:01+00:00"
     },
     {
-      "name": "Meila",
+      "name": "Melia",
       "ts": "2026-08-09T21:39:11+00:00"
     },
     {
@@ -4098,7 +4179,7 @@
       "ts": "2026-08-09T19:59:05+00:00"
     },
     {
-      "name": "DJηακαmµгα",
+      "name": "DJηακαmµrα",
       "ts": "2026-08-09T19:59:01+00:00"
     },
     {
@@ -4226,7 +4307,7 @@
       "ts": "2026-08-09T14:55:43+00:00"
     },
     {
-      "name": "SIeepy",
+      "name": "Sleepy",
       "ts": "2026-08-09T14:54:03+00:00"
     },
     {
