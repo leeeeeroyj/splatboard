@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-12T21:01:48+00:00",
+  "generated_at": "2026-08-12T22:55:33+00:00",
   "totals": {
-    "splats": 233,
-    "unique_players": 123,
+    "splats": 259,
+    "unique_players": 131,
     "assists": 31,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 52,
-    "wins": 37,
+    "matches": 56,
+    "wins": 41,
     "losses": 13,
     "draws": 0,
-    "avg_splats": 4.44,
-    "best_splats": 9,
+    "avg_splats": 4.59,
+    "best_splats": 10,
     "avg_points": 962,
     "best_points": 1421,
     "disconnects": 7,
     "quickest_splat": {
-      "seconds": 12.7,
-      "name": "GHΦらT",
-      "match_id": 12
+      "seconds": 12.6,
+      "name": "humbIе",
+      "match_id": 59
     }
   },
   "squad": [
@@ -41,9 +41,9 @@
   ],
   "awards": {
     "quickest": {
-      "name": "GHΦらT",
-      "seconds": 12.7,
-      "avatar": "faces/d06c47919e6f.png"
+      "name": "humbIе",
+      "seconds": 12.6,
+      "avatar": "faces/7481885a511e.png"
     },
     "assassin": {
       "name": "GHΦらT",
@@ -156,6 +156,38 @@
       },
       "avatar": "faces/d06c47919e6f.png",
       "splashtag": "faces/d06c47919e6f-tag.png"
+    },
+    {
+      "name": "Squiddo",
+      "splats": 6,
+      "first": "2026-08-12T22:46:41+00:00",
+      "last": "2026-08-12T22:52:40+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 10,
+        "their_splats": 5.0,
+        "their_deaths": 4.5,
+        "avg_points": 614
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:45:16+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/0b6d724bc852.png",
+      "splashtag": "faces/0b6d724bc852-tag.png"
     },
     {
       "name": "arc507",
@@ -284,6 +316,38 @@
       "splashtag": "faces/858b87aff7c0-tag.png"
     },
     {
+      "name": "WicabeI :3",
+      "splats": 4,
+      "first": "2026-08-12T22:50:32+00:00",
+      "last": "2026-08-12T22:53:08+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "per_match": 4.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 8,
+        "their_splats": 8.0,
+        "their_deaths": 6.0,
+        "avg_points": 770
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/94b58cd717be.png",
+      "splashtag": "faces/94b58cd717be-tag.png"
+    },
+    {
       "name": "kеrara☆«ケ0",
       "splats": 4,
       "first": "2026-08-09T22:20:21+00:00",
@@ -314,6 +378,47 @@
       },
       "avatar": "faces/f0702de31ca6.png",
       "splashtag": "faces/f0702de31ca6-tag.png"
+    },
+    {
+      "name": "★MιlκShαkε",
+      "splats": 4,
+      "first": "2026-08-12T22:41:23+00:00",
+      "last": "2026-08-12T22:47:36+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 9,
+        "their_splats": 4.5,
+        "their_deaths": 2.0,
+        "avg_points": 698
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_splats": 3.0,
+        "their_deaths": 2.0,
+        "avg_points": 618
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:35:37+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-12T22:45:16+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/a67767cffe58.png",
+      "splashtag": "faces/a67767cffe58-tag.png"
     },
     {
       "name": "★βigβxtch☆",
@@ -459,6 +564,38 @@
       },
       "avatar": "faces/65dbeb65a466.png",
       "splashtag": "faces/65dbeb65a466-tag.png"
+    },
+    {
+      "name": "Ender king",
+      "splats": 3,
+      "first": "2026-08-12T22:51:55+00:00",
+      "last": "2026-08-12T22:53:01+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_splats": 3.0,
+        "their_deaths": 6.0,
+        "avg_points": 1228
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/5fdc669fbcb9.png",
+      "splashtag": "faces/5fdc669fbcb9-tag.png"
     },
     {
       "name": "Kasumi",
@@ -772,6 +909,38 @@
         }
       },
       "avatar": "faces/2d4a88229cc6.png"
+    },
+    {
+      "name": "humbIе",
+      "splats": 3,
+      "first": "2026-08-12T22:38:12+00:00",
+      "last": "2026-08-12T22:43:33+00:00",
+      "matches": 3,
+      "best_match": 2,
+      "per_match": 1.5,
+      "versus": {
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "splats": 18,
+        "their_splats": 6.0,
+        "their_deaths": 3.5,
+        "avg_points": 949
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:35:37+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:45:16+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/7481885a511e.png",
+      "splashtag": "faces/7481885a511e-tag.png"
     },
     {
       "name": "kоzukеn",
@@ -1547,6 +1716,47 @@
       "splashtag": "faces/2bfd4000c69f-tag.png"
     },
     {
+      "name": "Santifloo",
+      "splats": 2,
+      "first": "2026-08-12T22:41:21+00:00",
+      "last": "2026-08-12T22:43:37+00:00",
+      "matches": 3,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "splats": 12,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 817
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_splats": 1.0,
+        "their_deaths": 6.0,
+        "avg_points": 711
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:35:37+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:50:11+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/51edead52807.png",
+      "splashtag": "faces/51edead52807-tag.png"
+    },
+    {
       "name": "Sleepy",
       "splats": 2,
       "first": "2026-08-09T14:54:02+00:00",
@@ -1608,6 +1818,37 @@
       },
       "avatar": "faces/c68620698137.png",
       "splashtag": "faces/c68620698137-tag.png"
+    },
+    {
+      "name": "S☆K30NZ",
+      "splats": 2,
+      "first": "2026-08-12T22:36:49+00:00",
+      "last": "2026-08-12T22:38:21+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "their_deaths": 3.0,
+        "avg_points": 324
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:35:37+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:35:37+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/3d72d35cc834.png",
+      "splashtag": "faces/3d72d35cc834-tag.png"
     },
     {
       "name": "Turtle_OH",
@@ -1702,6 +1943,38 @@
         }
       },
       "avatar": "faces/e06902185d58.png"
+    },
+    {
+      "name": "YeGoose",
+      "splats": 2,
+      "first": "2026-08-12T22:47:44+00:00",
+      "last": "2026-08-12T22:48:03+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 1129
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T22:45:16+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T22:45:16+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/afbc6da202af.png",
+      "splashtag": "faces/afbc6da202af-tag.png"
     },
     {
       "name": "agent9⌒∀⌒★",
@@ -4040,6 +4313,110 @@
     }
   ],
   "recent": [
+    {
+      "name": "WicabeI :3",
+      "ts": "2026-08-12T22:53:08+00:00"
+    },
+    {
+      "name": "Ender king",
+      "ts": "2026-08-12T22:53:01+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:52:40+00:00"
+    },
+    {
+      "name": "Ender king",
+      "ts": "2026-08-12T22:52:31+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:52:24+00:00"
+    },
+    {
+      "name": "WicabeI :3",
+      "ts": "2026-08-12T22:52:21+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:51:57+00:00"
+    },
+    {
+      "name": "Ender king",
+      "ts": "2026-08-12T22:51:55+00:00"
+    },
+    {
+      "name": "WicabeI :3",
+      "ts": "2026-08-12T22:51:01+00:00"
+    },
+    {
+      "name": "WicabeI :3",
+      "ts": "2026-08-12T22:50:32+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:48:07+00:00"
+    },
+    {
+      "name": "YeGoose",
+      "ts": "2026-08-12T22:48:03+00:00"
+    },
+    {
+      "name": "YeGoose",
+      "ts": "2026-08-12T22:47:44+00:00"
+    },
+    {
+      "name": "★MιlκShαkε",
+      "ts": "2026-08-12T22:47:36+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:47:25+00:00"
+    },
+    {
+      "name": "Squiddo",
+      "ts": "2026-08-12T22:46:41+00:00"
+    },
+    {
+      "name": "★MιlκShαkε",
+      "ts": "2026-08-12T22:46:35+00:00"
+    },
+    {
+      "name": "Santifloo",
+      "ts": "2026-08-12T22:43:37+00:00"
+    },
+    {
+      "name": "★MιlκShαkε",
+      "ts": "2026-08-12T22:43:36+00:00"
+    },
+    {
+      "name": "humbIе",
+      "ts": "2026-08-12T22:43:33+00:00"
+    },
+    {
+      "name": "★MιlκShαkε",
+      "ts": "2026-08-12T22:41:23+00:00"
+    },
+    {
+      "name": "Santifloo",
+      "ts": "2026-08-12T22:41:21+00:00"
+    },
+    {
+      "name": "humbIе",
+      "ts": "2026-08-12T22:40:48+00:00"
+    },
+    {
+      "name": "S☆K30NZ",
+      "ts": "2026-08-12T22:38:21+00:00"
+    },
+    {
+      "name": "humbIе",
+      "ts": "2026-08-12T22:38:12+00:00"
+    },
+    {
+      "name": "S☆K30NZ",
+      "ts": "2026-08-12T22:36:49+00:00"
+    },
     {
       "name": "ValeHyuga",
       "ts": "2026-08-12T19:09:50+00:00"
