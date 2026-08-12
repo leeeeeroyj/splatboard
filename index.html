@@ -20,18 +20,22 @@
   </div>
 </header>
 <main>
-  <div class="toolbar">
-    <input id="search" type="search" placeholder="Find your name…"
-           autocomplete="off" spellcheck="false" aria-label="Search players">
-  </div>
-  <section>
-    <h2><img class="heading" src="h-my-career-stats.svg" alt="My Career Stats"></h2>
-    <div class="career-blocks" id="career"></div>
-  </section>
-  <section>
-    <h2><img class="heading" src="h-top-splats.svg" alt="Top Splats"></h2>
-    <p class="blurb" id="wall-blurb"></p>
-    <div id="wall" class="wall"></div>
+  <section class="banner-group">
+    <div class="toolbar">
+      <h2><img class="heading banner" src="h-my-achievements.svg"
+               alt="My Achievements"></h2>
+      <input id="search" type="search" placeholder="Find your name…"
+             autocomplete="off" spellcheck="false" aria-label="Search players">
+    </div>
+    <section>
+      <h2><img class="heading" src="h-career-stats.svg" alt="Career Stats"></h2>
+      <div class="career-blocks" id="career"></div>
+    </section>
+    <section>
+      <h2><img class="heading" src="h-top-splats.svg" alt="Top Splats"></h2>
+      <p class="blurb" id="wall-blurb"></p>
+      <div id="wall" class="wall"></div>
+    </section>
   </section>
   <section id="awards-section" hidden>
     <h2><img class="heading banner" src="h-player-achievements.svg"

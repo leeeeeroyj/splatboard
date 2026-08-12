@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-12T00:21:17+00:00",
+  "generated_at": "2026-08-12T02:33:21+00:00",
   "totals": {
-    "splats": 177,
-    "unique_players": 99,
-    "assists": 24,
+    "splats": 206,
+    "unique_players": 107,
+    "assists": 27,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 40,
-    "wins": 27,
+    "matches": 46,
+    "wins": 33,
     "losses": 11,
     "draws": 0,
-    "avg_splats": 4.38,
+    "avg_splats": 4.43,
     "best_splats": 9,
-    "avg_points": 983,
+    "avg_points": 952,
     "best_points": 1421,
     "disconnects": 5,
     "quickest_splat": {
@@ -34,9 +34,9 @@
       "avatar": "faces/9c0a985ed3fb.png"
     },
     {
-      "name": "Niathо",
+      "name": "LOBOTOMY",
       "matches": 2,
-      "avatar": "faces/5d623da0573f.png"
+      "avatar": "faces/f8b425ebdbe2.png"
     }
   ],
   "awards": {
@@ -47,31 +47,31 @@
     },
     "assassin": {
       "name": "GHΦらT",
-      "matches": 15,
-      "splats": 50,
-      "avg_points": 964,
+      "matches": 19,
+      "splats": 63,
+      "avg_points": 906,
       "avatar": "faces/d06c47919e6f.png"
     },
     "public_enemy": {
       "name": "GHΦらT",
-      "matches": 5,
-      "wins": 4,
+      "matches": 9,
+      "wins": 8,
       "losses": 1,
-      "splats": 21,
-      "their_splats": 4.2,
-      "their_deaths": 4.0,
-      "avg_points": 948,
+      "splats": 34,
+      "their_splats": 3.8,
+      "their_deaths": 4.4,
+      "avg_points": 831,
       "avatar": "faces/d06c47919e6f.png"
     },
     "nemesis": {
       "name": "GHΦらT",
-      "matches": 5,
-      "wins": 4,
+      "matches": 9,
+      "wins": 8,
       "losses": 1,
-      "splats": 21,
-      "their_splats": 4.2,
-      "their_deaths": 4.0,
-      "avg_points": 948,
+      "splats": 34,
+      "their_splats": 3.8,
+      "their_deaths": 4.4,
+      "avg_points": 831,
       "avatar": "faces/d06c47919e6f.png"
     },
     "boogeyman": {
@@ -118,20 +118,20 @@
   "players": [
     {
       "name": "GHΦらT",
-      "splats": 7,
+      "splats": 20,
       "first": "2026-08-09T14:39:46+00:00",
-      "last": "2026-08-09T22:24:55+00:00",
-      "matches": 5,
-      "best_match": 4,
-      "per_match": 1.75,
+      "last": "2026-08-12T02:29:14+00:00",
+      "matches": 9,
+      "best_match": 6,
+      "per_match": 2.5,
       "versus": {
-        "matches": 5,
-        "wins": 4,
+        "matches": 9,
+        "wins": 8,
         "losses": 1,
-        "splats": 21,
-        "their_splats": 4.2,
-        "their_deaths": 4.0,
-        "avg_points": 948
+        "splats": 34,
+        "their_splats": 3.8,
+        "their_deaths": 4.4,
+        "avg_points": 831
       },
       "alongside": {
         "matches": 10,
@@ -149,9 +149,9 @@
           "side": "with"
         },
         "last": {
-          "at": "2026-08-10T03:32:09+00:00",
+          "at": "2026-08-12T02:26:48+00:00",
           "map": "Mincemeat Metalworks",
-          "side": "with"
+          "side": "against"
         }
       },
       "avatar": "faces/d06c47919e6f.png",
@@ -190,7 +190,7 @@
       "splashtag": "faces/d66a316ddca1-tag.png"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "splats": 5,
       "first": "2026-08-10T03:18:12+00:00",
       "last": "2026-08-10T03:20:46+00:00",
@@ -218,8 +218,38 @@
           "side": "against"
         }
       },
-      "avatar": "faces/aa5174492556.png",
-      "splashtag": "faces/aa5174492556-tag.png"
+      "avatar": "faces/12f498de1a7c.png",
+      "splashtag": "faces/12f498de1a7c-tag.png"
+    },
+    {
+      "name": "BIaze",
+      "splats": 4,
+      "first": "2026-08-12T02:11:51+00:00",
+      "last": "2026-08-12T02:14:13+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "per_match": 4.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "avg_points": 0
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T02:11:36+00:00",
+          "map": "Robo ROM-en",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T02:11:36+00:00",
+          "map": "Robo ROM-en",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/7b24f647166a.png",
+      "splashtag": "faces/7b24f647166a-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -350,6 +380,46 @@
       "splashtag": "faces/7d9d77e99f58-tag.png"
     },
     {
+      "name": "ArtistTone",
+      "splats": 3,
+      "first": "2026-08-12T01:52:37+00:00",
+      "last": "2026-08-12T01:53:58+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 1168
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_splats": 2.0,
+        "avg_points": 1624
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T01:51:18+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T01:55:38+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "with"
+        }
+      },
+      "avatar": "faces/202eebfbc716.png",
+      "splashtag": "faces/202eebfbc716-tag.png"
+    },
+    {
       "name": "CurIy fry",
       "splats": 3,
       "first": "2026-08-11T04:11:30+00:00",
@@ -389,6 +459,38 @@
       },
       "avatar": "faces/65dbeb65a466.png",
       "splashtag": "faces/65dbeb65a466-tag.png"
+    },
+    {
+      "name": "Kasumi",
+      "splats": 3,
+      "first": "2026-08-12T02:27:29+00:00",
+      "last": "2026-08-12T02:29:33+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_splats": 7.0,
+        "their_deaths": 7.0,
+        "avg_points": 753
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T02:26:48+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T02:26:48+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/79eace63c09d.png",
+      "splashtag": "faces/79eace63c09d-tag.png"
     },
     {
       "name": "MR_COOPER™",
@@ -1292,6 +1394,38 @@
       },
       "avatar": "faces/2bfd4000c69f.png",
       "splashtag": "faces/2bfd4000c69f-tag.png"
+    },
+    {
+      "name": "Snyfггrгrг",
+      "splats": 2,
+      "first": "2026-08-12T02:18:31+00:00",
+      "last": "2026-08-12T02:18:33+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_splats": 2.0,
+        "their_deaths": 7.0,
+        "avg_points": 549
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T02:16:58+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T02:16:58+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/c68620698137.png",
+      "splashtag": "faces/c68620698137-tag.png"
     },
     {
       "name": "Turtle_OH",
@@ -2504,6 +2638,38 @@
       "avatar": "faces/4f39f493473f.png"
     },
     {
+      "name": "Stan Yuju",
+      "splats": 1,
+      "first": "2026-08-12T01:52:40+00:00",
+      "last": "2026-08-12T01:52:40+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_splats": 2.0,
+        "their_deaths": 2.0,
+        "avg_points": 1259
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T01:51:18+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T01:51:18+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/b9731c730510.png",
+      "splashtag": "faces/b9731c730510-tag.png"
+    },
+    {
       "name": "SгsIy_K™",
       "splats": 1,
       "first": "2026-08-09T14:41:14+00:00",
@@ -2533,6 +2699,14 @@
         }
       },
       "avatar": "faces/d846e489747d.png"
+    },
+    {
+      "name": "Tipiac",
+      "splats": 1,
+      "first": "2026-08-12T02:24:46+00:00",
+      "last": "2026-08-12T02:24:46+00:00",
+      "best_match": 1,
+      "per_match": 1.0
     },
     {
       "name": "Triscut",
@@ -2804,6 +2978,38 @@
       },
       "avatar": "faces/2285a7bfd06f.png",
       "splashtag": "faces/2285a7bfd06f-tag.png"
+    },
+    {
+      "name": "luca♪",
+      "splats": 1,
+      "first": "2026-08-12T01:54:02+00:00",
+      "last": "2026-08-12T01:54:02+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 901
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T01:51:18+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T01:51:18+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/56cb1c8c2bd9.png",
+      "splashtag": "faces/56cb1c8c2bd9-tag.png"
     },
     {
       "name": "megaIicios",
@@ -3131,9 +3337,157 @@
         }
       },
       "avatar": "faces/dac86591f87d.png"
+    },
+    {
+      "name": "ニナｨノツトｨヘレ",
+      "splats": 1,
+      "first": "2026-08-12T01:56:29+00:00",
+      "last": "2026-08-12T01:56:29+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_splats": 3.0,
+        "their_deaths": 1.0,
+        "avg_points": 594
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T01:55:38+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T01:55:38+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/aebc90888a69.png",
+      "splashtag": "faces/aebc90888a69-tag.png"
     }
   ],
   "recent": [
+    {
+      "name": "Kasumi",
+      "ts": "2026-08-12T02:29:33+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:29:14+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:28:55+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:28:21+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:28:07+00:00"
+    },
+    {
+      "name": "Kasumi",
+      "ts": "2026-08-12T02:28:01+00:00"
+    },
+    {
+      "name": "Kasumi",
+      "ts": "2026-08-12T02:27:29+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:27:22+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:27:06+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:24:50+00:00"
+    },
+    {
+      "name": "Tipiac",
+      "ts": "2026-08-12T02:24:46+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:24:11+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:23:58+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:22:46+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T02:22:28+00:00"
+    },
+    {
+      "name": "Snyfггrгrг",
+      "ts": "2026-08-12T02:18:33+00:00"
+    },
+    {
+      "name": "Snyfггrгrг",
+      "ts": "2026-08-12T02:18:31+00:00"
+    },
+    {
+      "name": "BIaze",
+      "ts": "2026-08-12T02:14:13+00:00"
+    },
+    {
+      "name": "BIaze",
+      "ts": "2026-08-12T02:13:00+00:00"
+    },
+    {
+      "name": "BIaze",
+      "ts": "2026-08-12T02:12:23+00:00"
+    },
+    {
+      "name": "BIaze",
+      "ts": "2026-08-12T02:11:51+00:00"
+    },
+    {
+      "name": "ニナｨノツトｨヘレ",
+      "ts": "2026-08-12T01:56:29+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T01:55:54+00:00"
+    },
+    {
+      "name": "luca♪",
+      "ts": "2026-08-12T01:54:02+00:00"
+    },
+    {
+      "name": "ArtistTone",
+      "ts": "2026-08-12T01:53:58+00:00"
+    },
+    {
+      "name": "ArtistTone",
+      "ts": "2026-08-12T01:53:44+00:00"
+    },
+    {
+      "name": "Stan Yuju",
+      "ts": "2026-08-12T01:52:40+00:00"
+    },
+    {
+      "name": "ArtistTone",
+      "ts": "2026-08-12T01:52:37+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-12T01:51:37+00:00"
+    },
     {
       "name": "ななちき",
       "ts": "2026-08-12T00:05:28+00:00"
@@ -3291,7 +3645,7 @@
       "ts": "2026-08-10T03:24:37+00:00"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "ts": "2026-08-10T03:20:46+00:00"
     },
     {
@@ -3299,7 +3653,7 @@
       "ts": "2026-08-10T03:20:27+00:00"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "ts": "2026-08-10T03:20:21+00:00"
     },
     {
@@ -3307,15 +3661,15 @@
       "ts": "2026-08-10T03:19:31+00:00"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "ts": "2026-08-10T03:19:26+00:00"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "ts": "2026-08-10T03:18:51+00:00"
     },
     {
-      "name": "◇BENREY1ī◇",
+      "name": "◇BENREY!!◇",
       "ts": "2026-08-10T03:18:12+00:00"
     },
     {
