@@ -384,3 +384,10 @@ footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 2
   color: var(--lime);
   overflow-wrap: anywhere;
 }
+.card{
+box-shadow:
+    0 1px 0 #ffffff0a,
+    0 8px 18px #00000066,
+    0 2px 4px #00000044;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
