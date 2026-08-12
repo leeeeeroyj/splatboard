@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-11T23:49:12+00:00",
+  "generated_at": "2026-08-12T00:21:17+00:00",
   "totals": {
-    "splats": 175,
-    "unique_players": 98,
+    "splats": 177,
+    "unique_players": 99,
     "assists": 24,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 39,
-    "wins": 26,
+    "matches": 40,
+    "wins": 27,
     "losses": 11,
     "draws": 0,
-    "avg_splats": 4.44,
+    "avg_splats": 4.38,
     "best_splats": 9,
-    "avg_points": 981,
+    "avg_points": 983,
     "best_points": 1421,
     "disconnects": 5,
     "quickest_splat": {
@@ -40,15 +40,27 @@
     }
   ],
   "awards": {
-    "assassin": {
-      "name": "GHΦらT",
-      "splats": 7,
-      "matches": 5,
-      "avatar": "faces/d06c47919e6f.png"
-    },
     "quickest": {
       "name": "GHΦらT",
       "seconds": 12.7,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    "assassin": {
+      "name": "GHΦらT",
+      "matches": 15,
+      "splats": 50,
+      "avg_points": 964,
+      "avatar": "faces/d06c47919e6f.png"
+    },
+    "public_enemy": {
+      "name": "GHΦらT",
+      "matches": 5,
+      "wins": 4,
+      "losses": 1,
+      "splats": 21,
+      "their_splats": 4.2,
+      "their_deaths": 4.0,
+      "avg_points": 948,
       "avatar": "faces/d06c47919e6f.png"
     },
     "nemesis": {
@@ -56,26 +68,39 @@
       "matches": 5,
       "wins": 4,
       "losses": 1,
+      "splats": 21,
       "their_splats": 4.2,
       "their_deaths": 4.0,
+      "avg_points": 948,
       "avatar": "faces/d06c47919e6f.png"
     },
-    "bogeyman": {
+    "boogeyman": {
       "name": "BooYAH",
       "matches": 1,
       "wins": 0,
       "losses": 1,
+      "splats": 5,
       "their_splats": 5.0,
       "their_deaths": 4.0,
+      "avg_points": 911,
       "avatar": "faces/82f223d091cf.png"
+    },
+    "turf_king": {
+      "name": "MR_COOPER™",
+      "matches": 4,
+      "splats": 22,
+      "avg_points": 1130,
+      "avatar": "faces/9c0a985ed3fb.png"
     },
     "hard_to_kill": {
       "name": "SARS",
       "matches": 2,
       "wins": 1,
       "losses": 0,
+      "splats": 5,
       "their_splats": 2.5,
       "their_deaths": 2.0,
+      "avg_points": 1030,
       "avatar": "faces/1fc2e8ffc9ae.png"
     },
     "lucky_charm": {
@@ -83,8 +108,10 @@
       "matches": 3,
       "wins": 3,
       "losses": 0,
+      "splats": 18,
       "their_splats": 6.0,
       "their_deaths": 4.3,
+      "avg_points": 1114,
       "avatar": "faces/9c0a985ed3fb.png"
     }
   },
@@ -101,15 +128,19 @@
         "matches": 5,
         "wins": 4,
         "losses": 1,
+        "splats": 21,
         "their_splats": 4.2,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 948
       },
       "alongside": {
         "matches": 10,
         "wins": 7,
         "losses": 2,
+        "splats": 29,
         "their_splats": 3.2,
-        "their_deaths": 3.6
+        "their_deaths": 3.6,
+        "avg_points": 973
       },
       "met": {
         "first": {
@@ -138,8 +169,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 8,
         "their_splats": 8.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 771
       },
       "met": {
         "first": {
@@ -168,8 +201,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 648
       },
       "met": {
         "first": {
@@ -198,8 +233,10 @@
         "matches": 2,
         "wins": 1,
         "losses": 1,
+        "splats": 10,
         "their_splats": 5.0,
-        "their_deaths": 4.5
+        "their_deaths": 4.5,
+        "avg_points": 1628
       },
       "met": {
         "first": {
@@ -228,8 +265,10 @@
         "matches": 3,
         "wins": 3,
         "losses": 0,
+        "splats": 4,
         "their_splats": 2.0,
-        "their_deaths": 2.3
+        "their_deaths": 2.3,
+        "avg_points": 742
       },
       "met": {
         "first": {
@@ -258,8 +297,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 519
       },
       "met": {
         "first": {
@@ -288,8 +329,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 813
       },
       "met": {
         "first": {
@@ -318,15 +361,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 435
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 417
       },
       "met": {
         "first": {
@@ -355,15 +402,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 8.0
+        "their_deaths": 8.0,
+        "avg_points": 1180
       },
       "alongside": {
         "matches": 3,
         "wins": 3,
         "losses": 0,
+        "splats": 18,
         "their_splats": 6.0,
-        "their_deaths": 4.3
+        "their_deaths": 4.3,
+        "avg_points": 1114
       },
       "met": {
         "first": {
@@ -392,15 +443,19 @@
         "matches": 2,
         "wins": 1,
         "losses": 0,
+        "splats": 10,
         "their_splats": 5.0,
-        "their_deaths": 3.5
+        "their_deaths": 3.5,
+        "avg_points": 832
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1005
       },
       "met": {
         "first": {
@@ -437,8 +492,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 1018
       },
       "met": {
         "first": {
@@ -467,8 +524,10 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
+        "splats": 10,
         "their_splats": 5.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 769
       },
       "met": {
         "first": {
@@ -497,8 +556,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 1077
       },
       "met": {
         "first": {
@@ -527,8 +588,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 418
       },
       "met": {
         "first": {
@@ -556,8 +619,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 483
       },
       "met": {
         "first": {
@@ -586,8 +651,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 806
       },
       "met": {
         "first": {
@@ -616,8 +683,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 759
       },
       "met": {
         "first": {
@@ -645,8 +714,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 829
       },
       "met": {
         "first": {
@@ -675,8 +746,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 780
       },
       "met": {
         "first": {
@@ -705,8 +778,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 8.0
+        "their_deaths": 8.0,
+        "avg_points": 277
       },
       "met": {
         "first": {
@@ -735,8 +810,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 991
       },
       "met": {
         "first": {
@@ -765,8 +842,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 911
       },
       "met": {
         "first": {
@@ -795,8 +874,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 838
       },
       "met": {
         "first": {
@@ -825,7 +906,9 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_deaths": 2.0
+        "splats": 0,
+        "their_deaths": 2.0,
+        "avg_points": 940
       },
       "met": {
         "first": {
@@ -854,8 +937,10 @@
         "matches": 2,
         "wins": 1,
         "losses": 1,
+        "splats": 9,
         "their_splats": 4.5,
-        "their_deaths": 3.5
+        "their_deaths": 3.5,
+        "avg_points": 986
       },
       "met": {
         "first": {
@@ -884,8 +969,10 @@
         "matches": 4,
         "wins": 4,
         "losses": 0,
+        "splats": 4,
         "their_splats": 2.0,
-        "their_deaths": 3.2
+        "their_deaths": 3.2,
+        "avg_points": 381
       },
       "met": {
         "first": {
@@ -914,7 +1001,9 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_deaths": 4.0
+        "splats": 0,
+        "their_deaths": 4.0,
+        "avg_points": 398
       },
       "met": {
         "first": {
@@ -943,15 +1032,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 781
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 8,
         "their_splats": 8.0,
-        "their_deaths": 1.0
+        "their_deaths": 1.0,
+        "avg_points": 761
       },
       "met": {
         "first": {
@@ -980,8 +1073,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 1339
       },
       "met": {
         "first": {
@@ -1009,8 +1104,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 632
       },
       "met": {
         "first": {
@@ -1039,8 +1136,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 510
       },
       "met": {
         "first": {
@@ -1069,8 +1168,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 547
       },
       "met": {
         "first": {
@@ -1099,8 +1200,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1460
       },
       "met": {
         "first": {
@@ -1129,8 +1232,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 961
       },
       "met": {
         "first": {
@@ -1159,15 +1264,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 705
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 7.0
+        "their_deaths": 7.0,
+        "avg_points": 587
       },
       "met": {
         "first": {
@@ -1196,8 +1305,10 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
+        "splats": 8,
         "their_splats": 4.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 707
       },
       "met": {
         "first": {
@@ -1226,8 +1337,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 1123
       },
       "met": {
         "first": {
@@ -1255,8 +1368,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 501
       },
       "met": {
         "first": {
@@ -1285,8 +1400,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 7.0
+        "their_deaths": 7.0,
+        "avg_points": 586
       },
       "met": {
         "first": {
@@ -1315,8 +1432,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1184
       },
       "met": {
         "first": {
@@ -1332,6 +1451,38 @@
       },
       "avatar": "faces/cb2de0cd480a.png",
       "splashtag": "faces/cb2de0cd480a-tag.png"
+    },
+    {
+      "name": "αGentleman",
+      "splats": 2,
+      "first": "2026-08-09T00:45:04+00:00",
+      "last": "2026-08-12T00:04:14+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 12,
+        "their_splats": 6.0,
+        "their_deaths": 5.0,
+        "avg_points": 587
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T00:44:47+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T00:03:07+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/bf39d4e7079c.png",
+      "splashtag": "faces/bf39d4e7079c-tag.png"
     },
     {
       "name": "∞ JRampage",
@@ -1360,8 +1511,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 8.0
+        "their_deaths": 8.0,
+        "avg_points": 473
       },
       "met": {
         "first": {
@@ -1389,8 +1542,10 @@
         "matches": 2,
         "wins": 2,
         "losses": 0,
+        "splats": 5,
         "their_splats": 2.5,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 1011
       },
       "met": {
         "first": {
@@ -1419,8 +1574,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 523
       },
       "met": {
         "first": {
@@ -1449,15 +1606,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 453
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 507
       },
       "met": {
         "first": {
@@ -1486,8 +1647,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 775
       },
       "met": {
         "first": {
@@ -1515,8 +1678,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1198
       },
       "met": {
         "first": {
@@ -1545,8 +1710,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 9,
         "their_splats": 9.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 932
       },
       "met": {
         "first": {
@@ -1589,8 +1756,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 786
       },
       "met": {
         "first": {
@@ -1619,8 +1788,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 976
       },
       "met": {
         "first": {
@@ -1648,8 +1819,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 972
       },
       "met": {
         "first": {
@@ -1677,7 +1850,9 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
-        "their_splats": 1.0
+        "splats": 1,
+        "their_splats": 1.0,
+        "avg_points": 1159
       },
       "met": {
         "first": {
@@ -1706,8 +1881,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1070
       },
       "met": {
         "first": {
@@ -1736,8 +1913,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1004
       },
       "met": {
         "first": {
@@ -1765,8 +1944,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 819
       },
       "met": {
         "first": {
@@ -1795,8 +1976,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 0,
         "their_splats": 0.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 961
       },
       "met": {
         "first": {
@@ -1825,8 +2008,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 628
       },
       "met": {
         "first": {
@@ -1855,8 +2040,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 664
       },
       "met": {
         "first": {
@@ -1884,8 +2071,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 797
       },
       "met": {
         "first": {
@@ -1914,8 +2103,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 573
       },
       "met": {
         "first": {
@@ -1952,8 +2143,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 990
       },
       "met": {
         "first": {
@@ -1990,8 +2183,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1117
       },
       "met": {
         "first": {
@@ -2018,8 +2213,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 873
       },
       "met": {
         "first": {
@@ -2048,8 +2245,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 868
       },
       "met": {
         "first": {
@@ -2077,8 +2276,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 688
       },
       "met": {
         "first": {
@@ -2106,8 +2307,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1114
       },
       "met": {
         "first": {
@@ -2136,15 +2339,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 1033
       },
       "alongside": {
         "matches": 2,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 2.5,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1030
       },
       "met": {
         "first": {
@@ -2182,7 +2389,9 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_deaths": 6.0
+        "splats": 0,
+        "their_deaths": 6.0,
+        "avg_points": 492
       },
       "met": {
         "first": {
@@ -2211,8 +2420,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 8,
         "their_splats": 8.0,
-        "their_deaths": 1.0
+        "their_deaths": 1.0,
+        "avg_points": 931
       },
       "met": {
         "first": {
@@ -2241,8 +2452,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 689
       },
       "met": {
         "first": {
@@ -2271,8 +2484,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 4,
         "their_splats": 4.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 709
       },
       "met": {
         "first": {
@@ -2300,8 +2515,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 774
       },
       "met": {
         "first": {
@@ -2329,8 +2546,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 862
       },
       "met": {
         "first": {
@@ -2358,8 +2577,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 608
       },
       "met": {
         "first": {
@@ -2388,7 +2609,9 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
-        "their_splats": 6.0
+        "splats": 6,
+        "their_splats": 6.0,
+        "avg_points": 971
       },
       "met": {
         "first": {
@@ -2417,8 +2640,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 6.0
+        "their_deaths": 6.0,
+        "avg_points": 423
       },
       "met": {
         "first": {
@@ -2447,8 +2672,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 2,
         "their_splats": 2.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 1376
       },
       "met": {
         "first": {
@@ -2477,8 +2704,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1054
       },
       "met": {
         "first": {
@@ -2507,15 +2736,19 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 940
       },
       "alongside": {
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 781
       },
       "met": {
         "first": {
@@ -2552,8 +2785,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 586
       },
       "met": {
         "first": {
@@ -2582,8 +2817,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 3.0
+        "their_deaths": 3.0,
+        "avg_points": 122
       },
       "met": {
         "first": {
@@ -2612,8 +2849,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 1077
       },
       "met": {
         "first": {
@@ -2642,8 +2881,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 930
       },
       "met": {
         "first": {
@@ -2672,8 +2913,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 0,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 1221
       },
       "met": {
         "first": {
@@ -2702,15 +2945,19 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 8,
         "their_splats": 8.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 838
       },
       "alongside": {
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 3,
         "their_splats": 3.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 620
       },
       "met": {
         "first": {
@@ -2728,36 +2975,6 @@
       "splashtag": "faces/a44dd14be6d1-tag.png"
     },
     {
-      "name": "αGentleman",
-      "splats": 1,
-      "first": "2026-08-09T00:45:04+00:00",
-      "last": "2026-08-09T00:45:04+00:00",
-      "matches": 1,
-      "best_match": 1,
-      "per_match": 1.0,
-      "versus": {
-        "matches": 1,
-        "wins": 1,
-        "losses": 0,
-        "their_splats": 7.0,
-        "their_deaths": 5.0
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T00:44:47+00:00",
-          "map": "Museum d'Alfonsino",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T00:44:47+00:00",
-          "map": "Museum d'Alfonsino",
-          "side": "against"
-        }
-      },
-      "avatar": "faces/bf39d4e7079c.png",
-      "splashtag": "faces/bf39d4e7079c-tag.png"
-    },
-    {
       "name": "↑κrıs↓",
       "splats": 1,
       "first": "2026-08-09T00:07:39+00:00",
@@ -2769,8 +2986,10 @@
         "matches": 1,
         "wins": 1,
         "losses": 0,
+        "splats": 1,
         "their_splats": 1.0,
-        "their_deaths": 4.0
+        "their_deaths": 4.0,
+        "avg_points": 539
       },
       "met": {
         "first": {
@@ -2798,8 +3017,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 5,
         "their_splats": 5.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 856
       },
       "met": {
         "first": {
@@ -2828,8 +3049,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 6,
         "their_splats": 6.0,
-        "their_deaths": 2.0
+        "their_deaths": 2.0,
+        "avg_points": 757
       },
       "met": {
         "first": {
@@ -2858,8 +3081,10 @@
         "matches": 1,
         "wins": 0,
         "losses": 1,
+        "splats": 7,
         "their_splats": 7.0,
-        "their_deaths": 5.0
+        "their_deaths": 5.0,
+        "avg_points": 648
       },
       "met": {
         "first": {
@@ -2875,9 +3100,48 @@
       },
       "avatar": "faces/6744682e184c.png",
       "splashtag": "faces/6744682e184c-tag.png"
+    },
+    {
+      "name": "ななちき",
+      "splats": 1,
+      "first": "2026-08-12T00:05:28+00:00",
+      "last": "2026-08-12T00:05:28+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 902
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T00:03:07+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-12T00:03:07+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "faces/dac86591f87d.png"
     }
   ],
   "recent": [
+    {
+      "name": "ななちき",
+      "ts": "2026-08-12T00:05:28+00:00"
+    },
+    {
+      "name": "αGentleman",
+      "ts": "2026-08-12T00:04:14+00:00"
+    },
     {
       "name": "kоzukеn",
       "ts": "2026-08-11T04:12:49+00:00"

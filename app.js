@@ -130,7 +130,7 @@ function playerCard(p, badge) {
   const back = cardBack(p);
   if (back) {
     inner.append(back);
-    makeFlippable(card, p);
+    makeFlippable(card, `${p.name} — more`);
   }
   card.append(inner);
   if (p.last) card.title = `Last splatted ${whenText(p.last)}`;
@@ -179,7 +179,7 @@ function cardBack(p) {
     const list = document.createElement("dl");
     list.className = "record-list";
     list.append(...stat("faced", p.versus.matches),
-                ...stat("record", record(p.versus)));
+                ...stat("my record", record(p.versus)));
     if (p.best_match) list.append(...stat("best", p.best_match));
     if (p.per_match) list.append(...stat("average", p.per_match));
     back.append(heading("Bad Guy Stats"), list);
@@ -188,7 +188,7 @@ function cardBack(p) {
     const list = document.createElement("dl");
     list.className = "record-list";
     list.append(...stat("together", p.alongside.matches),
-                ...stat("record", record(p.alongside)));
+                ...stat("our record", record(p.alongside)));
     if (p.alongside.their_splats != null) {
       list.append(...stat("their splats", p.alongside.their_splats));
     }
@@ -201,12 +201,12 @@ function heading(text) {
   head.textContent = text;
   return head;
 }
-function makeFlippable(card, p) {
+function makeFlippable(card, label) {
   card.classList.add("flippable");
   card.tabIndex = 0;
   card.setAttribute("role", "button");
   card.setAttribute("aria-pressed", "false");
-  card.setAttribute("aria-label", `${p.name} — more`);
+  card.setAttribute("aria-label", label);
   const toggle = () => {
     const open = card.classList.toggle("flipped");
     card.setAttribute("aria-pressed", String(open));
@@ -262,29 +262,33 @@ function plural(n, one, many) {
   return n === 1 ? one : (many || `${one}s`);
 }
 const AWARDS = [
-  { key: "squad", art: "h-top-squad.svg", title: "Top Squad", wide: true,
-    blurb: (owner) => `${owner || "My"}'s top teammates.` },
   { key: "assassin", art: "h-splat-assassin.svg", title: "Splat Assassin",
-    blurb: "The player with the most splats recorded.",
-    line: (a) => (a.matches
-      ? [a.splats, plural(a.splats, " splat") + " in ", a.matches,
-         plural(a.matches, " match", " matches")]
-      : [a.splats, plural(a.splats, " splat")]) },
+    blurb: "Most splats recorded",
+    line: (a) => [a.splats, plural(a.splats, " splat") + " in ", a.matches,
+                  plural(a.matches, " match", " matches")] },
+  { key: "public_enemy", art: "h-public-enemy.svg", title: "Public Enemy",
+    blurb: "Most splats against my team",
+    line: (a) => [a.splats, plural(a.splats, " splat") + " on my team"] },
   { key: "quickest", art: "h-fastest-splat.svg", title: "Fastest Splat",
-    blurb: "Splatted sooner after a match started than anyone.",
+    blurb: "…LEEEEROYJ got 'em fast!",
     line: (a) => [`${a.seconds}s`, " into a match"] },
   { key: "nemesis", art: "h-nemesis.svg", title: "Nemesis",
-    blurb: "Turned up on the other team more than anyone.",
+    blurb: "Frequent Bad Guy",
     line: (a) => [a.matches, plural(a.matches, " match", " matches") + " faced"] },
+  { key: "turf_king", art: "h-turf-king.svg", title: "Turf King",
+    blurb: "Inks the most turf, match for match",
+    line: (a) => [`${a.avg_points}p`, " a match"] },
   { key: "hard_to_kill", art: "h-hard-to-kill.svg", title: "Hard to Kill",
-    blurb: "The teammate splatted least often, match for match.",
+    blurb: "Most likely to survive",
     line: (a) => [a.their_deaths, " times a match"] },
   { key: "lucky_charm", art: "h-lucky-charm.svg", title: "Lucky Charm",
-    blurb: "The teammate I win beside most often.",
+    blurb: "A good guy to win with",
     line: (a) => [a.wins, " of ", a.matches, " won together"] },
-  { key: "bogeyman", art: "h-bogeyman.svg", title: "Bogeyman",
-    blurb: "Beat me across more matches than anyone.",
+  { key: "boogeyman", art: "h-boogeyman.svg", title: "Boogeyman",
+    blurb: "Beat me the most",
     line: (a) => [a.losses, plural(a.losses, " loss", " losses") + " against them"] },
+  { key: "squad", art: "h-top-squad.svg", title: "Top Squad", wide: true,
+    blurb: (owner) => `${owner || "My"}'s top teammates.` },
 ];
 function laureate(who, line) {
   const block = document.createElement("div");
@@ -329,7 +333,7 @@ function renderAwards(data, squad) {
     block.append(head, blurb, card);
     row.append(block);
   }
-  row.hidden = !row.children.length;
+  document.getElementById("awards-section").hidden = !row.children.length;
 }
 function renderWall() {
   const wall = document.getElementById("wall");

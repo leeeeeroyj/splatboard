@@ -21,14 +21,11 @@
 </header>
 <main>
   <div class="toolbar">
-    <section class="find">
-      <h2><img class="heading" src="h-search.svg" alt="Search"></h2>
-      <input id="search" type="search" placeholder="Find your name…"
-             autocomplete="off" spellcheck="false" aria-label="Search players">
-    </section>
+    <input id="search" type="search" placeholder="Find your name…"
+           autocomplete="off" spellcheck="false" aria-label="Search players">
   </div>
   <section>
-    <h2><img class="heading" src="h-career.svg" alt="Career"></h2>
+    <h2><img class="heading" src="h-my-career-stats.svg" alt="My Career Stats"></h2>
     <div class="career-blocks" id="career"></div>
   </section>
   <section>
@@ -36,7 +33,11 @@
     <p class="blurb" id="wall-blurb"></p>
     <div id="wall" class="wall"></div>
   </section>
-  <section class="awards" id="awards" hidden></section>
+  <section id="awards-section" hidden>
+    <h2><img class="heading banner" src="h-player-achievements.svg"
+             alt="Player Achievements"></h2>
+    <div class="awards" id="awards"></div>
+  </section>
   <section id="recent-section" hidden>
     <h2><img class="heading" src="h-freshly-inked.svg" alt="Freshly Inked"></h2>
     <ol id="recent" class="recent"></ol>
