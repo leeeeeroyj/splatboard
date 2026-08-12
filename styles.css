@@ -61,9 +61,10 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
 .toolbar {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 12px 22px;
 }
+.toolbar h2 { margin-bottom: 0; }
 .tally { margin: 0; color: var(--dim); font-size: 14px; }
 .tally b { color: var(--lime); font-size: 17px; }
 .toolbar input {
@@ -85,6 +86,7 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
   box-shadow: 0 0 0 3px #8A4FFF33;
 }
 section { margin-top: 34px; }
+main > section:first-child { margin-top: 6px; }
 h2 { margin: 0 0 11px; line-height: 0; }
 .heading { display: block; height: 18.5px; width: auto; }
 .empty { color: var(--dim); font-style: italic; }
