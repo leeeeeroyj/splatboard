@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:13:26+00:00",
+  "generated_at": "2026-08-13T23:57:53+00:00",
   "totals": {
     "splats": 308,
     "unique_players": 150,
@@ -51,6 +51,11 @@
       "seconds": 12.6,
       "avatar": "assets/faces/7481885a511e.png"
     },
+    "target_practice": {
+      "name": "GHΦらT",
+      "splats": 6,
+      "avatar": "assets/faces/d06c47919e6f.png"
+    },
     "assassin": {
       "name": "GHΦらT",
       "matches": 19,
@@ -81,18 +86,6 @@
       "their_deaths": 4.4,
       "avg_points": 831,
       "avatar": "assets/faces/d06c47919e6f.png"
-    },
-    "boogeyman": {
-      "name": ".」_ oNア΄σモ",
-      "matches": 1,
-      "wins": 0,
-      "losses": 1,
-      "splats": 4,
-      "their_best": 4,
-      "their_splats": 4.0,
-      "their_deaths": 4.0,
-      "avg_points": 536,
-      "avatar": "assets/faces/37c7bdc10e9e.png"
     },
     "turf_king": {
       "name": "Alcoんσlic™",
@@ -134,7 +127,6 @@
       "last": "2026-08-12T02:29:14+00:00",
       "matches": 9,
       "best_match": 6,
-      "per_match": 2.5,
       "versus": {
         "matches": 9,
         "wins": 8,
@@ -177,7 +169,6 @@
       "last": "2026-08-13T22:53:29+00:00",
       "matches": 3,
       "best_match": 3,
-      "per_match": 2.33,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -220,7 +211,6 @@
       "last": "2026-08-12T22:52:40+00:00",
       "matches": 2,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -253,7 +243,6 @@
       "last": "2026-08-13T23:06:20+00:00",
       "matches": 1,
       "best_match": 6,
-      "per_match": 6.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -286,7 +275,6 @@
       "last": "2026-08-09T22:31:55+00:00",
       "matches": 1,
       "best_match": 5,
-      "per_match": 5.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -319,7 +307,6 @@
       "last": "2026-08-10T03:20:46+00:00",
       "matches": 1,
       "best_match": 5,
-      "per_match": 5.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -352,7 +339,6 @@
       "last": "2026-08-12T02:14:13+00:00",
       "matches": 1,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -382,7 +368,6 @@
       "last": "2026-08-09T19:56:23+00:00",
       "matches": 2,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 2,
         "wins": 1,
@@ -415,7 +400,6 @@
       "last": "2026-08-13T23:11:30+00:00",
       "matches": 1,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -448,7 +432,6 @@
       "last": "2026-08-13T22:51:40+00:00",
       "matches": 3,
       "best_match": 2,
-      "per_match": 1.33,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -491,7 +474,6 @@
       "last": "2026-08-12T22:53:08+00:00",
       "matches": 1,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -524,7 +506,6 @@
       "last": "2026-08-09T22:29:37+00:00",
       "matches": 3,
       "best_match": 2,
-      "per_match": 1.33,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -557,7 +538,6 @@
       "last": "2026-08-13T22:36:20+00:00",
       "matches": 2,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -590,7 +570,6 @@
       "last": "2026-08-12T22:47:36+00:00",
       "matches": 2,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -633,7 +612,6 @@
       "last": "2026-08-09T21:07:34+00:00",
       "matches": 1,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -666,7 +644,6 @@
       "last": "2026-08-10T03:34:53+00:00",
       "matches": 1,
       "best_match": 4,
-      "per_match": 4.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -699,7 +676,6 @@
       "last": "2026-08-12T01:53:58+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -741,7 +717,6 @@
       "last": "2026-08-11T04:12:44+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -784,7 +759,6 @@
       "last": "2026-08-12T22:53:01+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -817,7 +791,6 @@
       "last": "2026-08-12T02:29:33+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -850,7 +823,6 @@
       "last": "2026-08-09T15:00:31+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -893,7 +865,6 @@
       "last": "2026-08-09T21:51:10+00:00",
       "matches": 2,
       "best_match": 2,
-      "per_match": 1.5,
       "versus": {
         "matches": 2,
         "wins": 1,
@@ -936,7 +907,6 @@
       "last": "2026-08-12T03:52:44+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -977,7 +947,6 @@
       "last": "2026-08-09T03:48:03+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1010,7 +979,6 @@
       "last": "2026-08-13T22:40:04+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1043,7 +1011,6 @@
       "last": "2026-08-09T14:47:10+00:00",
       "matches": 3,
       "best_match": 2,
-      "per_match": 1.5,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -1076,7 +1043,6 @@
       "last": "2026-08-11T04:06:55+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1109,7 +1075,6 @@
       "last": "2026-08-09T14:47:13+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1142,7 +1107,6 @@
       "last": "2026-08-10T03:29:52+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1174,7 +1138,6 @@
       "last": "2026-08-13T22:52:31+00:00",
       "matches": 2,
       "best_match": 2,
-      "per_match": 1.5,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -1207,7 +1170,6 @@
       "last": "2026-08-12T22:43:33+00:00",
       "matches": 3,
       "best_match": 2,
-      "per_match": 1.5,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -1240,7 +1202,6 @@
       "last": "2026-08-11T04:12:49+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1273,7 +1234,6 @@
       "last": "2026-08-13T23:01:49+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1306,7 +1266,6 @@
       "last": "2026-08-09T22:22:15+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1339,7 +1298,6 @@
       "last": "2026-08-09T14:42:16+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1371,7 +1329,6 @@
       "last": "2026-08-10T03:25:51+00:00",
       "matches": 1,
       "best_match": 3,
-      "per_match": 3.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1404,7 +1361,6 @@
       "last": "2026-08-09T14:38:12+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1437,7 +1393,6 @@
       "last": "2026-08-12T03:57:22+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1470,7 +1425,6 @@
       "last": "2026-08-09T22:36:47+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1503,7 +1457,6 @@
       "last": "2026-08-12T19:05:20+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1535,7 +1488,6 @@
       "last": "2026-08-11T02:51:15+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1568,7 +1520,6 @@
       "last": "2026-08-12T19:00:35+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1601,7 +1552,6 @@
       "last": "2026-08-09T22:36:44+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1634,7 +1584,6 @@
       "last": "2026-08-11T02:51:24+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1674,7 +1623,6 @@
       "last": "2026-08-09T00:11:35+00:00",
       "matches": 3,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 3,
         "wins": 2,
@@ -1724,7 +1672,6 @@
       "last": "2026-08-09T22:35:43+00:00",
       "matches": 4,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 4,
         "wins": 4,
@@ -1757,7 +1704,6 @@
       "last": "2026-08-09T22:27:32+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1788,7 +1734,6 @@
       "last": "2026-08-09T00:45:43+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1831,7 +1776,6 @@
       "last": "2026-08-10T03:29:48+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1863,7 +1807,6 @@
       "last": "2026-08-09T03:51:58+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1896,7 +1839,6 @@
       "last": "2026-08-09T21:39:09+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1929,7 +1871,6 @@
       "last": "2026-08-09T15:13:01+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -1962,7 +1903,6 @@
       "last": "2026-08-09T03:51:53+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -1995,7 +1935,6 @@
       "last": "2026-08-09T19:51:27+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2028,7 +1967,6 @@
       "last": "2026-08-09T00:51:41+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2071,7 +2009,6 @@
       "last": "2026-08-12T22:43:37+00:00",
       "matches": 3,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 3,
         "wins": 3,
@@ -2114,7 +2051,6 @@
       "last": "2026-08-09T14:54:03+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2146,7 +2082,6 @@
       "last": "2026-08-12T02:18:33+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2179,7 +2114,6 @@
       "last": "2026-08-12T22:38:21+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2210,7 +2144,6 @@
       "last": "2026-08-09T00:50:18+00:00",
       "matches": 2,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -2243,7 +2176,6 @@
       "last": "2026-08-12T19:09:50+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2275,7 +2207,6 @@
       "last": "2026-08-09T00:18:45+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2307,7 +2238,6 @@
       "last": "2026-08-12T22:48:03+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2340,7 +2270,6 @@
       "last": "2026-08-13T23:11:24+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2371,7 +2300,6 @@
       "last": "2026-08-12T19:00:06+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2404,7 +2332,6 @@
       "last": "2026-08-09T03:56:27+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2437,7 +2364,6 @@
       "last": "2026-08-13T22:56:38+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2470,7 +2396,6 @@
       "last": "2026-08-09T21:44:40+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2503,7 +2428,6 @@
       "last": "2026-08-10T03:29:30+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2536,7 +2460,6 @@
       "last": "2026-08-13T22:57:21+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2569,7 +2492,6 @@
       "last": "2026-08-12T00:04:14+00:00",
       "matches": 2,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -2602,7 +2524,6 @@
       "last": "2026-08-13T23:11:59+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2635,7 +2556,6 @@
       "last": "2026-08-12T19:05:35+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2663,8 +2583,7 @@
       "splats": 2,
       "first": "2026-08-09T03:42:51+00:00",
       "last": "2026-08-09T03:43:33+00:00",
-      "best_match": 2,
-      "per_match": 2.0
+      "best_match": 2
     },
     {
       "name": "∴〒σrなど∵",
@@ -2680,7 +2599,6 @@
       "last": "2026-08-09T14:58:57+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2712,7 +2630,6 @@
       "last": "2026-08-12T03:57:30+00:00",
       "matches": 1,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2745,7 +2662,6 @@
       "last": "2026-08-09T15:13:36+00:00",
       "matches": 2,
       "best_match": 2,
-      "per_match": 2.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -2778,7 +2694,6 @@
       "last": "2026-08-13T22:38:57+00:00",
       "matches": 2,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 2,
         "wins": 2,
@@ -2811,7 +2726,6 @@
       "last": "2026-08-10T03:34:21+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2844,7 +2758,6 @@
       "last": "2026-08-13T23:09:24+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -2887,7 +2800,6 @@
       "last": "2026-08-11T02:53:53+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2930,7 +2842,6 @@
       "last": "2026-08-12T19:09:48+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -2973,7 +2884,6 @@
       "last": "2026-08-09T14:56:01+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3005,7 +2915,6 @@
       "last": "2026-08-10T03:11:22+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3038,7 +2947,6 @@
       "last": "2026-08-10T03:25:45+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3071,7 +2979,6 @@
       "last": "2026-08-13T23:05:43+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3104,7 +3011,6 @@
       "last": "2026-08-13T22:33:54+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3137,7 +3043,6 @@
       "last": "2026-08-11T02:56:34+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3170,7 +3075,6 @@
       "last": "2026-08-09T14:41:34+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3202,7 +3106,6 @@
       "last": "2026-08-12T03:52:04+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3245,7 +3148,6 @@
       "last": "2026-08-11T04:10:49+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3277,7 +3179,6 @@
       "last": "2026-08-12T19:04:41+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3309,7 +3210,6 @@
       "last": "2026-08-11T02:53:56+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3341,7 +3241,6 @@
       "last": "2026-08-12T19:03:09+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3373,7 +3272,6 @@
       "last": "2026-08-09T21:43:10+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3406,7 +3304,6 @@
       "last": "2026-08-09T00:18:33+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3438,7 +3335,6 @@
       "last": "2026-08-09T15:17:28+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3471,7 +3367,6 @@
       "last": "2026-08-09T00:51:58+00:00",
       "matches": 2,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 2,
         "wins": 1,
@@ -3504,7 +3399,6 @@
       "last": "2026-08-09T21:50:07+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3537,7 +3431,6 @@
       "last": "2026-08-09T19:56:05+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3569,7 +3462,6 @@
       "last": "2026-08-10T03:08:15+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3602,7 +3494,6 @@
       "last": "2026-08-12T03:51:06+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3643,7 +3534,6 @@
       "last": "2026-08-09T21:11:29+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3676,7 +3566,6 @@
       "last": "2026-08-12T03:51:09+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3709,7 +3598,6 @@
       "last": "2026-08-09T21:39:11+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3742,7 +3630,6 @@
       "last": "2026-08-09T03:52:20+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3773,8 +3660,7 @@
       "splats": 1,
       "first": "2026-08-10T03:07:33+00:00",
       "last": "2026-08-10T03:07:33+00:00",
-      "best_match": 1,
-      "per_match": 1.0
+      "best_match": 1
     },
     {
       "name": "Oscar",
@@ -3783,7 +3669,6 @@
       "last": "2026-08-09T14:50:26+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3816,7 +3701,6 @@
       "last": "2026-08-13T23:01:30+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3880,7 +3764,6 @@
       "last": "2026-08-09T14:58:53+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3912,7 +3795,6 @@
       "last": "2026-08-09T15:17:27+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -3944,7 +3826,6 @@
       "last": "2026-08-09T00:10:43+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -3977,7 +3858,6 @@
       "last": "2026-08-09T03:43:28+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4020,7 +3900,6 @@
       "last": "2026-08-09T03:50:51+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4051,7 +3930,6 @@
       "last": "2026-08-10T03:12:01+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4084,7 +3962,6 @@
       "last": "2026-08-09T00:06:57+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4117,7 +3994,6 @@
       "last": "2026-08-12T18:54:11+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4150,7 +4026,6 @@
       "last": "2026-08-12T01:52:40+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4183,7 +4058,6 @@
       "last": "2026-08-09T14:41:14+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4215,7 +4089,6 @@
       "last": "2026-08-12T02:24:46+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4248,7 +4121,6 @@
       "last": "2026-08-09T00:05:49+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4280,7 +4152,6 @@
       "last": "2026-08-09T22:32:09+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4313,7 +4184,6 @@
       "last": "2026-08-11T04:06:02+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4345,7 +4215,6 @@
       "last": "2026-08-10T03:33:18+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4378,7 +4247,6 @@
       "last": "2026-08-12T18:54:03+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4411,7 +4279,6 @@
       "last": "2026-08-09T03:55:37+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4444,7 +4311,6 @@
       "last": "2026-08-13T22:36:17+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4477,7 +4343,6 @@
       "last": "2026-08-09T03:43:44+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4510,7 +4375,6 @@
       "last": "2026-08-09T21:10:34+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4553,7 +4417,6 @@
       "last": "2026-08-13T23:02:28+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4586,7 +4449,6 @@
       "last": "2026-08-10T03:20:27+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4619,7 +4481,6 @@
       "last": "2026-08-11T02:51:31+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4652,7 +4513,6 @@
       "last": "2026-08-12T01:54:02+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4685,7 +4545,6 @@
       "last": "2026-08-09T14:35:32+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4718,7 +4577,6 @@
       "last": "2026-08-09T03:48:03+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4751,7 +4609,6 @@
       "last": "2026-08-09T14:44:31+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4784,7 +4641,6 @@
       "last": "2026-08-10T03:29:11+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4817,7 +4673,6 @@
       "last": "2026-08-09T14:55:43+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4860,7 +4715,6 @@
       "last": "2026-08-12T19:09:31+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4892,7 +4746,6 @@
       "last": "2026-08-09T00:07:39+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -4924,7 +4777,6 @@
       "last": "2026-08-10T03:19:31+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4957,7 +4809,6 @@
       "last": "2026-08-09T21:12:20+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -4990,7 +4841,6 @@
       "last": "2026-08-10T03:12:06+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,
@@ -5023,7 +4873,6 @@
       "last": "2026-08-12T00:05:28+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -5055,7 +4904,6 @@
       "last": "2026-08-12T01:56:29+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 1,
@@ -5088,7 +4936,6 @@
       "last": "2026-08-12T18:55:05+00:00",
       "matches": 1,
       "best_match": 1,
-      "per_match": 1.0,
       "versus": {
         "matches": 1,
         "wins": 0,

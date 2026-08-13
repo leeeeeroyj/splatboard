@@ -2,7 +2,6 @@ assets/css/styles.css
 assets/img/leeeeroyj.png
 assets/img/pattern.jpg
 assets/js/app.js
-assets/svg/h-boogeyman.svg
 assets/svg/h-career-stats.svg
 assets/svg/h-fastest-splat.svg
 assets/svg/h-freshly-inked.svg
@@ -13,6 +12,7 @@ assets/svg/h-nemesis.svg
 assets/svg/h-player-achievements.svg
 assets/svg/h-public-enemy.svg
 assets/svg/h-splat-assassin.svg
+assets/svg/h-target-practice.svg
 assets/svg/h-top-splats.svg
 assets/svg/h-top-squad.svg
 assets/svg/h-turf-king.svg

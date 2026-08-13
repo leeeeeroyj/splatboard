@@ -177,16 +177,20 @@ function cardBack(p) {
     const list = document.createElement("dl");
     list.className = "record-list";
     list.append(...stat("faced", p.versus.matches),
-                ...stat("their record", theirRecord(p.versus)));
-    if (p.best_match) list.append(...stat("best", p.best_match));
-    if (p.per_match) list.append(...stat("average", p.per_match));
+                ...stat("record", theirRecord(p.versus)));
+    if (p.versus.their_best != null) {
+      list.append(...stat("their best", p.versus.their_best));
+    }
+    if (p.versus.their_splats != null) {
+      list.append(...stat("average", p.versus.their_splats));
+    }
     back.append(heading("Bad Guy Stats"), list);
   }
   if (p.alongside) {
     const list = document.createElement("dl");
     list.className = "record-list";
     list.append(...stat("together", p.alongside.matches),
-                ...stat("our record", record(p.alongside)));
+                ...stat("record", record(p.alongside)));
     if (p.alongside.their_best != null) {
       list.append(...stat("their best", p.alongside.their_best));
     }
@@ -285,9 +289,10 @@ const AWARDS = [
   { key: "lucky_charm", art: "assets/svg/h-lucky-charm.svg", title: "Lucky Charm",
     blurb: "Teammate I win with the most",
     line: (a) => [a.wins, " of ", a.matches, " won together"] },
-  { key: "boogeyman", art: "assets/svg/h-boogeyman.svg", title: "Boogeyman",
-    blurb: "Beat me the most",
-    line: (a) => [a.losses, plural(a.losses, " loss", " losses") + " against them"] },
+  { key: "target_practice", art: "assets/svg/h-target-practice.svg",
+    title: "Target Practice",
+    blurb: "…LEEEEROYJ's top target",
+    line: (a) => [a.splats, plural(a.splats, " splat") + " in one match"] },
   { key: "squad", art: "assets/svg/h-top-squad.svg", title: "Top Squad", wide: true,
     blurb: (owner) => `${owner || "My"}'s top teammates.` },
 ];
