@@ -4,7 +4,7 @@ A ~~scoreboard~~ Wall-of-Squid 🦑 showing players splatted by …LEEEEROYJ in 
 
 The data comes from reading the game's kill-feed banners and other feedback off my capture card during live game play. The stats aren't typed in by hand, and nothing comes from an API (I wish Splatoon had one!) It's all read off the screen, the same pixels you'd be looking at or would see on a stream.   
 
-<img src="docs/demo.gif" alt="Watch this!" width="50%"/>
+<img src="docs/demo.gif" alt="Watch this!" width="80%"/>
 
 ***[Click to view …LEEEEROYJ's Splatboard](https://leeeeeroyj.github.io/splatboard/)***
 
