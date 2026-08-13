@@ -98,13 +98,13 @@ h2 { margin: 0 0 11px; line-height: 0; }
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 14px;
 }
-.awards { row-gap: 26px; }
+.awards { row-gap: 38px; }
 .heading.banner { height: 25px; }
 .banner-group > section:first-of-type { margin-top: 14px; }
 .award.wide { grid-column: span 2; }
 .award { display: flex; flex-direction: column; }
 .award h2 { margin-bottom: 8px; }
-.award .blurb { margin: 0 0 10px; min-height: 2.6em; }
+.award .blurb { margin: 0 0 4px; min-height: 2.6em; }
 .card.award-card { flex: 1; }
 .card.award-card {
   background: var(--sunk);
@@ -122,7 +122,7 @@ h2 { margin: 0 0 11px; line-height: 0; }
 .squad-list {
   display: flex;
   justify-content: space-evenly;
-  gap: 8px;
+  gap: 0;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -132,10 +132,13 @@ h2 { margin: 0 0 11px; line-height: 0; }
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  width: clamp(72px, 7vw, 96px);
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 6px;
   text-align: center;
   overflow-wrap: anywhere;
 }
+.squad-list li + li { border-left: 1px solid var(--line); }
 .squad-list .face { width: 46px; height: 46px; margin: 0 0 2px; font-size: 22px; }
 .squad-list .count { margin: 0; font-size: 11px; }
 .squad-list .count b { font-size: 14px; margin-right: 3px; }
@@ -189,20 +192,16 @@ h2 { margin: 0 0 11px; line-height: 0; }
   transform: rotateY(180deg);
   text-align: left;
   gap: 2px;
-  padding-top: 22px;
 }
 .card-back h4 {
   margin: 0;
   font-size: 11px; text-transform: uppercase; letter-spacing: .6px;
-  color: var(--dim); font-weight: normal;
+  color: var(--sand); font-weight: 700;
 }
 .card-back h4 + .record-list { margin-bottom: 8px; }
-.seat {
-  position: absolute; top: 0; right: 0;
-  background: #ffffff14; color: var(--dim);
-  font-family: var(--display); font-size: 10px;
-  letter-spacing: .4px;
-  padding: 3px 9px; border-radius: 999px;
+.card-back .record-list + h4 {
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
 }
 .record-list {
   display: grid; grid-template-columns: 1fr auto;

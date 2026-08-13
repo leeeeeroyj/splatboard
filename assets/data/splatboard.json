@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T04:17:28+00:00",
+  "generated_at": "2026-08-13T18:33:10+00:00",
   "totals": {
     "splats": 259,
     "unique_players": 131,
@@ -26,16 +26,22 @@
     {
       "name": "GHΦらT",
       "matches": 10,
+      "wins": 7,
+      "losses": 2,
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     {
       "name": "MR_COOPER™",
       "matches": 3,
+      "wins": 3,
+      "losses": 0,
       "avatar": "assets/faces/9c0a985ed3fb.png"
     },
     {
       "name": "Mechanic",
       "matches": 3,
+      "wins": 3,
+      "losses": 0,
       "avatar": "assets/faces/ac23a6af686b.png"
     }
   ],
@@ -58,6 +64,7 @@
       "wins": 8,
       "losses": 1,
       "splats": 34,
+      "their_best": 6,
       "their_splats": 3.8,
       "their_deaths": 4.4,
       "avg_points": 831,
@@ -69,6 +76,7 @@
       "wins": 8,
       "losses": 1,
       "splats": 34,
+      "their_best": 6,
       "their_splats": 3.8,
       "their_deaths": 4.4,
       "avg_points": 831,
@@ -80,6 +88,7 @@
       "wins": 0,
       "losses": 1,
       "splats": 4,
+      "their_best": 4,
       "their_splats": 4.0,
       "their_deaths": 4.0,
       "avg_points": 536,
@@ -98,6 +107,7 @@
       "wins": 2,
       "losses": 0,
       "splats": 8,
+      "their_best": 6,
       "their_splats": 4.0,
       "their_deaths": 2.0,
       "avg_points": 1066,
@@ -109,6 +119,7 @@
       "wins": 3,
       "losses": 0,
       "splats": 18,
+      "their_best": 9,
       "their_splats": 6.0,
       "their_deaths": 4.3,
       "avg_points": 1114,
@@ -129,6 +140,7 @@
         "wins": 8,
         "losses": 1,
         "splats": 34,
+        "their_best": 6,
         "their_splats": 3.8,
         "their_deaths": 4.4,
         "avg_points": 831
@@ -138,6 +150,7 @@
         "wins": 7,
         "losses": 2,
         "splats": 29,
+        "their_best": 5,
         "their_splats": 3.2,
         "their_deaths": 3.6,
         "avg_points": 973
@@ -170,6 +183,7 @@
         "wins": 2,
         "losses": 0,
         "splats": 10,
+        "their_best": 6,
         "their_splats": 5.0,
         "their_deaths": 4.5,
         "avg_points": 614
@@ -202,6 +216,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 8,
+        "their_best": 8,
         "their_splats": 8.0,
         "their_deaths": 6.0,
         "avg_points": 771
@@ -234,6 +249,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 6.0,
         "avg_points": 648
@@ -296,6 +312,7 @@
         "wins": 1,
         "losses": 1,
         "splats": 10,
+        "their_best": 8,
         "their_splats": 5.0,
         "their_deaths": 4.5,
         "avg_points": 1628
@@ -328,6 +345,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 8,
+        "their_best": 8,
         "their_splats": 8.0,
         "their_deaths": 6.0,
         "avg_points": 770
@@ -360,6 +378,7 @@
         "wins": 3,
         "losses": 0,
         "splats": 4,
+        "their_best": 3,
         "their_splats": 2.0,
         "their_deaths": 2.3,
         "avg_points": 742
@@ -392,6 +411,7 @@
         "wins": 2,
         "losses": 0,
         "splats": 9,
+        "their_best": 6,
         "their_splats": 4.5,
         "their_deaths": 2.0,
         "avg_points": 698
@@ -401,6 +421,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 2.0,
         "avg_points": 618
@@ -433,6 +454,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 519
@@ -465,6 +487,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 6.0,
         "avg_points": 813
@@ -497,6 +520,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 4.0,
         "avg_points": 1168
@@ -506,6 +530,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "avg_points": 1624
       },
@@ -537,6 +562,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 4.0,
         "avg_points": 435
@@ -546,6 +572,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 4.0,
         "avg_points": 417
@@ -578,6 +605,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 6.0,
         "avg_points": 1228
@@ -610,6 +638,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 7.0,
         "avg_points": 753
@@ -642,6 +671,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 8.0,
         "avg_points": 1180
@@ -651,6 +681,7 @@
         "wins": 3,
         "losses": 0,
         "splats": 18,
+        "their_best": 9,
         "their_splats": 6.0,
         "their_deaths": 4.3,
         "avg_points": 1114
@@ -683,6 +714,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 10,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 3.5,
         "avg_points": 832
@@ -692,6 +724,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 2.0,
         "avg_points": 1005
@@ -724,6 +757,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 5.0,
         "avg_points": 979
@@ -764,6 +798,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 1018
@@ -796,6 +831,7 @@
         "wins": 3,
         "losses": 0,
         "splats": 10,
+        "their_best": 6,
         "their_splats": 5.0,
         "their_deaths": 3.3,
         "avg_points": 874
@@ -828,6 +864,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 3.0,
         "avg_points": 829
@@ -860,6 +897,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 5.0,
         "avg_points": 1077
@@ -892,6 +930,7 @@
         "wins": 0,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 6.0,
         "avg_points": 418
@@ -923,6 +962,7 @@
         "wins": 3,
         "losses": 0,
         "splats": 18,
+        "their_best": 8,
         "their_splats": 6.0,
         "their_deaths": 3.5,
         "avg_points": 949
@@ -955,6 +995,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 6.0,
         "avg_points": 483
@@ -987,6 +1028,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 3.0,
         "avg_points": 806
@@ -1019,6 +1061,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 6.0,
         "avg_points": 759
@@ -1050,6 +1093,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 6.0,
         "avg_points": 780
@@ -1082,6 +1126,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 8.0,
         "avg_points": 277
@@ -1114,6 +1159,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 536
@@ -1146,6 +1192,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 3.0,
         "avg_points": 991
@@ -1178,6 +1225,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 4.0,
         "avg_points": 576
@@ -1209,6 +1257,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 4.0,
         "avg_points": 911
@@ -1241,6 +1290,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 4.0,
         "avg_points": 745
@@ -1273,6 +1323,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 2.0,
         "avg_points": 838
@@ -1313,6 +1364,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "avg_points": 112
       },
@@ -1344,6 +1396,7 @@
         "wins": 2,
         "losses": 1,
         "splats": 13,
+        "their_best": 5,
         "their_splats": 4.3,
         "their_deaths": 3.3,
         "avg_points": 882
@@ -1353,6 +1406,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 4.0,
         "avg_points": 829
@@ -1392,6 +1446,7 @@
         "wins": 4,
         "losses": 0,
         "splats": 4,
+        "their_best": 3,
         "their_splats": 2.0,
         "their_deaths": 3.2,
         "avg_points": 381
@@ -1455,6 +1510,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 5.0,
         "avg_points": 781
@@ -1464,6 +1520,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 8,
+        "their_best": 8,
         "their_splats": 8.0,
         "their_deaths": 1.0,
         "avg_points": 761
@@ -1496,6 +1553,7 @@
         "wins": 0,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 5.0,
         "avg_points": 1339
@@ -1527,6 +1585,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 5.0,
         "avg_points": 632
@@ -1559,6 +1618,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 6.0,
         "avg_points": 510
@@ -1591,6 +1651,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 547
@@ -1623,6 +1684,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 2.0,
         "avg_points": 1460
@@ -1655,6 +1717,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 961
@@ -1687,6 +1750,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 6.0,
         "avg_points": 705
@@ -1696,6 +1760,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 7.0,
         "avg_points": 587
@@ -1728,6 +1793,7 @@
         "wins": 3,
         "losses": 0,
         "splats": 12,
+        "their_best": 5,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 817
@@ -1737,6 +1803,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 6.0,
         "avg_points": 711
@@ -1769,6 +1836,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 2.0,
         "avg_points": 709
@@ -1800,6 +1868,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 7.0,
         "avg_points": 549
@@ -1863,6 +1932,7 @@
         "wins": 2,
         "losses": 0,
         "splats": 8,
+        "their_best": 7,
         "their_splats": 4.0,
         "their_deaths": 5.0,
         "avg_points": 707
@@ -1895,6 +1965,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 6.0,
         "avg_points": 600
@@ -1926,6 +1997,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 4.0,
         "avg_points": 1123
@@ -1957,6 +2029,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 3.0,
         "avg_points": 1129
@@ -1989,6 +2062,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 5.0,
         "avg_points": 460
@@ -2021,6 +2095,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 5.0,
         "avg_points": 501
@@ -2053,6 +2128,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 7.0,
         "avg_points": 586
@@ -2085,6 +2161,7 @@
         "wins": 0,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 3.0,
         "avg_points": 1184
@@ -2117,6 +2194,7 @@
         "wins": 2,
         "losses": 0,
         "splats": 12,
+        "their_best": 7,
         "their_splats": 6.0,
         "their_deaths": 5.0,
         "avg_points": 587
@@ -2194,6 +2272,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 8.0,
         "avg_points": 473
@@ -2225,6 +2304,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 3.0,
         "avg_points": 948
@@ -2257,6 +2337,7 @@
         "wins": 2,
         "losses": 0,
         "splats": 5,
+        "their_best": 3,
         "their_splats": 2.5,
         "their_deaths": 4.0,
         "avg_points": 1011
@@ -2289,6 +2370,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 2.0,
         "avg_points": 523
@@ -2321,6 +2403,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 5.0,
         "avg_points": 453
@@ -2330,6 +2413,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 3.0,
         "avg_points": 507
@@ -2362,6 +2446,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 6.0,
         "avg_points": 800
@@ -2371,6 +2456,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 6.0,
         "avg_points": 755
@@ -2403,6 +2489,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 775
@@ -2434,6 +2521,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 1198
@@ -2466,6 +2554,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 9,
+        "their_best": 9,
         "their_splats": 9.0,
         "their_deaths": 5.0,
         "avg_points": 932
@@ -2498,6 +2587,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 4.0,
         "avg_points": 786
@@ -2530,6 +2620,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 976
@@ -2561,6 +2652,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 5.0,
         "avg_points": 561
@@ -2570,6 +2662,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 5.0,
         "avg_points": 613
@@ -2602,6 +2695,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 3.0,
         "avg_points": 972
@@ -2633,6 +2727,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 4.0,
         "avg_points": 752
@@ -2664,6 +2759,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "avg_points": 1159
       },
@@ -2695,6 +2791,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 1.0,
         "avg_points": 82
@@ -2726,6 +2823,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 3.0,
         "avg_points": 1070
@@ -2758,6 +2856,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 1004
@@ -2789,6 +2888,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 5.0,
         "avg_points": 819
@@ -2821,6 +2921,7 @@
         "wins": 1,
         "losses": 1,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 3.0,
         "their_deaths": 3.0,
         "avg_points": 846
@@ -2853,6 +2954,7 @@
         "wins": 0,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 628
@@ -2885,6 +2987,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 4.0,
         "avg_points": 664
@@ -2916,6 +3019,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 5.0,
         "avg_points": 797
@@ -2948,6 +3052,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 6.0,
         "avg_points": 633
@@ -2988,6 +3093,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 2.0,
         "avg_points": 573
@@ -3020,6 +3126,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 9,
+        "their_best": 9,
         "their_splats": 9.0,
         "their_deaths": 2.0,
         "avg_points": 1070
@@ -3052,6 +3159,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 4.0,
         "avg_points": 865
@@ -3084,6 +3192,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 990
@@ -3124,6 +3233,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 1117
@@ -3154,6 +3264,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 873
@@ -3186,6 +3297,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 3.0,
         "avg_points": 868
@@ -3217,6 +3329,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 5.0,
         "avg_points": 688
@@ -3248,6 +3361,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 2.0,
         "avg_points": 1114
@@ -3280,6 +3394,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 1033
@@ -3289,6 +3404,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 3,
         "their_splats": 2.5,
         "their_deaths": 2.0,
         "avg_points": 1030
@@ -3352,6 +3468,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 8,
+        "their_best": 8,
         "their_splats": 8.0,
         "their_deaths": 1.0,
         "avg_points": 931
@@ -3384,6 +3501,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 2.0,
         "avg_points": 689
@@ -3416,6 +3534,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 2.0,
         "avg_points": 1182
@@ -3448,6 +3567,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 2.0,
         "avg_points": 1259
@@ -3480,6 +3600,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 3.0,
         "avg_points": 774
@@ -3511,6 +3632,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 2.0,
         "avg_points": 865
@@ -3543,6 +3665,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 4.0,
         "avg_points": 862
@@ -3574,6 +3697,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 2.0,
         "avg_points": 608
@@ -3606,6 +3730,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "avg_points": 971
       },
@@ -3637,6 +3762,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 6.0,
         "avg_points": 423
@@ -3669,6 +3795,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 9,
+        "their_best": 9,
         "their_splats": 9.0,
         "their_deaths": 1.0,
         "avg_points": 970
@@ -3701,6 +3828,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 4.0,
         "avg_points": 1376
@@ -3733,6 +3861,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 2.0,
         "avg_points": 1054
@@ -3765,6 +3894,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 2.0,
         "avg_points": 940
@@ -3774,6 +3904,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 781
@@ -3806,6 +3937,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 3.0,
         "avg_points": 810
@@ -3838,6 +3970,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 2.0,
         "avg_points": 586
@@ -3870,6 +4003,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 3.0,
         "avg_points": 901
@@ -3902,6 +4036,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 3.0,
         "avg_points": 122
@@ -3934,6 +4069,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 1077
@@ -3966,6 +4102,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 930
@@ -3998,6 +4135,7 @@
         "wins": 0,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 5.0,
         "avg_points": 1221
@@ -4030,6 +4168,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 8,
+        "their_best": 8,
         "their_splats": 8.0,
         "their_deaths": 2.0,
         "avg_points": 838
@@ -4039,6 +4178,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 2.0,
         "avg_points": 620
@@ -4071,6 +4211,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 8.0,
         "avg_points": 637
@@ -4102,6 +4243,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 1,
+        "their_best": 1,
         "their_splats": 1.0,
         "their_deaths": 4.0,
         "avg_points": 539
@@ -4133,6 +4275,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 5,
+        "their_best": 5,
         "their_splats": 5.0,
         "their_deaths": 2.0,
         "avg_points": 856
@@ -4165,6 +4308,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 6,
+        "their_best": 6,
         "their_splats": 6.0,
         "their_deaths": 2.0,
         "avg_points": 757
@@ -4197,6 +4341,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 7,
+        "their_best": 7,
         "their_splats": 7.0,
         "their_deaths": 5.0,
         "avg_points": 648
@@ -4229,6 +4374,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 4,
+        "their_best": 4,
         "their_splats": 4.0,
         "their_deaths": 5.0,
         "avg_points": 902
@@ -4260,6 +4406,7 @@
         "wins": 1,
         "losses": 0,
         "splats": 3,
+        "their_best": 3,
         "their_splats": 3.0,
         "their_deaths": 1.0,
         "avg_points": 594
@@ -4292,6 +4439,7 @@
         "wins": 0,
         "losses": 1,
         "splats": 2,
+        "their_best": 2,
         "their_splats": 2.0,
         "their_deaths": 3.0,
         "avg_points": 1029

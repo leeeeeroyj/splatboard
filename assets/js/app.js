@@ -145,6 +145,9 @@ function stat(label, value) {
 function record(block) {
   return `${block.wins}-${block.losses}`;
 }
+function theirRecord(block) {
+  return `${block.losses}-${block.wins}`;
+}
 function metLines(p) {
   if (!p.met) return null;
   const seen = [p.met.first, p.met.last].map((when) =>
@@ -170,15 +173,11 @@ function cardBack(p) {
   if (!p.versus && !p.alongside) return null;
   const back = document.createElement("div");
   back.className = "card-back";
-  const seat = document.createElement("span");
-  seat.className = "seat";
-  seat.textContent = `#${p.rank} of ${RANKED.length}`;
-  back.append(seat);
   if (p.versus) {
     const list = document.createElement("dl");
     list.className = "record-list";
     list.append(...stat("faced", p.versus.matches),
-                ...stat("my record", record(p.versus)));
+                ...stat("their record", theirRecord(p.versus)));
     if (p.best_match) list.append(...stat("best", p.best_match));
     if (p.per_match) list.append(...stat("average", p.per_match));
     back.append(heading("Bad Guy Stats"), list);
@@ -188,8 +187,11 @@ function cardBack(p) {
     list.className = "record-list";
     list.append(...stat("together", p.alongside.matches),
                 ...stat("our record", record(p.alongside)));
+    if (p.alongside.their_best != null) {
+      list.append(...stat("their best", p.alongside.their_best));
+    }
     if (p.alongside.their_splats != null) {
-      list.append(...stat("their splats", p.alongside.their_splats));
+      list.append(...stat("average", p.alongside.their_splats));
     }
     back.append(heading("Good Guy Stats"), list);
   }
@@ -267,7 +269,7 @@ const AWARDS = [
                   plural(a.matches, " match", " matches")] },
   { key: "public_enemy", art: "assets/svg/h-public-enemy.svg", title: "Public Enemy",
     blurb: "Most splats against my team",
-    line: (a) => [a.splats, " Good Guys splatted"] },
+    line: (a) => [a.splats, plural(a.splats, " splat") + " Good Guys splatted"] },
   { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
     blurb: "…LEEEEROYJ got 'em fast!",
     line: (a) => [`${a.seconds}s`, " into a match"] },
@@ -302,6 +304,7 @@ function squadSeats(squad) {
     const li = document.createElement("li");
     li.append(faceNode(mate), nameNode(mate, "namemark small"),
               countLine(mate.matches, plural(mate.matches, " match", " matches")));
+    if (mate.wins != null) li.append(countLine(record(mate)));
     list.append(li);
   }
   return list;
@@ -343,7 +346,7 @@ function renderWall() {
     return;
   }
   for (const p of shown) {
-    const badge = p.rank === 1 ? TROPHY : p.rank <= 3 || query ? `#${p.rank}` : null;
+    const badge = p.rank === 1 ? TROPHY : `#${p.rank}`;
     wall.append(playerCard(p, badge));
   }
 }
