@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-13T19:08:57+00:00",
+  "generated_at": "2026-08-13T23:13:26+00:00",
   "totals": {
-    "splats": 259,
-    "unique_players": 131,
-    "assists": 31,
+    "splats": 308,
+    "unique_players": 150,
+    "assists": 40,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 56,
-    "wins": 41,
-    "losses": 13,
+    "matches": 64,
+    "wins": 48,
+    "losses": 14,
     "draws": 0,
-    "avg_splats": 4.59,
+    "avg_splats": 4.78,
     "best_splats": 10,
-    "avg_points": 962,
+    "avg_points": 951,
     "best_points": 1421,
-    "disconnects": 7,
+    "disconnects": 8,
     "quickest_splat": {
       "seconds": 12.6,
       "name": "humbIе",
@@ -31,18 +31,18 @@
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     {
+      "name": "inkyQueen™",
+      "matches": 4,
+      "wins": 3,
+      "losses": 1,
+      "avatar": "assets/faces/3e322b0e3ed7.png"
+    },
+    {
       "name": "MR_COOPER™",
       "matches": 3,
       "wins": 3,
       "losses": 0,
       "avatar": "assets/faces/9c0a985ed3fb.png"
-    },
-    {
-      "name": "Mechanic",
-      "matches": 3,
-      "wins": 3,
-      "losses": 0,
-      "avatar": "assets/faces/ac23a6af686b.png"
     }
   ],
   "awards": {
@@ -95,11 +95,11 @@
       "avatar": "assets/faces/37c7bdc10e9e.png"
     },
     "turf_king": {
-      "name": "MR_COOPER™",
-      "matches": 4,
-      "splats": 22,
-      "avg_points": 1130,
-      "avatar": "assets/faces/9c0a985ed3fb.png"
+      "name": "Alcoんσlic™",
+      "matches": 3,
+      "splats": 11,
+      "avg_points": 1303,
+      "avatar": "assets/faces/a0ff519dcc36.png"
     },
     "hard_to_kill": {
       "name": "Alec",
@@ -171,6 +171,49 @@
       "splashtag": "assets/faces/d06c47919e6f-tag.png"
     },
     {
+      "name": "★Cosmo★",
+      "splats": 7,
+      "first": "2026-08-13T22:40:05+00:00",
+      "last": "2026-08-13T22:53:29+00:00",
+      "matches": 3,
+      "best_match": 3,
+      "per_match": 2.33,
+      "versus": {
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "splats": 15,
+        "their_best": 7,
+        "their_splats": 5.0,
+        "their_deaths": 5.0,
+        "avg_points": 735
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 809
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-13T22:50:32+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8c78e5db516a.png",
+      "splashtag": "assets/faces/8c78e5db516a-tag.png"
+    },
+    {
       "name": "Squiddo",
       "splats": 6,
       "first": "2026-08-12T22:46:41+00:00",
@@ -202,6 +245,39 @@
       },
       "avatar": "assets/faces/0b6d724bc852.png",
       "splashtag": "assets/faces/0b6d724bc852-tag.png"
+    },
+    {
+      "name": "heIIdiver",
+      "splats": 6,
+      "first": "2026-08-13T23:04:33+00:00",
+      "last": "2026-08-13T23:06:20+00:00",
+      "matches": 1,
+      "best_match": 6,
+      "per_match": 6.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 980
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T23:04:17+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T23:04:17+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/27186dada656.png",
+      "splashtag": "assets/faces/27186dada656-tag.png"
     },
     {
       "name": "arc507",
@@ -333,6 +409,82 @@
       "splashtag": "assets/faces/858b87aff7c0-tag.png"
     },
     {
+      "name": "NYRB FAN",
+      "splats": 4,
+      "first": "2026-08-13T23:09:17+00:00",
+      "last": "2026-08-13T23:11:30+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "per_match": 4.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 5.0,
+        "avg_points": 731
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/de6351f9002a.png",
+      "splashtag": "assets/faces/de6351f9002a-tag.png"
+    },
+    {
+      "name": "Squidy",
+      "splats": 4,
+      "first": "2026-08-13T22:41:20+00:00",
+      "last": "2026-08-13T22:51:40+00:00",
+      "matches": 3,
+      "best_match": 2,
+      "per_match": 1.33,
+      "versus": {
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "splats": 10,
+        "their_best": 4,
+        "their_splats": 3.3,
+        "their_deaths": 3.7,
+        "avg_points": 602
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 13,
+        "their_best": 13,
+        "their_splats": 13.0,
+        "their_deaths": 4.0,
+        "avg_points": 523
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-13T22:50:32+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c575792e52e3.png",
+      "splashtag": "assets/faces/c575792e52e3-tag.png"
+    },
+    {
       "name": "WicabeI :3",
       "splats": 4,
       "first": "2026-08-12T22:50:32+00:00",
@@ -397,6 +549,39 @@
       },
       "avatar": "assets/faces/f0702de31ca6.png",
       "splashtag": "assets/faces/f0702de31ca6-tag.png"
+    },
+    {
+      "name": "lint",
+      "splats": 4,
+      "first": "2026-08-13T22:33:49+00:00",
+      "last": "2026-08-13T22:36:20+00:00",
+      "matches": 2,
+      "best_match": 4,
+      "per_match": 4.0,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 9,
+        "their_best": 6,
+        "their_splats": 4.5,
+        "their_deaths": 7.0,
+        "avg_points": 640
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T18:58:11+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/b504838caf04.png",
+      "splashtag": "assets/faces/b504838caf04-tag.png"
     },
     {
       "name": "★MιlκShαkε",
@@ -819,6 +1004,39 @@
       "splashtag": "assets/faces/0986aa0e6fe5-tag.png"
     },
     {
+      "name": "SaIv0r._",
+      "splats": 3,
+      "first": "2026-08-13T22:39:31+00:00",
+      "last": "2026-08-13T22:40:04+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 5.0,
+        "avg_points": 454
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:38:37+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:38:37+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/cc5d14398589.png",
+      "splashtag": "assets/faces/cc5d14398589-tag.png"
+    },
+    {
       "name": "Splatster",
       "splats": 3,
       "first": "2026-08-09T00:47:16+00:00",
@@ -950,6 +1168,39 @@
       "avatar": "assets/faces/2d4a88229cc6.png"
     },
     {
+      "name": "hellothere",
+      "splats": 3,
+      "first": "2026-08-13T22:47:26+00:00",
+      "last": "2026-08-13T22:52:31+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "per_match": 1.5,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 4,
+        "their_splats": 2.5,
+        "their_deaths": 4.0,
+        "avg_points": 710
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:45:43+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:50:32+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/f9a4d6c9b146.png",
+      "splashtag": "assets/faces/f9a4d6c9b146-tag.png"
+    },
+    {
       "name": "humbIе",
       "splats": 3,
       "first": "2026-08-12T22:38:12+00:00",
@@ -1014,6 +1265,39 @@
       },
       "avatar": "assets/faces/749e0959a038.png",
       "splashtag": "assets/faces/749e0959a038-tag.png"
+    },
+    {
+      "name": "shkoomz",
+      "splats": 3,
+      "first": "2026-08-13T23:00:08+00:00",
+      "last": "2026-08-13T23:01:49+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "per_match": 3.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 6.0,
+        "avg_points": 897
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c00a46a011d6.png",
+      "splashtag": "assets/faces/c00a46a011d6-tag.png"
     },
     {
       "name": "trinket",
@@ -2050,6 +2334,37 @@
       "splashtag": "assets/faces/afbc6da202af-tag.png"
     },
     {
+      "name": "^_^",
+      "splats": 2,
+      "first": "2026-08-13T23:10:20+00:00",
+      "last": "2026-08-13T23:11:24+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 0,
+        "their_deaths": 3.0,
+        "avg_points": 370
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/89c4b536652f.png",
+      "splashtag": "assets/faces/89c4b536652f-tag.png"
+    },
+    {
       "name": "agent9⌒∀⌒★",
       "splats": 2,
       "first": "2026-08-12T18:59:07+00:00",
@@ -2114,6 +2429,39 @@
       },
       "avatar": "assets/faces/9970ad07f5ad.png",
       "splashtag": "assets/faces/9970ad07f5ad-tag.png"
+    },
+    {
+      "name": "meItIIiys",
+      "splats": 2,
+      "first": "2026-08-13T22:55:57+00:00",
+      "last": "2026-08-13T22:56:38+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 8,
+        "their_best": 8,
+        "their_splats": 8.0,
+        "their_deaths": 5.0,
+        "avg_points": 725
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:54:57+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:54:57+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/1ee6fbcedeb9.png",
+      "splashtag": "assets/faces/1ee6fbcedeb9-tag.png"
     },
     {
       "name": "sgliIy",
@@ -2182,6 +2530,39 @@
       "splashtag": "assets/faces/cb2de0cd480a-tag.png"
     },
     {
+      "name": "Ñë*/Ýüùki☆",
+      "splats": 2,
+      "first": "2026-08-13T22:56:37+00:00",
+      "last": "2026-08-13T22:57:21+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 520
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:54:57+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:54:57+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/064e5d8a5cf4.png",
+      "splashtag": "assets/faces/064e5d8a5cf4-tag.png"
+    },
+    {
       "name": "αGentleman",
       "splats": 2,
       "first": "2026-08-09T00:45:04+00:00",
@@ -2213,6 +2594,39 @@
       },
       "avatar": "assets/faces/bf39d4e7079c.png",
       "splashtag": "assets/faces/bf39d4e7079c-tag.png"
+    },
+    {
+      "name": "ρikmin",
+      "splats": 2,
+      "first": "2026-08-13T23:11:01+00:00",
+      "last": "2026-08-13T23:11:59+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "per_match": 2.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 788
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/7191a707fe0e.png",
+      "splashtag": "assets/faces/7191a707fe0e-tag.png"
     },
     {
       "name": "†°Yue°†",
@@ -2358,6 +2772,39 @@
       "splashtag": "assets/faces/114f8dba9978-tag.png"
     },
     {
+      "name": "*Eddiе",
+      "splats": 1,
+      "first": "2026-08-13T22:38:57+00:00",
+      "last": "2026-08-13T22:38:57+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 15,
+        "their_best": 8,
+        "their_splats": 7.5,
+        "their_deaths": 7.5,
+        "avg_points": 786
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:38:37+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/0432eef5abe1.png",
+      "splashtag": "assets/faces/0432eef5abe1-tag.png"
+    },
+    {
       "name": "?calleigh?",
       "splats": 1,
       "first": "2026-08-10T03:34:21+00:00",
@@ -2389,6 +2836,49 @@
       },
       "avatar": "assets/faces/d86b5c62caa0.png",
       "splashtag": "assets/faces/d86b5c62caa0-tag.png"
+    },
+    {
+      "name": "Alcoんσlic™",
+      "splats": 1,
+      "first": "2026-08-13T23:09:24+00:00",
+      "last": "2026-08-13T23:09:24+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 3.0,
+        "avg_points": 1538
+      },
+      "alongside": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 10,
+        "their_best": 7,
+        "their_splats": 5.0,
+        "their_deaths": 3.5,
+        "avg_points": 1185
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-13T23:08:57+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/a0ff519dcc36.png",
+      "splashtag": "assets/faces/a0ff519dcc36-tag.png"
     },
     {
       "name": "Amel",
@@ -2573,6 +3063,72 @@
       },
       "avatar": "assets/faces/323039d647e8.png",
       "splashtag": "assets/faces/323039d647e8-tag.png"
+    },
+    {
+      "name": "Cyreneミ★",
+      "splats": 1,
+      "first": "2026-08-13T23:05:43+00:00",
+      "last": "2026-08-13T23:05:43+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 1015
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T23:04:17+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T23:04:17+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/20338ba4c091.png",
+      "splashtag": "assets/faces/20338ba4c091-tag.png"
+    },
+    {
+      "name": "Cαitlyn",
+      "splats": 1,
+      "first": "2026-08-13T22:33:54+00:00",
+      "last": "2026-08-13T22:33:54+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 7.0,
+        "avg_points": 786
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5bb8da451559.png",
+      "splashtag": "assets/faces/5bb8da451559-tag.png"
     },
     {
       "name": "DRINKING!!",
@@ -3254,6 +3810,39 @@
       "splashtag": "assets/faces/07f24c146c9c-tag.png"
     },
     {
+      "name": "PaTou",
+      "splats": 1,
+      "first": "2026-08-13T23:01:30+00:00",
+      "last": "2026-08-13T23:01:30+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 6.0,
+        "avg_points": 739
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/14860f333be3.png",
+      "splashtag": "assets/faces/14860f333be3-tag.png"
+    },
+    {
       "name": "Persona :]",
       "splats": 1,
       "first": "2026-08-09T15:03:08+00:00",
@@ -3849,6 +4438,39 @@
       "splashtag": "assets/faces/6e2f9e6111e7-tag.png"
     },
     {
+      "name": "hоoligan",
+      "splats": 1,
+      "first": "2026-08-13T22:36:17+00:00",
+      "last": "2026-08-13T22:36:17+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 5.0,
+        "avg_points": 964
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:33:35+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6ed8d3232401.png",
+      "splashtag": "assets/faces/6ed8d3232401-tag.png"
+    },
+    {
       "name": "i see you.",
       "splats": 1,
       "first": "2026-08-09T03:43:44+00:00",
@@ -3923,6 +4545,39 @@
       },
       "avatar": "assets/faces/c5c3ac5ba83f.png",
       "splashtag": "assets/faces/c5c3ac5ba83f-tag.png"
+    },
+    {
+      "name": "keira",
+      "splats": 1,
+      "first": "2026-08-13T23:02:28+00:00",
+      "last": "2026-08-13T23:02:28+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "per_match": 1.0,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 3.0,
+        "avg_points": 1484
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-13T22:59:27+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5e7ee167c3de.png",
+      "splashtag": "assets/faces/5e7ee167c3de-tag.png"
     },
     {
       "name": "keroρρi",
@@ -4461,6 +5116,202 @@
     }
   ],
   "recent": [
+    {
+      "name": "ρikmin",
+      "ts": "2026-08-13T23:11:59+00:00"
+    },
+    {
+      "name": "NYRB FAN",
+      "ts": "2026-08-13T23:11:30+00:00"
+    },
+    {
+      "name": "^_^",
+      "ts": "2026-08-13T23:11:24+00:00"
+    },
+    {
+      "name": "NYRB FAN",
+      "ts": "2026-08-13T23:11:03+00:00"
+    },
+    {
+      "name": "ρikmin",
+      "ts": "2026-08-13T23:11:01+00:00"
+    },
+    {
+      "name": "^_^",
+      "ts": "2026-08-13T23:10:20+00:00"
+    },
+    {
+      "name": "NYRB FAN",
+      "ts": "2026-08-13T23:10:17+00:00"
+    },
+    {
+      "name": "Alcoんσlic™",
+      "ts": "2026-08-13T23:09:24+00:00"
+    },
+    {
+      "name": "NYRB FAN",
+      "ts": "2026-08-13T23:09:17+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:06:20+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:06:16+00:00"
+    },
+    {
+      "name": "Cyreneミ★",
+      "ts": "2026-08-13T23:05:43+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:04:56+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:04:54+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:04:33+00:00"
+    },
+    {
+      "name": "heIIdiver",
+      "ts": "2026-08-13T23:04:33+00:00"
+    },
+    {
+      "name": "keira",
+      "ts": "2026-08-13T23:02:28+00:00"
+    },
+    {
+      "name": "shkoomz",
+      "ts": "2026-08-13T23:01:49+00:00"
+    },
+    {
+      "name": "PaTou",
+      "ts": "2026-08-13T23:01:30+00:00"
+    },
+    {
+      "name": "shkoomz",
+      "ts": "2026-08-13T23:00:41+00:00"
+    },
+    {
+      "name": "shkoomz",
+      "ts": "2026-08-13T23:00:08+00:00"
+    },
+    {
+      "name": "Ñë*/Ýüùki☆",
+      "ts": "2026-08-13T22:57:21+00:00"
+    },
+    {
+      "name": "meItIIiys",
+      "ts": "2026-08-13T22:56:38+00:00"
+    },
+    {
+      "name": "Ñë*/Ýüùki☆",
+      "ts": "2026-08-13T22:56:37+00:00"
+    },
+    {
+      "name": "meItIIiys",
+      "ts": "2026-08-13T22:55:57+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:53:29+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:53:12+00:00"
+    },
+    {
+      "name": "hellothere",
+      "ts": "2026-08-13T22:52:31+00:00"
+    },
+    {
+      "name": "hellothere",
+      "ts": "2026-08-13T22:52:16+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:51:40+00:00"
+    },
+    {
+      "name": "Squidy",
+      "ts": "2026-08-13T22:51:40+00:00"
+    },
+    {
+      "name": "Squidy",
+      "ts": "2026-08-13T22:48:34+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:48:34+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:48:17+00:00"
+    },
+    {
+      "name": "hellothere",
+      "ts": "2026-08-13T22:47:26+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:47:24+00:00"
+    },
+    {
+      "name": "Squidy",
+      "ts": "2026-08-13T22:45:59+00:00"
+    },
+    {
+      "name": "Squidy",
+      "ts": "2026-08-13T22:41:20+00:00"
+    },
+    {
+      "name": "★Cosmo★",
+      "ts": "2026-08-13T22:40:05+00:00"
+    },
+    {
+      "name": "SaIv0r._",
+      "ts": "2026-08-13T22:40:04+00:00"
+    },
+    {
+      "name": "SaIv0r._",
+      "ts": "2026-08-13T22:39:45+00:00"
+    },
+    {
+      "name": "SaIv0r._",
+      "ts": "2026-08-13T22:39:31+00:00"
+    },
+    {
+      "name": "*Eddiе",
+      "ts": "2026-08-13T22:38:57+00:00"
+    },
+    {
+      "name": "lint",
+      "ts": "2026-08-13T22:36:20+00:00"
+    },
+    {
+      "name": "hоoligan",
+      "ts": "2026-08-13T22:36:17+00:00"
+    },
+    {
+      "name": "lint",
+      "ts": "2026-08-13T22:35:53+00:00"
+    },
+    {
+      "name": "lint",
+      "ts": "2026-08-13T22:34:07+00:00"
+    },
+    {
+      "name": "Cαitlyn",
+      "ts": "2026-08-13T22:33:54+00:00"
+    },
+    {
+      "name": "lint",
+      "ts": "2026-08-13T22:33:49+00:00"
+    },
     {
       "name": "WicabeI :3",
       "ts": "2026-08-12T22:53:08+00:00"
