@@ -269,7 +269,7 @@ const AWARDS = [
                   plural(a.matches, " match", " matches")] },
   { key: "public_enemy", art: "assets/svg/h-public-enemy.svg", title: "Public Enemy",
     blurb: "Most splats against my team",
-    line: (a) => [a.splats, plural(a.splats, " splat") + " Good Guys splatted"] },
+    line: (a) => [a.splats, plural(a.splats, " Good Guy", " Good Guys") + " splatted"] },
   { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
     blurb: "…LEEEEROYJ got 'em fast!",
     line: (a) => [`${a.seconds}s`, " into a match"] },
