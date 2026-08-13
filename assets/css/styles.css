@@ -63,18 +63,20 @@ main { max-width: 1080px; margin: 0 auto; padding: 20px 20px 40px; }
   align-items: center;
   flex-wrap: wrap-reverse;
   gap: 12px 22px;
+  margin-bottom: 14px;
 }
-.toolbar h2 { margin-bottom: 0; }
+.toolbar-title .blurb { margin-bottom: 0; }
 .tally { margin: 0; color: var(--dim); font-size: 14px; }
 .tally b { color: var(--lime); font-size: 17px; }
 .toolbar input {
   margin-left: auto;
   width: clamp(240px, 30vw, 340px);
   max-width: 100%;
+  height: calc(18.5px + 5px + 1.55 * 13px);
+  padding: 0 16px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 10px 16px;
   color: var(--ink);
   font: inherit;
   font-size: 15px;
@@ -218,7 +220,7 @@ h2 { margin: 0 0 11px; line-height: 0; }
   font-size: 14px;
   color: var(--lime);
 }
-.met { margin: -6px 0 12px; font-size: 10.5px; color: var(--dim); }
+.met { margin: 0; padding-top: 12px; font-size: 10.5px; color: var(--dim); }
 .met > div {
   display: flex; flex-wrap: wrap;
   justify-content: center; align-items: baseline;

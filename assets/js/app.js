@@ -108,22 +108,21 @@ function playerCard(p, badge) {
   name.append(nameNode(p, "namemark"));
   const count = splatLine(p);
   const met = metLines(p);
-  let footer;
+  let tag;
   if (p.splashtag) {
-    footer = document.createElement("img");
-    footer.className = "splashtag";
-    footer.src = p.splashtag;
-    footer.alt = "";
-    footer.loading = "lazy";
-    footer.addEventListener("error", () => footer.replaceWith(meterFor(p)));
+    tag = document.createElement("img");
+    tag.className = "splashtag";
+    tag.src = p.splashtag;
+    tag.alt = "";
+    tag.loading = "lazy";
+    tag.addEventListener("error", () => tag.replaceWith(meterFor(p)));
   } else {
-    footer = meterFor(p);
+    tag = meterFor(p);
   }
   const front = document.createElement("div");
   front.className = "card-front";
-  front.append(face, name, count);
+  front.append(face, name, count, tag);
   if (met) front.append(met);
-  front.append(footer);
   const inner = document.createElement("div");
   inner.className = "card-inner";
   inner.append(front);
@@ -159,7 +158,7 @@ function metLines(p) {
   for (const [label, when] of rows) {
     const row = document.createElement("div");
     const dt = document.createElement("dt");
-    dt.textContent = label;
+    dt.textContent = `${label}:`;
     const dd = document.createElement("dd");
     dd.textContent = when;
     row.append(dt, dd);
@@ -268,7 +267,7 @@ const AWARDS = [
                   plural(a.matches, " match", " matches")] },
   { key: "public_enemy", art: "assets/svg/h-public-enemy.svg", title: "Public Enemy",
     blurb: "Most splats against my team",
-    line: (a) => [a.splats, plural(a.splats, " splat") + " Good Guys splatted"] },
+    line: (a) => [a.splats, " Good Guys splatted"] },
   { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
     blurb: "…LEEEEROYJ got 'em fast!",
     line: (a) => [`${a.seconds}s`, " into a match"] },
