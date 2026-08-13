@@ -262,32 +262,32 @@ function plural(n, one, many) {
   return n === 1 ? one : (many || `${one}s`);
 }
 const AWARDS = [
-  { key: "assassin", art: "h-splat-assassin.svg", title: "Splat Assassin",
+  { key: "assassin", art: "assets/svg/h-splat-assassin.svg", title: "Splat Assassin",
     blurb: "Most splats recorded",
     line: (a) => [a.splats, plural(a.splats, " splat") + " in ", a.matches,
                   plural(a.matches, " match", " matches")] },
-  { key: "public_enemy", art: "h-public-enemy.svg", title: "Public Enemy",
+  { key: "public_enemy", art: "assets/svg/h-public-enemy.svg", title: "Public Enemy",
     blurb: "Most splats against my team",
     line: (a) => [a.splats, plural(a.splats, " splat") + " Good Guys splatted"] },
-  { key: "quickest", art: "h-fastest-splat.svg", title: "Fastest Splat",
+  { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
     blurb: "…LEEEEROYJ got 'em fast!",
     line: (a) => [`${a.seconds}s`, " into a match"] },
-  { key: "nemesis", art: "h-nemesis.svg", title: "Nemesis",
+  { key: "nemesis", art: "assets/svg/h-nemesis.svg", title: "Nemesis",
     blurb: "Frequent Bad Guy",
     line: (a) => [a.matches, plural(a.matches, " match", " matches") + " faced"] },
-  { key: "turf_king", art: "h-turf-king.svg", title: "Turf King",
+  { key: "turf_king", art: "assets/svg/h-turf-king.svg", title: "Turf King",
     blurb: "Inks the most turf, match for match",
     line: (a) => [`${a.avg_points}p`, " a match"] },
-  { key: "hard_to_kill", art: "h-hard-to-kill.svg", title: "Hard to Kill",
+  { key: "hard_to_kill", art: "assets/svg/h-hard-to-kill.svg", title: "Hard to Kill",
     blurb: "Most likely to survive",
     line: (a) => [a.their_deaths, " times a match"] },
-  { key: "lucky_charm", art: "h-lucky-charm.svg", title: "Lucky Charm",
+  { key: "lucky_charm", art: "assets/svg/h-lucky-charm.svg", title: "Lucky Charm",
     blurb: "Teammate I win with the most",
     line: (a) => [a.wins, " of ", a.matches, " won together"] },
-  { key: "boogeyman", art: "h-boogeyman.svg", title: "Boogeyman",
+  { key: "boogeyman", art: "assets/svg/h-boogeyman.svg", title: "Boogeyman",
     blurb: "Beat me the most",
     line: (a) => [a.losses, plural(a.losses, " loss", " losses") + " against them"] },
-  { key: "squad", art: "h-top-squad.svg", title: "Top Squad", wide: true,
+  { key: "squad", art: "assets/svg/h-top-squad.svg", title: "Top Squad", wide: true,
     blurb: (owner) => `${owner || "My"}'s top teammates.` },
 ];
 function laureate(who, line) {
@@ -405,7 +405,7 @@ function render(data) {
   renderWall();
   renderRecent();
 }
-fetch("splatboard.json", { cache: "no-store" })
+fetch("assets/data/splatboard.json", { cache: "no-store" })
   .then((r) => {
     if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
     return r.json();

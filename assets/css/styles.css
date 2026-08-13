@@ -19,7 +19,7 @@ body {
   background:
     radial-gradient(75vw 45vh at 50% -10%, #2C2C2C59, transparent 70%),
     linear-gradient(#0E0E0ECC, #0E0E0ECC),
-    url("pattern.jpg") center center / cover fixed no-repeat,
+    url("../img/pattern.jpg") center center / cover fixed no-repeat,
     var(--bg);
   font: 16px/1.55 ui-rounded, "Segoe UI", system-ui, -apple-system, sans-serif;
   min-height: 100vh;
@@ -273,7 +273,7 @@ h2 { margin: 0 0 11px; line-height: 0; }
 .namemark.small.plain { font-size: 15px; }
 @font-face {
   font-family: Blitz;
-  src: url("names.woff2") format("woff2");
+  src: url("../fonts/names.woff2") format("woff2");
   font-display: swap;
 }
 .font-names .namemark.plain {

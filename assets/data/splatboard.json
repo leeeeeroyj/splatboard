@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:23:03+00:00",
+  "generated_at": "2026-08-13T00:31:53+00:00",
   "totals": {
     "splats": 259,
     "unique_players": 131,
@@ -26,31 +26,31 @@
     {
       "name": "GHΦらT",
       "matches": 10,
-      "avatar": "faces/d06c47919e6f.png"
+      "avatar": "assets/faces/d06c47919e6f.png"
     },
     {
       "name": "MR_COOPER™",
       "matches": 3,
-      "avatar": "faces/9c0a985ed3fb.png"
+      "avatar": "assets/faces/9c0a985ed3fb.png"
     },
     {
       "name": "Mechanic",
       "matches": 3,
-      "avatar": "faces/ac23a6af686b.png"
+      "avatar": "assets/faces/ac23a6af686b.png"
     }
   ],
   "awards": {
     "quickest": {
       "name": "humbIе",
       "seconds": 12.6,
-      "avatar": "faces/7481885a511e.png"
+      "avatar": "assets/faces/7481885a511e.png"
     },
     "assassin": {
       "name": "GHΦらT",
       "matches": 19,
       "splats": 63,
       "avg_points": 906,
-      "avatar": "faces/d06c47919e6f.png"
+      "avatar": "assets/faces/d06c47919e6f.png"
     },
     "public_enemy": {
       "name": "GHΦらT",
@@ -61,7 +61,7 @@
       "their_splats": 3.8,
       "their_deaths": 4.4,
       "avg_points": 831,
-      "avatar": "faces/d06c47919e6f.png"
+      "avatar": "assets/faces/d06c47919e6f.png"
     },
     "nemesis": {
       "name": "GHΦらT",
@@ -72,7 +72,7 @@
       "their_splats": 3.8,
       "their_deaths": 4.4,
       "avg_points": 831,
-      "avatar": "faces/d06c47919e6f.png"
+      "avatar": "assets/faces/d06c47919e6f.png"
     },
     "boogeyman": {
       "name": ".」_ oNア΄σモ",
@@ -83,14 +83,14 @@
       "their_splats": 4.0,
       "their_deaths": 4.0,
       "avg_points": 536,
-      "avatar": "faces/37c7bdc10e9e.png"
+      "avatar": "assets/faces/37c7bdc10e9e.png"
     },
     "turf_king": {
       "name": "MR_COOPER™",
       "matches": 4,
       "splats": 22,
       "avg_points": 1130,
-      "avatar": "faces/9c0a985ed3fb.png"
+      "avatar": "assets/faces/9c0a985ed3fb.png"
     },
     "hard_to_kill": {
       "name": "Alec",
@@ -101,7 +101,7 @@
       "their_splats": 4.0,
       "their_deaths": 2.0,
       "avg_points": 1066,
-      "avatar": "faces/092b24e95b09.png"
+      "avatar": "assets/faces/092b24e95b09.png"
     },
     "lucky_charm": {
       "name": "MR_COOPER™",
@@ -112,7 +112,7 @@
       "their_splats": 6.0,
       "their_deaths": 4.3,
       "avg_points": 1114,
-      "avatar": "faces/9c0a985ed3fb.png"
+      "avatar": "assets/faces/9c0a985ed3fb.png"
     }
   },
   "players": [
@@ -154,8 +154,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d06c47919e6f.png",
-      "splashtag": "faces/d06c47919e6f-tag.png"
+      "avatar": "assets/faces/d06c47919e6f.png",
+      "splashtag": "assets/faces/d06c47919e6f-tag.png"
     },
     {
       "name": "Squiddo",
@@ -186,8 +186,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/0b6d724bc852.png",
-      "splashtag": "faces/0b6d724bc852-tag.png"
+      "avatar": "assets/faces/0b6d724bc852.png",
+      "splashtag": "assets/faces/0b6d724bc852-tag.png"
     },
     {
       "name": "arc507",
@@ -218,8 +218,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d66a316ddca1.png",
-      "splashtag": "faces/d66a316ddca1-tag.png"
+      "avatar": "assets/faces/d66a316ddca1.png",
+      "splashtag": "assets/faces/d66a316ddca1-tag.png"
     },
     {
       "name": "◇BENREY!!◇",
@@ -250,8 +250,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/12f498de1a7c.png",
-      "splashtag": "faces/12f498de1a7c-tag.png"
+      "avatar": "assets/faces/12f498de1a7c.png",
+      "splashtag": "assets/faces/12f498de1a7c-tag.png"
     },
     {
       "name": "BIaze",
@@ -280,8 +280,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/7b24f647166a.png",
-      "splashtag": "faces/7b24f647166a-tag.png"
+      "avatar": "assets/faces/7b24f647166a.png",
+      "splashtag": "assets/faces/7b24f647166a-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -312,8 +312,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/858b87aff7c0.png",
-      "splashtag": "faces/858b87aff7c0-tag.png"
+      "avatar": "assets/faces/858b87aff7c0.png",
+      "splashtag": "assets/faces/858b87aff7c0-tag.png"
     },
     {
       "name": "WicabeI :3",
@@ -344,8 +344,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/94b58cd717be.png",
-      "splashtag": "faces/94b58cd717be-tag.png"
+      "avatar": "assets/faces/94b58cd717be.png",
+      "splashtag": "assets/faces/94b58cd717be-tag.png"
     },
     {
       "name": "kеrara☆«ケ0",
@@ -376,8 +376,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f0702de31ca6.png",
-      "splashtag": "faces/f0702de31ca6-tag.png"
+      "avatar": "assets/faces/f0702de31ca6.png",
+      "splashtag": "assets/faces/f0702de31ca6-tag.png"
     },
     {
       "name": "★MιlκShαkε",
@@ -417,8 +417,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/a67767cffe58.png",
-      "splashtag": "faces/a67767cffe58-tag.png"
+      "avatar": "assets/faces/a67767cffe58.png",
+      "splashtag": "assets/faces/a67767cffe58-tag.png"
     },
     {
       "name": "★βigβxtch☆",
@@ -449,8 +449,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/413752f3db03.png",
-      "splashtag": "faces/413752f3db03-tag.png"
+      "avatar": "assets/faces/413752f3db03.png",
+      "splashtag": "assets/faces/413752f3db03-tag.png"
     },
     {
       "name": "☆frιsκ",
@@ -481,8 +481,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/7d9d77e99f58.png",
-      "splashtag": "faces/7d9d77e99f58-tag.png"
+      "avatar": "assets/faces/7d9d77e99f58.png",
+      "splashtag": "assets/faces/7d9d77e99f58-tag.png"
     },
     {
       "name": "ArtistTone",
@@ -521,8 +521,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/202eebfbc716.png",
-      "splashtag": "faces/202eebfbc716-tag.png"
+      "avatar": "assets/faces/202eebfbc716.png",
+      "splashtag": "assets/faces/202eebfbc716-tag.png"
     },
     {
       "name": "CurIy fry",
@@ -562,8 +562,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/65dbeb65a466.png",
-      "splashtag": "faces/65dbeb65a466-tag.png"
+      "avatar": "assets/faces/65dbeb65a466.png",
+      "splashtag": "assets/faces/65dbeb65a466-tag.png"
     },
     {
       "name": "Ender king",
@@ -594,8 +594,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/5fdc669fbcb9.png",
-      "splashtag": "faces/5fdc669fbcb9-tag.png"
+      "avatar": "assets/faces/5fdc669fbcb9.png",
+      "splashtag": "assets/faces/5fdc669fbcb9-tag.png"
     },
     {
       "name": "Kasumi",
@@ -626,8 +626,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/79eace63c09d.png",
-      "splashtag": "faces/79eace63c09d-tag.png"
+      "avatar": "assets/faces/79eace63c09d.png",
+      "splashtag": "assets/faces/79eace63c09d-tag.png"
     },
     {
       "name": "MR_COOPER™",
@@ -667,8 +667,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/9c0a985ed3fb.png",
-      "splashtag": "faces/9c0a985ed3fb-tag.png"
+      "avatar": "assets/faces/9c0a985ed3fb.png",
+      "splashtag": "assets/faces/9c0a985ed3fb-tag.png"
     },
     {
       "name": "Nadji",
@@ -708,8 +708,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/4cf0ac4b707f.png",
-      "splashtag": "faces/4cf0ac4b707f-tag.png"
+      "avatar": "assets/faces/4cf0ac4b707f.png",
+      "splashtag": "assets/faces/4cf0ac4b707f-tag.png"
     },
     {
       "name": "PBAG",
@@ -740,16 +740,16 @@
           "side": "against"
         }
       },
-      "avatar": "faces/725c0b9ecbd8.png",
-      "splashtag": "faces/725c0b9ecbd8-tag.png"
+      "avatar": "assets/faces/725c0b9ecbd8.png",
+      "splashtag": "assets/faces/725c0b9ecbd8-tag.png"
     },
     {
       "name": "R",
       "splats": 3,
       "first": "2026-08-09T15:03:04+00:00",
       "last": "2026-08-09T15:03:24+00:00",
-      "avatar": "faces/06576556d1ad.png",
-      "splashtag": "faces/06576556d1ad-tag.png"
+      "avatar": "assets/faces/06576556d1ad.png",
+      "splashtag": "assets/faces/06576556d1ad-tag.png"
     },
     {
       "name": "RookiĦ",
@@ -780,8 +780,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/0986aa0e6fe5.png",
-      "splashtag": "faces/0986aa0e6fe5-tag.png"
+      "avatar": "assets/faces/0986aa0e6fe5.png",
+      "splashtag": "assets/faces/0986aa0e6fe5-tag.png"
     },
     {
       "name": "Splatster",
@@ -812,8 +812,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/257939105be1.png",
-      "splashtag": "faces/257939105be1-tag.png"
+      "avatar": "assets/faces/257939105be1.png",
+      "splashtag": "assets/faces/257939105be1-tag.png"
     },
     {
       "name": "TentacooI",
@@ -844,8 +844,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/e41703a6c654.png",
-      "splashtag": "faces/e41703a6c654-tag.png"
+      "avatar": "assets/faces/e41703a6c654.png",
+      "splashtag": "assets/faces/e41703a6c654-tag.png"
     },
     {
       "name": "cucumber.",
@@ -876,8 +876,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/485b84407cbf.png",
-      "splashtag": "faces/485b84407cbf-tag.png"
+      "avatar": "assets/faces/485b84407cbf.png",
+      "splashtag": "assets/faces/485b84407cbf-tag.png"
     },
     {
       "name": "dchan",
@@ -908,7 +908,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/2d4a88229cc6.png"
+      "avatar": "assets/faces/2d4a88229cc6.png"
     },
     {
       "name": "humbIе",
@@ -939,8 +939,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/7481885a511e.png",
-      "splashtag": "faces/7481885a511e-tag.png"
+      "avatar": "assets/faces/7481885a511e.png",
+      "splashtag": "assets/faces/7481885a511e-tag.png"
     },
     {
       "name": "kоzukеn",
@@ -971,8 +971,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/749e0959a038.png",
-      "splashtag": "faces/749e0959a038-tag.png"
+      "avatar": "assets/faces/749e0959a038.png",
+      "splashtag": "assets/faces/749e0959a038-tag.png"
     },
     {
       "name": "trinket",
@@ -1003,8 +1003,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f17ddf18dbf3.png",
-      "splashtag": "faces/f17ddf18dbf3-tag.png"
+      "avatar": "assets/faces/f17ddf18dbf3.png",
+      "splashtag": "assets/faces/f17ddf18dbf3-tag.png"
     },
     {
       "name": "womyxd",
@@ -1035,7 +1035,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/a18dd58f6f9a.png"
+      "avatar": "assets/faces/a18dd58f6f9a.png"
     },
     {
       "name": "■Jαγ◎¹",
@@ -1066,8 +1066,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/2c650d63a971.png",
-      "splashtag": "faces/2c650d63a971-tag.png"
+      "avatar": "assets/faces/2c650d63a971.png",
+      "splashtag": "assets/faces/2c650d63a971-tag.png"
     },
     {
       "name": "*⌒MARI★チェリ",
@@ -1098,8 +1098,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/8f9fe45094c8.png",
-      "splashtag": "faces/8f9fe45094c8-tag.png"
+      "avatar": "assets/faces/8f9fe45094c8.png",
+      "splashtag": "assets/faces/8f9fe45094c8-tag.png"
     },
     {
       "name": ".」_ oNア΄σモ",
@@ -1130,8 +1130,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/37c7bdc10e9e.png",
-      "splashtag": "faces/37c7bdc10e9e-tag.png"
+      "avatar": "assets/faces/37c7bdc10e9e.png",
+      "splashtag": "assets/faces/37c7bdc10e9e-tag.png"
     },
     {
       "name": "AFTOM",
@@ -1162,8 +1162,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/fe43be4c2ec3.png",
-      "splashtag": "faces/fe43be4c2ec3-tag.png"
+      "avatar": "assets/faces/fe43be4c2ec3.png",
+      "splashtag": "assets/faces/fe43be4c2ec3-tag.png"
     },
     {
       "name": "Becks",
@@ -1194,7 +1194,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/cbcb004af32d.png"
+      "avatar": "assets/faces/cbcb004af32d.png"
     },
     {
       "name": "BooYAH",
@@ -1225,8 +1225,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/82f223d091cf.png",
-      "splashtag": "faces/82f223d091cf-tag.png"
+      "avatar": "assets/faces/82f223d091cf.png",
+      "splashtag": "assets/faces/82f223d091cf-tag.png"
     },
     {
       "name": "CoolCat5G",
@@ -1257,8 +1257,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/acd61ec5d604.png",
-      "splashtag": "faces/acd61ec5d604-tag.png"
+      "avatar": "assets/faces/acd61ec5d604.png",
+      "splashtag": "assets/faces/acd61ec5d604-tag.png"
     },
     {
       "name": "CrazyCat☆",
@@ -1289,8 +1289,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/1485c5639d4b.png",
-      "splashtag": "faces/1485c5639d4b-tag.png"
+      "avatar": "assets/faces/1485c5639d4b.png",
+      "splashtag": "assets/faces/1485c5639d4b-tag.png"
     },
     {
       "name": "Cαlliε♪",
@@ -1328,8 +1328,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/47aa08ff33c1.png",
-      "splashtag": "faces/47aa08ff33c1-tag.png"
+      "avatar": "assets/faces/47aa08ff33c1.png",
+      "splashtag": "assets/faces/47aa08ff33c1-tag.png"
     },
     {
       "name": "DGiorno",
@@ -1369,15 +1369,15 @@
           "side": "against"
         }
       },
-      "avatar": "faces/fd51323015e8.png",
-      "splashtag": "faces/fd51323015e8-tag.png"
+      "avatar": "assets/faces/fd51323015e8.png",
+      "splashtag": "assets/faces/fd51323015e8-tag.png"
     },
     {
       "name": "DJηακαmµrα",
       "splats": 2,
       "first": "2026-08-09T19:59:01+00:00",
       "last": "2026-08-09T19:59:05+00:00",
-      "avatar": "faces/4fa165e730dd.png"
+      "avatar": "assets/faces/4fa165e730dd.png"
     },
     {
       "name": "Dewyгay",
@@ -1408,8 +1408,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/629f2be5ed77.png",
-      "splashtag": "faces/629f2be5ed77-tag.png"
+      "avatar": "assets/faces/629f2be5ed77.png",
+      "splashtag": "assets/faces/629f2be5ed77-tag.png"
     },
     {
       "name": "Dоty",
@@ -1439,8 +1439,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d6927e6e0e38.png",
-      "splashtag": "faces/d6927e6e0e38-tag.png"
+      "avatar": "assets/faces/d6927e6e0e38.png",
+      "splashtag": "assets/faces/d6927e6e0e38-tag.png"
     },
     {
       "name": "MUJERRRRRR",
@@ -1480,8 +1480,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/f49446d2bb63.png",
-      "splashtag": "faces/f49446d2bb63-tag.png"
+      "avatar": "assets/faces/f49446d2bb63.png",
+      "splashtag": "assets/faces/f49446d2bb63-tag.png"
     },
     {
       "name": "Mapofugu",
@@ -1512,7 +1512,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/1a9e70fcced0.png"
+      "avatar": "assets/faces/1a9e70fcced0.png"
     },
     {
       "name": "MrDuffyFun",
@@ -1543,8 +1543,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/3bbf3fa537f5.png",
-      "splashtag": "faces/3bbf3fa537f5-tag.png"
+      "avatar": "assets/faces/3bbf3fa537f5.png",
+      "splashtag": "assets/faces/3bbf3fa537f5-tag.png"
     },
     {
       "name": "Nnc⇔_⇔",
@@ -1575,8 +1575,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/4075e857cbcd.png",
-      "splashtag": "faces/4075e857cbcd-tag.png"
+      "avatar": "assets/faces/4075e857cbcd.png",
+      "splashtag": "assets/faces/4075e857cbcd-tag.png"
     },
     {
       "name": "P4POI☆",
@@ -1607,8 +1607,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/1b5c988fc63a.png",
-      "splashtag": "faces/1b5c988fc63a-tag.png"
+      "avatar": "assets/faces/1b5c988fc63a.png",
+      "splashtag": "assets/faces/1b5c988fc63a-tag.png"
     },
     {
       "name": "Potato♪",
@@ -1639,8 +1639,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/9a4c518dc20f.png",
-      "splashtag": "faces/9a4c518dc20f-tag.png"
+      "avatar": "assets/faces/9a4c518dc20f.png",
+      "splashtag": "assets/faces/9a4c518dc20f-tag.png"
     },
     {
       "name": "RANGO ★!!",
@@ -1671,8 +1671,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/7be35d5d925d.png",
-      "splashtag": "faces/7be35d5d925d-tag.png"
+      "avatar": "assets/faces/7be35d5d925d.png",
+      "splashtag": "assets/faces/7be35d5d925d-tag.png"
     },
     {
       "name": "Riptide",
@@ -1712,8 +1712,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/2bfd4000c69f.png",
-      "splashtag": "faces/2bfd4000c69f-tag.png"
+      "avatar": "assets/faces/2bfd4000c69f.png",
+      "splashtag": "assets/faces/2bfd4000c69f-tag.png"
     },
     {
       "name": "Santifloo",
@@ -1753,8 +1753,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/51edead52807.png",
-      "splashtag": "faces/51edead52807-tag.png"
+      "avatar": "assets/faces/51edead52807.png",
+      "splashtag": "assets/faces/51edead52807-tag.png"
     },
     {
       "name": "Sleepy",
@@ -1785,7 +1785,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/4f39f493473f.png"
+      "avatar": "assets/faces/4f39f493473f.png"
     },
     {
       "name": "Snyfггrгrг",
@@ -1816,8 +1816,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/c68620698137.png",
-      "splashtag": "faces/c68620698137-tag.png"
+      "avatar": "assets/faces/c68620698137.png",
+      "splashtag": "assets/faces/c68620698137-tag.png"
     },
     {
       "name": "S☆K30NZ",
@@ -1847,8 +1847,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/3d72d35cc834.png",
-      "splashtag": "faces/3d72d35cc834-tag.png"
+      "avatar": "assets/faces/3d72d35cc834.png",
+      "splashtag": "assets/faces/3d72d35cc834-tag.png"
     },
     {
       "name": "Turtle_OH",
@@ -1879,8 +1879,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/76fcc1032c92.png",
-      "splashtag": "faces/76fcc1032c92-tag.png"
+      "avatar": "assets/faces/76fcc1032c92.png",
+      "splashtag": "assets/faces/76fcc1032c92-tag.png"
     },
     {
       "name": "ValeHyuga",
@@ -1911,7 +1911,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/4455ad767760.png"
+      "avatar": "assets/faces/4455ad767760.png"
     },
     {
       "name": "Whocares",
@@ -1942,7 +1942,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/e06902185d58.png"
+      "avatar": "assets/faces/e06902185d58.png"
     },
     {
       "name": "YeGoose",
@@ -1973,8 +1973,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/afbc6da202af.png",
-      "splashtag": "faces/afbc6da202af-tag.png"
+      "avatar": "assets/faces/afbc6da202af.png",
+      "splashtag": "assets/faces/afbc6da202af-tag.png"
     },
     {
       "name": "agent9⌒∀⌒★",
@@ -2005,8 +2005,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/98162d1e24b1.png",
-      "splashtag": "faces/98162d1e24b1-tag.png"
+      "avatar": "assets/faces/98162d1e24b1.png",
+      "splashtag": "assets/faces/98162d1e24b1-tag.png"
     },
     {
       "name": "j4z",
@@ -2037,8 +2037,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/9970ad07f5ad.png",
-      "splashtag": "faces/9970ad07f5ad-tag.png"
+      "avatar": "assets/faces/9970ad07f5ad.png",
+      "splashtag": "assets/faces/9970ad07f5ad-tag.png"
     },
     {
       "name": "sgliIy",
@@ -2069,8 +2069,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/0350888a57e4.png",
-      "splashtag": "faces/0350888a57e4-tag.png"
+      "avatar": "assets/faces/0350888a57e4.png",
+      "splashtag": "assets/faces/0350888a57e4-tag.png"
     },
     {
       "name": "trina",
@@ -2101,8 +2101,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/cb2de0cd480a.png",
-      "splashtag": "faces/cb2de0cd480a-tag.png"
+      "avatar": "assets/faces/cb2de0cd480a.png",
+      "splashtag": "assets/faces/cb2de0cd480a-tag.png"
     },
     {
       "name": "αGentleman",
@@ -2133,8 +2133,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/bf39d4e7079c.png",
-      "splashtag": "faces/bf39d4e7079c-tag.png"
+      "avatar": "assets/faces/bf39d4e7079c.png",
+      "splashtag": "assets/faces/bf39d4e7079c-tag.png"
     },
     {
       "name": "†°Yue°†",
@@ -2164,7 +2164,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/afcc9a5918c2.png"
+      "avatar": "assets/faces/afcc9a5918c2.png"
     },
     {
       "name": "∞ JRampage",
@@ -2179,7 +2179,7 @@
       "splats": 2,
       "first": "2026-08-09T19:58:51+00:00",
       "last": "2026-08-09T19:59:07+00:00",
-      "avatar": "faces/b5b79c11964a.png"
+      "avatar": "assets/faces/b5b79c11964a.png"
     },
     {
       "name": "♪ccutsey",
@@ -2210,7 +2210,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/93ce8e487fb7.png"
+      "avatar": "assets/faces/93ce8e487fb7.png"
     },
     {
       "name": "ドーナツ",
@@ -2241,8 +2241,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/972da7016151.png",
-      "splashtag": "faces/972da7016151-tag.png"
+      "avatar": "assets/faces/972da7016151.png",
+      "splashtag": "assets/faces/972da7016151-tag.png"
     },
     {
       "name": "｀｀Red[HL]",
@@ -2273,8 +2273,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/114f8dba9978.png",
-      "splashtag": "faces/114f8dba9978-tag.png"
+      "avatar": "assets/faces/114f8dba9978.png",
+      "splashtag": "assets/faces/114f8dba9978-tag.png"
     },
     {
       "name": "?calleigh?",
@@ -2305,8 +2305,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d86b5c62caa0.png",
-      "splashtag": "faces/d86b5c62caa0-tag.png"
+      "avatar": "assets/faces/d86b5c62caa0.png",
+      "splashtag": "assets/faces/d86b5c62caa0-tag.png"
     },
     {
       "name": "Amel",
@@ -2346,8 +2346,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/bd81c3cd2b5b.png",
-      "splashtag": "faces/bd81c3cd2b5b-tag.png"
+      "avatar": "assets/faces/bd81c3cd2b5b.png",
+      "splashtag": "assets/faces/bd81c3cd2b5b-tag.png"
     },
     {
       "name": "BIue(ò_ô〕",
@@ -2387,8 +2387,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f900ee545e61.png",
-      "splashtag": "faces/f900ee545e61-tag.png"
+      "avatar": "assets/faces/f900ee545e61.png",
+      "splashtag": "assets/faces/f900ee545e61-tag.png"
     },
     {
       "name": "Bro",
@@ -2419,7 +2419,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/022a3d560c18.png"
+      "avatar": "assets/faces/022a3d560c18.png"
     },
     {
       "name": "BuffCat",
@@ -2450,8 +2450,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f27826aeb480.png",
-      "splashtag": "faces/f27826aeb480-tag.png"
+      "avatar": "assets/faces/f27826aeb480.png",
+      "splashtag": "assets/faces/f27826aeb480-tag.png"
     },
     {
       "name": "Bгęe",
@@ -2482,8 +2482,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/323039d647e8.png",
-      "splashtag": "faces/323039d647e8-tag.png"
+      "avatar": "assets/faces/323039d647e8.png",
+      "splashtag": "assets/faces/323039d647e8-tag.png"
     },
     {
       "name": "DRINKING!!",
@@ -2514,8 +2514,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/bd9b6012cf32.png",
-      "splashtag": "faces/bd9b6012cf32-tag.png"
+      "avatar": "assets/faces/bd9b6012cf32.png",
+      "splashtag": "assets/faces/bd9b6012cf32-tag.png"
     },
     {
       "name": "EJ",
@@ -2546,7 +2546,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/0b5b99fbae23.png"
+      "avatar": "assets/faces/0b5b99fbae23.png"
     },
     {
       "name": "EVO",
@@ -2586,8 +2586,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/57ea2ebb3f67.png",
-      "splashtag": "faces/57ea2ebb3f67-tag.png"
+      "avatar": "assets/faces/57ea2ebb3f67.png",
+      "splashtag": "assets/faces/57ea2ebb3f67-tag.png"
     },
     {
       "name": "Fern",
@@ -2618,7 +2618,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/94b5c4a4194f.png"
+      "avatar": "assets/faces/94b5c4a4194f.png"
     },
     {
       "name": "Gasconade",
@@ -2649,7 +2649,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/30cb152fcde6.png"
+      "avatar": "assets/faces/30cb152fcde6.png"
     },
     {
       "name": "GayShrimp",
@@ -2679,8 +2679,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/abd0225b948d.png",
-      "splashtag": "faces/abd0225b948d-tag.png"
+      "avatar": "assets/faces/abd0225b948d.png",
+      "splashtag": "assets/faces/abd0225b948d-tag.png"
     },
     {
       "name": "GlitchC0d3",
@@ -2711,7 +2711,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f188c5e7f7e7.png"
+      "avatar": "assets/faces/f188c5e7f7e7.png"
     },
     {
       "name": "Gènesis R.",
@@ -2742,8 +2742,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/b73d6f614324.png",
-      "splashtag": "faces/b73d6f614324-tag.png"
+      "avatar": "assets/faces/b73d6f614324.png",
+      "splashtag": "assets/faces/b73d6f614324-tag.png"
     },
     {
       "name": "Hr_*/měħb_",
@@ -2774,7 +2774,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/97cffba750c4.png"
+      "avatar": "assets/faces/97cffba750c4.png"
     },
     {
       "name": "IiIa",
@@ -2805,8 +2805,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/bb8934d493f4.png",
-      "splashtag": "faces/bb8934d493f4-tag.png"
+      "avatar": "assets/faces/bb8934d493f4.png",
+      "splashtag": "assets/faces/bb8934d493f4-tag.png"
     },
     {
       "name": "JJ.",
@@ -2837,8 +2837,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/5c30130b1e48.png",
-      "splashtag": "faces/5c30130b1e48-tag.png"
+      "avatar": "assets/faces/5c30130b1e48.png",
+      "splashtag": "assets/faces/5c30130b1e48-tag.png"
     },
     {
       "name": "Kayas",
@@ -2869,8 +2869,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/34c4df24b71f.png",
-      "splashtag": "faces/34c4df24b71f-tag.png"
+      "avatar": "assets/faces/34c4df24b71f.png",
+      "splashtag": "assets/faces/34c4df24b71f-tag.png"
     },
     {
       "name": "KаtNaρFevr",
@@ -2901,7 +2901,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/be75f392bd14.png"
+      "avatar": "assets/faces/be75f392bd14.png"
     },
     {
       "name": "Ladypanthг",
@@ -2932,8 +2932,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/8bda7919abe2.png",
-      "splashtag": "faces/8bda7919abe2-tag.png"
+      "avatar": "assets/faces/8bda7919abe2.png",
+      "splashtag": "assets/faces/8bda7919abe2-tag.png"
     },
     {
       "name": "Lewis",
@@ -2972,8 +2972,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/0360f42911bd.png",
-      "splashtag": "faces/0360f42911bd-tag.png"
+      "avatar": "assets/faces/0360f42911bd.png",
+      "splashtag": "assets/faces/0360f42911bd-tag.png"
     },
     {
       "name": "Lit3DonaId",
@@ -3004,8 +3004,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d2bafe742f6d.png",
-      "splashtag": "faces/d2bafe742f6d-tag.png"
+      "avatar": "assets/faces/d2bafe742f6d.png",
+      "splashtag": "assets/faces/d2bafe742f6d-tag.png"
     },
     {
       "name": "Lunar J",
@@ -3036,8 +3036,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/493667cbfe23.png",
-      "splashtag": "faces/493667cbfe23-tag.png"
+      "avatar": "assets/faces/493667cbfe23.png",
+      "splashtag": "assets/faces/493667cbfe23-tag.png"
     },
     {
       "name": "Melia",
@@ -3068,8 +3068,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/60aa7dd10198.png",
-      "splashtag": "faces/60aa7dd10198-tag.png"
+      "avatar": "assets/faces/60aa7dd10198.png",
+      "splashtag": "assets/faces/60aa7dd10198-tag.png"
     },
     {
       "name": "Miyagi",
@@ -3100,8 +3100,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/9a34cbedfda0.png",
-      "splashtag": "faces/9a34cbedfda0-tag.png"
+      "avatar": "assets/faces/9a34cbedfda0.png",
+      "splashtag": "assets/faces/9a34cbedfda0-tag.png"
     },
     {
       "name": "Mг. ī□ппа",
@@ -3140,8 +3140,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/07f24c146c9c.png",
-      "splashtag": "faces/07f24c146c9c-tag.png"
+      "avatar": "assets/faces/07f24c146c9c.png",
+      "splashtag": "assets/faces/07f24c146c9c-tag.png"
     },
     {
       "name": "Persona :]",
@@ -3170,8 +3170,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/142b2fd82488.png",
-      "splashtag": "faces/142b2fd82488-tag.png"
+      "avatar": "assets/faces/142b2fd82488.png",
+      "splashtag": "assets/faces/142b2fd82488-tag.png"
     },
     {
       "name": "QyuBee",
@@ -3202,7 +3202,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/823af3e4feac.png"
+      "avatar": "assets/faces/823af3e4feac.png"
     },
     {
       "name": "Raya",
@@ -3233,7 +3233,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/50344c6cbbb1.png"
+      "avatar": "assets/faces/50344c6cbbb1.png"
     },
     {
       "name": "Ren☆",
@@ -3264,8 +3264,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/3d163e721d64.png",
-      "splashtag": "faces/3d163e721d64-tag.png"
+      "avatar": "assets/faces/3d163e721d64.png",
+      "splashtag": "assets/faces/3d163e721d64-tag.png"
     },
     {
       "name": "SARS",
@@ -3305,8 +3305,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/1fc2e8ffc9ae.png",
-      "splashtag": "faces/1fc2e8ffc9ae-tag.png"
+      "avatar": "assets/faces/1fc2e8ffc9ae.png",
+      "splashtag": "assets/faces/1fc2e8ffc9ae-tag.png"
     },
     {
       "name": "Sam",
@@ -3336,8 +3336,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/265dc298e876.png",
-      "splashtag": "faces/265dc298e876-tag.png"
+      "avatar": "assets/faces/265dc298e876.png",
+      "splashtag": "assets/faces/265dc298e876-tag.png"
     },
     {
       "name": "Sarah",
@@ -3368,8 +3368,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d24e087f504a.png",
-      "splashtag": "faces/d24e087f504a-tag.png"
+      "avatar": "assets/faces/d24e087f504a.png",
+      "splashtag": "assets/faces/d24e087f504a-tag.png"
     },
     {
       "name": "SassyPants",
@@ -3400,8 +3400,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/1b511129cf4c.png",
-      "splashtag": "faces/1b511129cf4c-tag.png"
+      "avatar": "assets/faces/1b511129cf4c.png",
+      "splashtag": "assets/faces/1b511129cf4c-tag.png"
     },
     {
       "name": "Shaed",
@@ -3432,8 +3432,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/135d71fdad76.png",
-      "splashtag": "faces/135d71fdad76-tag.png"
+      "avatar": "assets/faces/135d71fdad76.png",
+      "splashtag": "assets/faces/135d71fdad76-tag.png"
     },
     {
       "name": "Stan Yuju",
@@ -3464,8 +3464,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/b9731c730510.png",
-      "splashtag": "faces/b9731c730510-tag.png"
+      "avatar": "assets/faces/b9731c730510.png",
+      "splashtag": "assets/faces/b9731c730510-tag.png"
     },
     {
       "name": "SгsIy_K™",
@@ -3496,7 +3496,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/d846e489747d.png"
+      "avatar": "assets/faces/d846e489747d.png"
     },
     {
       "name": "Tipiac",
@@ -3527,8 +3527,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/251ee3e5acc3.png",
-      "splashtag": "faces/251ee3e5acc3-tag.png"
+      "avatar": "assets/faces/251ee3e5acc3.png",
+      "splashtag": "assets/faces/251ee3e5acc3-tag.png"
     },
     {
       "name": "Triscut",
@@ -3559,7 +3559,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/17167825fc42.png"
+      "avatar": "assets/faces/17167825fc42.png"
     },
     {
       "name": "Tristonian",
@@ -3590,8 +3590,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/8ae3ea8a9f6f.png",
-      "splashtag": "faces/8ae3ea8a9f6f-tag.png"
+      "avatar": "assets/faces/8ae3ea8a9f6f.png",
+      "splashtag": "assets/faces/8ae3ea8a9f6f-tag.png"
     },
     {
       "name": "[CA]→Oro◇",
@@ -3621,8 +3621,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/6a10114ad2b9.png",
-      "splashtag": "faces/6a10114ad2b9-tag.png"
+      "avatar": "assets/faces/6a10114ad2b9.png",
+      "splashtag": "assets/faces/6a10114ad2b9-tag.png"
     },
     {
       "name": "`…mimi °♪′",
@@ -3653,8 +3653,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/6f84bcb2dd18.png",
-      "splashtag": "faces/6f84bcb2dd18-tag.png"
+      "avatar": "assets/faces/6f84bcb2dd18.png",
+      "splashtag": "assets/faces/6f84bcb2dd18-tag.png"
     },
     {
       "name": "bobIX",
@@ -3685,8 +3685,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/012da2b29156.png",
-      "splashtag": "faces/012da2b29156-tag.png"
+      "avatar": "assets/faces/012da2b29156.png",
+      "splashtag": "assets/faces/012da2b29156-tag.png"
     },
     {
       "name": "hunter",
@@ -3717,8 +3717,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/6e2f9e6111e7.png",
-      "splashtag": "faces/6e2f9e6111e7-tag.png"
+      "avatar": "assets/faces/6e2f9e6111e7.png",
+      "splashtag": "assets/faces/6e2f9e6111e7-tag.png"
     },
     {
       "name": "i see you.",
@@ -3749,8 +3749,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/576e5ca45f52.png",
-      "splashtag": "faces/576e5ca45f52-tag.png"
+      "avatar": "assets/faces/576e5ca45f52.png",
+      "splashtag": "assets/faces/576e5ca45f52-tag.png"
     },
     {
       "name": "ju4viø",
@@ -3790,8 +3790,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/c5c3ac5ba83f.png",
-      "splashtag": "faces/c5c3ac5ba83f-tag.png"
+      "avatar": "assets/faces/c5c3ac5ba83f.png",
+      "splashtag": "assets/faces/c5c3ac5ba83f-tag.png"
     },
     {
       "name": "keroρρi",
@@ -3822,8 +3822,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/19dece7f6964.png",
-      "splashtag": "faces/19dece7f6964-tag.png"
+      "avatar": "assets/faces/19dece7f6964.png",
+      "splashtag": "assets/faces/19dece7f6964-tag.png"
     },
     {
       "name": "lacrimosa",
@@ -3854,8 +3854,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/2285a7bfd06f.png",
-      "splashtag": "faces/2285a7bfd06f-tag.png"
+      "avatar": "assets/faces/2285a7bfd06f.png",
+      "splashtag": "assets/faces/2285a7bfd06f-tag.png"
     },
     {
       "name": "luca♪",
@@ -3886,8 +3886,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/56cb1c8c2bd9.png",
-      "splashtag": "faces/56cb1c8c2bd9-tag.png"
+      "avatar": "assets/faces/56cb1c8c2bd9.png",
+      "splashtag": "assets/faces/56cb1c8c2bd9-tag.png"
     },
     {
       "name": "megaIicios",
@@ -3918,8 +3918,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/68b506f87414.png",
-      "splashtag": "faces/68b506f87414-tag.png"
+      "avatar": "assets/faces/68b506f87414.png",
+      "splashtag": "assets/faces/68b506f87414-tag.png"
     },
     {
       "name": "newb",
@@ -3950,8 +3950,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/3fc37875052a.png",
-      "splashtag": "faces/3fc37875052a-tag.png"
+      "avatar": "assets/faces/3fc37875052a.png",
+      "splashtag": "assets/faces/3fc37875052a-tag.png"
     },
     {
       "name": "spykesbf",
@@ -3982,8 +3982,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/864b5bf6127d.png",
-      "splashtag": "faces/864b5bf6127d-tag.png"
+      "avatar": "assets/faces/864b5bf6127d.png",
+      "splashtag": "assets/faces/864b5bf6127d-tag.png"
     },
     {
       "name": "¢φ¢φ™",
@@ -4014,8 +4014,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f95735bc942b.png",
-      "splashtag": "faces/f95735bc942b-tag.png"
+      "avatar": "assets/faces/f95735bc942b.png",
+      "splashtag": "assets/faces/f95735bc942b-tag.png"
     },
     {
       "name": "°☆αгi★°",
@@ -4055,8 +4055,8 @@
           "side": "with"
         }
       },
-      "avatar": "faces/a44dd14be6d1.png",
-      "splashtag": "faces/a44dd14be6d1-tag.png"
+      "avatar": "assets/faces/a44dd14be6d1.png",
+      "splashtag": "assets/faces/a44dd14be6d1-tag.png"
     },
     {
       "name": "·〜··.·>~<",
@@ -4087,7 +4087,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/2565d6a7ddfe.png"
+      "avatar": "assets/faces/2565d6a7ddfe.png"
     },
     {
       "name": "↑κrıs↓",
@@ -4118,7 +4118,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/cca8c94c4c4f.png"
+      "avatar": "assets/faces/cca8c94c4c4f.png"
     },
     {
       "name": "↓Lunatic",
@@ -4149,8 +4149,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/addb86a46012.png",
-      "splashtag": "faces/addb86a46012-tag.png"
+      "avatar": "assets/faces/addb86a46012.png",
+      "splashtag": "assets/faces/addb86a46012-tag.png"
     },
     {
       "name": "☆Pancakes☆",
@@ -4181,8 +4181,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/853f8ec2479b.png",
-      "splashtag": "faces/853f8ec2479b-tag.png"
+      "avatar": "assets/faces/853f8ec2479b.png",
+      "splashtag": "assets/faces/853f8ec2479b-tag.png"
     },
     {
       "name": "」。αr",
@@ -4213,8 +4213,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/6744682e184c.png",
-      "splashtag": "faces/6744682e184c-tag.png"
+      "avatar": "assets/faces/6744682e184c.png",
+      "splashtag": "assets/faces/6744682e184c-tag.png"
     },
     {
       "name": "ななちき",
@@ -4245,7 +4245,7 @@
           "side": "against"
         }
       },
-      "avatar": "faces/dac86591f87d.png"
+      "avatar": "assets/faces/dac86591f87d.png"
     },
     {
       "name": "ニナｨノツトｨヘレ",
@@ -4276,8 +4276,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/aebc90888a69.png",
-      "splashtag": "faces/aebc90888a69-tag.png"
+      "avatar": "assets/faces/aebc90888a69.png",
+      "splashtag": "assets/faces/aebc90888a69-tag.png"
     },
     {
       "name": "ペンシルゴン",
@@ -4308,8 +4308,8 @@
           "side": "against"
         }
       },
-      "avatar": "faces/f656e93bd326.png",
-      "splashtag": "faces/f656e93bd326-tag.png"
+      "avatar": "assets/faces/f656e93bd326.png",
+      "splashtag": "assets/faces/f656e93bd326-tag.png"
     }
   ],
   "recent": [
@@ -5375,5 +5375,5 @@
     }
   ],
   "owner": "…LEEEEROYJ",
-  "name_font": "names.woff2"
+  "name_font": "assets/fonts/names.woff2"
 }

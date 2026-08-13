@@ -4,7 +4,7 @@ A ~~scoreboard~~ Wall-of-Squid 🦑 showing players splatted by …LEEEEROYJ in 
 
 The data comes from reading the game's kill-feed banners and other feedback off my capture card during live game play. The stats aren't typed in by hand, and nothing comes from an API (I wish Splatoon had one!) It's all read off the screen, the same pixels you'd be looking at or would see on a stream.   
 
-<img src="demo.gif" alt="Watch this!" width="50%"/>
+<img src="docs/demo.gif" alt="Watch this!" width="50%"/>
 
 ***[Click to view …LEEEEROYJ's Splatboard](https://leeeeeroyj.github.io/splatboard/)***
 
@@ -22,13 +22,11 @@ A Python app watches the capture card and follows a Turf War match from start to
 
 Then it works out who splatted whom, which banner belongs to which player, whether I won, and how the match ended.
 
-## Nerd stuff... 
+## Player names are chaos
 
 It doesn't use OCR for player name recognition. Normal text-recognition software is built to read documents, and it didn't do well with a game font over moving artwork. Handed a real Splatoon name, it gave back `=Hudacityx` for `ΞÂudâcîty☆`, and `ORATO` for `◇RAT◇`.
 
 It has [the game's actual font file](https://github.com/North-West-Wind/splatoon3-fonts) to work with, and draws every single character the game can draw, including foreign and special characters. Then it slides them along the banner looking for the arrangement of shapes that best matches the pixels on screen.
-
-## Splatoon names are chaos
 
 Here's a fun one. These two names look identical in the Splatoon BlitzMain font:
 
@@ -45,11 +43,11 @@ So the app keeps a list of every character pair that draws the same shape, and q
 
 ## The Admin: Where I fix its mistakes
 
-It's honest about what it isn't sure of. Every match gets checked, and the review page lists the matches it knows I need to clarify (lof confidence scores on names, unable to pair splashtags, etc).
+It's honest about what it isn't sure of. Every match gets checked, and the review page lists the matches it knows I need to clarify (low confidence scores detecting player names, unable to match splashtags to players, etc).
 
 I can review a match, see everything it worked out, and it lets me correct any of it on the fly:
 
-![A match, in full](admin-match.png)
+![A match, in full](docs/admin-match.png)
 
 Worth pointing out on that page:
 
@@ -62,7 +60,7 @@ Worth pointing out on that page:
 
 And the Players page groups every spelling of one person together:
 
-![Grouping players](admin-players.png)
+![Grouping players](docs/admin-players.png)
 
 If someone changes their name, like Jim is J1M and J1MB0, I can group them all as a single player and combine their stats. Each spelling keeps its own screenshot, so I can always see what was really on screen.
 
