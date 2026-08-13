@@ -332,7 +332,7 @@ h2 { margin: 0 0 11px; line-height: 0; }
 .pager span { color: var(--dim); font-size: 13px; }
 footer { text-align: center; color: var(--dim); font-size: 13px; padding: 20px 20px 40px; }
 .disclaimer {
-  max-width: 68ch;
+  max-width: 95ch;
   margin: 14px auto 0;
   font-size: 12px;
   line-height: 1.6;
