@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-14T00:49:18+00:00",
+  "generated_at": "2026-08-14T03:58:11+00:00",
   "totals": {
-    "splats": 333,
-    "unique_players": 167,
-    "assists": 45,
+    "splats": 348,
+    "unique_players": 174,
+    "assists": 49,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 71,
-    "wins": 53,
-    "losses": 16,
+    "matches": 76,
+    "wins": 54,
+    "losses": 20,
     "draws": 0,
-    "avg_splats": 4.65,
+    "avg_splats": 4.54,
     "best_splats": 10,
-    "avg_points": 936,
+    "avg_points": 952,
     "best_points": 1421,
-    "disconnects": 11,
+    "disconnects": 10,
     "quickest_splat": {
       "seconds": 12.6,
       "name": "humbIе",
@@ -95,16 +95,16 @@
       "avatar": "assets/faces/a0ff519dcc36.png"
     },
     "hard_to_kill": {
-      "name": "Alec",
-      "matches": 2,
-      "wins": 2,
-      "losses": 0,
-      "splats": 8,
-      "their_best": 6,
-      "their_splats": 4.0,
-      "their_deaths": 2.0,
-      "avg_points": 1066,
-      "avatar": "assets/faces/092b24e95b09.png"
+      "name": "victor vo",
+      "matches": 3,
+      "wins": 0,
+      "losses": 3,
+      "splats": 2,
+      "their_best": 2,
+      "their_splats": 2.0,
+      "their_deaths": 0.0,
+      "avg_points": 868,
+      "avatar": "assets/faces/61fa33ef2dd8.png"
     },
     "lucky_charm": {
       "name": "MR_COOPER™",
@@ -394,6 +394,38 @@
       "splashtag": "assets/faces/858b87aff7c0-tag.png"
     },
     {
+      "name": "M3m3rR",
+      "splats": 4,
+      "first": "2026-08-14T00:40:36+00:00",
+      "last": "2026-08-14T00:42:57+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 5.0,
+        "avg_points": 906
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T00:40:05+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T00:40:05+00:00",
+          "map": "Hagglefish Market",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/15ae26e99ab0.png",
+      "splashtag": "assets/faces/15ae26e99ab0-tag.png"
+    },
+    {
       "name": "NYRB FAN",
       "splats": 4,
       "first": "2026-08-13T23:09:17+00:00",
@@ -498,6 +530,38 @@
       },
       "avatar": "assets/faces/94b58cd717be.png",
       "splashtag": "assets/faces/94b58cd717be-tag.png"
+    },
+    {
+      "name": "bruh",
+      "splats": 4,
+      "first": "2026-08-14T03:17:23+00:00",
+      "last": "2026-08-14T03:23:07+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "versus": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "splats": 8,
+        "their_best": 5,
+        "their_splats": 4.0,
+        "their_deaths": 4.5,
+        "avg_points": 1279
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:16:59+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:21:11+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8a7b91cee1b3.png",
+      "splashtag": "assets/faces/8a7b91cee1b3-tag.png"
     },
     {
       "name": "kеrara☆«ケ0",
@@ -859,6 +923,38 @@
       "splashtag": "assets/faces/9c0a985ed3fb-tag.png"
     },
     {
+      "name": "Mon-Mon",
+      "splats": 3,
+      "first": "2026-08-14T03:04:27+00:00",
+      "last": "2026-08-14T03:06:46+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 6.0,
+        "avg_points": 604
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:03:58+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:03:58+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/3983c0ea9ea8.png",
+      "splashtag": "assets/faces/3983c0ea9ea8-tag.png"
+    },
+    {
       "name": "Nadji",
       "splats": 3,
       "first": "2026-08-09T21:37:37+00:00",
@@ -1069,7 +1165,7 @@
       "splashtag": "assets/faces/e41703a6c654-tag.png"
     },
     {
-      "name": "cucumber.",
+      "name": "cucumber..",
       "splats": 3,
       "first": "2026-08-09T14:44:34+00:00",
       "last": "2026-08-09T14:47:13+00:00",
@@ -1097,8 +1193,8 @@
           "side": "against"
         }
       },
-      "avatar": "assets/faces/485b84407cbf.png",
-      "splashtag": "assets/faces/485b84407cbf-tag.png"
+      "avatar": "assets/faces/3eafa90f765f.png",
+      "splashtag": "assets/faces/3eafa90f765f-tag.png"
     },
     {
       "name": "d_de_diego",
@@ -1792,47 +1888,6 @@
       "splashtag": "assets/faces/d6927e6e0e38-tag.png"
     },
     {
-      "name": "M3m3rR",
-      "splats": 2,
-      "first": "2026-08-14T00:40:36+00:00",
-      "last": "2026-08-14T00:42:57+00:00",
-      "matches": 1,
-      "best_match": 2,
-      "versus": {
-        "matches": 1,
-        "wins": 0,
-        "losses": 1,
-        "splats": 3,
-        "their_best": 3,
-        "their_splats": 3.0,
-        "their_deaths": 5.0,
-        "avg_points": 906
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-14T00:40:05+00:00",
-          "map": "Hagglefish Market",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-14T00:40:05+00:00",
-          "map": "Hagglefish Market",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/15ae26e99ab0.png",
-      "splashtag": "assets/faces/15ae26e99ab0-tag.png"
-    },
-    {
-      "name": "M3оı□г□",
-      "splats": 2,
-      "first": "2026-08-14T00:40:38+00:00",
-      "last": "2026-08-14T00:42:57+00:00",
-      "best_match": 2,
-      "avatar": "assets/faces/0e82d7387d23.png",
-      "splashtag": "assets/faces/0e82d7387d23-tag.png"
-    },
-    {
       "name": "MUJERRRRRR",
       "splats": 2,
       "first": "2026-08-09T00:45:11+00:00",
@@ -2431,6 +2486,38 @@
       "splashtag": "assets/faces/89c4b536652f-tag.png"
     },
     {
+      "name": "``Red[HL]",
+      "splats": 2,
+      "first": "2026-08-09T15:13:12+00:00",
+      "last": "2026-08-09T15:13:36+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 3,
+        "their_splats": 2.5,
+        "their_deaths": 4.0,
+        "avg_points": 1011
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T15:11:11+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-09T15:15:54+00:00",
+          "map": "Um'ami Ruins",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/70277be576d8.png",
+      "splashtag": "assets/faces/70277be576d8-tag.png"
+    },
+    {
       "name": "agent9⌒∀⌒★",
       "splats": 2,
       "first": "2026-08-12T18:59:07+00:00",
@@ -2461,6 +2548,70 @@
       },
       "avatar": "assets/faces/98162d1e24b1.png",
       "splashtag": "assets/faces/98162d1e24b1-tag.png"
+    },
+    {
+      "name": "djtheft",
+      "splats": 2,
+      "first": "2026-08-14T03:17:21+00:00",
+      "last": "2026-08-14T03:18:38+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 2.0,
+        "avg_points": 1033
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:16:59+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:16:59+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6aa3b83ff301.png",
+      "splashtag": "assets/faces/6aa3b83ff301-tag.png"
+    },
+    {
+      "name": "girIkisser",
+      "splats": 2,
+      "first": "2026-08-14T03:04:49+00:00",
+      "last": "2026-08-14T03:04:50+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "splats": 9,
+        "their_best": 7,
+        "their_splats": 4.5,
+        "their_deaths": 3.0,
+        "avg_points": 1156
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:03:58+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:03:58+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/479652c16b64.png",
+      "splashtag": "assets/faces/479652c16b64-tag.png"
     },
     {
       "name": "j4z",
@@ -2846,38 +2997,6 @@
       "splashtag": "assets/faces/972da7016151-tag.png"
     },
     {
-      "name": "｀｀Red[HL]",
-      "splats": 2,
-      "first": "2026-08-09T15:13:12+00:00",
-      "last": "2026-08-09T15:13:36+00:00",
-      "matches": 2,
-      "best_match": 2,
-      "versus": {
-        "matches": 2,
-        "wins": 2,
-        "losses": 0,
-        "splats": 5,
-        "their_best": 3,
-        "their_splats": 2.5,
-        "their_deaths": 4.0,
-        "avg_points": 1011
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T15:11:11+00:00",
-          "map": "Mahi-Mahi Resort",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T15:15:54+00:00",
-          "map": "Um'ami Ruins",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/114f8dba9978.png",
-      "splashtag": "assets/faces/114f8dba9978-tag.png"
-    },
-    {
       "name": "*Eddiе",
       "splats": 1,
       "first": "2026-08-13T22:38:57+00:00",
@@ -2940,6 +3059,48 @@
       },
       "avatar": "assets/faces/d86b5c62caa0.png",
       "splashtag": "assets/faces/d86b5c62caa0-tag.png"
+    },
+    {
+      "name": "Agent 0",
+      "splats": 1,
+      "first": "2026-08-14T03:22:41+00:00",
+      "last": "2026-08-14T03:22:41+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 2.0,
+        "avg_points": 1027
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 1.0,
+        "avg_points": 373
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T22:29:17+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-14T03:21:11+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/a4092fcec896.png",
+      "splashtag": "assets/faces/a4092fcec896-tag.png"
     },
     {
       "name": "Alcoんσlic™",
@@ -3908,6 +4069,38 @@
       },
       "avatar": "assets/faces/60aa7dd10198.png",
       "splashtag": "assets/faces/60aa7dd10198-tag.png"
+    },
+    {
+      "name": "Mimikyu",
+      "splats": 1,
+      "first": "2026-08-14T03:18:44+00:00",
+      "last": "2026-08-14T03:18:44+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 3.0,
+        "avg_points": 1348
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:16:59+00:00",
+          "map": "Urchin Underpass",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:21:11+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/bc642ee74ef5.png",
+      "splashtag": "assets/faces/bc642ee74ef5-tag.png"
     },
     {
       "name": "Miyagi",
@@ -5123,6 +5316,47 @@
       "splashtag": "assets/faces/c461b5471df3-tag.png"
     },
     {
+      "name": "victor vo",
+      "splats": 1,
+      "first": "2026-08-14T03:10:33+00:00",
+      "last": "2026-08-14T03:10:33+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "avg_points": 960
+      },
+      "alongside": {
+        "matches": 3,
+        "wins": 0,
+        "losses": 3,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 0.0,
+        "avg_points": 868
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:08:26+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:21:11+00:00",
+          "map": "Wahoo World",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/61fa33ef2dd8.png",
+      "splashtag": "assets/faces/61fa33ef2dd8-tag.png"
+    },
+    {
       "name": "¢φ¢φ™",
       "splats": 1,
       "first": "2026-08-10T03:29:11+00:00",
@@ -5447,6 +5681,37 @@
       "avatar": "assets/faces/dac86591f87d.png"
     },
     {
+      "name": "カモメ",
+      "splats": 1,
+      "first": "2026-08-14T03:14:51+00:00",
+      "last": "2026-08-14T03:14:51+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "avg_points": 1188
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T03:12:47+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T03:12:47+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/41c28be67d25.png",
+      "splashtag": "assets/faces/41c28be67d25-tag.png"
+    },
+    {
       "name": "ニナｨノツトｨヘレ",
       "splats": 1,
       "first": "2026-08-12T01:56:29+00:00",
@@ -5513,6 +5778,66 @@
   ],
   "recent": [
     {
+      "name": "bruh",
+      "ts": "2026-08-14T03:23:07+00:00"
+    },
+    {
+      "name": "Agent 0",
+      "ts": "2026-08-14T03:22:41+00:00"
+    },
+    {
+      "name": "bruh",
+      "ts": "2026-08-14T03:19:47+00:00"
+    },
+    {
+      "name": "Mimikyu",
+      "ts": "2026-08-14T03:18:44+00:00"
+    },
+    {
+      "name": "djtheft",
+      "ts": "2026-08-14T03:18:38+00:00"
+    },
+    {
+      "name": "bruh",
+      "ts": "2026-08-14T03:18:30+00:00"
+    },
+    {
+      "name": "bruh",
+      "ts": "2026-08-14T03:17:23+00:00"
+    },
+    {
+      "name": "djtheft",
+      "ts": "2026-08-14T03:17:21+00:00"
+    },
+    {
+      "name": "カモメ",
+      "ts": "2026-08-14T03:14:51+00:00"
+    },
+    {
+      "name": "victor vo",
+      "ts": "2026-08-14T03:10:33+00:00"
+    },
+    {
+      "name": "Mon-Mon",
+      "ts": "2026-08-14T03:06:46+00:00"
+    },
+    {
+      "name": "Mon-Mon",
+      "ts": "2026-08-14T03:05:41+00:00"
+    },
+    {
+      "name": "girIkisser",
+      "ts": "2026-08-14T03:04:50+00:00"
+    },
+    {
+      "name": "girIkisser",
+      "ts": "2026-08-14T03:04:49+00:00"
+    },
+    {
+      "name": "Mon-Mon",
+      "ts": "2026-08-14T03:04:27+00:00"
+    },
+    {
       "name": "mikiztIi",
       "ts": "2026-08-14T00:47:31+00:00"
     },
@@ -5529,7 +5854,7 @@
       "ts": "2026-08-14T00:42:57+00:00"
     },
     {
-      "name": "M3оı□г□",
+      "name": "M3m3rR",
       "ts": "2026-08-14T00:42:57+00:00"
     },
     {
@@ -5537,7 +5862,7 @@
       "ts": "2026-08-14T00:42:21+00:00"
     },
     {
-      "name": "M3оı□г□",
+      "name": "M3m3rR",
       "ts": "2026-08-14T00:40:38+00:00"
     },
     {
@@ -6565,11 +6890,11 @@
       "ts": "2026-08-09T15:17:20+00:00"
     },
     {
-      "name": "｀｀Red[HL]",
+      "name": "``Red[HL]",
       "ts": "2026-08-09T15:13:36+00:00"
     },
     {
-      "name": "｀｀Red[HL]",
+      "name": "``Red[HL]",
       "ts": "2026-08-09T15:13:12+00:00"
     },
     {
@@ -6645,7 +6970,7 @@
       "ts": "2026-08-09T14:50:26+00:00"
     },
     {
-      "name": "cucumber.",
+      "name": "cucumber..",
       "ts": "2026-08-09T14:47:13+00:00"
     },
     {
@@ -6657,11 +6982,11 @@
       "ts": "2026-08-09T14:46:39+00:00"
     },
     {
-      "name": "cucumber.",
+      "name": "cucumber..",
       "ts": "2026-08-09T14:46:28+00:00"
     },
     {
-      "name": "cucumber.",
+      "name": "cucumber..",
       "ts": "2026-08-09T14:44:34+00:00"
     },
     {
