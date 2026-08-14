@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-14T03:58:11+00:00",
+  "generated_at": "2026-08-14T15:49:07+00:00",
   "totals": {
-    "splats": 348,
-    "unique_players": 174,
-    "assists": 49,
+    "splats": 370,
+    "unique_players": 185,
+    "assists": 48,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 76,
-    "wins": 54,
-    "losses": 20,
+    "matches": 79,
+    "wins": 56,
+    "losses": 23,
     "draws": 0,
-    "avg_splats": 4.54,
+    "avg_splats": 4.65,
     "best_splats": 10,
     "avg_points": 952,
     "best_points": 1421,
-    "disconnects": 10,
+    "disconnects": 9,
     "quickest_splat": {
       "seconds": 12.6,
       "name": "humbIе",
@@ -26,9 +26,16 @@
     {
       "name": "GHΦらT",
       "matches": 12,
-      "wins": 8,
+      "wins": 9,
       "losses": 3,
       "avatar": "assets/faces/d06c47919e6f.png"
+    },
+    {
+      "name": "MR_COOPER™",
+      "matches": 5,
+      "wins": 4,
+      "losses": 1,
+      "avatar": "assets/faces/9c0a985ed3fb.png"
     },
     {
       "name": "inkyQueen™",
@@ -36,13 +43,6 @@
       "wins": 3,
       "losses": 1,
       "avatar": "assets/faces/3e322b0e3ed7.png"
-    },
-    {
-      "name": "MR_COOPER™",
-      "matches": 3,
-      "wins": 3,
-      "losses": 0,
-      "avatar": "assets/faces/9c0a985ed3fb.png"
     }
   ],
   "awards": {
@@ -107,16 +107,16 @@
       "avatar": "assets/faces/61fa33ef2dd8.png"
     },
     "lucky_charm": {
-      "name": "MR_COOPER™",
+      "name": "Mechanic",
       "matches": 3,
       "wins": 3,
       "losses": 0,
-      "splats": 18,
-      "their_best": 9,
-      "their_splats": 6.0,
-      "their_deaths": 4.3,
-      "avg_points": 1114,
-      "avatar": "assets/faces/9c0a985ed3fb.png"
+      "splats": 11,
+      "their_best": 8,
+      "their_splats": 3.7,
+      "their_deaths": 2.0,
+      "avg_points": 626,
+      "avatar": "assets/faces/ac23a6af686b.png"
     }
   },
   "players": [
@@ -139,7 +139,7 @@
       },
       "alongside": {
         "matches": 12,
-        "wins": 8,
+        "wins": 9,
         "losses": 3,
         "splats": 35,
         "their_best": 5,
@@ -267,6 +267,48 @@
       },
       "avatar": "assets/faces/27186dada656.png",
       "splashtag": "assets/faces/27186dada656-tag.png"
+    },
+    {
+      "name": "MR_COOPER™",
+      "splats": 5,
+      "first": "2026-08-09T14:58:00+00:00",
+      "last": "2026-08-14T15:30:18+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 12,
+        "their_best": 8,
+        "their_splats": 6.0,
+        "their_deaths": 6.5,
+        "avg_points": 1214
+      },
+      "alongside": {
+        "matches": 5,
+        "wins": 4,
+        "losses": 1,
+        "splats": 25,
+        "their_best": 9,
+        "their_splats": 5.0,
+        "their_deaths": 4.6,
+        "avg_points": 1165
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T14:48:44+00:00",
+          "map": "Um'ami Ruins",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/9c0a985ed3fb.png",
+      "splashtag": "assets/faces/9c0a985ed3fb-tag.png"
     },
     {
       "name": "arc507",
@@ -628,6 +670,38 @@
       "splashtag": "assets/faces/b504838caf04-tag.png"
     },
     {
+      "name": "revenge",
+      "splats": 4,
+      "first": "2026-08-14T15:34:04+00:00",
+      "last": "2026-08-14T15:35:22+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 814
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/4bcd0679aebb.png",
+      "splashtag": "assets/faces/4bcd0679aebb-tag.png"
+    },
+    {
       "name": "★MιlκShαkε",
       "splats": 4,
       "first": "2026-08-12T22:41:23+00:00",
@@ -881,46 +955,36 @@
       "splashtag": "assets/faces/79eace63c09d-tag.png"
     },
     {
-      "name": "MR_COOPER™",
+      "name": "Maгcus",
       "splats": 3,
-      "first": "2026-08-09T14:58:00+00:00",
-      "last": "2026-08-09T15:00:31+00:00",
+      "first": "2026-08-14T15:34:12+00:00",
+      "last": "2026-08-14T15:36:41+00:00",
       "matches": 1,
       "best_match": 3,
       "versus": {
         "matches": 1,
-        "wins": 1,
-        "losses": 0,
+        "wins": 0,
+        "losses": 1,
         "splats": 4,
         "their_best": 4,
         "their_splats": 4.0,
-        "their_deaths": 8.0,
-        "avg_points": 1180
-      },
-      "alongside": {
-        "matches": 3,
-        "wins": 3,
-        "losses": 0,
-        "splats": 18,
-        "their_best": 9,
-        "their_splats": 6.0,
-        "their_deaths": 4.3,
-        "avg_points": 1114
+        "their_deaths": 4.0,
+        "avg_points": 1015
       },
       "met": {
         "first": {
-          "at": "2026-08-09T14:48:44+00:00",
-          "map": "Um'ami Ruins",
-          "side": "with"
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
         },
         "last": {
-          "at": "2026-08-09T15:04:19+00:00",
-          "map": "Mahi-Mahi Resort",
-          "side": "with"
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
         }
       },
-      "avatar": "assets/faces/9c0a985ed3fb.png",
-      "splashtag": "assets/faces/9c0a985ed3fb-tag.png"
+      "avatar": "assets/faces/6e7022cacadd.png",
+      "splashtag": "assets/faces/6e7022cacadd-tag.png"
     },
     {
       "name": "Mon-Mon",
@@ -953,48 +1017,6 @@
       },
       "avatar": "assets/faces/3983c0ea9ea8.png",
       "splashtag": "assets/faces/3983c0ea9ea8-tag.png"
-    },
-    {
-      "name": "Nadji",
-      "splats": 3,
-      "first": "2026-08-09T21:37:37+00:00",
-      "last": "2026-08-09T21:51:10+00:00",
-      "matches": 2,
-      "best_match": 2,
-      "versus": {
-        "matches": 2,
-        "wins": 1,
-        "losses": 0,
-        "splats": 10,
-        "their_best": 5,
-        "their_splats": 5.0,
-        "their_deaths": 3.5,
-        "avg_points": 832
-      },
-      "alongside": {
-        "matches": 1,
-        "wins": 1,
-        "losses": 0,
-        "splats": 7,
-        "their_best": 7,
-        "their_splats": 7.0,
-        "their_deaths": 2.0,
-        "avg_points": 1005
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T21:36:46+00:00",
-          "map": "Undertow Spillway",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T21:48:20+00:00",
-          "map": "Undertow Spillway",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/4cf0ac4b707f.png",
-      "splashtag": "assets/faces/4cf0ac4b707f-tag.png"
     },
     {
       "name": "PBAG",
@@ -1237,7 +1259,7 @@
       "best_match": 3,
       "versus": {
         "matches": 1,
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "splats": 3,
         "their_best": 3,
@@ -1513,6 +1535,38 @@
       },
       "avatar": "assets/faces/2c650d63a971.png",
       "splashtag": "assets/faces/2c650d63a971-tag.png"
+    },
+    {
+      "name": "★βιαη★",
+      "splats": 3,
+      "first": "2026-08-14T15:25:58+00:00",
+      "last": "2026-08-14T15:27:43+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 603
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/dbb9db824d60.png",
+      "splashtag": "assets/faces/dbb9db824d60-tag.png"
     },
     {
       "name": "*⌒MARI★チェリ",
@@ -1888,6 +1942,38 @@
       "splashtag": "assets/faces/d6927e6e0e38-tag.png"
     },
     {
+      "name": "LiIiﬁTim",
+      "splats": 2,
+      "first": "2026-08-14T15:26:09+00:00",
+      "last": "2026-08-14T15:26:56+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 3.0,
+        "avg_points": 1206
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8169ac8b7416.png",
+      "splashtag": "assets/faces/8169ac8b7416-tag.png"
+    },
+    {
       "name": "MUJERRRRRR",
       "splats": 2,
       "first": "2026-08-09T00:45:11+00:00",
@@ -1938,7 +2024,7 @@
       "best_match": 2,
       "versus": {
         "matches": 1,
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "splats": 6,
         "their_best": 6,
@@ -1991,6 +2077,48 @@
       },
       "avatar": "assets/faces/3bbf3fa537f5.png",
       "splashtag": "assets/faces/3bbf3fa537f5-tag.png"
+    },
+    {
+      "name": "Nadji",
+      "splats": 2,
+      "first": "2026-08-09T21:37:37+00:00",
+      "last": "2026-08-09T21:39:00+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 778
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 2.0,
+        "avg_points": 1005
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T21:36:46+00:00",
+          "map": "Undertow Spillway",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-09T21:42:04+00:00",
+          "map": "Crableg Capital",
+          "side": "with"
+        }
+      },
+      "splashtag": "assets/faces/4cf0ac4b707f-tag.png",
+      "avatar": "assets/faces/4cf0ac4b707f.png"
     },
     {
       "name": "Nnc⇔_⇔",
@@ -2161,6 +2289,38 @@
       },
       "avatar": "assets/faces/2bfd4000c69f.png",
       "splashtag": "assets/faces/2bfd4000c69f-tag.png"
+    },
+    {
+      "name": "ST. JIMMY☆",
+      "splats": 2,
+      "first": "2026-08-14T15:30:46+00:00",
+      "last": "2026-08-14T15:32:21+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 7.0,
+        "avg_points": 607
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:29:27+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:29:27+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/655b6c525b28.png",
+      "splashtag": "assets/faces/655b6c525b28-tag.png"
     },
     {
       "name": "Santifloo",
@@ -2750,7 +2910,7 @@
       "best_match": 2,
       "versus": {
         "matches": 1,
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "splats": 1,
         "their_best": 1,
@@ -2804,6 +2964,38 @@
       },
       "avatar": "assets/faces/064e5d8a5cf4.png",
       "splashtag": "assets/faces/064e5d8a5cf4-tag.png"
+    },
+    {
+      "name": "ŁøłīťāÑàŐ",
+      "splats": 2,
+      "first": "2026-08-14T15:29:57+00:00",
+      "last": "2026-08-14T15:31:49+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 8.0,
+        "avg_points": 779
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:29:27+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:29:27+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/e6fcbf19f0b3.png",
+      "splashtag": "assets/faces/e6fcbf19f0b3-tag.png"
     },
     {
       "name": "αGentleman",
@@ -3103,6 +3295,38 @@
       "splashtag": "assets/faces/a4092fcec896-tag.png"
     },
     {
+      "name": "Agente 3",
+      "splats": 1,
+      "first": "2026-08-14T15:36:21+00:00",
+      "last": "2026-08-14T15:36:21+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 9,
+        "their_best": 9,
+        "their_splats": 9.0,
+        "their_deaths": 3.0,
+        "avg_points": 1489
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:33:41+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5ae85e5725e5.png",
+      "splashtag": "assets/faces/5ae85e5725e5-tag.png"
+    },
+    {
       "name": "Alcoんσlic™",
       "splats": 1,
       "first": "2026-08-13T23:09:24+00:00",
@@ -3356,6 +3580,38 @@
       "splashtag": "assets/faces/323039d647e8-tag.png"
     },
     {
+      "name": "Cheesy",
+      "splats": 1,
+      "first": "2026-08-14T15:26:52+00:00",
+      "last": "2026-08-14T15:26:52+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 2.0,
+        "avg_points": 1026
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:25:02+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6fb17b51a4e3.png",
+      "splashtag": "assets/faces/6fb17b51a4e3-tag.png"
+    },
+    {
       "name": "Cyreneミ★",
       "splats": 1,
       "first": "2026-08-13T23:05:43+00:00",
@@ -3450,6 +3706,36 @@
       },
       "avatar": "assets/faces/bd9b6012cf32.png",
       "splashtag": "assets/faces/bd9b6012cf32-tag.png"
+    },
+    {
+      "name": "Donny B",
+      "splats": 1,
+      "first": "2026-08-14T15:40:02+00:00",
+      "last": "2026-08-14T15:40:02+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "their_deaths": 5.0,
+        "avg_points": 198
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/52fa2e652877.png",
+      "splashtag": "assets/faces/52fa2e652877-tag.png"
     },
     {
       "name": "EJ",
@@ -3840,38 +4126,6 @@
       "splashtag": "assets/faces/5c30130b1e48-tag.png"
     },
     {
-      "name": "Kayas",
-      "splats": 1,
-      "first": "2026-08-09T21:50:07+00:00",
-      "last": "2026-08-09T21:50:07+00:00",
-      "matches": 1,
-      "best_match": 1,
-      "versus": {
-        "matches": 1,
-        "wins": 0,
-        "losses": 0,
-        "splats": 5,
-        "their_best": 5,
-        "their_splats": 5.0,
-        "their_deaths": 2.0,
-        "avg_points": 628
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T21:48:20+00:00",
-          "map": "Undertow Spillway",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T21:48:20+00:00",
-          "map": "Undertow Spillway",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/34c4df24b71f.png",
-      "splashtag": "assets/faces/34c4df24b71f-tag.png"
-    },
-    {
       "name": "KаtNaρFevr",
       "splats": 1,
       "first": "2026-08-09T19:56:05+00:00",
@@ -4135,6 +4389,38 @@
       "splashtag": "assets/faces/9a34cbedfda0-tag.png"
     },
     {
+      "name": "Munching",
+      "splats": 1,
+      "first": "2026-08-14T15:39:22+00:00",
+      "last": "2026-08-14T15:39:22+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 5.0,
+        "avg_points": 769
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/f1a5b4f75d83.png",
+      "splashtag": "assets/faces/f1a5b4f75d83-tag.png"
+    },
+    {
       "name": "Mг. ī□ппа",
       "splats": 1,
       "first": "2026-08-10T03:07:33+00:00",
@@ -4331,6 +4617,38 @@
       "avatar": "assets/faces/50344c6cbbb1.png"
     },
     {
+      "name": "Ren",
+      "splats": 1,
+      "first": "2026-08-14T15:41:05+00:00",
+      "last": "2026-08-14T15:41:05+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 4.0,
+        "avg_points": 960
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/2c97b02cd19a.png",
+      "splashtag": "assets/faces/2c97b02cd19a-tag.png"
+    },
+    {
       "name": "Ren☆",
       "splats": 1,
       "first": "2026-08-09T00:10:43+00:00",
@@ -4381,7 +4699,7 @@
       },
       "alongside": {
         "matches": 2,
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "splats": 5,
         "their_best": 3,
@@ -5252,6 +5570,38 @@
       "splashtag": "assets/faces/3fc37875052a-tag.png"
     },
     {
+      "name": "seungmin<3",
+      "splats": 1,
+      "first": "2026-08-14T15:40:18+00:00",
+      "last": "2026-08-14T15:40:18+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 4.0,
+        "avg_points": 896
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-14T15:38:04+00:00",
+          "map": "Manta Maria",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/d578eee62703.png",
+      "splashtag": "assets/faces/d578eee62703-tag.png"
+    },
+    {
       "name": "spykesbf",
       "splats": 1,
       "first": "2026-08-09T14:44:31+00:00",
@@ -5365,7 +5715,7 @@
       "best_match": 1,
       "versus": {
         "matches": 1,
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "splats": 3,
         "their_best": 3,
@@ -5777,6 +6127,102 @@
     }
   ],
   "recent": [
+    {
+      "name": "Ren",
+      "ts": "2026-08-14T15:41:05+00:00"
+    },
+    {
+      "name": "seungmin<3",
+      "ts": "2026-08-14T15:40:18+00:00"
+    },
+    {
+      "name": "Donny B",
+      "ts": "2026-08-14T15:40:02+00:00"
+    },
+    {
+      "name": "Munching",
+      "ts": "2026-08-14T15:39:22+00:00"
+    },
+    {
+      "name": "Maгcus",
+      "ts": "2026-08-14T15:36:41+00:00"
+    },
+    {
+      "name": "Agente 3",
+      "ts": "2026-08-14T15:36:21+00:00"
+    },
+    {
+      "name": "Maгcus",
+      "ts": "2026-08-14T15:36:10+00:00"
+    },
+    {
+      "name": "revenge",
+      "ts": "2026-08-14T15:35:22+00:00"
+    },
+    {
+      "name": "revenge",
+      "ts": "2026-08-14T15:34:36+00:00"
+    },
+    {
+      "name": "revenge",
+      "ts": "2026-08-14T15:34:17+00:00"
+    },
+    {
+      "name": "Maгcus",
+      "ts": "2026-08-14T15:34:12+00:00"
+    },
+    {
+      "name": "revenge",
+      "ts": "2026-08-14T15:34:04+00:00"
+    },
+    {
+      "name": "ST. JIMMY☆",
+      "ts": "2026-08-14T15:32:21+00:00"
+    },
+    {
+      "name": "ŁøłīťāÑàŐ",
+      "ts": "2026-08-14T15:31:49+00:00"
+    },
+    {
+      "name": "ST. JIMMY☆",
+      "ts": "2026-08-14T15:30:46+00:00"
+    },
+    {
+      "name": "MR_COOPER™",
+      "ts": "2026-08-14T15:30:18+00:00"
+    },
+    {
+      "name": "ŁøłīťāÑàŐ",
+      "ts": "2026-08-14T15:29:57+00:00"
+    },
+    {
+      "name": "MR_COOPER™",
+      "ts": "2026-08-14T15:29:55+00:00"
+    },
+    {
+      "name": "★βιαη★",
+      "ts": "2026-08-14T15:27:43+00:00"
+    },
+    {
+      "name": "LiIiﬁTim",
+      "ts": "2026-08-14T15:26:56+00:00"
+    },
+    {
+      "name": "Cheesy",
+      "ts": "2026-08-14T15:26:52+00:00"
+    },
+    {
+      "name": "★βιαη★",
+      "ts": "2026-08-14T15:26:49+00:00"
+    },
+    {
+      "name": "LiIiﬁTim",
+      "ts": "2026-08-14T15:26:09+00:00"
+    },
+    {
+      "name": "★βιαη★",
+      "ts": "2026-08-14T15:25:58+00:00"
+    },
     {
       "name": "bruh",
       "ts": "2026-08-14T03:23:07+00:00"
@@ -6752,14 +7198,6 @@
     {
       "name": "kеrara☆«ケ0",
       "ts": "2026-08-09T22:20:21+00:00"
-    },
-    {
-      "name": "Nadji",
-      "ts": "2026-08-09T21:51:10+00:00"
-    },
-    {
-      "name": "Kayas",
-      "ts": "2026-08-09T21:50:07+00:00"
     },
     {
       "name": "sgliIy",
