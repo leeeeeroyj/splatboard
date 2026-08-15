@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-15T03:46:59+00:00",
+  "generated_at": "2026-08-15T21:56:53+00:00",
   "totals": {
-    "splats": 437,
-    "unique_players": 217,
-    "assists": 58,
+    "splats": 460,
+    "unique_players": 227,
+    "assists": 59,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 92,
-    "wins": 66,
-    "losses": 26,
+    "matches": 97,
+    "wins": 69,
+    "losses": 28,
     "draws": 0,
-    "avg_splats": 4.72,
+    "avg_splats": 4.68,
     "best_splats": 13,
     "avg_points": 947,
     "best_points": 1421,
-    "disconnects": 10,
+    "disconnects": 12,
     "quickest_splat": {
       "seconds": 12.6,
       "name": "humbIе",
@@ -58,41 +58,41 @@
     },
     "assassin": {
       "name": "GHΦらT",
-      "matches": 22,
-      "splats": 74,
-      "avg_points": 912,
+      "matches": 23,
+      "splats": 76,
+      "avg_points": 927,
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     "public_enemy": {
       "name": "GHΦらT",
-      "matches": 10,
+      "matches": 11,
       "wins": 9,
-      "losses": 1,
-      "splats": 39,
+      "losses": 2,
+      "splats": 41,
       "their_best": 6,
-      "their_splats": 3.9,
+      "their_splats": 3.7,
       "their_deaths": 4.3,
-      "avg_points": 869,
+      "avg_points": 903,
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     "nemesis": {
       "name": "GHΦらT",
-      "matches": 10,
+      "matches": 11,
       "wins": 9,
-      "losses": 1,
-      "splats": 39,
+      "losses": 2,
+      "splats": 41,
       "their_best": 6,
-      "their_splats": 3.9,
+      "their_splats": 3.7,
       "their_deaths": 4.3,
-      "avg_points": 869,
+      "avg_points": 903,
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     "turf_king": {
-      "name": "Alcoんσlic™",
-      "matches": 3,
+      "name": ">Mş Mîňțÿ<",
+      "matches": 4,
       "splats": 11,
-      "avg_points": 1303,
-      "avatar": "assets/faces/a0ff519dcc36.png"
+      "avg_points": 1381,
+      "avatar": "assets/faces/4b991a080c82.png"
     },
     "hard_to_kill": {
       "name": "victor vo",
@@ -122,20 +122,20 @@
   "players": [
     {
       "name": "GHΦらT",
-      "splats": 20,
+      "splats": 21,
       "first": "2026-08-09T14:39:46+00:00",
-      "last": "2026-08-12T02:29:14+00:00",
-      "matches": 10,
+      "last": "2026-08-15T21:48:41+00:00",
+      "matches": 11,
       "best_match": 6,
       "versus": {
-        "matches": 10,
+        "matches": 11,
         "wins": 9,
-        "losses": 1,
-        "splats": 39,
+        "losses": 2,
+        "splats": 41,
         "their_best": 6,
-        "their_splats": 3.9,
+        "their_splats": 3.7,
         "their_deaths": 4.3,
-        "avg_points": 869
+        "avg_points": 903
       },
       "alongside": {
         "matches": 12,
@@ -154,9 +154,9 @@
           "side": "with"
         },
         "last": {
-          "at": "2026-08-14T00:44:33+00:00",
-          "map": "Hagglefish Market",
-          "side": "with"
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
         }
       },
       "avatar": "assets/faces/d06c47919e6f.png",
@@ -203,6 +203,48 @@
       },
       "avatar": "assets/faces/8c78e5db516a.png",
       "splashtag": "assets/faces/8c78e5db516a-tag.png"
+    },
+    {
+      "name": "Dewyгay",
+      "splats": 6,
+      "first": "2026-08-09T22:27:11+00:00",
+      "last": "2026-08-15T21:40:16+00:00",
+      "matches": 7,
+      "best_match": 1,
+      "versus": {
+        "matches": 7,
+        "wins": 6,
+        "losses": 1,
+        "splats": 8,
+        "their_best": 3,
+        "their_splats": 1.6,
+        "their_deaths": 3.3,
+        "avg_points": 450
+      },
+      "alongside": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 3,
+        "their_splats": 2.5,
+        "their_deaths": 3.5,
+        "avg_points": 480
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T22:19:59+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/629f2be5ed77.png",
+      "splashtag": "assets/faces/629f2be5ed77-tag.png"
     },
     {
       "name": "Squiddo",
@@ -436,6 +478,38 @@
       "splashtag": "assets/faces/7b24f647166a-tag.png"
     },
     {
+      "name": "BooYAH",
+      "splats": 4,
+      "first": "2026-08-11T02:50:47+00:00",
+      "last": "2026-08-15T21:28:32+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 8,
+        "their_best": 5,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 920
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-11T02:48:54+00:00",
+          "map": "Hammerhead Bridge",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:26:09+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/82f223d091cf.png",
+      "splashtag": "assets/faces/82f223d091cf-tag.png"
+    },
+    {
       "name": "DiVA_SQUiD",
       "splats": 4,
       "first": "2026-08-15T03:33:48+00:00",
@@ -466,6 +540,38 @@
       },
       "avatar": "assets/faces/b77fd8b80ab7.png",
       "splashtag": "assets/faces/b77fd8b80ab7-tag.png"
+    },
+    {
+      "name": "GгifDaGoat",
+      "splats": 4,
+      "first": "2026-08-15T21:38:15+00:00",
+      "last": "2026-08-15T21:40:19+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 6.0,
+        "avg_points": 982
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:37:55+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:37:55+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/38f2fab78857.png",
+      "splashtag": "assets/faces/38f2fab78857-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -1275,6 +1381,38 @@
       "splashtag": "assets/faces/725c0b9ecbd8-tag.png"
     },
     {
+      "name": "Pancakе30",
+      "splats": 3,
+      "first": "2026-08-15T21:48:25+00:00",
+      "last": "2026-08-15T21:50:02+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 8,
+        "their_best": 8,
+        "their_splats": 8.0,
+        "their_deaths": 5.0,
+        "avg_points": 797
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/4d45e714d729.png",
+      "splashtag": "assets/faces/4d45e714d729-tag.png"
+    },
+    {
       "name": "R",
       "splats": 3,
       "first": "2026-08-09T15:03:04+00:00",
@@ -1973,6 +2111,48 @@
       "splashtag": "assets/faces/37c7bdc10e9e-tag.png"
     },
     {
+      "name": ">Mş Mîňțÿ<",
+      "splats": 2,
+      "first": "2026-08-15T21:38:40+00:00",
+      "last": "2026-08-15T21:39:52+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 3,
+        "their_splats": 2.5,
+        "their_deaths": 4.5,
+        "avg_points": 1365
+      },
+      "alongside": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 4,
+        "their_splats": 3.0,
+        "their_deaths": 4.5,
+        "avg_points": 1397
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:26:09+00:00",
+          "map": "Humpback Pump Track",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-15T21:42:40+00:00",
+          "map": "Bluefin Depot",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/4b991a080c82.png",
+      "splashtag": "assets/faces/4b991a080c82-tag.png"
+    },
+    {
       "name": "AFTOM",
       "splats": 2,
       "first": "2026-08-09T22:35:02+00:00",
@@ -2076,38 +2256,6 @@
         }
       },
       "avatar": "assets/faces/cbcb004af32d.png"
-    },
-    {
-      "name": "BooYAH",
-      "splats": 2,
-      "first": "2026-08-11T02:50:47+00:00",
-      "last": "2026-08-11T02:51:15+00:00",
-      "matches": 1,
-      "best_match": 2,
-      "versus": {
-        "matches": 1,
-        "wins": 0,
-        "losses": 1,
-        "splats": 5,
-        "their_best": 5,
-        "their_splats": 5.0,
-        "their_deaths": 4.0,
-        "avg_points": 911
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-11T02:48:54+00:00",
-          "map": "Hammerhead Bridge",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-11T02:48:54+00:00",
-          "map": "Hammerhead Bridge",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/82f223d091cf.png",
-      "splashtag": "assets/faces/82f223d091cf-tag.png"
     },
     {
       "name": "CoolCat5G",
@@ -2260,38 +2408,6 @@
       "first": "2026-08-09T19:59:01+00:00",
       "last": "2026-08-09T19:59:05+00:00",
       "avatar": "assets/faces/4fa165e730dd.png"
-    },
-    {
-      "name": "Dewyгay",
-      "splats": 2,
-      "first": "2026-08-09T22:27:11+00:00",
-      "last": "2026-08-09T22:35:43+00:00",
-      "matches": 4,
-      "best_match": 1,
-      "versus": {
-        "matches": 4,
-        "wins": 4,
-        "losses": 0,
-        "splats": 4,
-        "their_best": 3,
-        "their_splats": 2.0,
-        "their_deaths": 3.2,
-        "avg_points": 381
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-09T22:19:59+00:00",
-          "map": "Museum d'Alfonsino",
-          "side": "against"
-        },
-        "last": {
-          "at": "2026-08-09T22:33:56+00:00",
-          "map": "Museum d'Alfonsino",
-          "side": "against"
-        }
-      },
-      "avatar": "assets/faces/629f2be5ed77.png",
-      "splashtag": "assets/faces/629f2be5ed77-tag.png"
     },
     {
       "name": "Dоty",
@@ -4721,6 +4837,14 @@
       "splashtag": "assets/faces/b73d6f614324-tag.png"
     },
     {
+      "name": "Herr.Hare",
+      "splats": 1,
+      "first": "2026-08-15T21:32:10+00:00",
+      "last": "2026-08-15T21:32:10+00:00",
+      "avatar": "assets/faces/f7df380f12f5.png",
+      "splashtag": "assets/faces/f7df380f12f5-tag.png"
+    },
+    {
       "name": "Hr_*/měħb_",
       "splats": 1,
       "first": "2026-08-09T00:18:33+00:00",
@@ -5089,6 +5213,38 @@
       "splashtag": "assets/faces/403bab3604be-tag.png"
     },
     {
+      "name": "Marcy",
+      "splats": 1,
+      "first": "2026-08-15T21:45:39+00:00",
+      "last": "2026-08-15T21:45:39+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 2.0,
+        "avg_points": 561
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:42:40+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:42:40+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/ad497d3b5343.png",
+      "splashtag": "assets/faces/ad497d3b5343-tag.png"
+    },
+    {
       "name": "Matcha ☆",
       "splats": 1,
       "first": "2026-08-14T23:47:38+00:00",
@@ -5119,6 +5275,38 @@
       },
       "avatar": "assets/faces/f385de9e4d01.png",
       "splashtag": "assets/faces/f385de9e4d01-tag.png"
+    },
+    {
+      "name": "May",
+      "splats": 1,
+      "first": "2026-08-15T21:45:15+00:00",
+      "last": "2026-08-15T21:45:15+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 3.0,
+        "avg_points": 1128
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:42:40+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:42:40+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c94f479833c5.png",
+      "splashtag": "assets/faces/c94f479833c5-tag.png"
     },
     {
       "name": "Melia",
@@ -6058,6 +6246,38 @@
       "splashtag": "assets/faces/6f84bcb2dd18-tag.png"
     },
     {
+      "name": "axoIotI",
+      "splats": 1,
+      "first": "2026-08-15T21:35:40+00:00",
+      "last": "2026-08-15T21:35:40+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 801
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:33:30+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:33:30+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/32652ecbc291.png",
+      "splashtag": "assets/faces/32652ecbc291-tag.png"
+    },
+    {
       "name": "bobIX",
       "splats": 1,
       "first": "2026-08-12T18:54:03+00:00",
@@ -6120,6 +6340,38 @@
       },
       "avatar": "assets/faces/4fa6024f1249.png",
       "splashtag": "assets/faces/4fa6024f1249-tag.png"
+    },
+    {
+      "name": "fгyyez",
+      "splats": 1,
+      "first": "2026-08-15T21:47:50+00:00",
+      "last": "2026-08-15T21:47:50+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 2.0,
+        "avg_points": 1005
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:47:00+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/df39e54050b9.png",
+      "splashtag": "assets/faces/df39e54050b9-tag.png"
     },
     {
       "name": "hunter",
@@ -6600,6 +6852,38 @@
       "splashtag": "assets/faces/3fc37875052a-tag.png"
     },
     {
+      "name": "oli!!",
+      "splats": 1,
+      "first": "2026-08-15T21:27:17+00:00",
+      "last": "2026-08-15T21:27:17+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 676
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:26:09+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:26:09+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8496b5b1d966.png",
+      "splashtag": "assets/faces/8496b5b1d966-tag.png"
+    },
+    {
       "name": "seungmin<3",
       "splats": 1,
       "first": "2026-08-14T15:40:18+00:00",
@@ -6630,6 +6914,38 @@
       },
       "avatar": "assets/faces/d578eee62703.png",
       "splashtag": "assets/faces/d578eee62703-tag.png"
+    },
+    {
+      "name": "shooky MC",
+      "splats": 1,
+      "first": "2026-08-15T21:39:46+00:00",
+      "last": "2026-08-15T21:39:46+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 5.0,
+        "avg_points": 654
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T21:37:55+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T21:37:55+00:00",
+          "map": "Bluefin Depot",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6985a31595f0.png",
+      "splashtag": "assets/faces/6985a31595f0-tag.png"
     },
     {
       "name": "spykesbf",
@@ -7241,6 +7557,98 @@
     }
   ],
   "recent": [
+    {
+      "name": "Pancakе30",
+      "ts": "2026-08-15T21:50:02+00:00"
+    },
+    {
+      "name": "Pancakе30",
+      "ts": "2026-08-15T21:49:04+00:00"
+    },
+    {
+      "name": "GHΦらT",
+      "ts": "2026-08-15T21:48:41+00:00"
+    },
+    {
+      "name": "Pancakе30",
+      "ts": "2026-08-15T21:48:25+00:00"
+    },
+    {
+      "name": "fгyyez",
+      "ts": "2026-08-15T21:47:50+00:00"
+    },
+    {
+      "name": "Marcy",
+      "ts": "2026-08-15T21:45:39+00:00"
+    },
+    {
+      "name": "May",
+      "ts": "2026-08-15T21:45:15+00:00"
+    },
+    {
+      "name": "GгifDaGoat",
+      "ts": "2026-08-15T21:40:19+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-15T21:40:16+00:00"
+    },
+    {
+      "name": ">Mş Mîňțÿ<",
+      "ts": "2026-08-15T21:39:52+00:00"
+    },
+    {
+      "name": "shooky MC",
+      "ts": "2026-08-15T21:39:46+00:00"
+    },
+    {
+      "name": "GгifDaGoat",
+      "ts": "2026-08-15T21:39:43+00:00"
+    },
+    {
+      "name": "GгifDaGoat",
+      "ts": "2026-08-15T21:39:27+00:00"
+    },
+    {
+      "name": ">Mş Mîňțÿ<",
+      "ts": "2026-08-15T21:38:40+00:00"
+    },
+    {
+      "name": "GгifDaGoat",
+      "ts": "2026-08-15T21:38:15+00:00"
+    },
+    {
+      "name": "axoIotI",
+      "ts": "2026-08-15T21:35:40+00:00"
+    },
+    {
+      "name": "Herr.Hare",
+      "ts": "2026-08-15T21:32:10+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-15T21:30:56+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-15T21:30:46+00:00"
+    },
+    {
+      "name": "BooYAH",
+      "ts": "2026-08-15T21:28:32+00:00"
+    },
+    {
+      "name": "Dewyгay",
+      "ts": "2026-08-15T21:28:25+00:00"
+    },
+    {
+      "name": "BooYAH",
+      "ts": "2026-08-15T21:27:23+00:00"
+    },
+    {
+      "name": "oli!!",
+      "ts": "2026-08-15T21:27:17+00:00"
+    },
     {
       "name": "KARASUMA",
       "ts": "2026-08-15T03:42:28+00:00"
