@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-15T00:04:12+00:00",
+  "generated_at": "2026-08-15T03:46:59+00:00",
   "totals": {
-    "splats": 384,
-    "unique_players": 194,
-    "assists": 53,
+    "splats": 437,
+    "unique_players": 217,
+    "assists": 58,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 84,
-    "wins": 60,
-    "losses": 24,
+    "matches": 92,
+    "wins": 66,
+    "losses": 26,
     "draws": 0,
-    "avg_splats": 4.54,
-    "best_splats": 10,
+    "avg_splats": 4.72,
+    "best_splats": 13,
     "avg_points": 947,
     "best_points": 1421,
     "disconnects": 10,
@@ -311,6 +311,38 @@
       "splashtag": "assets/faces/9c0a985ed3fb-tag.png"
     },
     {
+      "name": "Nathan",
+      "splats": 5,
+      "first": "2026-08-15T03:03:42+00:00",
+      "last": "2026-08-15T03:04:57+00:00",
+      "matches": 1,
+      "best_match": 5,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 7.0,
+        "avg_points": 1055
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/7c6cf58961d0.png",
+      "splashtag": "assets/faces/7c6cf58961d0-tag.png"
+    },
+    {
       "name": "arc507",
       "splats": 5,
       "first": "2026-08-09T22:30:27+00:00",
@@ -402,6 +434,38 @@
       },
       "avatar": "assets/faces/7b24f647166a.png",
       "splashtag": "assets/faces/7b24f647166a-tag.png"
+    },
+    {
+      "name": "DiVA_SQUiD",
+      "splats": 4,
+      "first": "2026-08-15T03:33:48+00:00",
+      "last": "2026-08-15T03:38:29+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 3.0,
+        "avg_points": 482
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:31:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:35:46+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/b77fd8b80ab7.png",
+      "splashtag": "assets/faces/b77fd8b80ab7-tag.png"
     },
     {
       "name": "I'ma bot",
@@ -498,6 +562,38 @@
       },
       "avatar": "assets/faces/de6351f9002a.png",
       "splashtag": "assets/faces/de6351f9002a-tag.png"
+    },
+    {
+      "name": "Octomouche",
+      "splats": 4,
+      "first": "2026-08-15T03:03:15+00:00",
+      "last": "2026-08-15T03:04:45+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 9,
+        "their_best": 9,
+        "their_splats": 9.0,
+        "their_deaths": 6.0,
+        "avg_points": 917
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/1d4c2ac00073.png",
+      "splashtag": "assets/faces/1d4c2ac00073-tag.png"
     },
     {
       "name": "Squidy",
@@ -604,6 +700,38 @@
       },
       "avatar": "assets/faces/8a7b91cee1b3.png",
       "splashtag": "assets/faces/8a7b91cee1b3-tag.png"
+    },
+    {
+      "name": "jаckaгthy",
+      "splats": 4,
+      "first": "2026-08-15T02:58:07+00:00",
+      "last": "2026-08-15T03:00:23+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 7.0,
+        "avg_points": 667
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/0ad426eec15b.png",
+      "splashtag": "assets/faces/0ad426eec15b-tag.png"
     },
     {
       "name": "kеrara☆«ケ0",
@@ -808,6 +936,38 @@
       "splashtag": "assets/faces/7d9d77e99f58-tag.png"
     },
     {
+      "name": "13KSiIver",
+      "splats": 3,
+      "first": "2026-08-15T03:03:04+00:00",
+      "last": "2026-08-15T03:03:48+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 6.0,
+        "avg_points": 751
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/d9af076ff34b.png",
+      "splashtag": "assets/faces/d9af076ff34b-tag.png"
+    },
+    {
       "name": "ArtistTone",
       "splats": 3,
       "first": "2026-08-12T01:52:37+00:00",
@@ -923,6 +1083,38 @@
       "splashtag": "assets/faces/5fdc669fbcb9-tag.png"
     },
     {
+      "name": "HouStunna",
+      "splats": 3,
+      "first": "2026-08-15T02:48:38+00:00",
+      "last": "2026-08-15T02:51:14+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 825
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:48:19+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:48:19+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c0fd55972e68.png",
+      "splashtag": "assets/faces/c0fd55972e68-tag.png"
+    },
+    {
       "name": "Kasumi",
       "splats": 3,
       "first": "2026-08-12T02:27:29+00:00",
@@ -953,6 +1145,38 @@
       },
       "avatar": "assets/faces/79eace63c09d.png",
       "splashtag": "assets/faces/79eace63c09d-tag.png"
+    },
+    {
+      "name": "LatFеyO",
+      "splats": 3,
+      "first": "2026-08-15T02:55:42+00:00",
+      "last": "2026-08-15T02:56:18+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 3.0,
+        "avg_points": 736
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/9cae59254a19.png",
+      "splashtag": "assets/faces/9cae59254a19-tag.png"
     },
     {
       "name": "Maгcus",
@@ -1537,6 +1761,48 @@
       "avatar": "assets/faces/a18dd58f6f9a.png"
     },
     {
+      "name": "~Aš_はる*リダ",
+      "splats": 3,
+      "first": "2026-08-15T03:31:35+00:00",
+      "last": "2026-08-15T03:34:12+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 3.0,
+        "avg_points": 395
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 4.0,
+        "avg_points": 755
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:31:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:35:46+00:00",
+          "map": "Barnacle & Dime",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/3b79e2300b40.png",
+      "splashtag": "assets/faces/3b79e2300b40-tag.png"
+    },
+    {
       "name": "■Jαγ◎¹",
       "splats": 3,
       "first": "2026-08-10T03:24:37+00:00",
@@ -1599,6 +1865,48 @@
       },
       "avatar": "assets/faces/dbb9db824d60.png",
       "splashtag": "assets/faces/dbb9db824d60-tag.png"
+    },
+    {
+      "name": "☆♪sqυidγ♪☆",
+      "splats": 3,
+      "first": "2026-08-15T03:31:37+00:00",
+      "last": "2026-08-15T03:38:46+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 4,
+        "their_splats": 3.5,
+        "their_deaths": 4.5,
+        "avg_points": 617
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 2.0,
+        "avg_points": 1029
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:31:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:40:19+00:00",
+          "map": "Marlin Airport",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/abce2f0271f6.png",
+      "splashtag": "assets/faces/abce2f0271f6-tag.png"
     },
     {
       "name": "*⌒MARI★チェリ",
@@ -2016,6 +2324,70 @@
       "splashtag": "assets/faces/d6927e6e0e38-tag.png"
     },
     {
+      "name": "EMC",
+      "splats": 2,
+      "first": "2026-08-15T02:59:18+00:00",
+      "last": "2026-08-15T03:00:14+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 6.0,
+        "avg_points": 590
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6156a516dbfc.png",
+      "splashtag": "assets/faces/6156a516dbfc-tag.png"
+    },
+    {
+      "name": "IeаtCrayon",
+      "splats": 2,
+      "first": "2026-08-15T02:58:42+00:00",
+      "last": "2026-08-15T03:00:16+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 7.0,
+        "avg_points": 667
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5680bc803be8.png",
+      "splashtag": "assets/faces/5680bc803be8-tag.png"
+    },
+    {
       "name": "Jolt OwO",
       "splats": 2,
       "first": "2026-08-14T23:56:07+00:00",
@@ -2046,6 +2418,38 @@
       },
       "avatar": "assets/faces/236973816b89.png",
       "splashtag": "assets/faces/236973816b89-tag.png"
+    },
+    {
+      "name": "KARASUMA",
+      "splats": 2,
+      "first": "2026-08-15T03:38:44+00:00",
+      "last": "2026-08-15T03:42:28+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 6,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 4.0,
+        "avg_points": 898
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:35:46+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:40:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/fa794a8e92a3.png",
+      "splashtag": "assets/faces/fa794a8e92a3-tag.png"
     },
     {
       "name": "LiIiﬁTim",
@@ -2259,6 +2663,48 @@
       "splashtag": "assets/faces/4075e857cbcd-tag.png"
     },
     {
+      "name": "Nugget",
+      "splats": 2,
+      "first": "2026-08-15T03:37:42+00:00",
+      "last": "2026-08-15T03:38:35+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 818
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 8,
+        "their_best": 8,
+        "their_splats": 8.0,
+        "their_deaths": 3.0,
+        "avg_points": 1060
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:35:46+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:40:19+00:00",
+          "map": "Marlin Airport",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/7509f5c34f04.png",
+      "splashtag": "assets/faces/7509f5c34f04-tag.png"
+    },
+    {
       "name": "P4POI☆",
       "splats": 2,
       "first": "2026-08-09T15:12:30+00:00",
@@ -2353,6 +2799,38 @@
       },
       "avatar": "assets/faces/7be35d5d925d.png",
       "splashtag": "assets/faces/7be35d5d925d-tag.png"
+    },
+    {
+      "name": "Rin Itoshi",
+      "splats": 2,
+      "first": "2026-08-15T02:59:11+00:00",
+      "last": "2026-08-15T03:00:33+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 904
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/de245eea9274.png",
+      "splashtag": "assets/faces/de245eea9274-tag.png"
     },
     {
       "name": "Riptide",
@@ -3104,6 +3582,38 @@
       "splashtag": "assets/faces/064e5d8a5cf4-tag.png"
     },
     {
+      "name": "ßubbIGupρı",
+      "splats": 2,
+      "first": "2026-08-15T03:09:04+00:00",
+      "last": "2026-08-15T03:10:12+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 480
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:07:11+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:07:11+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/3368046a5fab.png",
+      "splashtag": "assets/faces/3368046a5fab-tag.png"
+    },
+    {
       "name": "ŁøłīťāÑàŐ",
       "splats": 2,
       "first": "2026-08-14T15:29:57+00:00",
@@ -3262,6 +3772,38 @@
       },
       "avatar": "assets/faces/b5b79c11964a.png",
       "splashtag": "assets/faces/b5b79c11964a-tag.png"
+    },
+    {
+      "name": "☆lilly☆",
+      "splats": 2,
+      "first": "2026-08-15T02:49:23+00:00",
+      "last": "2026-08-15T02:56:15+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 10,
+        "their_best": 7,
+        "their_splats": 5.0,
+        "their_deaths": 4.5,
+        "avg_points": 748
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:48:19+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/d6df7fd31963.png",
+      "splashtag": "assets/faces/d6df7fd31963-tag.png"
     },
     {
       "name": "♪ccutsey",
@@ -3449,6 +3991,16 @@
         "their_deaths": 3.0,
         "avg_points": 1489
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 5.0,
+        "avg_points": 568
+      },
       "met": {
         "first": {
           "at": "2026-08-14T15:33:41+00:00",
@@ -3456,9 +4008,9 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-14T15:33:41+00:00",
-          "map": "Manta Maria",
-          "side": "against"
+          "at": "2026-08-15T02:57:52+00:00",
+          "map": "Barnacle & Dime",
+          "side": "with"
         }
       },
       "avatar": "assets/faces/5ae85e5725e5.png",
@@ -4463,6 +5015,80 @@
       "splashtag": "assets/faces/493667cbfe23-tag.png"
     },
     {
+      "name": "Maddy",
+      "splats": 1,
+      "first": "2026-08-15T03:40:47+00:00",
+      "last": "2026-08-15T03:40:47+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 11,
+        "their_best": 8,
+        "their_splats": 5.5,
+        "their_deaths": 5.0,
+        "avg_points": 841
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 5.0,
+        "avg_points": 494
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:31:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:40:19+00:00",
+          "map": "Marlin Airport",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/94b151809b54.png",
+      "splashtag": "assets/faces/94b151809b54-tag.png"
+    },
+    {
+      "name": "Made in CN",
+      "splats": 1,
+      "first": "2026-08-15T02:55:46+00:00",
+      "last": "2026-08-15T02:55:46+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 2.0,
+        "avg_points": 452
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/403bab3604be.png",
+      "splashtag": "assets/faces/403bab3604be-tag.png"
+    },
+    {
       "name": "Matcha ☆",
       "splats": 1,
       "first": "2026-08-14T23:47:38+00:00",
@@ -4628,6 +5254,38 @@
       "first": "2026-08-10T03:07:33+00:00",
       "last": "2026-08-10T03:07:33+00:00",
       "best_match": 1
+    },
+    {
+      "name": "M∀dii★",
+      "splats": 1,
+      "first": "2026-08-15T03:09:09+00:00",
+      "last": "2026-08-15T03:09:09+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 3.0,
+        "avg_points": 695
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:07:11+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:07:11+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/873facc4c1c8.png",
+      "splashtag": "assets/faces/873facc4c1c8-tag.png"
     },
     {
       "name": "Octagon!",
@@ -5634,6 +6292,48 @@
       "splashtag": "assets/faces/c5c3ac5ba83f-tag.png"
     },
     {
+      "name": "kaido",
+      "splats": 1,
+      "first": "2026-08-15T02:49:18+00:00",
+      "last": "2026-08-15T02:49:18+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 1015
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 5.0,
+        "avg_points": 800
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:48:19+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/f4709abcba48.png",
+      "splashtag": "assets/faces/f4709abcba48-tag.png"
+    },
+    {
       "name": "keira",
       "splats": 1,
       "first": "2026-08-13T23:02:28+00:00",
@@ -5792,6 +6492,38 @@
       },
       "avatar": "assets/faces/68b506f87414.png",
       "splashtag": "assets/faces/68b506f87414-tag.png"
+    },
+    {
+      "name": "mlK_67",
+      "splats": 1,
+      "first": "2026-08-15T02:53:48+00:00",
+      "last": "2026-08-15T02:53:48+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 3.0,
+        "avg_points": 983
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5b00e1f03c0e.png",
+      "splashtag": "assets/faces/5b00e1f03c0e-tag.png"
     },
     {
       "name": "mr.drippy",
@@ -6235,6 +6967,48 @@
       "splashtag": "assets/faces/853f8ec2479b-tag.png"
     },
     {
+      "name": "☆´′crisis",
+      "splats": 1,
+      "first": "2026-08-15T02:49:28+00:00",
+      "last": "2026-08-15T02:49:28+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 5.0,
+        "avg_points": 741
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 3.0,
+        "avg_points": 694
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T02:48:19+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T02:53:17+00:00",
+          "map": "Barnacle & Dime",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/91c37ae122f6.png",
+      "splashtag": "assets/faces/91c37ae122f6-tag.png"
+    },
+    {
       "name": "♪☆AUG★♪",
       "splats": 1,
       "first": "2026-08-14T00:38:08+00:00",
@@ -6264,6 +7038,48 @@
       },
       "avatar": "assets/faces/8fc931c8dc47.png",
       "splashtag": "assets/faces/8fc931c8dc47-tag.png"
+    },
+    {
+      "name": "♪☆Paiwa☆♪",
+      "splats": 1,
+      "first": "2026-08-15T03:04:45+00:00",
+      "last": "2026-08-15T03:04:45+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 2.0,
+        "avg_points": 658
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 3.0,
+        "avg_points": 915
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-15T03:02:51+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-15T03:31:19+00:00",
+          "map": "Marlin Airport",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/c14b83e3c4ec.png",
+      "splashtag": "assets/faces/c14b83e3c4ec-tag.png"
     },
     {
       "name": "」。αr",
@@ -6425,6 +7241,218 @@
     }
   ],
   "recent": [
+    {
+      "name": "KARASUMA",
+      "ts": "2026-08-15T03:42:28+00:00"
+    },
+    {
+      "name": "Maddy",
+      "ts": "2026-08-15T03:40:47+00:00"
+    },
+    {
+      "name": "☆♪sqυidγ♪☆",
+      "ts": "2026-08-15T03:38:46+00:00"
+    },
+    {
+      "name": "KARASUMA",
+      "ts": "2026-08-15T03:38:44+00:00"
+    },
+    {
+      "name": "Nugget",
+      "ts": "2026-08-15T03:38:35+00:00"
+    },
+    {
+      "name": "DiVA_SQUiD",
+      "ts": "2026-08-15T03:38:29+00:00"
+    },
+    {
+      "name": "Nugget",
+      "ts": "2026-08-15T03:37:42+00:00"
+    },
+    {
+      "name": "DiVA_SQUiD",
+      "ts": "2026-08-15T03:37:31+00:00"
+    },
+    {
+      "name": "DiVA_SQUiD",
+      "ts": "2026-08-15T03:36:49+00:00"
+    },
+    {
+      "name": "☆♪sqυidγ♪☆",
+      "ts": "2026-08-15T03:36:43+00:00"
+    },
+    {
+      "name": "~Aš_はる*リダ",
+      "ts": "2026-08-15T03:34:12+00:00"
+    },
+    {
+      "name": "DiVA_SQUiD",
+      "ts": "2026-08-15T03:33:48+00:00"
+    },
+    {
+      "name": "~Aš_はる*リダ",
+      "ts": "2026-08-15T03:32:36+00:00"
+    },
+    {
+      "name": "☆♪sqυidγ♪☆",
+      "ts": "2026-08-15T03:31:37+00:00"
+    },
+    {
+      "name": "~Aš_はる*リダ",
+      "ts": "2026-08-15T03:31:35+00:00"
+    },
+    {
+      "name": "ßubbIGupρı",
+      "ts": "2026-08-15T03:10:12+00:00"
+    },
+    {
+      "name": "M∀dii★",
+      "ts": "2026-08-15T03:09:09+00:00"
+    },
+    {
+      "name": "ßubbIGupρı",
+      "ts": "2026-08-15T03:09:04+00:00"
+    },
+    {
+      "name": "Nathan",
+      "ts": "2026-08-15T03:04:57+00:00"
+    },
+    {
+      "name": "Octomouche",
+      "ts": "2026-08-15T03:04:45+00:00"
+    },
+    {
+      "name": "♪☆Paiwa☆♪",
+      "ts": "2026-08-15T03:04:45+00:00"
+    },
+    {
+      "name": "Nathan",
+      "ts": "2026-08-15T03:04:44+00:00"
+    },
+    {
+      "name": "Nathan",
+      "ts": "2026-08-15T03:04:26+00:00"
+    },
+    {
+      "name": "Nathan",
+      "ts": "2026-08-15T03:03:55+00:00"
+    },
+    {
+      "name": "13KSiIver",
+      "ts": "2026-08-15T03:03:48+00:00"
+    },
+    {
+      "name": "Octomouche",
+      "ts": "2026-08-15T03:03:44+00:00"
+    },
+    {
+      "name": "Nathan",
+      "ts": "2026-08-15T03:03:42+00:00"
+    },
+    {
+      "name": "13KSiIver",
+      "ts": "2026-08-15T03:03:32+00:00"
+    },
+    {
+      "name": "Octomouche",
+      "ts": "2026-08-15T03:03:30+00:00"
+    },
+    {
+      "name": "Octomouche",
+      "ts": "2026-08-15T03:03:15+00:00"
+    },
+    {
+      "name": "13KSiIver",
+      "ts": "2026-08-15T03:03:04+00:00"
+    },
+    {
+      "name": "Rin Itoshi",
+      "ts": "2026-08-15T03:00:33+00:00"
+    },
+    {
+      "name": "jаckaгthy",
+      "ts": "2026-08-15T03:00:23+00:00"
+    },
+    {
+      "name": "IeаtCrayon",
+      "ts": "2026-08-15T03:00:16+00:00"
+    },
+    {
+      "name": "EMC",
+      "ts": "2026-08-15T03:00:14+00:00"
+    },
+    {
+      "name": "jаckaгthy",
+      "ts": "2026-08-15T02:59:53+00:00"
+    },
+    {
+      "name": "EMC",
+      "ts": "2026-08-15T02:59:18+00:00"
+    },
+    {
+      "name": "Rin Itoshi",
+      "ts": "2026-08-15T02:59:11+00:00"
+    },
+    {
+      "name": "IeаtCrayon",
+      "ts": "2026-08-15T02:58:42+00:00"
+    },
+    {
+      "name": "jаckaгthy",
+      "ts": "2026-08-15T02:58:39+00:00"
+    },
+    {
+      "name": "jаckaгthy",
+      "ts": "2026-08-15T02:58:07+00:00"
+    },
+    {
+      "name": "LatFеyO",
+      "ts": "2026-08-15T02:56:18+00:00"
+    },
+    {
+      "name": "☆lilly☆",
+      "ts": "2026-08-15T02:56:15+00:00"
+    },
+    {
+      "name": "LatFеyO",
+      "ts": "2026-08-15T02:55:55+00:00"
+    },
+    {
+      "name": "Made in CN",
+      "ts": "2026-08-15T02:55:46+00:00"
+    },
+    {
+      "name": "LatFеyO",
+      "ts": "2026-08-15T02:55:42+00:00"
+    },
+    {
+      "name": "mlK_67",
+      "ts": "2026-08-15T02:53:48+00:00"
+    },
+    {
+      "name": "HouStunna",
+      "ts": "2026-08-15T02:51:14+00:00"
+    },
+    {
+      "name": "HouStunna",
+      "ts": "2026-08-15T02:49:58+00:00"
+    },
+    {
+      "name": "☆´′crisis",
+      "ts": "2026-08-15T02:49:28+00:00"
+    },
+    {
+      "name": "☆lilly☆",
+      "ts": "2026-08-15T02:49:23+00:00"
+    },
+    {
+      "name": "kaido",
+      "ts": "2026-08-15T02:49:18+00:00"
+    },
+    {
+      "name": "HouStunna",
+      "ts": "2026-08-15T02:48:38+00:00"
+    },
     {
       "name": "Jolt OwO",
       "ts": "2026-08-14T23:58:29+00:00"
