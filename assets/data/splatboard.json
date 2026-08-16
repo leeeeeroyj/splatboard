@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-15T22:42:33+00:00",
+  "generated_at": "2026-08-16T03:35:26+00:00",
   "totals": {
-    "splats": 476,
-    "unique_players": 237,
-    "assists": 62,
+    "splats": 503,
+    "unique_players": 248,
+    "assists": 67,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 101,
-    "wins": 70,
+    "matches": 106,
+    "wins": 75,
     "losses": 31,
     "draws": 0,
-    "avg_splats": 4.65,
+    "avg_splats": 4.69,
     "best_splats": 13,
-    "avg_points": 942,
+    "avg_points": 950,
     "best_points": 1446,
     "disconnects": 12,
     "quickest_splat": {
@@ -31,18 +31,18 @@
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     {
+      "name": "GenXJen",
+      "matches": 5,
+      "wins": 5,
+      "losses": 0,
+      "avatar": "assets/faces/5b13abb0b333.png"
+    },
+    {
       "name": "MR_COOPER™",
       "matches": 5,
       "wins": 4,
       "losses": 1,
       "avatar": "assets/faces/9c0a985ed3fb.png"
-    },
-    {
-      "name": "inkyQueen™",
-      "matches": 4,
-      "wins": 3,
-      "losses": 1,
-      "avatar": "assets/faces/3e322b0e3ed7.png"
     }
   ],
   "awards": {
@@ -107,16 +107,16 @@
       "avatar": "assets/faces/61fa33ef2dd8.png"
     },
     "lucky_charm": {
-      "name": "Mechanic",
-      "matches": 3,
-      "wins": 3,
+      "name": "GenXJen",
+      "matches": 5,
+      "wins": 5,
       "losses": 0,
-      "splats": 11,
-      "their_best": 8,
-      "their_splats": 3.7,
-      "their_deaths": 2.0,
-      "avg_points": 626,
-      "avatar": "assets/faces/ac23a6af686b.png"
+      "splats": 15,
+      "their_best": 5,
+      "their_splats": 3.0,
+      "their_deaths": 1.5,
+      "avg_points": 1040,
+      "avatar": "assets/faces/5b13abb0b333.png"
     }
   },
   "players": [
@@ -415,6 +415,38 @@
       },
       "avatar": "assets/faces/d66a316ddca1.png",
       "splashtag": "assets/faces/d66a316ddca1-tag.png"
+    },
+    {
+      "name": "hibon",
+      "splats": 5,
+      "first": "2026-08-16T03:09:53+00:00",
+      "last": "2026-08-16T03:15:20+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 11,
+        "their_best": 6,
+        "their_splats": 5.5,
+        "their_deaths": 5.5,
+        "avg_points": 698
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:09:06+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:14:21+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/37888eec6932.png",
+      "splashtag": "assets/faces/37888eec6932-tag.png"
     },
     {
       "name": "◇BENREY!!◇",
@@ -744,6 +776,38 @@
       "splashtag": "assets/faces/c575792e52e3-tag.png"
     },
     {
+      "name": "TeddyBear☆",
+      "splats": 4,
+      "first": "2026-08-16T03:10:10+00:00",
+      "last": "2026-08-16T03:15:14+00:00",
+      "matches": 2,
+      "best_match": 3,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 5.5,
+        "avg_points": 742
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:09:06+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:14:21+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/6dffa9c1fc5c.png",
+      "splashtag": "assets/faces/6dffa9c1fc5c-tag.png"
+    },
+    {
       "name": "WicabeI :3",
       "splats": 4,
       "first": "2026-08-12T22:50:32+00:00",
@@ -978,6 +1042,38 @@
       "splashtag": "assets/faces/4bcd0679aebb-tag.png"
     },
     {
+      "name": "¤Agent 15¤",
+      "splats": 4,
+      "first": "2026-08-16T03:09:58+00:00",
+      "last": "2026-08-16T03:11:49+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 892
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:09:06+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:09:06+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c63d877b2300.png",
+      "splashtag": "assets/faces/c63d877b2300-tag.png"
+    },
+    {
       "name": "★MιlκShαkε",
       "splats": 4,
       "first": "2026-08-12T22:41:23+00:00",
@@ -1157,6 +1253,38 @@
       "splashtag": "assets/faces/202eebfbc716-tag.png"
     },
     {
+      "name": "CAPYBARASS",
+      "splats": 3,
+      "first": "2026-08-16T03:10:00+00:00",
+      "last": "2026-08-16T03:16:39+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 3,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 824
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:09:06+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:14:21+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/e6a637c800fe.png",
+      "splashtag": "assets/faces/e6a637c800fe-tag.png"
+    },
+    {
       "name": "CurIy fry",
       "splats": 3,
       "first": "2026-08-11T04:11:30+00:00",
@@ -1261,6 +1389,38 @@
       },
       "avatar": "assets/faces/c0fd55972e68.png",
       "splashtag": "assets/faces/c0fd55972e68-tag.png"
+    },
+    {
+      "name": "Jr.",
+      "splats": 3,
+      "first": "2026-08-16T03:06:47+00:00",
+      "last": "2026-08-16T03:07:44+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 4.0,
+        "avg_points": 1082
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/66cd98765300.png",
+      "splashtag": "assets/faces/66cd98765300-tag.png"
     },
     {
       "name": "Kasumi",
@@ -2276,6 +2436,38 @@
       "splashtag": "assets/faces/4efea40dc84d-tag.png"
     },
     {
+      "name": "BIanket",
+      "splats": 2,
+      "first": "2026-08-16T03:06:54+00:00",
+      "last": "2026-08-16T03:07:40+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 1232
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/f022897a236f.png",
+      "splashtag": "assets/faces/f022897a236f-tag.png"
+    },
+    {
       "name": "Becks",
       "splats": 2,
       "first": "2026-08-12T19:04:56+00:00",
@@ -2551,6 +2743,38 @@
       },
       "avatar": "assets/faces/6156a516dbfc.png",
       "splashtag": "assets/faces/6156a516dbfc-tag.png"
+    },
+    {
+      "name": "Haymaker™",
+      "splats": 2,
+      "first": "2026-08-16T03:21:02+00:00",
+      "last": "2026-08-16T03:21:36+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "their_best": 0,
+        "their_splats": 0.0,
+        "their_deaths": 2.0,
+        "avg_points": 472
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:18:37+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:18:37+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/323e3ca128a1.png",
+      "splashtag": "assets/faces/323e3ca128a1-tag.png"
     },
     {
       "name": "IeаtCrayon",
@@ -4066,6 +4290,36 @@
       "splashtag": "assets/faces/972da7016151-tag.png"
     },
     {
+      "name": "(nsf)CHOFI",
+      "splats": 1,
+      "first": "2026-08-16T03:07:32+00:00",
+      "last": "2026-08-16T03:07:32+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "their_deaths": 2.0,
+        "avg_points": 175
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:04:43+00:00",
+          "map": "MakoMart",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/1bfe4da8b85b.png",
+      "splashtag": "assets/faces/1bfe4da8b85b-tag.png"
+    },
+    {
       "name": "*Eddiе",
       "splats": 1,
       "first": "2026-08-13T22:38:57+00:00",
@@ -4178,21 +4432,11 @@
         "their_deaths": 2.0,
         "avg_points": 1027
       },
-      "alongside": {
-        "matches": 1,
-        "wins": 1,
-        "losses": 0,
-        "splats": 3,
-        "their_best": 3,
-        "their_splats": 3.0,
-        "their_deaths": 1.0,
-        "avg_points": 373
-      },
       "met": {
         "first": {
-          "at": "2026-08-09T22:29:17+00:00",
-          "map": "Museum d'Alfonsino",
-          "side": "with"
+          "at": "2026-08-14T03:21:11+00:00",
+          "map": "Wahoo World",
+          "side": "against"
         },
         "last": {
           "at": "2026-08-14T03:21:11+00:00",
@@ -4202,6 +4446,48 @@
       },
       "avatar": "assets/faces/a4092fcec896.png",
       "splashtag": "assets/faces/a4092fcec896-tag.png"
+    },
+    {
+      "name": "Agent 8",
+      "splats": 1,
+      "first": "2026-08-16T03:16:52+00:00",
+      "last": "2026-08-16T03:16:52+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 6.0,
+        "avg_points": 553
+      },
+      "alongside": {
+        "matches": 3,
+        "wins": 2,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 1.5,
+        "avg_points": 318
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T22:29:17+00:00",
+          "map": "Museum d'Alfonsino",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-16T03:14:21+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8f1a8ef3c0a5.png",
+      "splashtag": "assets/faces/8f1a8ef3c0a5-tag.png"
     },
     {
       "name": "Agente 3",
@@ -4988,6 +5274,38 @@
       "last": "2026-08-15T21:32:10+00:00",
       "avatar": "assets/faces/f7df380f12f5.png",
       "splashtag": "assets/faces/f7df380f12f5-tag.png"
+    },
+    {
+      "name": "Hotbeаter",
+      "splats": 1,
+      "first": "2026-08-16T03:25:33+00:00",
+      "last": "2026-08-16T03:25:33+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 4.0,
+        "avg_points": 762
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:22:50+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:22:50+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/7aa3b39e8df5.png",
+      "splashtag": "assets/faces/7aa3b39e8df5-tag.png"
     },
     {
       "name": "Hr_*/měħb_",
@@ -6995,6 +7313,38 @@
       "splashtag": "assets/faces/56cb1c8c2bd9-tag.png"
     },
     {
+      "name": "mateo",
+      "splats": 1,
+      "first": "2026-08-16T03:23:13+00:00",
+      "last": "2026-08-16T03:23:13+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 2.0,
+        "avg_points": 954
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-16T03:22:50+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-16T03:22:50+00:00",
+          "map": "Wahoo World",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/fa49d12b5c87.png",
+      "splashtag": "assets/faces/fa49d12b5c87-tag.png"
+    },
+    {
       "name": "megaIicios",
       "splats": 1,
       "first": "2026-08-09T14:35:32+00:00",
@@ -7548,6 +7898,16 @@
         "their_deaths": 2.0,
         "avg_points": 757
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 0.0,
+        "avg_points": 1095
+      },
       "met": {
         "first": {
           "at": "2026-08-09T21:09:23+00:00",
@@ -7555,9 +7915,9 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-09T21:09:23+00:00",
-          "map": "Crableg Capital",
-          "side": "against"
+          "at": "2026-08-15T22:36:38+00:00",
+          "map": "Lemuria Hub",
+          "side": "with"
         }
       },
       "avatar": "assets/faces/853f8ec2479b.png",
@@ -7870,6 +8230,114 @@
     }
   ],
   "recent": [
+    {
+      "name": "Hotbeаter",
+      "ts": "2026-08-16T03:25:33+00:00"
+    },
+    {
+      "name": "mateo",
+      "ts": "2026-08-16T03:23:13+00:00"
+    },
+    {
+      "name": "Haymaker™",
+      "ts": "2026-08-16T03:21:36+00:00"
+    },
+    {
+      "name": "Haymaker™",
+      "ts": "2026-08-16T03:21:02+00:00"
+    },
+    {
+      "name": "Agent 8",
+      "ts": "2026-08-16T03:16:52+00:00"
+    },
+    {
+      "name": "CAPYBARASS",
+      "ts": "2026-08-16T03:16:39+00:00"
+    },
+    {
+      "name": "hibon",
+      "ts": "2026-08-16T03:15:20+00:00"
+    },
+    {
+      "name": "TeddyBear☆",
+      "ts": "2026-08-16T03:15:14+00:00"
+    },
+    {
+      "name": "hibon",
+      "ts": "2026-08-16T03:15:06+00:00"
+    },
+    {
+      "name": "hibon",
+      "ts": "2026-08-16T03:11:59+00:00"
+    },
+    {
+      "name": "CAPYBARASS",
+      "ts": "2026-08-16T03:11:53+00:00"
+    },
+    {
+      "name": "¤Agent 15¤",
+      "ts": "2026-08-16T03:11:49+00:00"
+    },
+    {
+      "name": "TeddyBear☆",
+      "ts": "2026-08-16T03:11:15+00:00"
+    },
+    {
+      "name": "¤Agent 15¤",
+      "ts": "2026-08-16T03:10:58+00:00"
+    },
+    {
+      "name": "TeddyBear☆",
+      "ts": "2026-08-16T03:10:30+00:00"
+    },
+    {
+      "name": "¤Agent 15¤",
+      "ts": "2026-08-16T03:10:25+00:00"
+    },
+    {
+      "name": "hibon",
+      "ts": "2026-08-16T03:10:15+00:00"
+    },
+    {
+      "name": "TeddyBear☆",
+      "ts": "2026-08-16T03:10:10+00:00"
+    },
+    {
+      "name": "CAPYBARASS",
+      "ts": "2026-08-16T03:10:00+00:00"
+    },
+    {
+      "name": "¤Agent 15¤",
+      "ts": "2026-08-16T03:09:58+00:00"
+    },
+    {
+      "name": "hibon",
+      "ts": "2026-08-16T03:09:53+00:00"
+    },
+    {
+      "name": "Jr.",
+      "ts": "2026-08-16T03:07:44+00:00"
+    },
+    {
+      "name": "BIanket",
+      "ts": "2026-08-16T03:07:40+00:00"
+    },
+    {
+      "name": "(nsf)CHOFI",
+      "ts": "2026-08-16T03:07:32+00:00"
+    },
+    {
+      "name": "Jr.",
+      "ts": "2026-08-16T03:07:11+00:00"
+    },
+    {
+      "name": "BIanket",
+      "ts": "2026-08-16T03:06:54+00:00"
+    },
+    {
+      "name": "Jr.",
+      "ts": "2026-08-16T03:06:47+00:00"
+    },
     {
       "name": "Deucifeг",
       "ts": "2026-08-15T22:39:20+00:00"
