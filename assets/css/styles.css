@@ -99,6 +99,8 @@ h2 { margin: 0 0 11px; line-height: 0; }
   gap: 14px;
 }
 .awards { row-gap: 38px; }
+.awards.mine { margin-top: 56px; }
+.awards[hidden] { display: none; }
 .heading.banner { height: 25px; }
 .banner-group > section:first-of-type { margin-top: 14px; }
 .award.wide { grid-column: span 2; }
@@ -141,6 +143,10 @@ h2 { margin: 0 0 11px; line-height: 0; }
 .squad-list li + li { border-left: 1px solid var(--line); }
 .squad-list .face { width: 46px; height: 46px; margin: 0 0 2px; font-size: 22px; }
 .squad-list .count { margin: 0; font-size: 11px; }
+.squad-list .met-when {
+  display: flex; flex-direction: column;
+  margin: 2px 0 0; color: var(--dim); font-size: 10.5px; line-height: 1.35;
+}
 .squad-list .count b { font-size: 14px; margin-right: 3px; }
 .card {
   position: relative;

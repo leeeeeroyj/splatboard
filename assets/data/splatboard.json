@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:35:26+00:00",
+  "generated_at": "2026-08-16T04:17:13+00:00",
   "totals": {
     "splats": 503,
     "unique_players": 248,
@@ -45,6 +45,26 @@
       "avatar": "assets/faces/9c0a985ed3fb.png"
     }
   ],
+  "fresh": [
+    {
+      "name": "HeatShock",
+      "at": "2026-08-16T03:22:50+00:00",
+      "side": "against",
+      "avatar": "assets/faces/49c2229eb5fb.png"
+    },
+    {
+      "name": "Hotbeаter",
+      "at": "2026-08-16T03:22:50+00:00",
+      "side": "against",
+      "avatar": "assets/faces/7aa3b39e8df5.png"
+    },
+    {
+      "name": "Rambutan",
+      "at": "2026-08-16T03:22:50+00:00",
+      "side": "with",
+      "avatar": "assets/faces/ba85c08c1e3c.png"
+    }
+  ],
   "awards": {
     "quickest": {
       "name": "humbIе",
@@ -55,6 +75,12 @@
       "name": "GHΦらT",
       "splats": 6,
       "avatar": "assets/faces/d06c47919e6f.png"
+    },
+    "boogeyman": {
+      "name": "Sorry !",
+      "matches": 4,
+      "splats": 1,
+      "avatar": "assets/faces/4ba253bd6ebf.png"
     },
     "assassin": {
       "name": "GHΦらT",

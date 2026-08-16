@@ -274,9 +274,6 @@ const AWARDS = [
   { key: "public_enemy", art: "assets/svg/h-public-enemy.svg", title: "Public Enemy",
     blurb: "Most splats against my team",
     line: (a) => [a.splats, plural(a.splats, " Good Guy", " Good Guys") + " splatted"] },
-  { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
-    blurb: "…LEEEEROYJ got 'em fast!",
-    line: (a) => [`${a.seconds}s`, " into a match"] },
   { key: "nemesis", art: "assets/svg/h-nemesis.svg", title: "Nemesis",
     blurb: "Frequent Bad Guy",
     line: (a) => [a.matches, plural(a.matches, " match", " matches") + " faced"] },
@@ -286,14 +283,26 @@ const AWARDS = [
   { key: "hard_to_kill", art: "assets/svg/h-hard-to-kill.svg", title: "Hard to Kill",
     blurb: "Most likely to survive",
     line: (a) => [a.their_deaths, " times a match"] },
-  { key: "lucky_charm", art: "assets/svg/h-lucky-charm.svg", title: "Lucky Charm",
-    blurb: "Teammate I win with the most",
-    line: (a) => [a.wins, " of ", a.matches, " won together"] },
+  { key: "boogeyman", art: "assets/svg/h-boogeyman.svg", title: "Boogeyman",
+    blurb: "Hardest to pin down",
+    line: (a) => [a.matches, " faced, ", a.splats, plural(a.splats, " splat")] },
   { key: "target_practice", art: "assets/svg/h-target-practice.svg",
     title: "Target Practice",
     blurb: "…LEEEEROYJ's top target",
     line: (a) => [a.splats, plural(a.splats, " splat") + " in one match"] },
-  { key: "squad", art: "assets/svg/h-top-squad.svg", title: "Top Squad", wide: true,
+  { key: "fresh", art: "assets/svg/h-fresh-faces.svg", title: "Fresh Faces",
+    wide: true, seats: freshSeats,
+    blurb: "GGs! Thanks for playing" },
+  { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
+    mine: true,
+    blurb: "…LEEEEROYJ got 'em fast!",
+    line: (a) => [`${a.seconds}s`, " into a match"] },
+  { key: "lucky_charm", art: "assets/svg/h-lucky-charm.svg", title: "Lucky Charm",
+    mine: true,
+    blurb: "Teammate I win with the most",
+    line: (a) => [a.wins, " of ", a.matches, " won together"] },
+  { key: "squad", art: "assets/svg/h-top-squad.svg", title: "Top Squad",
+    mine: true, wide: true, seats: squadSeats,
     blurb: (owner) => `${owner || "My"}'s top teammates.` },
 ];
 function laureate(who, line) {
@@ -314,11 +323,34 @@ function squadSeats(squad) {
   }
   return list;
 }
-function renderAwards(data, squad) {
+function freshSeats(faces) {
+  const list = document.createElement("ul");
+  list.className = "squad-list";
+  for (const face of faces) {
+    const li = document.createElement("li");
+    li.append(faceNode(face), nameNode(face, "namemark small"));
+    const when = new Date(face.at);
+    if (!isNaN(when)) {
+      const met = document.createElement("p");
+      met.className = "met-when";
+      const day = document.createElement("span");
+      day.textContent = when.toLocaleDateString();
+      const clock = document.createElement("span");
+      clock.textContent = when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+      met.append(day, clock);
+      li.append(met);
+    }
+    list.append(li);
+  }
+  return list;
+}
+function renderAwards(data) {
   const row = document.getElementById("awards");
+  const mine = document.getElementById("my-awards");
   row.replaceChildren();
+  mine.replaceChildren();
   for (const award of AWARDS) {
-    const won = award.key === "squad" ? squad : (data.awards || {})[award.key];
+    const won = award.seats ? data[award.key] : (data.awards || {})[award.key];
     if (!won || (Array.isArray(won) && !won.length)) continue;
     const block = document.createElement("div");
     block.className = "award" + (award.wide ? " wide" : "");
@@ -334,13 +366,14 @@ function renderAwards(data, squad) {
       ? award.blurb(data.owner) : award.blurb;
     const card = document.createElement("article");
     card.className = "card award-card";
-    card.append(award.key === "squad"
-      ? squadSeats(won)
+    card.append(award.seats
+      ? award.seats(won)
       : laureate(won, countLine(...award.line(won))));
     block.append(head, blurb, card);
-    row.append(block);
+    (award.mine ? mine : row).append(block);
   }
   document.getElementById("awards-section").hidden = !row.children.length;
+  mine.hidden = !mine.children.length;
 }
 function renderWall() {
   const wall = document.getElementById("wall");
@@ -408,7 +441,7 @@ function render(data) {
     page += 1;
     renderRecent();
   });
-  renderAwards(data, data.squad || []);
+  renderAwards(data);
   renderWall();
   renderRecent();
 }
