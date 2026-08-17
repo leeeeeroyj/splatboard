@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:17:13+00:00",
+  "generated_at": "2026-08-17T21:10:15+00:00",
   "totals": {
     "splats": 503,
     "unique_players": 248,
@@ -63,6 +63,2350 @@
       "at": "2026-08-16T03:22:50+00:00",
       "side": "with",
       "avatar": "assets/faces/ba85c08c1e3c.png"
+    }
+  ],
+  "friendly": [
+    {
+      "name": "GHΦらT",
+      "matches": 25,
+      "avatar": "assets/faces/d06c47919e6f.png"
+    },
+    {
+      "name": "Dewyгay",
+      "matches": 9,
+      "avatar": "assets/faces/629f2be5ed77.png"
+    },
+    {
+      "name": "MR_COOPER™",
+      "matches": 7,
+      "avatar": "assets/faces/9c0a985ed3fb.png"
+    }
+  ],
+  "matches": [
+    {
+      "id": 119,
+      "at": "2026-08-16T03:22:50+00:00",
+      "mode": "Turf War",
+      "map": "Wahoo World",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 3,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "HeatShock",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1569,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "mateo",
+          "team": "theirs",
+          "is_me": false,
+          "points": 954,
+          "splats": 4,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "Hotbeаter",
+          "team": "theirs",
+          "is_me": false,
+          "points": 762,
+          "splats": 1,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "cool beanz",
+          "team": "theirs",
+          "is_me": false,
+          "points": 668,
+          "splats": 8,
+          "deaths": 1,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1290,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "Rambutan",
+          "team": "mine",
+          "is_me": false,
+          "points": 1198,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "GenXJen",
+          "team": "mine",
+          "is_me": false,
+          "points": 1149,
+          "splats": 0,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "★Kitt Katt",
+          "team": "mine",
+          "is_me": false,
+          "points": 695,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "at": "2026-08-16T03:18:37+00:00",
+      "mode": "Turf War",
+      "map": "MakoMart",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 3,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "Maso",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1082,
+          "splats": 5,
+          "deaths": 1,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "○●ﬁzzy☆★",
+          "team": "theirs",
+          "is_me": false,
+          "points": 583,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Haymaker™",
+          "team": "theirs",
+          "is_me": false,
+          "points": 472,
+          "splats": 0,
+          "deaths": 2,
+          "specials": 0,
+          "mine": 2
+        },
+        {
+          "name": "bunnyU●×●U",
+          "team": "theirs",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "GenXJen",
+          "team": "mine",
+          "is_me": false,
+          "points": 979,
+          "splats": 4,
+          "deaths": 0,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 925,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Edarp",
+          "team": "mine",
+          "is_me": false,
+          "points": 870,
+          "splats": 8,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "BudderBi‖",
+          "team": "mine",
+          "is_me": false,
+          "points": 349,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 0,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "at": "2026-08-16T03:14:21+00:00",
+      "mode": "Turf War",
+      "map": "Wahoo World",
+      "outcome": "win",
+      "caught": 5,
+      "reported": 5,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "CAPYBARASS",
+          "team": "theirs",
+          "is_me": false,
+          "points": 965,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "hibon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 843,
+          "splats": 6,
+          "deaths": 6,
+          "specials": null,
+          "mine": 2
+        },
+        {
+          "name": "TeddyBear☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 761,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 0,
+          "mine": 1
+        },
+        {
+          "name": "Agent 8",
+          "team": "theirs",
+          "is_me": false,
+          "points": 553,
+          "splats": 2,
+          "deaths": 6,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1197,
+          "splats": 5,
+          "deaths": null,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "GenXJen",
+          "team": "mine",
+          "is_me": false,
+          "points": 1064,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "zеth",
+          "team": "mine",
+          "is_me": false,
+          "points": 942,
+          "splats": 7,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Armandо",
+          "team": "mine",
+          "is_me": false,
+          "points": 810,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "at": "2026-08-16T03:09:06+00:00",
+      "mode": "Turf War",
+      "map": "Wahoo World",
+      "outcome": "win",
+      "caught": 12,
+      "reported": 12,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "¤Agent 15¤",
+          "team": "theirs",
+          "is_me": false,
+          "points": 892,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 4
+        },
+        {
+          "name": "TeddyBear☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 723,
+          "splats": 3,
+          "deaths": 6,
+          "specials": null,
+          "mine": 3
+        },
+        {
+          "name": "CAPYBARASS",
+          "team": "theirs",
+          "is_me": false,
+          "points": 682,
+          "splats": 1,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "hibon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 552,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 3
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1121,
+          "splats": 12,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "GenXJen",
+          "team": "mine",
+          "is_me": false,
+          "points": 1060,
+          "splats": 2,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "☆KALI☆",
+          "team": "mine",
+          "is_me": false,
+          "points": 580,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "gecko.",
+          "team": "mine",
+          "is_me": false,
+          "points": 545,
+          "splats": 5,
+          "deaths": 0,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "at": "2026-08-16T03:04:43+00:00",
+      "mode": "Turf War",
+      "map": "MakoMart",
+      "outcome": "win",
+      "caught": 6,
+      "reported": 9,
+      "assists": 3,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "BIanket",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1232,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 2
+        },
+        {
+          "name": "Jr.",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1082,
+          "splats": 5,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 3
+        },
+        {
+          "name": "★Chrìsty★",
+          "team": "theirs",
+          "is_me": false,
+          "points": 970,
+          "splats": 4,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "(nsf)CHOFI",
+          "team": "theirs",
+          "is_me": false,
+          "points": 175,
+          "splats": null,
+          "deaths": 2,
+          "specials": 0,
+          "mine": 1
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1034,
+          "splats": 9,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "GenXJen",
+          "team": "mine",
+          "is_me": false,
+          "points": 949,
+          "splats": 4,
+          "deaths": null,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "inkslop",
+          "team": "mine",
+          "is_me": false,
+          "points": 882,
+          "splats": 2,
+          "deaths": 1,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Aetheг♪",
+          "team": "mine",
+          "is_me": false,
+          "points": 765,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "at": "2026-08-15T22:36:38+00:00",
+      "mode": "Turf War",
+      "map": "Lemuria Hub",
+      "outcome": "win",
+      "caught": 8,
+      "reported": 8,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "inkyQueen™",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1260,
+          "splats": 2,
+          "deaths": 7,
+          "specials": 4,
+          "mine": 3
+        },
+        {
+          "name": "Midnight33",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1258,
+          "splats": null,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "Deucifeг",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1238,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "キアイや!!!",
+          "team": "theirs",
+          "is_me": false,
+          "points": 921,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1446,
+          "splats": 8,
+          "deaths": 2,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "Dillpickle",
+          "team": "mine",
+          "is_me": false,
+          "points": 1218,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "☆Pancakes☆",
+          "team": "mine",
+          "is_me": false,
+          "points": 1095,
+          "splats": 5,
+          "deaths": 0,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "CyberSh4rk",
+          "team": "mine",
+          "is_me": false,
+          "points": 831,
+          "splats": 8,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "at": "2026-08-15T22:10:24+00:00",
+      "mode": "Turf War",
+      "map": "Lemuria Hub",
+      "outcome": "loss",
+      "caught": 2,
+      "reported": 4,
+      "assists": 2,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "Sorry !",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1124,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "inkyQueen™",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1072,
+          "splats": null,
+          "deaths": 5,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": ".~°⌒☆vε♀♀",
+          "team": "theirs",
+          "is_me": false,
+          "points": 989,
+          "splats": 7,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "Agente 3",
+          "team": "theirs",
+          "is_me": false,
+          "points": 860,
+          "splats": 6,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "LuisGo",
+          "team": "mine",
+          "is_me": false,
+          "points": 1220,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "Alsh",
+          "team": "mine",
+          "is_me": false,
+          "points": 982,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "GHΦらT",
+          "team": "mine",
+          "is_me": false,
+          "points": 882,
+          "splats": 5,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 801,
+          "splats": 4,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "at": "2026-08-15T22:05:35+00:00",
+      "mode": "Turf War",
+      "map": "Lemuria Hub",
+      "outcome": "loss",
+      "caught": 3,
+      "reported": 3,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "Kokomi",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1200,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": "Sorry !",
+          "team": "theirs",
+          "is_me": false,
+          "points": 917,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "☆Zee★",
+          "team": "theirs",
+          "is_me": false,
+          "points": 880,
+          "splats": 6,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "lluvmotion",
+          "team": "theirs",
+          "is_me": false,
+          "points": 623,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 102,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Chiikawa",
+          "team": "mine",
+          "is_me": false,
+          "points": 966,
+          "splats": null,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "☆Wofﬁе☆",
+          "team": "mine",
+          "is_me": false,
+          "points": 825,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "GHΦらT",
+          "team": "mine",
+          "is_me": false,
+          "points": 804,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "at": "2026-08-15T22:01:01+00:00",
+      "mode": "Turf War",
+      "map": "Lemuria Hub",
+      "outcome": "loss",
+      "caught": 3,
+      "reported": 4,
+      "assists": 1,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "さき_saki!",
+          "team": "theirs",
+          "is_me": false,
+          "points": 903,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Dementгio",
+          "team": "theirs",
+          "is_me": false,
+          "points": 747,
+          "splats": 3,
+          "deaths": 6,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "kenma",
+          "team": "theirs",
+          "is_me": false,
+          "points": 711,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 0,
+          "mine": 1
+        },
+        {
+          "name": "MIN3AWAR3",
+          "team": "theirs",
+          "is_me": false,
+          "points": 682,
+          "splats": 9,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 956,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Lеah !!",
+          "team": "mine",
+          "is_me": false,
+          "points": 804,
+          "splats": 8,
+          "deaths": 6,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "Hexaswell",
+          "team": "mine",
+          "is_me": false,
+          "points": 673,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "Cheeseball",
+          "team": "mine",
+          "is_me": false,
+          "points": 638,
+          "splats": 1,
+          "deaths": 3,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "at": "2026-08-15T21:47:00+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "loss",
+      "caught": 5,
+      "reported": 5,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "GHΦらT",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1244,
+          "splats": 2,
+          "deaths": null,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": "fгyyez",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1005,
+          "splats": 2,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "Pancakе30",
+          "team": "theirs",
+          "is_me": false,
+          "points": 797,
+          "splats": 8,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 3
+        },
+        {
+          "name": "Dewyгay",
+          "team": "theirs",
+          "is_me": false,
+          "points": 490,
+          "splats": 1,
+          "deaths": 3,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 986,
+          "splats": 5,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "mìnsung ★",
+          "team": "mine",
+          "is_me": false,
+          "points": 961,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Jeffro",
+          "team": "mine",
+          "is_me": false,
+          "points": 631,
+          "splats": 2,
+          "deaths": null,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Hannieく33",
+          "team": "mine",
+          "is_me": false,
+          "points": 546,
+          "splats": 1,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "at": "2026-08-15T21:42:40+00:00",
+      "mode": "Turf War",
+      "map": "Bluefin Depot",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 2,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "May",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1128,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "chatitоmxa",
+          "team": "theirs",
+          "is_me": false,
+          "points": 776,
+          "splats": 8,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Marcy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 561,
+          "splats": 2,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "RAA☆Moka",
+          "team": "theirs",
+          "is_me": false,
+          "points": 439,
+          "splats": 4,
+          "deaths": 1,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "mine",
+          "is_me": false,
+          "points": 1363,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 788,
+          "splats": 2,
+          "deaths": 6,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "2 6е",
+          "team": "mine",
+          "is_me": false,
+          "points": 557,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "Dewyгay",
+          "team": "mine",
+          "is_me": false,
+          "points": 380,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 0,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "at": "2026-08-15T21:37:55+00:00",
+      "mode": "Turf War",
+      "map": "Bluefin Depot",
+      "outcome": "win",
+      "caught": 8,
+      "reported": 8,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1251,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 5,
+          "mine": 2
+        },
+        {
+          "name": "GгifDaGoat",
+          "team": "theirs",
+          "is_me": false,
+          "points": 982,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 4
+        },
+        {
+          "name": "shooky MC",
+          "team": "theirs",
+          "is_me": false,
+          "points": 654,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "Dewyгay",
+          "team": "theirs",
+          "is_me": false,
+          "points": 587,
+          "splats": 2,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "ch4ddy",
+          "team": "mine",
+          "is_me": false,
+          "points": 1169,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "mеw:3",
+          "team": "mine",
+          "is_me": false,
+          "points": 1146,
+          "splats": 9,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1014,
+          "splats": 8,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Sky",
+          "team": "mine",
+          "is_me": false,
+          "points": 872,
+          "splats": 4,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "at": "2026-08-15T21:33:30+00:00",
+      "mode": "Turf War",
+      "map": "Bluefin Depot",
+      "outcome": "loss",
+      "caught": 1,
+      "reported": 1,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1479,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "Parìs",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1251,
+          "splats": null,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Gеno",
+          "team": "theirs",
+          "is_me": false,
+          "points": 813,
+          "splats": 1,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "axoIotI",
+          "team": "theirs",
+          "is_me": false,
+          "points": 801,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "**Flan**",
+          "team": "mine",
+          "is_me": false,
+          "points": 1565,
+          "splats": 3,
+          "deaths": 2,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "Danthоin",
+          "team": "mine",
+          "is_me": false,
+          "points": 1088,
+          "splats": 4,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 944,
+          "splats": 1,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Dewyгay",
+          "team": "mine",
+          "is_me": false,
+          "points": 581,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "at": "2026-08-15T21:31:47+00:00",
+      "mode": "Turf War",
+      "map": "Bluefin Depot",
+      "outcome": "no_contest",
+      "caught": 1,
+      "reported": null,
+      "assists": null,
+      "winner": null,
+      "roster": [
+        {
+          "name": "Herr.Hare",
+          "team": "theirs",
+          "is_me": false,
+          "points": 409,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 1
+        },
+        {
+          "name": "Charlotte",
+          "team": "theirs",
+          "is_me": false,
+          "points": 162,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Dewyгay",
+          "team": "theirs",
+          "is_me": false,
+          "points": 160,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Gamin'Cat",
+          "team": "theirs",
+          "is_me": false,
+          "points": 392,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "mine",
+          "is_me": false,
+          "points": 354,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 336,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "Audгеy",
+          "team": "mine",
+          "is_me": false,
+          "points": 330,
+          "splats": 0,
+          "deaths": 1,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "ZenDilbert",
+          "team": "mine",
+          "is_me": false,
+          "points": 445,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "at": "2026-08-15T21:30:28+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "no_contest",
+      "caught": 2,
+      "reported": null,
+      "assists": null,
+      "winner": null,
+      "roster": [
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "theirs",
+          "is_me": false,
+          "points": 245,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "♪EIijah♪",
+          "team": "theirs",
+          "is_me": false,
+          "points": 138,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "reteP124",
+          "team": "theirs",
+          "is_me": false,
+          "points": 119,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Dewyгay",
+          "team": "theirs",
+          "is_me": false,
+          "points": 99,
+          "splats": null,
+          "deaths": 1,
+          "specials": 0,
+          "mine": 2
+        },
+        {
+          "name": "NAO",
+          "team": "mine",
+          "is_me": false,
+          "points": 206,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 163,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Sylαs",
+          "team": "mine",
+          "is_me": false,
+          "points": 138,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "goob",
+          "team": "mine",
+          "is_me": false,
+          "points": 44,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "at": "2026-08-15T21:26:09+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "win",
+      "caught": 4,
+      "reported": 5,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "Yu Mist Me",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1410,
+          "splats": 7,
+          "deaths": 3,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "BooYAH",
+          "team": "theirs",
+          "is_me": false,
+          "points": 929,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 2
+        },
+        {
+          "name": "oli!!",
+          "team": "theirs",
+          "is_me": false,
+          "points": 676,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Dewyгay",
+          "team": "theirs",
+          "is_me": false,
+          "points": 549,
+          "splats": 1,
+          "deaths": 2,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": ">Mş Mîňțÿ<",
+          "team": "mine",
+          "is_me": false,
+          "points": 1431,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1023,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "Tabi",
+          "team": "mine",
+          "is_me": false,
+          "points": 698,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Rоbоbbot",
+          "team": "mine",
+          "is_me": false,
+          "points": 628,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "at": "2026-08-15T03:40:19+00:00",
+      "mode": "Turf War",
+      "map": "Marlin Airport",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 4,
+      "assists": 2,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "KARASUMA",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1112,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "Maddy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 864,
+          "splats": 8,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "☆Døх☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 710,
+          "splats": 6,
+          "deaths": null,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "kniL",
+          "team": "theirs",
+          "is_me": false,
+          "points": 579,
+          "splats": 3,
+          "deaths": 7,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "Nugget",
+          "team": "mine",
+          "is_me": false,
+          "points": 1060,
+          "splats": 8,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "☆♪sqυidγ♪☆",
+          "team": "mine",
+          "is_me": false,
+          "points": 1029,
+          "splats": 7,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 877,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Bυιmα :3",
+          "team": "mine",
+          "is_me": false,
+          "points": 612,
+          "splats": 6,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "at": "2026-08-15T03:35:46+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "loss",
+      "caught": 8,
+      "reported": 9,
+      "assists": 1,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "Nugget",
+          "team": "theirs",
+          "is_me": false,
+          "points": 818,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 2
+        },
+        {
+          "name": "☆♪sqυidγ♪☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 752,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 2
+        },
+        {
+          "name": "KARASUMA",
+          "team": "theirs",
+          "is_me": false,
+          "points": 685,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "DiVA_SQUiD",
+          "team": "theirs",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 3
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1089,
+          "splats": 9,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "~Aš_はる*リダ",
+          "team": "mine",
+          "is_me": false,
+          "points": 755,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Maddy",
+          "team": "mine",
+          "is_me": false,
+          "points": 494,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Agent 8",
+          "team": "mine",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "at": "2026-08-15T03:31:19+00:00",
+      "mode": "Turf War",
+      "map": "Marlin Airport",
+      "outcome": "win",
+      "caught": 5,
+      "reported": 6,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "DiVA_SQUiD",
+          "team": "theirs",
+          "is_me": false,
+          "points": 963,
+          "splats": 4,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": "Maddy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 818,
+          "splats": 3,
+          "deaths": 5,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "☆♪sqυidγ♪☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 482,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "~Aš_はる*リダ",
+          "team": "theirs",
+          "is_me": false,
+          "points": 395,
+          "splats": 4,
+          "deaths": 3,
+          "specials": 1,
+          "mine": 3
+        },
+        {
+          "name": "swag",
+          "team": "mine",
+          "is_me": false,
+          "points": 949,
+          "splats": 8,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "♪☆Paiwa☆♪",
+          "team": "mine",
+          "is_me": false,
+          "points": 915,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 904,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Agent 8",
+          "team": "mine",
+          "is_me": false,
+          "points": 582,
+          "splats": null,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "at": "2026-08-15T03:07:11+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "win",
+      "caught": 3,
+      "reported": 4,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "BоoBooButt",
+          "team": "theirs",
+          "is_me": false,
+          "points": 811,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "たこやきんぐ",
+          "team": "theirs",
+          "is_me": false,
+          "points": 769,
+          "splats": 4,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "M∀dii★",
+          "team": "theirs",
+          "is_me": false,
+          "points": 695,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "ßubbIGupρı",
+          "team": "theirs",
+          "is_me": false,
+          "points": 480,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "Spamton",
+          "team": "mine",
+          "is_me": false,
+          "points": 994,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 855,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "M&M<3",
+          "team": "mine",
+          "is_me": false,
+          "points": 724,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "BEΔST",
+          "team": "mine",
+          "is_me": false,
+          "points": 670,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "at": "2026-08-15T03:02:51+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "win",
+      "caught": 13,
+      "reported": 13,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "Nathan",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1055,
+          "splats": 5,
+          "deaths": 7,
+          "specials": 3,
+          "mine": 5
+        },
+        {
+          "name": "Octomouche",
+          "team": "theirs",
+          "is_me": false,
+          "points": 917,
+          "splats": 9,
+          "deaths": 6,
+          "specials": null,
+          "mine": 4
+        },
+        {
+          "name": "13KSiIver",
+          "team": "theirs",
+          "is_me": false,
+          "points": 751,
+          "splats": 1,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 3
+        },
+        {
+          "name": "♪☆Paiwa☆♪",
+          "team": "theirs",
+          "is_me": false,
+          "points": 658,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "BLACK NOIR",
+          "team": "mine",
+          "is_me": false,
+          "points": 1063,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1035,
+          "splats": 13,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Icdfenix",
+          "team": "mine",
+          "is_me": false,
+          "points": 829,
+          "splats": 4,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Nine",
+          "team": "mine",
+          "is_me": false,
+          "points": 685,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "at": "2026-08-15T02:57:52+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "win",
+      "caught": 10,
+      "reported": null,
+      "assists": null,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "Rin Itoshi",
+          "team": "theirs",
+          "is_me": false,
+          "points": 904,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 2
+        },
+        {
+          "name": "jаckaгthy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 667,
+          "splats": 6,
+          "deaths": 7,
+          "specials": null,
+          "mine": 4
+        },
+        {
+          "name": "IeаtCrayon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 667,
+          "splats": 5,
+          "deaths": 7,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "EMC",
+          "team": "theirs",
+          "is_me": false,
+          "points": 590,
+          "splats": 4,
+          "deaths": 6,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "Tee",
+          "team": "mine",
+          "is_me": false,
+          "points": 995,
+          "splats": 9,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 950,
+          "splats": null,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "BLACK NOIR",
+          "team": "mine",
+          "is_me": false,
+          "points": 870,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "Agente 3",
+          "team": "mine",
+          "is_me": false,
+          "points": 568,
+          "splats": 7,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "at": "2026-08-15T02:53:17+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "loss",
+      "caught": 6,
+      "reported": 6,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "mlK_67",
+          "team": "theirs",
+          "is_me": false,
+          "points": 983,
+          "splats": 7,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "LatFеyO",
+          "team": "theirs",
+          "is_me": false,
+          "points": 736,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 3
+        },
+        {
+          "name": "☆lilly☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 723,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Made in CN",
+          "team": "theirs",
+          "is_me": false,
+          "points": 452,
+          "splats": 3,
+          "deaths": 2,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 845,
+          "splats": 6,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "kaido",
+          "team": "mine",
+          "is_me": false,
+          "points": 800,
+          "splats": 2,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "☆´′crisis",
+          "team": "mine",
+          "is_me": false,
+          "points": 694,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Sushee",
+          "team": "mine",
+          "is_me": false,
+          "points": 505,
+          "splats": 2,
+          "deaths": 2,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "at": "2026-08-15T02:48:19+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "win",
+      "caught": 6,
+      "reported": 6,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "kaido",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1015,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "HouStunna",
+          "team": "theirs",
+          "is_me": false,
+          "points": 825,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 3
+        },
+        {
+          "name": "☆lilly☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 773,
+          "splats": 7,
+          "deaths": 5,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "☆´′crisis",
+          "team": "theirs",
+          "is_me": false,
+          "points": 741,
+          "splats": 6,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "Michael",
+          "team": "mine",
+          "is_me": false,
+          "points": 1110,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1026,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "λMβεΓ_λMδ♪",
+          "team": "mine",
+          "is_me": false,
+          "points": 898,
+          "splats": 8,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Mr.PuzzIes",
+          "team": "mine",
+          "is_me": false,
+          "points": 671,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "at": "2026-08-14T23:55:31+00:00",
+      "mode": "Turf War",
+      "map": "Um'ami Ruins",
+      "outcome": "win",
+      "caught": 3,
+      "reported": 4,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "WΔRMΘTH",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1210,
+          "splats": 9,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": "Jolt OwO",
+          "team": "theirs",
+          "is_me": false,
+          "points": 788,
+          "splats": 5,
+          "deaths": 5,
+          "specials": null,
+          "mine": 2
+        },
+        {
+          "name": "null",
+          "team": "theirs",
+          "is_me": false,
+          "points": 683,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "SBUNGsmash",
+          "team": "theirs",
+          "is_me": false,
+          "points": 557,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "CyberHell",
+          "team": "mine",
+          "is_me": false,
+          "points": 1088,
+          "splats": 8,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 873,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "what?",
+          "team": "mine",
+          "is_me": false,
+          "points": 724,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Invincible",
+          "team": "mine",
+          "is_me": false,
+          "points": 641,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
     }
   ],
   "awards": {

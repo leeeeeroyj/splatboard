@@ -1,11 +1,9 @@
 const CREATURES = ["🦑", "🐙", "🦐", "🦀", "🐡", "🐠", "🦞", "🐟", "🌊", "💥", "🎯", "⭐"];
 const TROPHY = "🏆";
 const WALL_LIMIT = 10;
-const PAGE_SIZE = 20;
 let RANKED = [];
 let RECENT = [];
 let query = "";
-let page = 1;
 function creatureFor(name) {
   let h = 0;
   for (const ch of name) h = (h * 31 + ch.codePointAt(0)) >>> 0;
@@ -231,12 +229,9 @@ function renderCareer(totals, career) {
       ["Matches", c.matches],
       ["Record", c.wins != null
         ? `${c.wins}W ${c.losses}L${c.draws ? ` ${c.draws}D` : ""}` : null],
-      ["Disconnects", c.disconnects],
       ["Total Splats", totals.splats ?? 0],
       ["Assists", totals.assists],
       ["Unique Victims", totals.unique_players ?? 0],
-    ],
-    [
       ["Best Match", c.best_splats],
       ["Best Turf", c.best_points != null ? `${c.best_points}p` : null],
       ["Splats / Match", c.avg_splats],
@@ -286,13 +281,12 @@ const AWARDS = [
   { key: "boogeyman", art: "assets/svg/h-boogeyman.svg", title: "Boogeyman",
     blurb: "Hardest to pin down",
     line: (a) => [a.matches, " faced, ", a.splats, plural(a.splats, " splat")] },
-  { key: "target_practice", art: "assets/svg/h-target-practice.svg",
-    title: "Target Practice",
-    blurb: "…LEEEEROYJ's top target",
-    line: (a) => [a.splats, plural(a.splats, " splat") + " in one match"] },
   { key: "fresh", art: "assets/svg/h-fresh-faces.svg", title: "Fresh Faces",
     wide: true, seats: freshSeats,
     blurb: "GGs! Thanks for playing" },
+  { key: "friendly", art: "assets/svg/h-friendly-faces.svg",
+    title: "Friendly Faces", wide: true, seats: squadSeats,
+    blurb: "We play a lot" },
   { key: "quickest", art: "assets/svg/h-fastest-splat.svg", title: "Fastest Splat",
     mine: true,
     blurb: "…LEEEEROYJ got 'em fast!",
@@ -301,6 +295,10 @@ const AWARDS = [
     mine: true,
     blurb: "Teammate I win with the most",
     line: (a) => [a.wins, " of ", a.matches, " won together"] },
+  { key: "target_practice", art: "assets/svg/h-target-practice.svg",
+    title: "Target Practice", mine: true,
+    blurb: "…LEEEEROYJ's top target",
+    line: (a) => [a.splats, plural(a.splats, " splat") + " in one match"] },
   { key: "squad", art: "assets/svg/h-top-squad.svg", title: "Top Squad",
     mine: true, wide: true, seats: squadSeats,
     blurb: (owner) => `${owner || "My"}'s top teammates.` },
@@ -375,6 +373,12 @@ function renderAwards(data) {
   document.getElementById("awards-section").hidden = !row.children.length;
   mine.hidden = !mine.children.length;
 }
+function matchStamp(iso) {
+  const when = new Date(iso);
+  if (isNaN(when)) return "";
+  return `${when.toLocaleDateString()} ${when.toLocaleTimeString([], {
+    hour: "numeric", minute: "2-digit" })}`;
+}
 function renderWall() {
   const wall = document.getElementById("wall");
   wall.replaceChildren();
@@ -388,33 +392,82 @@ function renderWall() {
     wall.append(playerCard(p, badge));
   }
 }
+function banner(r) {
+  const li = document.createElement("li");
+  const who = document.createElement("span");
+  who.className = "who";
+  const pip = document.createElement("img");
+  pip.className = "feed-pip";
+  pip.src = "assets/img/splatted-red.png";
+  pip.alt = "";
+  pip.loading = "lazy";
+  who.append(pip, nameNode(r, "namemark small"));
+  const when = document.createElement("time");
+  when.dateTime = r.ts;
+  when.textContent = matchStamp(r.ts);
+  li.append(who, when);
+  return li;
+}
+let FEED = [];
+let feedAt = 0;
+let feedTimer = null;
+let FEED_GAP = 0;
+const FEED_SLOTS = 4;
+const PUSH_MS = 70;
+const TICK_MS = 3000;
+const FEED_WINDOW = 60;
+const stillness = window.matchMedia("(prefers-reduced-motion: reduce)");
+function feedRolls() {
+  return FEED.length > FEED_SLOTS && !stillness.matches;
+}
+function pushBanner(list, entry) {
+  const li = banner(entry);
+  li.className = "pop";
+  list.append(li);
+  const pitch = li.getBoundingClientRect().height + FEED_GAP;
+  list.style.transition = "none";
+  list.style.transform = `translateY(${pitch}px)`;
+  void list.offsetHeight;
+  list.style.transition = `transform ${PUSH_MS}ms ease-in-out`;
+  list.style.transform = "";
+  while (list.children.length > FEED_SLOTS) list.firstElementChild.remove();
+}
+function tick() {
+  const list = document.getElementById("recent");
+  pushBanner(list, FEED[feedAt]);
+  feedAt = (feedAt + 1) % FEED.length;
+}
+let feedHeld = false;
+function stopFeed() {
+  clearInterval(feedTimer);
+  feedTimer = null;
+}
+function holdFeed(held) {
+  feedHeld = held;
+  if (held) stopFeed(); else startFeed();
+}
+function startFeed() {
+  if (feedTimer || feedHeld || document.hidden || !feedRolls()) return;
+  feedTimer = setInterval(tick, TICK_MS);
+}
 function renderRecent() {
   document.getElementById("recent-section").hidden = !RECENT.length;
   if (!RECENT.length) return;
+  stopFeed();
   const hits = RECENT.filter((r) => matches(r.name));
-  const pages = Math.max(1, Math.ceil(hits.length / PAGE_SIZE));
-  page = Math.min(Math.max(1, page), pages);
-  const start = (page - 1) * PAGE_SIZE;
+  FEED = hits.slice(0, FEED_WINDOW).reverse();
   const list = document.getElementById("recent");
   list.replaceChildren();
-  list.start = start + 1;
+  list.style.transition = "none";
+  list.style.transform = "";
+  FEED_GAP = parseFloat(getComputedStyle(list).rowGap) || 0;
   const note = document.getElementById("recent-empty");
   note.hidden = hits.length > 0;
   note.textContent = "No splats by that name.";
-  for (const r of hits.slice(start, start + PAGE_SIZE)) {
-    const li = document.createElement("li");
-    const who = document.createElement("span");
-    who.className = "who";
-    who.append(nameNode(r, "namemark small"));
-    const when = document.createElement("time");
-    when.textContent = whenText(r.ts);
-    li.append(who, when);
-    list.append(li);
-  }
-  document.getElementById("recent-pager").hidden = pages < 2;
-  document.getElementById("page-label").textContent = `Page ${page} of ${pages}`;
-  document.getElementById("prev").disabled = page === 1;
-  document.getElementById("next").disabled = page === pages;
+  for (const r of FEED.slice(0, FEED_SLOTS)) list.append(banner(r));
+  feedAt = FEED.length ? FEED_SLOTS % FEED.length : 0;
+  document.getElementById("recent-section").classList.toggle("rolling", feedRolls());
+  startFeed();
 }
 function render(data) {
   document.documentElement.classList.toggle("font-names", Boolean(data.name_font));
@@ -429,18 +482,16 @@ function render(data) {
     : "Players splatted the most.";
   document.getElementById("search").addEventListener("input", (e) => {
     query = e.target.value.trim().toLowerCase();
-    page = 1;
     renderWall();
     renderRecent();
   });
-  document.getElementById("prev").addEventListener("click", () => {
-    page -= 1;
-    renderRecent();
+  const feed = document.getElementById("recent-section");
+  feed.addEventListener("pointerenter", () => holdFeed(true));
+  feed.addEventListener("pointerleave", () => holdFeed(false));
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) stopFeed(); else startFeed();
   });
-  document.getElementById("next").addEventListener("click", () => {
-    page += 1;
-    renderRecent();
-  });
+  stillness.addEventListener("change", renderRecent);
   renderAwards(data);
   renderWall();
   renderRecent();

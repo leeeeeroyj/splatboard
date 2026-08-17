@@ -23,10 +23,19 @@
   <section class="banner-group" id="my-achievements">
     <h2><img class="heading banner" src="assets/svg/h-my-achievements.svg"
              alt="My Achievements"></h2>
-    <section>
-      <h2><img class="heading" src="assets/svg/h-career-stats.svg" alt="Career Stats"></h2>
-      <div class="career-blocks" id="career"></div>
-    </section>
+    <div class="stats-row">
+      <section id="career-stats-section">
+        <h2><img class="heading" src="assets/svg/h-career-stats.svg" alt="Career Stats"></h2>
+        <div class="career-blocks" id="career"></div>
+      </section>
+      <section id="recent-section" hidden>
+        <h2><img class="heading" src="assets/svg/h-freshly-inked.svg" alt="Freshly Inked"></h2>
+        <div class="feed">
+          <ol id="recent" class="recent"></ol>
+        </div>
+        <p id="recent-empty" class="empty" hidden></p>
+      </section>
+    </div>
     <section id="top-splats-section">
       <div class="toolbar">
         <div class="toolbar-title">
@@ -44,16 +53,6 @@
     <h2><img class="heading banner" src="assets/svg/h-player-achievements.svg"
              alt="Player Achievements"></h2>
     <div class="awards" id="awards"></div>
-  </section>
-  <section id="recent-section" hidden>
-    <h2><img class="heading" src="assets/svg/h-freshly-inked.svg" alt="Freshly Inked"></h2>
-    <ol id="recent" class="recent"></ol>
-    <p id="recent-empty" class="empty" hidden></p>
-    <nav id="recent-pager" class="pager" aria-label="Freshly inked pages" hidden>
-      <button id="prev" type="button">‹ Prev</button>
-      <span id="page-label"></span>
-      <button id="next" type="button">Next ›</button>
-    </nav>
   </section>
 </main>
 <footer>
