@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-17T21:10:15+00:00",
+  "generated_at": "2026-08-18T23:48:44+00:00",
   "totals": {
-    "splats": 503,
-    "unique_players": 248,
-    "assists": 67,
+    "splats": 507,
+    "unique_players": 252,
+    "assists": 70,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 106,
-    "wins": 75,
+    "matches": 108,
+    "wins": 77,
     "losses": 31,
     "draws": 0,
-    "avg_splats": 4.69,
+    "avg_splats": 4.64,
     "best_splats": 13,
-    "avg_points": 950,
+    "avg_points": 949,
     "best_points": 1446,
     "disconnects": 12,
     "quickest_splat": {
@@ -47,22 +47,22 @@
   ],
   "fresh": [
     {
-      "name": "HeatShock",
-      "at": "2026-08-16T03:22:50+00:00",
+      "name": "AgentAngeI",
+      "at": "2026-08-18T02:25:37+00:00",
       "side": "against",
-      "avatar": "assets/faces/49c2229eb5fb.png"
+      "avatar": "assets/faces/3161303ccb8f.png"
     },
     {
-      "name": "Hotbeаter",
-      "at": "2026-08-16T03:22:50+00:00",
+      "name": "CαDußz",
+      "at": "2026-08-18T02:25:37+00:00",
       "side": "against",
-      "avatar": "assets/faces/7aa3b39e8df5.png"
+      "avatar": "assets/faces/c08d04a26e77.png"
     },
     {
-      "name": "Rambutan",
-      "at": "2026-08-16T03:22:50+00:00",
-      "side": "with",
-      "avatar": "assets/faces/ba85c08c1e3c.png"
+      "name": "HOT2⇒βµξξş",
+      "at": "2026-08-18T02:25:37+00:00",
+      "side": "against",
+      "avatar": "assets/faces/b3c4ff1bba47.png"
     }
   ],
   "friendly": [
@@ -83,6 +83,192 @@
     }
   ],
   "matches": [
+    {
+      "id": 121,
+      "at": "2026-08-18T02:25:37+00:00",
+      "mode": "Turf War",
+      "map": "Um'ami Ruins",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 3,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "T☆ Endee",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1098,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "HOT2⇒βµξξş",
+          "team": "theirs",
+          "is_me": false,
+          "points": 902,
+          "splats": 4,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "CαDußz",
+          "team": "theirs",
+          "is_me": false,
+          "points": 815,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "AgentAngeI",
+          "team": "theirs",
+          "is_me": false,
+          "points": 627,
+          "splats": 6,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Yurilover",
+          "team": "mine",
+          "is_me": false,
+          "points": 1100,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "june",
+          "team": "mine",
+          "is_me": false,
+          "points": 909,
+          "splats": null,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 794,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Zεε <3",
+          "team": "mine",
+          "is_me": false,
+          "points": 567,
+          "splats": 11,
+          "deaths": 6,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "at": "2026-08-18T02:21:00+00:00",
+      "mode": "Turf War",
+      "map": "Mincemeat Metalworks",
+      "outcome": "win",
+      "caught": 2,
+      "reported": 4,
+      "assists": 2,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "T☆ Endee",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1102,
+          "splats": 9,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Yurilover",
+          "team": "theirs",
+          "is_me": false,
+          "points": 997,
+          "splats": 5,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Zεε <3",
+          "team": "theirs",
+          "is_me": false,
+          "points": 524,
+          "splats": 1,
+          "deaths": 3,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "what?",
+          "team": "theirs",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 1
+        },
+        {
+          "name": "★Stink♪",
+          "team": "mine",
+          "is_me": false,
+          "points": 1018,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Danpооpy",
+          "team": "mine",
+          "is_me": false,
+          "points": 983,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 950,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "☆·「Mγα」",
+          "team": "mine",
+          "is_me": false,
+          "points": 755,
+          "splats": 2,
+          "deaths": 6,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
     {
       "id": 119,
       "at": "2026-08-16T03:22:50+00:00",
@@ -2218,192 +2404,6 @@
           "splats": 2,
           "deaths": 2,
           "specials": 1,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 96,
-      "at": "2026-08-15T02:48:19+00:00",
-      "mode": "Turf War",
-      "map": "Barnacle & Dime",
-      "outcome": "win",
-      "caught": 6,
-      "reported": 6,
-      "assists": 0,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "kaido",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1015,
-          "splats": 5,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "HouStunna",
-          "team": "theirs",
-          "is_me": false,
-          "points": 825,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 3
-        },
-        {
-          "name": "☆lilly☆",
-          "team": "theirs",
-          "is_me": false,
-          "points": 773,
-          "splats": 7,
-          "deaths": 5,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "☆´′crisis",
-          "team": "theirs",
-          "is_me": false,
-          "points": 741,
-          "splats": 6,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 1
-        },
-        {
-          "name": "Michael",
-          "team": "mine",
-          "is_me": false,
-          "points": 1110,
-          "splats": 5,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 1026,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "λMβεΓ_λMδ♪",
-          "team": "mine",
-          "is_me": false,
-          "points": 898,
-          "splats": 8,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "Mr.PuzzIes",
-          "team": "mine",
-          "is_me": false,
-          "points": 671,
-          "splats": 2,
-          "deaths": 4,
-          "specials": 2,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 95,
-      "at": "2026-08-14T23:55:31+00:00",
-      "mode": "Turf War",
-      "map": "Um'ami Ruins",
-      "outcome": "win",
-      "caught": 3,
-      "reported": 4,
-      "assists": 1,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "WΔRMΘTH",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1210,
-          "splats": 9,
-          "deaths": 3,
-          "specials": 4,
-          "mine": 1
-        },
-        {
-          "name": "Jolt OwO",
-          "team": "theirs",
-          "is_me": false,
-          "points": 788,
-          "splats": 5,
-          "deaths": 5,
-          "specials": null,
-          "mine": 2
-        },
-        {
-          "name": "null",
-          "team": "theirs",
-          "is_me": false,
-          "points": 683,
-          "splats": 4,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "SBUNGsmash",
-          "team": "theirs",
-          "is_me": false,
-          "points": 557,
-          "splats": 2,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "CyberHell",
-          "team": "mine",
-          "is_me": false,
-          "points": 1088,
-          "splats": 8,
-          "deaths": 2,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 873,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "what?",
-          "team": "mine",
-          "is_me": false,
-          "points": 724,
-          "splats": 5,
-          "deaths": 2,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Invincible",
-          "team": "mine",
-          "is_me": false,
-          "points": 641,
-          "splats": 3,
-          "deaths": 5,
-          "specials": 2,
           "mine": 0
         }
       ]
@@ -7251,6 +7251,38 @@
       "splashtag": "assets/faces/20338ba4c091-tag.png"
     },
     {
+      "name": "CαDußz",
+      "splats": 1,
+      "first": "2026-08-18T02:25:57+00:00",
+      "last": "2026-08-18T02:25:57+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 5.0,
+        "avg_points": 815
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-18T02:25:37+00:00",
+          "map": "Um'ami Ruins",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-18T02:25:37+00:00",
+          "map": "Um'ami Ruins",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c08d04a26e77.png",
+      "splashtag": "assets/faces/c08d04a26e77-tag.png"
+    },
+    {
       "name": "Cαitlyn",
       "splats": 1,
       "first": "2026-08-13T22:33:54+00:00",
@@ -7636,6 +7668,38 @@
       },
       "avatar": "assets/faces/b73d6f614324.png",
       "splashtag": "assets/faces/b73d6f614324-tag.png"
+    },
+    {
+      "name": "HOT2⇒βµξξş",
+      "splats": 1,
+      "first": "2026-08-18T02:26:52+00:00",
+      "last": "2026-08-18T02:26:52+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 6.0,
+        "avg_points": 902
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-18T02:25:37+00:00",
+          "map": "Um'ami Ruins",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-18T02:25:37+00:00",
+          "map": "Um'ami Ruins",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/b3c4ff1bba47.png",
+      "splashtag": "assets/faces/b3c4ff1bba47-tag.png"
     },
     {
       "name": "Herr.Hare",
@@ -9120,6 +9184,48 @@
       "splashtag": "assets/faces/e3b2ee24fd19-tag.png"
     },
     {
+      "name": "Zεε <3",
+      "splats": 1,
+      "first": "2026-08-18T02:23:34+00:00",
+      "last": "2026-08-18T02:23:34+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 3.0,
+        "avg_points": 524
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 11,
+        "their_best": 11,
+        "their_splats": 11.0,
+        "their_deaths": 6.0,
+        "avg_points": 567
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-18T02:21:00+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-18T02:25:37+00:00",
+          "map": "Um'ami Ruins",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/31d6b9b1c3af.png",
+      "splashtag": "assets/faces/31d6b9b1c3af-tag.png"
+    },
+    {
       "name": "[CA]→Oro◇",
       "splats": 1,
       "first": "2026-08-11T04:06:02+00:00",
@@ -10054,6 +10160,45 @@
       "splashtag": "assets/faces/61fa33ef2dd8-tag.png"
     },
     {
+      "name": "what?",
+      "splats": 1,
+      "first": "2026-08-18T02:23:22+00:00",
+      "last": "2026-08-18T02:23:22+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "avg_points": 0
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 2.0,
+        "avg_points": 724
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-14T23:55:31+00:00",
+          "map": "Um'ami Ruins",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-18T02:21:00+00:00",
+          "map": "Mincemeat Metalworks",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8b0be37871a6.png",
+      "splashtag": "assets/faces/8b0be37871a6-tag.png"
+    },
+    {
       "name": "¢φ¢φ™",
       "splats": 1,
       "first": "2026-08-10T03:29:11+00:00",
@@ -10600,6 +10745,22 @@
     }
   ],
   "recent": [
+    {
+      "name": "HOT2⇒βµξξş",
+      "ts": "2026-08-18T02:26:52+00:00"
+    },
+    {
+      "name": "CαDußz",
+      "ts": "2026-08-18T02:25:57+00:00"
+    },
+    {
+      "name": "Zεε <3",
+      "ts": "2026-08-18T02:23:34+00:00"
+    },
+    {
+      "name": "what?",
+      "ts": "2026-08-18T02:23:22+00:00"
+    },
     {
       "name": "Hotbeаter",
       "ts": "2026-08-16T03:25:33+00:00"

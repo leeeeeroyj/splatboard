@@ -455,7 +455,7 @@ function renderRecent() {
   if (!RECENT.length) return;
   stopFeed();
   const hits = RECENT.filter((r) => matches(r.name));
-  FEED = hits.slice(0, FEED_WINDOW).reverse();
+  FEED = hits.slice(0, FEED_WINDOW);
   const list = document.getElementById("recent");
   list.replaceChildren();
   list.style.transition = "none";
