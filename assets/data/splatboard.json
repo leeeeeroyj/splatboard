@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T23:48:44+00:00",
+  "generated_at": "2026-08-19T00:41:15+00:00",
   "totals": {
-    "splats": 507,
-    "unique_players": 252,
-    "assists": 70,
+    "splats": 526,
+    "unique_players": 261,
+    "assists": 74,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 108,
-    "wins": 77,
-    "losses": 31,
+    "matches": 111,
+    "wins": 78,
+    "losses": 33,
     "draws": 0,
-    "avg_splats": 4.64,
+    "avg_splats": 4.68,
     "best_splats": 13,
     "avg_points": 949,
     "best_points": 1446,
@@ -47,22 +47,22 @@
   ],
   "fresh": [
     {
-      "name": "AgentAngeI",
-      "at": "2026-08-18T02:25:37+00:00",
-      "side": "against",
-      "avatar": "assets/faces/3161303ccb8f.png"
+      "name": "Hobbs",
+      "at": "2026-08-19T00:16:58+00:00",
+      "side": "with",
+      "avatar": "assets/faces/847b70a54615.png"
     },
     {
-      "name": "CαDußz",
-      "at": "2026-08-18T02:25:37+00:00",
+      "name": "JoNаthan11",
+      "at": "2026-08-19T00:16:58+00:00",
       "side": "against",
-      "avatar": "assets/faces/c08d04a26e77.png"
+      "avatar": "assets/faces/f4df47309093.png"
     },
     {
-      "name": "HOT2⇒βµξξş",
-      "at": "2026-08-18T02:25:37+00:00",
+      "name": "WiIIow :]",
+      "at": "2026-08-19T00:16:58+00:00",
       "side": "against",
-      "avatar": "assets/faces/b3c4ff1bba47.png"
+      "avatar": "assets/faces/4ae23c02865b.png"
     }
   ],
   "friendly": [
@@ -83,6 +83,285 @@
     }
   ],
   "matches": [
+    {
+      "id": 124,
+      "at": "2026-08-19T00:16:58+00:00",
+      "mode": "Turf War",
+      "map": "Inkblot Art Academy",
+      "outcome": "win",
+      "caught": 3,
+      "reported": 4,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "SnOCâLÄvO",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1492,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 7,
+          "mine": 1
+        },
+        {
+          "name": "WiIIow :]",
+          "team": "theirs",
+          "is_me": false,
+          "points": 798,
+          "splats": null,
+          "deaths": 4,
+          "specials": null,
+          "mine": 1
+        },
+        {
+          "name": "midnight",
+          "team": "theirs",
+          "is_me": false,
+          "points": 762,
+          "splats": 1,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "JoNаthan11",
+          "team": "theirs",
+          "is_me": false,
+          "points": 744,
+          "splats": 2,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "i <3 d2lta",
+          "team": "mine",
+          "is_me": false,
+          "points": 1116,
+          "splats": 7,
+          "deaths": 0,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Hobbs",
+          "team": "mine",
+          "is_me": false,
+          "points": 1067,
+          "splats": 8,
+          "deaths": null,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Danthoin",
+          "team": "mine",
+          "is_me": false,
+          "points": 876,
+          "splats": 8,
+          "deaths": 1,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 859,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "at": "2026-08-19T00:12:23+00:00",
+      "mode": "Turf War",
+      "map": "Flounder Heights",
+      "outcome": "loss",
+      "caught": 11,
+      "reported": 8,
+      "assists": -3,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "Lunar Rock",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1368,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 6,
+          "mine": 2
+        },
+        {
+          "name": "Shuro",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1243,
+          "splats": 4,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 1
+        },
+        {
+          "name": "BIackheart",
+          "team": "theirs",
+          "is_me": false,
+          "points": 995,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 7
+        },
+        {
+          "name": "MelonCheez",
+          "team": "theirs",
+          "is_me": false,
+          "points": 628,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "SnOCâLÄvO",
+          "team": "mine",
+          "is_me": false,
+          "points": 1235,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 5,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 1066,
+          "splats": 8,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Paulverine",
+          "team": "mine",
+          "is_me": false,
+          "points": 1007,
+          "splats": 2,
+          "deaths": null,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "delimeat",
+          "team": "mine",
+          "is_me": false,
+          "points": 830,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "at": "2026-08-19T00:07:48+00:00",
+      "mode": "Turf War",
+      "map": "Inkblot Art Academy",
+      "outcome": "loss",
+      "caught": 5,
+      "reported": 8,
+      "assists": 3,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "UncIe Rico",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1091,
+          "splats": 4,
+          "deaths": null,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Zθгωαx_",
+          "team": "theirs",
+          "is_me": false,
+          "points": 935,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 2
+        },
+        {
+          "name": "Ξmipiηg",
+          "team": "theirs",
+          "is_me": false,
+          "points": 785,
+          "splats": 7,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "guruba",
+          "team": "theirs",
+          "is_me": false,
+          "points": 668,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 3
+        },
+        {
+          "name": "im st☆ned",
+          "team": "mine",
+          "is_me": false,
+          "points": 1094,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "…LEEEEROYJ",
+          "team": "mine",
+          "is_me": true,
+          "points": 955,
+          "splats": 8,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "ImChêêched",
+          "team": "mine",
+          "is_me": false,
+          "points": 717,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "tatter",
+          "team": "mine",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        }
+      ]
+    },
     {
       "id": 121,
       "at": "2026-08-18T02:25:37+00:00",
@@ -1447,7 +1726,7 @@
           "mine": 0
         },
         {
-          "name": "Danthоin",
+          "name": "Danthoin",
           "team": "mine",
           "is_me": false,
           "points": 1088,
@@ -2128,285 +2407,6 @@
           "mine": 0
         }
       ]
-    },
-    {
-      "id": 99,
-      "at": "2026-08-15T03:02:51+00:00",
-      "mode": "Turf War",
-      "map": "Barnacle & Dime",
-      "outcome": "win",
-      "caught": 13,
-      "reported": 13,
-      "assists": 0,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "Nathan",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1055,
-          "splats": 5,
-          "deaths": 7,
-          "specials": 3,
-          "mine": 5
-        },
-        {
-          "name": "Octomouche",
-          "team": "theirs",
-          "is_me": false,
-          "points": 917,
-          "splats": 9,
-          "deaths": 6,
-          "specials": null,
-          "mine": 4
-        },
-        {
-          "name": "13KSiIver",
-          "team": "theirs",
-          "is_me": false,
-          "points": 751,
-          "splats": 1,
-          "deaths": 6,
-          "specials": 2,
-          "mine": 3
-        },
-        {
-          "name": "♪☆Paiwa☆♪",
-          "team": "theirs",
-          "is_me": false,
-          "points": 658,
-          "splats": 5,
-          "deaths": 2,
-          "specials": 2,
-          "mine": 1
-        },
-        {
-          "name": "BLACK NOIR",
-          "team": "mine",
-          "is_me": false,
-          "points": 1063,
-          "splats": 3,
-          "deaths": 4,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 1035,
-          "splats": 13,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "Icdfenix",
-          "team": "mine",
-          "is_me": false,
-          "points": 829,
-          "splats": 4,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Nine",
-          "team": "mine",
-          "is_me": false,
-          "points": 685,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 98,
-      "at": "2026-08-15T02:57:52+00:00",
-      "mode": "Turf War",
-      "map": "Barnacle & Dime",
-      "outcome": "win",
-      "caught": 10,
-      "reported": null,
-      "assists": null,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "Rin Itoshi",
-          "team": "theirs",
-          "is_me": false,
-          "points": 904,
-          "splats": 5,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 2
-        },
-        {
-          "name": "jаckaгthy",
-          "team": "theirs",
-          "is_me": false,
-          "points": 667,
-          "splats": 6,
-          "deaths": 7,
-          "specials": null,
-          "mine": 4
-        },
-        {
-          "name": "IeаtCrayon",
-          "team": "theirs",
-          "is_me": false,
-          "points": 667,
-          "splats": 5,
-          "deaths": 7,
-          "specials": 1,
-          "mine": 2
-        },
-        {
-          "name": "EMC",
-          "team": "theirs",
-          "is_me": false,
-          "points": 590,
-          "splats": 4,
-          "deaths": 6,
-          "specials": 1,
-          "mine": 2
-        },
-        {
-          "name": "Tee",
-          "team": "mine",
-          "is_me": false,
-          "points": 995,
-          "splats": 9,
-          "deaths": 2,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 950,
-          "splats": null,
-          "deaths": 4,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "BLACK NOIR",
-          "team": "mine",
-          "is_me": false,
-          "points": 870,
-          "splats": 4,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "Agente 3",
-          "team": "mine",
-          "is_me": false,
-          "points": 568,
-          "splats": 7,
-          "deaths": 5,
-          "specials": 1,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 97,
-      "at": "2026-08-15T02:53:17+00:00",
-      "mode": "Turf War",
-      "map": "Barnacle & Dime",
-      "outcome": "loss",
-      "caught": 6,
-      "reported": 6,
-      "assists": 0,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "mlK_67",
-          "team": "theirs",
-          "is_me": false,
-          "points": 983,
-          "splats": 7,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "LatFеyO",
-          "team": "theirs",
-          "is_me": false,
-          "points": 736,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 3
-        },
-        {
-          "name": "☆lilly☆",
-          "team": "theirs",
-          "is_me": false,
-          "points": 723,
-          "splats": 3,
-          "deaths": 4,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "Made in CN",
-          "team": "theirs",
-          "is_me": false,
-          "points": 452,
-          "splats": 3,
-          "deaths": 2,
-          "specials": 1,
-          "mine": 1
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 845,
-          "splats": 6,
-          "deaths": 6,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "kaido",
-          "team": "mine",
-          "is_me": false,
-          "points": 800,
-          "splats": 2,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "☆´′crisis",
-          "team": "mine",
-          "is_me": false,
-          "points": 694,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Sushee",
-          "team": "mine",
-          "is_me": false,
-          "points": 505,
-          "splats": 2,
-          "deaths": 2,
-          "specials": 1,
-          "mine": 0
-        }
-      ]
     }
   ],
   "awards": {
@@ -2416,9 +2416,9 @@
       "avatar": "assets/faces/7481885a511e.png"
     },
     "target_practice": {
-      "name": "GHΦらT",
-      "splats": 6,
-      "avatar": "assets/faces/d06c47919e6f.png"
+      "name": "BIackheart",
+      "splats": 7,
+      "avatar": "assets/faces/f28863d355d9.png"
     },
     "boogeyman": {
       "name": "Sorry !",
@@ -2531,6 +2531,38 @@
       },
       "avatar": "assets/faces/d06c47919e6f.png",
       "splashtag": "assets/faces/d06c47919e6f-tag.png"
+    },
+    {
+      "name": "BIackheart",
+      "splats": 7,
+      "first": "2026-08-19T00:12:57+00:00",
+      "last": "2026-08-19T00:14:48+00:00",
+      "matches": 1,
+      "best_match": 7,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 5.0,
+        "avg_points": 995
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/f28863d355d9.png",
+      "splashtag": "assets/faces/f28863d355d9-tag.png"
     },
     {
       "name": "★Cosmo★",
@@ -4248,6 +4280,38 @@
       "avatar": "assets/faces/2d4a88229cc6.png"
     },
     {
+      "name": "guruba",
+      "splats": 3,
+      "first": "2026-08-19T00:09:17+00:00",
+      "last": "2026-08-19T00:10:19+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 5.0,
+        "avg_points": 668
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/c7f3e10d029f.png",
+      "splashtag": "assets/faces/c7f3e10d029f-tag.png"
+    },
+    {
       "name": "hellothere",
       "splats": 3,
       "first": "2026-08-13T22:47:26+00:00",
@@ -5275,6 +5339,38 @@
       "splashtag": "assets/faces/8169ac8b7416-tag.png"
     },
     {
+      "name": "Lunar Rock",
+      "splats": 2,
+      "first": "2026-08-19T00:14:01+00:00",
+      "last": "2026-08-19T00:15:08+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 1368
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/28bbc2c5d30b.png",
+      "splashtag": "assets/faces/28bbc2c5d30b-tag.png"
+    },
+    {
       "name": "MUJERRRRRR",
       "splats": 2,
       "first": "2026-08-09T00:45:11+00:00",
@@ -6021,6 +6117,38 @@
       },
       "avatar": "assets/faces/afbc6da202af.png",
       "splashtag": "assets/faces/afbc6da202af-tag.png"
+    },
+    {
+      "name": "Zθгωαx_",
+      "splats": 2,
+      "first": "2026-08-19T00:09:17+00:00",
+      "last": "2026-08-19T00:10:00+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 935
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/41fca2ae309a.png",
+      "splashtag": "assets/faces/41fca2ae309a-tag.png"
     },
     {
       "name": "^_^",
@@ -7821,6 +7949,16 @@
         "their_deaths": 3.0,
         "avg_points": 663
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 717
+      },
       "met": {
         "first": {
           "at": "2026-08-14T00:28:34+00:00",
@@ -7828,9 +7966,9 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-14T00:28:34+00:00",
-          "map": "Hagglefish Market",
-          "side": "against"
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "with"
         }
       },
       "avatar": "assets/faces/49b64b39011d.png",
@@ -7867,6 +8005,38 @@
       },
       "avatar": "assets/faces/5c30130b1e48.png",
       "splashtag": "assets/faces/5c30130b1e48-tag.png"
+    },
+    {
+      "name": "JoNаthan11",
+      "splats": 1,
+      "first": "2026-08-19T00:17:55+00:00",
+      "last": "2026-08-19T00:17:55+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 6.0,
+        "avg_points": 744
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:16:58+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:16:58+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/f4df47309093.png",
+      "splashtag": "assets/faces/f4df47309093-tag.png"
     },
     {
       "name": "Kokomi",
@@ -8268,6 +8438,38 @@
       },
       "avatar": "assets/faces/60aa7dd10198.png",
       "splashtag": "assets/faces/60aa7dd10198-tag.png"
+    },
+    {
+      "name": "MelonCheez",
+      "splats": 1,
+      "first": "2026-08-19T00:12:50+00:00",
+      "last": "2026-08-19T00:12:50+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 4.0,
+        "avg_points": 628
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/7ae918d169be.png",
+      "splashtag": "assets/faces/7ae918d169be-tag.png"
     },
     {
       "name": "Midnight33",
@@ -8920,6 +9122,80 @@
       "splashtag": "assets/faces/135d71fdad76-tag.png"
     },
     {
+      "name": "Shuro",
+      "splats": 1,
+      "first": "2026-08-19T00:13:26+00:00",
+      "last": "2026-08-19T00:13:26+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 2.0,
+        "avg_points": 1243
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/183f94763979.png",
+      "splashtag": "assets/faces/183f94763979-tag.png"
+    },
+    {
+      "name": "SnOCâLÄvO",
+      "splats": 1,
+      "first": "2026-08-19T00:19:23+00:00",
+      "last": "2026-08-19T00:19:23+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 4.0,
+        "avg_points": 1492
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 4.0,
+        "avg_points": 1235
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:12:23+00:00",
+          "map": "Flounder Heights",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-19T00:16:58+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/aab6f52dda9e.png",
+      "splashtag": "assets/faces/aab6f52dda9e-tag.png"
+    },
+    {
       "name": "Snackatron",
       "splats": 1,
       "first": "2026-08-14T00:19:23+00:00",
@@ -9182,6 +9458,36 @@
       },
       "avatar": "assets/faces/e3b2ee24fd19.png",
       "splashtag": "assets/faces/e3b2ee24fd19-tag.png"
+    },
+    {
+      "name": "WiIIow :]",
+      "splats": 1,
+      "first": "2026-08-19T00:17:48+00:00",
+      "last": "2026-08-19T00:17:48+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 0,
+        "their_deaths": 4.0,
+        "avg_points": 798
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T00:16:58+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T00:16:58+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/4ae23c02865b.png",
+      "splashtag": "assets/faces/4ae23c02865b-tag.png"
     },
     {
       "name": "Zεε <3",
@@ -9529,6 +9835,16 @@
         "their_deaths": 6.0,
         "avg_points": 815
       },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 1094
+      },
       "met": {
         "first": {
           "at": "2026-08-14T00:28:34+00:00",
@@ -9536,9 +9852,9 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-14T00:28:34+00:00",
-          "map": "Hagglefish Market",
-          "side": "against"
+          "at": "2026-08-19T00:07:48+00:00",
+          "map": "Inkblot Art Academy",
+          "side": "with"
         }
       },
       "avatar": "assets/faces/04e1d39fa394.png",
@@ -10745,6 +11061,82 @@
     }
   ],
   "recent": [
+    {
+      "name": "SnOCâLÄvO",
+      "ts": "2026-08-19T00:19:23+00:00"
+    },
+    {
+      "name": "JoNаthan11",
+      "ts": "2026-08-19T00:17:55+00:00"
+    },
+    {
+      "name": "WiIIow :]",
+      "ts": "2026-08-19T00:17:48+00:00"
+    },
+    {
+      "name": "Lunar Rock",
+      "ts": "2026-08-19T00:15:08+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:14:48+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:14:46+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:14:09+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:14:07+00:00"
+    },
+    {
+      "name": "Lunar Rock",
+      "ts": "2026-08-19T00:14:01+00:00"
+    },
+    {
+      "name": "Shuro",
+      "ts": "2026-08-19T00:13:26+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:13:24+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:13:24+00:00"
+    },
+    {
+      "name": "BIackheart",
+      "ts": "2026-08-19T00:12:57+00:00"
+    },
+    {
+      "name": "MelonCheez",
+      "ts": "2026-08-19T00:12:50+00:00"
+    },
+    {
+      "name": "guruba",
+      "ts": "2026-08-19T00:10:19+00:00"
+    },
+    {
+      "name": "Zθгωαx_",
+      "ts": "2026-08-19T00:10:00+00:00"
+    },
+    {
+      "name": "guruba",
+      "ts": "2026-08-19T00:09:46+00:00"
+    },
+    {
+      "name": "Zθгωαx_",
+      "ts": "2026-08-19T00:09:17+00:00"
+    },
+    {
+      "name": "guruba",
+      "ts": "2026-08-19T00:09:17+00:00"
+    },
     {
       "name": "HOT2⇒βµξξş",
       "ts": "2026-08-18T02:26:52+00:00"
