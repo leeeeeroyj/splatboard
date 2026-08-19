@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-19T02:26:16+00:00",
+  "generated_at": "2026-08-19T02:53:03+00:00",
   "totals": {
-    "splats": 534,
-    "unique_players": 266,
-    "assists": 76,
+    "splats": 545,
+    "unique_players": 271,
+    "assists": 81,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 113,
-    "wins": 79,
-    "losses": 34,
+    "matches": 117,
+    "wins": 81,
+    "losses": 36,
     "draws": 0,
-    "avg_splats": 4.67,
+    "avg_splats": 4.61,
     "best_splats": 13,
-    "avg_points": 947,
+    "avg_points": 951,
     "best_points": 1446,
     "disconnects": 12,
     "quickest_splat": {
@@ -47,21 +47,22 @@
   ],
   "fresh": [
     {
-      "name": "Fih",
-      "at": "2026-08-19T02:20:03+00:00",
-      "side": "with"
+      "name": "Anoobyss",
+      "at": "2026-08-19T02:41:42+00:00",
+      "side": "against",
+      "avatar": "assets/faces/39e316742e41.png"
     },
     {
-      "name": "Hiro",
-      "at": "2026-08-19T02:20:03+00:00",
-      "side": "against",
-      "avatar": "assets/faces/66a6773fc58a.png"
+      "name": "Bicho",
+      "at": "2026-08-19T02:41:42+00:00",
+      "side": "with",
+      "avatar": "assets/faces/0b16f1315293.png"
     },
     {
-      "name": "NebuIa",
-      "at": "2026-08-19T02:20:03+00:00",
+      "name": "FatBentley",
+      "at": "2026-08-19T02:41:42+00:00",
       "side": "against",
-      "avatar": "assets/faces/51b43ddf177d.png"
+      "avatar": "assets/faces/bc90d0195442.png"
     }
   ],
   "friendly": [
@@ -71,9 +72,9 @@
       "avatar": "assets/faces/d06c47919e6f.png"
     },
     {
-      "name": "Dewyгay",
-      "matches": 9,
-      "avatar": "assets/faces/629f2be5ed77.png"
+      "name": "Dewyray",
+      "matches": 10,
+      "avatar": "assets/faces/1215514dac08.png"
     },
     {
       "name": "MR_COOPER™",
@@ -82,6 +83,378 @@
     }
   ],
   "matches": [
+    {
+      "id": 130,
+      "at": "2026-08-19T02:41:42+00:00",
+      "mode": "Turf War",
+      "map": "Shipshape Cargo Co.",
+      "outcome": "win",
+      "caught": 6,
+      "reported": 7,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "Anoobyss",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1386,
+          "splats": 6,
+          "deaths": 4,
+          "specials": 4,
+          "mine": 4
+        },
+        {
+          "name": "●vibbb●",
+          "team": "theirs",
+          "is_me": false,
+          "points": 738,
+          "splats": 7,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "SuddyBuddy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 653,
+          "splats": 4,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "FatBentley",
+          "team": "theirs",
+          "is_me": false,
+          "points": 609,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "Bicho",
+          "team": "mine",
+          "is_me": false,
+          "points": 1197,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "orquixa30",
+          "team": "mine",
+          "is_me": false,
+          "points": 1057,
+          "splats": 5,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 879,
+          "splats": 7,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Dewyray",
+          "team": "mine",
+          "is_me": false,
+          "points": 734,
+          "splats": 3,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "at": "2026-08-19T02:36:53+00:00",
+      "mode": "Turf War",
+      "map": "Barnacle & Dime",
+      "outcome": "loss",
+      "caught": 2,
+      "reported": 2,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "☆syrцp☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1288,
+          "splats": 8,
+          "deaths": 2,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "Dusty ™",
+          "team": "theirs",
+          "is_me": false,
+          "points": 994,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "7424 Ants",
+          "team": "theirs",
+          "is_me": false,
+          "points": 852,
+          "splats": 6,
+          "deaths": 2,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "☆Pancakes☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 398,
+          "splats": 1,
+          "deaths": 2,
+          "specials": 1,
+          "mine": 1
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1137,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "tiny url",
+          "team": "mine",
+          "is_me": false,
+          "points": 898,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "cakе'“",
+          "team": "mine",
+          "is_me": false,
+          "points": 82,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Murph",
+          "team": "mine",
+          "is_me": false,
+          "points": 733,
+          "splats": 2,
+          "deaths": 7,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "at": "2026-08-19T02:31:38+00:00",
+      "mode": "Turf War",
+      "map": "Shipshape Cargo Co.",
+      "outcome": "loss",
+      "caught": 0,
+      "reported": 1,
+      "assists": 1,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "tiny url",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1303,
+          "splats": 4,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Zоrox",
+          "team": "theirs",
+          "is_me": false,
+          "points": 949,
+          "splats": 6,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "arthurmoon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 853,
+          "splats": 8,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "funky ehhh",
+          "team": "theirs",
+          "is_me": false,
+          "points": 829,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Dusty ™",
+          "team": "mine",
+          "is_me": false,
+          "points": 1179,
+          "splats": 7,
+          "deaths": 1,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1021,
+          "splats": 1,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "cakе'“",
+          "team": "mine",
+          "is_me": false,
+          "points": 779,
+          "splats": 5,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Murph",
+          "team": "mine",
+          "is_me": false,
+          "points": 764,
+          "splats": 4,
+          "deaths": 7,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "at": "2026-08-19T02:27:08+00:00",
+      "mode": "Turf War",
+      "map": "Shipshape Cargo Co.",
+      "outcome": "win",
+      "caught": 3,
+      "reported": 6,
+      "assists": 3,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "tiny url",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1561,
+          "splats": 5,
+          "deaths": 1,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "arthurmoon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1045,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Dusty ™",
+          "team": "theirs",
+          "is_me": false,
+          "points": 804,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "j",
+          "team": "theirs",
+          "is_me": false,
+          "points": 738,
+          "splats": 6,
+          "deaths": 7,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1188,
+          "splats": 6,
+          "deaths": 2,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "cake™",
+          "team": "mine",
+          "is_me": false,
+          "points": 1135,
+          "splats": 3,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Zоrox",
+          "team": "mine",
+          "is_me": false,
+          "points": 998,
+          "splats": 4,
+          "deaths": 3,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Murph",
+          "team": "mine",
+          "is_me": false,
+          "points": 820,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
     {
       "id": 126,
       "at": "2026-08-19T02:20:03+00:00",
@@ -144,7 +517,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 920,
@@ -247,7 +620,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 765,
@@ -350,7 +723,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 859,
@@ -423,7 +796,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1066,
@@ -516,7 +889,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 955,
@@ -619,7 +992,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 794,
@@ -712,7 +1085,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 950,
@@ -785,7 +1158,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1290,
@@ -888,7 +1261,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 925,
@@ -971,7 +1344,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1197,
@@ -1064,7 +1437,7 @@
           "mine": 3
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1121,
@@ -1157,7 +1530,7 @@
           "mine": 1
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1034,
@@ -1250,7 +1623,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1446,
@@ -1373,7 +1746,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 801,
@@ -1436,7 +1809,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 102,
@@ -1529,7 +1902,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 956,
@@ -1612,7 +1985,7 @@
           "mine": 3
         },
         {
-          "name": "Dewyгay",
+          "name": "Dewyray",
           "team": "theirs",
           "is_me": false,
           "points": 490,
@@ -1622,7 +1995,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 986,
@@ -1725,7 +2098,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 788,
@@ -1745,7 +2118,7 @@
           "mine": 0
         },
         {
-          "name": "Dewyгay",
+          "name": "Dewyray",
           "team": "mine",
           "is_me": false,
           "points": 380,
@@ -1798,7 +2171,7 @@
           "mine": 1
         },
         {
-          "name": "Dewyгay",
+          "name": "Dewyray",
           "team": "theirs",
           "is_me": false,
           "points": 587,
@@ -1828,7 +2201,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 1014,
@@ -1921,7 +2294,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 944,
@@ -1931,7 +2304,7 @@
           "mine": 0
         },
         {
-          "name": "Dewyгay",
+          "name": "Dewyray",
           "team": "mine",
           "is_me": false,
           "points": 581,
@@ -1974,7 +2347,7 @@
           "mine": 0
         },
         {
-          "name": "Dewyгay",
+          "name": "Dewyray",
           "team": "theirs",
           "is_me": false,
           "points": 160,
@@ -2004,7 +2377,7 @@
           "mine": 0
         },
         {
-          "name": "…LEEEEROYJ",
+          "name": "",
           "team": "mine",
           "is_me": true,
           "points": 336,
@@ -2028,378 +2401,6 @@
           "team": "mine",
           "is_me": false,
           "points": 445,
-          "splats": null,
-          "deaths": null,
-          "specials": null,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 105,
-      "at": "2026-08-15T21:30:28+00:00",
-      "mode": "Turf War",
-      "map": "Humpback Pump Track",
-      "outcome": "no_contest",
-      "caught": 2,
-      "reported": null,
-      "assists": null,
-      "winner": null,
-      "roster": [
-        {
-          "name": ">Mş Mîňțÿ<",
-          "team": "theirs",
-          "is_me": false,
-          "points": 245,
-          "splats": 0,
-          "deaths": 0,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "♪EIijah♪",
-          "team": "theirs",
-          "is_me": false,
-          "points": 138,
-          "splats": null,
-          "deaths": null,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "reteP124",
-          "team": "theirs",
-          "is_me": false,
-          "points": 119,
-          "splats": 0,
-          "deaths": null,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "Dewyгay",
-          "team": "theirs",
-          "is_me": false,
-          "points": 99,
-          "splats": null,
-          "deaths": 1,
-          "specials": 0,
-          "mine": 2
-        },
-        {
-          "name": "NAO",
-          "team": "mine",
-          "is_me": false,
-          "points": 206,
-          "splats": 0,
-          "deaths": 0,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 163,
-          "splats": null,
-          "deaths": null,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "Sylαs",
-          "team": "mine",
-          "is_me": false,
-          "points": 138,
-          "splats": 0,
-          "deaths": 0,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "goob",
-          "team": "mine",
-          "is_me": false,
-          "points": 44,
-          "splats": null,
-          "deaths": null,
-          "specials": null,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 104,
-      "at": "2026-08-15T21:26:09+00:00",
-      "mode": "Turf War",
-      "map": "Humpback Pump Track",
-      "outcome": "win",
-      "caught": 4,
-      "reported": 5,
-      "assists": 1,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "Yu Mist Me",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1410,
-          "splats": 7,
-          "deaths": 3,
-          "specials": 5,
-          "mine": 0
-        },
-        {
-          "name": "BooYAH",
-          "team": "theirs",
-          "is_me": false,
-          "points": 929,
-          "splats": 3,
-          "deaths": 4,
-          "specials": 2,
-          "mine": 2
-        },
-        {
-          "name": "oli!!",
-          "team": "theirs",
-          "is_me": false,
-          "points": 676,
-          "splats": 2,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Dewyгay",
-          "team": "theirs",
-          "is_me": false,
-          "points": 549,
-          "splats": 1,
-          "deaths": 2,
-          "specials": 1,
-          "mine": 1
-        },
-        {
-          "name": ">Mş Mîňțÿ<",
-          "team": "mine",
-          "is_me": false,
-          "points": 1431,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 5,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 1023,
-          "splats": 5,
-          "deaths": 2,
-          "specials": 4,
-          "mine": 0
-        },
-        {
-          "name": "Tabi",
-          "team": "mine",
-          "is_me": false,
-          "points": 698,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Rоbоbbot",
-          "team": "mine",
-          "is_me": false,
-          "points": 628,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 103,
-      "at": "2026-08-15T03:40:19+00:00",
-      "mode": "Turf War",
-      "map": "Marlin Airport",
-      "outcome": "win",
-      "caught": 2,
-      "reported": 4,
-      "assists": 2,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "KARASUMA",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1112,
-          "splats": 3,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "Maddy",
-          "team": "theirs",
-          "is_me": false,
-          "points": 864,
-          "splats": 8,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 1
-        },
-        {
-          "name": "☆Døх☆",
-          "team": "theirs",
-          "is_me": false,
-          "points": 710,
-          "splats": 6,
-          "deaths": null,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "kniL",
-          "team": "theirs",
-          "is_me": false,
-          "points": 579,
-          "splats": 3,
-          "deaths": 7,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "Nugget",
-          "team": "mine",
-          "is_me": false,
-          "points": 1060,
-          "splats": 8,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "☆♪sqυidγ♪☆",
-          "team": "mine",
-          "is_me": false,
-          "points": 1029,
-          "splats": 7,
-          "deaths": 2,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 877,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "Bυιmα :3",
-          "team": "mine",
-          "is_me": false,
-          "points": 612,
-          "splats": 6,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 102,
-      "at": "2026-08-15T03:35:46+00:00",
-      "mode": "Turf War",
-      "map": "Barnacle & Dime",
-      "outcome": "loss",
-      "caught": 8,
-      "reported": 9,
-      "assists": 1,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "Nugget",
-          "team": "theirs",
-          "is_me": false,
-          "points": 818,
-          "splats": 4,
-          "deaths": 4,
-          "specials": 2,
-          "mine": 2
-        },
-        {
-          "name": "☆♪sqυidγ♪☆",
-          "team": "theirs",
-          "is_me": false,
-          "points": 752,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 2
-        },
-        {
-          "name": "KARASUMA",
-          "team": "theirs",
-          "is_me": false,
-          "points": 685,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 2,
-          "mine": 1
-        },
-        {
-          "name": "DiVA_SQUiD",
-          "team": "theirs",
-          "is_me": false,
-          "points": 0,
-          "splats": null,
-          "deaths": null,
-          "specials": null,
-          "mine": 3
-        },
-        {
-          "name": "…LEEEEROYJ",
-          "team": "mine",
-          "is_me": true,
-          "points": 1089,
-          "splats": 9,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "~Aš_はる*リダ",
-          "team": "mine",
-          "is_me": false,
-          "points": 755,
-          "splats": 6,
-          "deaths": 4,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "Maddy",
-          "team": "mine",
-          "is_me": false,
-          "points": 494,
-          "splats": 3,
-          "deaths": 5,
-          "specials": 0,
-          "mine": 0
-        },
-        {
-          "name": "Agent 8",
-          "team": "mine",
-          "is_me": false,
-          "points": 0,
           "splats": null,
           "deaths": null,
           "specials": null,
@@ -2606,7 +2607,7 @@
       "splashtag": "assets/faces/8c78e5db516a-tag.png"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "splats": 6,
       "first": "2026-08-09T22:27:11+00:00",
       "last": "2026-08-15T21:40:16+00:00",
@@ -2623,14 +2624,14 @@
         "avg_points": 450
       },
       "alongside": {
-        "matches": 2,
-        "wins": 1,
+        "matches": 3,
+        "wins": 2,
         "losses": 1,
-        "splats": 5,
+        "splats": 8,
         "their_best": 3,
-        "their_splats": 2.5,
-        "their_deaths": 3.5,
-        "avg_points": 480
+        "their_splats": 2.7,
+        "their_deaths": 3.3,
+        "avg_points": 565
       },
       "met": {
         "first": {
@@ -2639,13 +2640,13 @@
           "side": "against"
         },
         "last": {
-          "at": "2026-08-15T21:47:00+00:00",
-          "map": "Humpback Pump Track",
-          "side": "against"
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "with"
         }
       },
-      "avatar": "assets/faces/629f2be5ed77.png",
-      "splashtag": "assets/faces/629f2be5ed77-tag.png"
+      "avatar": "assets/faces/1215514dac08.png",
+      "splashtag": "assets/faces/1215514dac08-tag.png"
     },
     {
       "name": "Squiddo",
@@ -2880,6 +2881,38 @@
       },
       "avatar": "assets/faces/12f498de1a7c.png",
       "splashtag": "assets/faces/12f498de1a7c-tag.png"
+    },
+    {
+      "name": "Anoobyss",
+      "splats": 4,
+      "first": "2026-08-19T02:43:06+00:00",
+      "last": "2026-08-19T02:44:04+00:00",
+      "matches": 1,
+      "best_match": 4,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 4.0,
+        "avg_points": 1386
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/39e316742e41.png",
+      "splashtag": "assets/faces/39e316742e41-tag.png"
     },
     {
       "name": "BIaze",
@@ -3726,6 +3759,48 @@
       },
       "avatar": "assets/faces/65dbeb65a466.png",
       "splashtag": "assets/faces/65dbeb65a466-tag.png"
+    },
+    {
+      "name": "Dusty ™",
+      "splats": 3,
+      "first": "2026-08-19T02:28:52+00:00",
+      "last": "2026-08-19T02:39:12+00:00",
+      "matches": 2,
+      "best_match": 2,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 5,
+        "their_best": 3,
+        "their_splats": 2.5,
+        "their_deaths": 4.0,
+        "avg_points": 899
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 1.0,
+        "avg_points": 1179
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T02:27:08+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T02:36:53+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/996e6afc2397.png",
+      "splashtag": "assets/faces/996e6afc2397-tag.png"
     },
     {
       "name": "Ender king",
@@ -6756,6 +6831,48 @@
       "splashtag": "assets/faces/b5b79c11964a-tag.png"
     },
     {
+      "name": "☆Pancakes☆",
+      "splats": 2,
+      "first": "2026-08-09T21:12:20+00:00",
+      "last": "2026-08-19T02:38:39+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "splats": 7,
+        "their_best": 6,
+        "their_splats": 3.5,
+        "their_deaths": 2.0,
+        "avg_points": 578
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 0.0,
+        "avg_points": 1095
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-09T21:09:23+00:00",
+          "map": "Crableg Capital",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T02:36:53+00:00",
+          "map": "Barnacle & Dime",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/853f8ec2479b.png",
+      "splashtag": "assets/faces/853f8ec2479b-tag.png"
+    },
+    {
       "name": "☆lilly☆",
       "splats": 2,
       "first": "2026-08-15T02:49:23+00:00",
@@ -7671,6 +7788,38 @@
       },
       "avatar": "assets/faces/57ea2ebb3f67.png",
       "splashtag": "assets/faces/57ea2ebb3f67-tag.png"
+    },
+    {
+      "name": "FatBentley",
+      "splats": 1,
+      "first": "2026-08-19T02:43:44+00:00",
+      "last": "2026-08-19T02:43:44+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 609
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/bc90d0195442.png",
+      "splashtag": "assets/faces/bc90d0195442-tag.png"
     },
     {
       "name": "Fern",
@@ -9988,6 +10137,48 @@
       "splashtag": "assets/faces/04e1d39fa394-tag.png"
     },
     {
+      "name": "j",
+      "splats": 1,
+      "first": "2026-08-19T02:28:40+00:00",
+      "last": "2026-08-19T02:28:40+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "splats": 6,
+        "their_best": 6,
+        "their_splats": 6.0,
+        "their_deaths": 7.0,
+        "avg_points": 369
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 4.0,
+        "avg_points": 709
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-12T00:03:07+00:00",
+          "map": "Mahi-Mahi Resort",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-19T02:27:08+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/5c2dd944dde9.png",
+      "splashtag": "assets/faces/5c2dd944dde9-tag.png"
+    },
+    {
       "name": "ju4viø",
       "splats": 1,
       "first": "2026-08-09T21:10:34+00:00",
@@ -10872,46 +11063,36 @@
       "splashtag": "assets/faces/addb86a46012-tag.png"
     },
     {
-      "name": "☆Pancakes☆",
+      "name": "●vibbb●",
       "splats": 1,
-      "first": "2026-08-09T21:12:20+00:00",
-      "last": "2026-08-09T21:12:20+00:00",
+      "first": "2026-08-19T02:43:10+00:00",
+      "last": "2026-08-19T02:43:10+00:00",
       "matches": 1,
       "best_match": 1,
       "versus": {
         "matches": 1,
-        "wins": 0,
-        "losses": 1,
-        "splats": 6,
-        "their_best": 6,
-        "their_splats": 6.0,
-        "their_deaths": 2.0,
-        "avg_points": 757
-      },
-      "alongside": {
-        "matches": 1,
         "wins": 1,
         "losses": 0,
-        "splats": 5,
-        "their_best": 5,
-        "their_splats": 5.0,
-        "their_deaths": 0.0,
-        "avg_points": 1095
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 3.0,
+        "avg_points": 738
       },
       "met": {
         "first": {
-          "at": "2026-08-09T21:09:23+00:00",
-          "map": "Crableg Capital",
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
           "side": "against"
         },
         "last": {
-          "at": "2026-08-15T22:36:38+00:00",
-          "map": "Lemuria Hub",
-          "side": "with"
+          "at": "2026-08-19T02:41:42+00:00",
+          "map": "Shipshape Cargo Co.",
+          "side": "against"
         }
       },
-      "avatar": "assets/faces/853f8ec2479b.png",
-      "splashtag": "assets/faces/853f8ec2479b-tag.png"
+      "avatar": "assets/faces/400fe96edab6.png",
+      "splashtag": "assets/faces/400fe96edab6-tag.png"
     },
     {
       "name": "☆Zee★",
@@ -11220,6 +11401,50 @@
     }
   ],
   "recent": [
+    {
+      "name": "Anoobyss",
+      "ts": "2026-08-19T02:44:04+00:00"
+    },
+    {
+      "name": "Anoobyss",
+      "ts": "2026-08-19T02:43:52+00:00"
+    },
+    {
+      "name": "FatBentley",
+      "ts": "2026-08-19T02:43:44+00:00"
+    },
+    {
+      "name": "Anoobyss",
+      "ts": "2026-08-19T02:43:27+00:00"
+    },
+    {
+      "name": "●vibbb●",
+      "ts": "2026-08-19T02:43:10+00:00"
+    },
+    {
+      "name": "Anoobyss",
+      "ts": "2026-08-19T02:43:06+00:00"
+    },
+    {
+      "name": "Dusty ™",
+      "ts": "2026-08-19T02:39:12+00:00"
+    },
+    {
+      "name": "☆Pancakes☆",
+      "ts": "2026-08-19T02:38:39+00:00"
+    },
+    {
+      "name": "Dusty ™",
+      "ts": "2026-08-19T02:29:27+00:00"
+    },
+    {
+      "name": "Dusty ™",
+      "ts": "2026-08-19T02:28:52+00:00"
+    },
+    {
+      "name": "j",
+      "ts": "2026-08-19T02:28:40+00:00"
+    },
     {
       "name": "NebuIa",
       "ts": "2026-08-19T02:23:05+00:00"
@@ -11549,7 +11774,7 @@
       "ts": "2026-08-15T21:40:19+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-15T21:40:16+00:00"
     },
     {
@@ -11585,11 +11810,11 @@
       "ts": "2026-08-15T21:32:10+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-15T21:30:56+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-15T21:30:46+00:00"
     },
     {
@@ -11597,7 +11822,7 @@
       "ts": "2026-08-15T21:28:32+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-15T21:28:25+00:00"
     },
     {
@@ -12873,7 +13098,7 @@
       "ts": "2026-08-09T22:35:57+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-09T22:35:43+00:00"
     },
     {
@@ -12917,7 +13142,7 @@
       "ts": "2026-08-09T22:27:14+00:00"
     },
     {
-      "name": "Dewyгay",
+      "name": "Dewyray",
       "ts": "2026-08-09T22:27:11+00:00"
     },
     {
