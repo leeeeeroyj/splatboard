@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-19T04:05:37+00:00",
+  "generated_at": "2026-08-21T22:09:19+00:00",
   "totals": {
-    "splats": 564,
-    "unique_players": 282,
-    "assists": 81,
+    "splats": 576,
+    "unique_players": 287,
+    "assists": 86,
     "top": "GHΦらT"
   },
   "career": {
-    "matches": 119,
-    "wins": 82,
-    "losses": 37,
+    "matches": 123,
+    "wins": 84,
+    "losses": 39,
     "draws": 0,
-    "avg_splats": 4.61,
+    "avg_splats": 4.63,
     "best_splats": 13,
-    "avg_points": 952,
+    "avg_points": 947,
     "best_points": 1446,
-    "disconnects": 12,
+    "disconnects": 14,
     "quickest_splat": {
       "seconds": 12.6,
       "name": "humbIе",
@@ -47,22 +47,22 @@
   ],
   "fresh": [
     {
-      "name": "CutoffOrc",
-      "at": "2026-08-19T03:52:25+00:00",
+      "name": "GIaceon",
+      "at": "2026-08-21T21:46:53+00:00",
       "side": "against",
-      "avatar": "assets/faces/9d345b5a5651.png"
+      "avatar": "assets/faces/33bce4c230dc.png"
     },
     {
-      "name": "Head_Emtpy",
-      "at": "2026-08-19T03:52:25+00:00",
+      "name": "Master",
+      "at": "2026-08-21T21:46:53+00:00",
       "side": "against",
-      "avatar": "assets/faces/de5aa263f19b.png"
+      "avatar": "assets/faces/78f3842f0201.png"
     },
     {
-      "name": "IÐ MigueI",
-      "at": "2026-08-19T03:52:25+00:00",
+      "name": "PHIGHTING!",
+      "at": "2026-08-21T21:46:53+00:00",
       "side": "with",
-      "avatar": "assets/faces/864f12707f4b.png"
+      "avatar": "assets/faces/93b3ce11491e.png"
     }
   ],
   "friendly": [
@@ -84,16 +84,562 @@
   ],
   "matches": [
     {
-      "id": 133,
-      "at": "2026-08-19T03:57:19+00:00",
-      "mode": "",
-      "map": "",
-      "outcome": "",
-      "caught": null,
+      "id": 139,
+      "at": "2026-08-21T21:51:26+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "no_contest",
+      "caught": 0,
       "reported": null,
       "assists": null,
       "winner": null,
-      "roster": []
+      "roster": [
+        {
+          "name": "SPAMTON",
+          "team": "theirs",
+          "is_me": false,
+          "points": 342,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "FOXX",
+          "team": "theirs",
+          "is_me": false,
+          "points": 240,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Mеnacе <3",
+          "team": "theirs",
+          "is_me": false,
+          "points": 110,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Daxtomn",
+          "team": "theirs",
+          "is_me": false,
+          "points": 156,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "№10008",
+          "team": "mine",
+          "is_me": false,
+          "points": 344,
+          "splats": 1,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "GHΦらT",
+          "team": "mine",
+          "is_me": false,
+          "points": 248,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        },
+        {
+          "name": "JustinJ",
+          "team": "mine",
+          "is_me": false,
+          "points": 195,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 160,
+          "splats": null,
+          "deaths": 1,
+          "specials": 0,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "at": "2026-08-21T21:46:53+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "win",
+      "caught": 8,
+      "reported": 9,
+      "assists": 1,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "playgirl",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1531,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 6,
+          "mine": 1
+        },
+        {
+          "name": "Master",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1098,
+          "splats": 5,
+          "deaths": 7,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "FRIENDS :)",
+          "team": "theirs",
+          "is_me": false,
+          "points": 798,
+          "splats": 3,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 4
+        },
+        {
+          "name": "GIaceon",
+          "team": "theirs",
+          "is_me": false,
+          "points": 504,
+          "splats": 1,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 2
+        },
+        {
+          "name": "11b",
+          "team": "mine",
+          "is_me": false,
+          "points": 1125,
+          "splats": 6,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1009,
+          "splats": 9,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "PHIGHTING!",
+          "team": "mine",
+          "is_me": false,
+          "points": 1004,
+          "splats": 9,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "octokid",
+          "team": "mine",
+          "is_me": false,
+          "points": 777,
+          "splats": 2,
+          "deaths": 2,
+          "specials": 3,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "at": "2026-08-21T21:42:28+00:00",
+      "mode": "Turf War",
+      "map": "Sturgeon Shipyard",
+      "outcome": "loss",
+      "caught": 4,
+      "reported": 4,
+      "assists": 0,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "playgirl",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1405,
+          "splats": 1,
+          "deaths": 2,
+          "specials": 5,
+          "mine": 1
+        },
+        {
+          "name": "FRIENDS :)",
+          "team": "theirs",
+          "is_me": false,
+          "points": 968,
+          "splats": 9,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 2
+        },
+        {
+          "name": "11b",
+          "team": "theirs",
+          "is_me": false,
+          "points": 810,
+          "splats": 9,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "octokid",
+          "team": "theirs",
+          "is_me": false,
+          "points": 610,
+          "splats": 4,
+          "deaths": 1,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "Johnny!",
+          "team": "mine",
+          "is_me": false,
+          "points": 1100,
+          "splats": 5,
+          "deaths": 6,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1016,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Daniel :)",
+          "team": "mine",
+          "is_me": false,
+          "points": 698,
+          "splats": 1,
+          "deaths": 5,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "PHIGHTINGI",
+          "team": "mine",
+          "is_me": false,
+          "points": 682,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "at": "2026-08-21T21:41:18+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "no_contest",
+      "caught": 0,
+      "reported": 0,
+      "assists": 0,
+      "winner": null,
+      "roster": [
+        {
+          "name": "playgirl",
+          "team": "theirs",
+          "is_me": false,
+          "points": 40,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "PHIGHTING!",
+          "team": "theirs",
+          "is_me": false,
+          "points": 6,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "☆ Nènèе ☆",
+          "team": "theirs",
+          "is_me": false,
+          "points": 0,
+          "splats": 0,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "SharkFin",
+          "team": "theirs",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "NOfreefeet",
+          "team": "mine",
+          "is_me": false,
+          "points": 55,
+          "splats": 0,
+          "deaths": 0,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "FRIENDS :)",
+          "team": "mine",
+          "is_me": false,
+          "points": 52,
+          "splats": null,
+          "deaths": null,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 20,
+          "splats": 0,
+          "deaths": 1,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "JLYFISHFIN",
+          "team": "mine",
+          "is_me": false,
+          "points": 0,
+          "splats": null,
+          "deaths": null,
+          "specials": null,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "at": "2026-08-21T21:36:26+00:00",
+      "mode": "Turf War",
+      "map": "Humpback Pump Track",
+      "outcome": "win",
+      "caught": 5,
+      "reported": 5,
+      "assists": 0,
+      "winner": "mine",
+      "roster": [
+        {
+          "name": "FRIENDS :)",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1475,
+          "splats": 7,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Sr Bоnkers",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1170,
+          "splats": 2,
+          "deaths": 4,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "Fruit Boy",
+          "team": "theirs",
+          "is_me": false,
+          "points": 978,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 2
+        },
+        {
+          "name": "Rei",
+          "team": "theirs",
+          "is_me": false,
+          "points": 701,
+          "splats": 2,
+          "deaths": 3,
+          "specials": 0,
+          "mine": 3
+        },
+        {
+          "name": "ManKisser",
+          "team": "mine",
+          "is_me": false,
+          "points": 1167,
+          "splats": 3,
+          "deaths": 4,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 1137,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 4,
+          "mine": 0
+        },
+        {
+          "name": "NOfreefeet",
+          "team": "mine",
+          "is_me": false,
+          "points": 1129,
+          "splats": 8,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "JLYFISHFIN",
+          "team": "mine",
+          "is_me": false,
+          "points": 1014,
+          "splats": 5,
+          "deaths": 3,
+          "specials": 2,
+          "mine": 0
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "at": "2026-08-21T21:31:58+00:00",
+      "mode": "Turf War",
+      "map": "Sturgeon Shipyard",
+      "outcome": "loss",
+      "caught": 4,
+      "reported": 8,
+      "assists": 4,
+      "winner": "theirs",
+      "roster": [
+        {
+          "name": "NOfreefeet",
+          "team": "theirs",
+          "is_me": false,
+          "points": 1048,
+          "splats": 4,
+          "deaths": 5,
+          "specials": 4,
+          "mine": 1
+        },
+        {
+          "name": "FRIENDS :)",
+          "team": "theirs",
+          "is_me": false,
+          "points": 989,
+          "splats": 8,
+          "deaths": 7,
+          "specials": 2,
+          "mine": 2
+        },
+        {
+          "name": "JLYFISHFIN",
+          "team": "theirs",
+          "is_me": false,
+          "points": 956,
+          "splats": 3,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 1
+        },
+        {
+          "name": "$ŁÔĹ",
+          "team": "theirs",
+          "is_me": false,
+          "points": 618,
+          "splats": 8,
+          "deaths": 5,
+          "specials": 1,
+          "mine": 0
+        },
+        {
+          "name": "Sr Bonkers",
+          "team": "mine",
+          "is_me": false,
+          "points": 1072,
+          "splats": 6,
+          "deaths": 5,
+          "specials": 2,
+          "mine": 0
+        },
+        {
+          "name": "",
+          "team": "mine",
+          "is_me": true,
+          "points": 102,
+          "splats": 8,
+          "deaths": 4,
+          "specials": 3,
+          "mine": 0
+        },
+        {
+          "name": "Rei",
+          "team": "mine",
+          "is_me": false,
+          "points": 875,
+          "splats": 1,
+          "deaths": 3,
+          "specials": 0,
+          "mine": 0
+        },
+        {
+          "name": "Fruit Boy",
+          "team": "mine",
+          "is_me": false,
+          "points": 642,
+          "splats": 7,
+          "deaths": 6,
+          "specials": 1,
+          "mine": 0
+        }
+      ]
     },
     {
       "id": 132,
@@ -1861,471 +2407,6 @@
           "mine": 0
         }
       ]
-    },
-    {
-      "id": 113,
-      "at": "2026-08-15T22:10:24+00:00",
-      "mode": "Turf War",
-      "map": "Lemuria Hub",
-      "outcome": "loss",
-      "caught": 2,
-      "reported": 4,
-      "assists": 2,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "Sorry !",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1124,
-          "splats": 6,
-          "deaths": 4,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "inkyQueen™",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1072,
-          "splats": null,
-          "deaths": 5,
-          "specials": 4,
-          "mine": 1
-        },
-        {
-          "name": ".~°⌒☆vε♀♀",
-          "team": "theirs",
-          "is_me": false,
-          "points": 989,
-          "splats": 7,
-          "deaths": 4,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "Agente 3",
-          "team": "theirs",
-          "is_me": false,
-          "points": 860,
-          "splats": 6,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "LuisGo",
-          "team": "mine",
-          "is_me": false,
-          "points": 1220,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 4,
-          "mine": 0
-        },
-        {
-          "name": "Alsh",
-          "team": "mine",
-          "is_me": false,
-          "points": 982,
-          "splats": 5,
-          "deaths": 5,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "GHΦらT",
-          "team": "mine",
-          "is_me": false,
-          "points": 882,
-          "splats": 5,
-          "deaths": 4,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "",
-          "team": "mine",
-          "is_me": true,
-          "points": 801,
-          "splats": 4,
-          "deaths": 6,
-          "specials": 3,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 112,
-      "at": "2026-08-15T22:05:35+00:00",
-      "mode": "Turf War",
-      "map": "Lemuria Hub",
-      "outcome": "loss",
-      "caught": 3,
-      "reported": 3,
-      "assists": 0,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "Kokomi",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1200,
-          "splats": 5,
-          "deaths": 3,
-          "specials": 4,
-          "mine": 1
-        },
-        {
-          "name": "Sorry !",
-          "team": "theirs",
-          "is_me": false,
-          "points": 917,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "☆Zee★",
-          "team": "theirs",
-          "is_me": false,
-          "points": 880,
-          "splats": 6,
-          "deaths": 6,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "lluvmotion",
-          "team": "theirs",
-          "is_me": false,
-          "points": 623,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "",
-          "team": "mine",
-          "is_me": true,
-          "points": 102,
-          "splats": 3,
-          "deaths": 6,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Chiikawa",
-          "team": "mine",
-          "is_me": false,
-          "points": 966,
-          "splats": null,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "☆Wofﬁе☆",
-          "team": "mine",
-          "is_me": false,
-          "points": 825,
-          "splats": 6,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "GHΦらT",
-          "team": "mine",
-          "is_me": false,
-          "points": 804,
-          "splats": 2,
-          "deaths": 4,
-          "specials": 2,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 111,
-      "at": "2026-08-15T22:01:01+00:00",
-      "mode": "Turf War",
-      "map": "Lemuria Hub",
-      "outcome": "loss",
-      "caught": 3,
-      "reported": 4,
-      "assists": 1,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "さき_saki!",
-          "team": "theirs",
-          "is_me": false,
-          "points": 903,
-          "splats": 5,
-          "deaths": 2,
-          "specials": 3,
-          "mine": 0
-        },
-        {
-          "name": "Dementгio",
-          "team": "theirs",
-          "is_me": false,
-          "points": 747,
-          "splats": 3,
-          "deaths": 6,
-          "specials": null,
-          "mine": 0
-        },
-        {
-          "name": "kenma",
-          "team": "theirs",
-          "is_me": false,
-          "points": 711,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 0,
-          "mine": 1
-        },
-        {
-          "name": "MIN3AWAR3",
-          "team": "theirs",
-          "is_me": false,
-          "points": 682,
-          "splats": 9,
-          "deaths": 2,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "",
-          "team": "mine",
-          "is_me": true,
-          "points": 956,
-          "splats": 4,
-          "deaths": 5,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Lеah !!",
-          "team": "mine",
-          "is_me": false,
-          "points": 804,
-          "splats": 8,
-          "deaths": 6,
-          "specials": null,
-          "mine": 0
-        },
-        {
-          "name": "Hexaswell",
-          "team": "mine",
-          "is_me": false,
-          "points": 673,
-          "splats": 3,
-          "deaths": 5,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "Cheeseball",
-          "team": "mine",
-          "is_me": false,
-          "points": 638,
-          "splats": 1,
-          "deaths": 3,
-          "specials": 1,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 110,
-      "at": "2026-08-15T21:47:00+00:00",
-      "mode": "Turf War",
-      "map": "Humpback Pump Track",
-      "outcome": "loss",
-      "caught": 5,
-      "reported": 5,
-      "assists": 0,
-      "winner": "theirs",
-      "roster": [
-        {
-          "name": "GHΦらT",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1244,
-          "splats": 2,
-          "deaths": null,
-          "specials": 4,
-          "mine": 1
-        },
-        {
-          "name": "fгyyez",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1005,
-          "splats": 2,
-          "deaths": 2,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "Pancakе30",
-          "team": "theirs",
-          "is_me": false,
-          "points": 797,
-          "splats": 8,
-          "deaths": 5,
-          "specials": 1,
-          "mine": 3
-        },
-        {
-          "name": "Dewyray",
-          "team": "theirs",
-          "is_me": false,
-          "points": 490,
-          "splats": 1,
-          "deaths": 3,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "",
-          "team": "mine",
-          "is_me": true,
-          "points": 986,
-          "splats": 5,
-          "deaths": 6,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "mìnsung ★",
-          "team": "mine",
-          "is_me": false,
-          "points": 961,
-          "splats": 5,
-          "deaths": 2,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Jeffro",
-          "team": "mine",
-          "is_me": false,
-          "points": 631,
-          "splats": 2,
-          "deaths": null,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Hannieく33",
-          "team": "mine",
-          "is_me": false,
-          "points": 546,
-          "splats": 1,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        }
-      ]
-    },
-    {
-      "id": 109,
-      "at": "2026-08-15T21:42:40+00:00",
-      "mode": "Turf War",
-      "map": "Bluefin Depot",
-      "outcome": "win",
-      "caught": 2,
-      "reported": 2,
-      "assists": 0,
-      "winner": "mine",
-      "roster": [
-        {
-          "name": "May",
-          "team": "theirs",
-          "is_me": false,
-          "points": 1128,
-          "splats": 6,
-          "deaths": 3,
-          "specials": 3,
-          "mine": 1
-        },
-        {
-          "name": "chatitоmxa",
-          "team": "theirs",
-          "is_me": false,
-          "points": 776,
-          "splats": 8,
-          "deaths": 4,
-          "specials": 2,
-          "mine": 0
-        },
-        {
-          "name": "Marcy",
-          "team": "theirs",
-          "is_me": false,
-          "points": 561,
-          "splats": 2,
-          "deaths": 2,
-          "specials": 2,
-          "mine": 1
-        },
-        {
-          "name": "RAA☆Moka",
-          "team": "theirs",
-          "is_me": false,
-          "points": 439,
-          "splats": 4,
-          "deaths": 1,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": ">Mş Mîňțÿ<",
-          "team": "mine",
-          "is_me": false,
-          "points": 1363,
-          "splats": 2,
-          "deaths": 4,
-          "specials": 5,
-          "mine": 0
-        },
-        {
-          "name": "",
-          "team": "mine",
-          "is_me": true,
-          "points": 788,
-          "splats": 2,
-          "deaths": 6,
-          "specials": null,
-          "mine": 0
-        },
-        {
-          "name": "2 6е",
-          "team": "mine",
-          "is_me": false,
-          "points": 557,
-          "splats": 3,
-          "deaths": 4,
-          "specials": 1,
-          "mine": 0
-        },
-        {
-          "name": "Dewyray",
-          "team": "mine",
-          "is_me": false,
-          "points": 380,
-          "splats": 3,
-          "deaths": 3,
-          "specials": 0,
-          "mine": 0
-        }
-      ]
     }
   ],
   "awards": {
@@ -2450,6 +2531,38 @@
       },
       "avatar": "assets/faces/d06c47919e6f.png",
       "splashtag": "assets/faces/d06c47919e6f-tag.png"
+    },
+    {
+      "name": "FRIENDS :)",
+      "splats": 8,
+      "first": "2026-08-21T21:34:19+00:00",
+      "last": "2026-08-21T21:49:48+00:00",
+      "matches": 4,
+      "best_match": 4,
+      "versus": {
+        "matches": 4,
+        "wins": 2,
+        "losses": 2,
+        "splats": 27,
+        "their_best": 9,
+        "their_splats": 6.8,
+        "their_deaths": 5.2,
+        "avg_points": 1058
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:31:58+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/2a997a457e31.png",
+      "splashtag": "assets/faces/2a997a457e31-tag.png"
     },
     {
       "name": "BIackheart",
@@ -3427,13 +3540,6 @@
       "splashtag": "assets/faces/c63d877b2300-tag.png"
     },
     {
-      "name": "∴Rain_Ame∵",
-      "splats": 4,
-      "first": "2026-08-19T03:57:40+00:00",
-      "last": "2026-08-19T03:59:16+00:00",
-      "best_match": 4
-    },
-    {
       "name": "★MιlκShαkε",
       "splats": 4,
       "first": "2026-08-12T22:41:23+00:00",
@@ -4055,6 +4161,48 @@
       "last": "2026-08-09T15:03:24+00:00",
       "avatar": "assets/faces/06576556d1ad.png",
       "splashtag": "assets/faces/06576556d1ad-tag.png"
+    },
+    {
+      "name": "Rei",
+      "splats": 3,
+      "first": "2026-08-21T21:36:50+00:00",
+      "last": "2026-08-21T21:38:16+00:00",
+      "matches": 1,
+      "best_match": 3,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 701
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 3.0,
+        "avg_points": 875
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:31:58+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-21T21:36:26+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/834ba4c10ef1.png",
+      "splashtag": "assets/faces/834ba4c10ef1-tag.png"
     },
     {
       "name": "RookiĦ",
@@ -5275,6 +5423,80 @@
       "splashtag": "assets/faces/9cd53f6c17b2-tag.png"
     },
     {
+      "name": "Fruit Boy",
+      "splats": 2,
+      "first": "2026-08-21T21:37:29+00:00",
+      "last": "2026-08-21T21:38:34+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 978
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 7,
+        "their_best": 7,
+        "their_splats": 7.0,
+        "their_deaths": 6.0,
+        "avg_points": 642
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:31:58+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "with"
+        },
+        "last": {
+          "at": "2026-08-21T21:36:26+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/de0453c8b24a.png",
+      "splashtag": "assets/faces/de0453c8b24a-tag.png"
+    },
+    {
+      "name": "GIaceon",
+      "splats": 2,
+      "first": "2026-08-21T21:47:28+00:00",
+      "last": "2026-08-21T21:49:16+00:00",
+      "matches": 1,
+      "best_match": 2,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 1,
+        "their_best": 1,
+        "their_splats": 1.0,
+        "their_deaths": 5.0,
+        "avg_points": 504
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/33bce4c230dc.png",
+      "splashtag": "assets/faces/33bce4c230dc-tag.png"
+    },
+    {
       "name": "Haymaker™",
       "splats": 2,
       "first": "2026-08-16T03:21:02+00:00",
@@ -5369,37 +5591,6 @@
       },
       "avatar": "assets/faces/5680bc803be8.png",
       "splashtag": "assets/faces/5680bc803be8-tag.png"
-    },
-    {
-      "name": "IÐ MigueI",
-      "splats": 2,
-      "first": "2026-08-19T03:59:52+00:00",
-      "last": "2026-08-19T04:00:05+00:00",
-      "best_match": 2,
-      "alongside": {
-        "matches": 1,
-        "wins": 1,
-        "losses": 0,
-        "splats": 4,
-        "their_best": 4,
-        "their_splats": 4.0,
-        "their_deaths": 6.0,
-        "avg_points": 970
-      },
-      "met": {
-        "first": {
-          "at": "2026-08-19T03:52:25+00:00",
-          "map": "Shipshape Cargo Co.",
-          "side": "with"
-        },
-        "last": {
-          "at": "2026-08-19T03:52:25+00:00",
-          "map": "Shipshape Cargo Co.",
-          "side": "with"
-        }
-      },
-      "avatar": "assets/faces/864f12707f4b.png",
-      "splashtag": "assets/faces/864f12707f4b-tag.png"
     },
     {
       "name": "Jolt OwO",
@@ -5633,13 +5824,6 @@
       },
       "avatar": "assets/faces/3bbf3fa537f5.png",
       "splashtag": "assets/faces/3bbf3fa537f5-tag.png"
-    },
-    {
-      "name": "MΔÐVŁLΛIΠΥ",
-      "splats": 2,
-      "first": "2026-08-19T03:57:33+00:00",
-      "last": "2026-08-19T04:00:11+00:00",
-      "best_match": 2
     },
     {
       "name": "Nadji",
@@ -6569,6 +6753,38 @@
       },
       "avatar": "assets/faces/9c31b463011c.png",
       "splashtag": "assets/faces/9c31b463011c-tag.png"
+    },
+    {
+      "name": "pIaygirI",
+      "splats": 2,
+      "first": "2026-08-21T21:45:00+00:00",
+      "last": "2026-08-21T21:47:33+00:00",
+      "matches": 2,
+      "best_match": 1,
+      "versus": {
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 3,
+        "their_splats": 2.0,
+        "their_deaths": 3.0,
+        "avg_points": 1468
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:42:28+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/8791b978fa74.png",
+      "splashtag": "assets/faces/8791b978fa74-tag.png"
     },
     {
       "name": "sgliIy",
@@ -7860,13 +8076,6 @@
       "splashtag": "assets/faces/57ea2ebb3f67-tag.png"
     },
     {
-      "name": "Fakexgrief",
-      "splats": 1,
-      "first": "2026-08-19T03:57:36+00:00",
-      "last": "2026-08-19T03:57:36+00:00",
-      "best_match": 1
-    },
-    {
       "name": "FatBentley",
       "splats": 1,
       "first": "2026-08-19T02:43:44+00:00",
@@ -8360,6 +8569,48 @@
       "splashtag": "assets/faces/5c30130b1e48-tag.png"
     },
     {
+      "name": "JLYFISHFIN",
+      "splats": 1,
+      "first": "2026-08-21T21:34:50+00:00",
+      "last": "2026-08-21T21:34:50+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 3,
+        "their_best": 3,
+        "their_splats": 3.0,
+        "their_deaths": 5.0,
+        "avg_points": 956
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 3.0,
+        "avg_points": 1014
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:31:58+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:36:26+00:00",
+          "map": "Humpback Pump Track",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/a4f9c2fd194d.png",
+      "splashtag": "assets/faces/a4f9c2fd194d-tag.png"
+    },
+    {
       "name": "JoNаthan11",
       "splats": 1,
       "first": "2026-08-19T00:17:55+00:00",
@@ -8729,6 +8980,38 @@
       "splashtag": "assets/faces/ad497d3b5343-tag.png"
     },
     {
+      "name": "Master",
+      "splats": 1,
+      "first": "2026-08-21T21:47:56+00:00",
+      "last": "2026-08-21T21:47:56+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 5,
+        "their_best": 5,
+        "their_splats": 5.0,
+        "their_deaths": 7.0,
+        "avg_points": 1098
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "against"
+        }
+      },
+      "avatar": "assets/faces/78f3842f0201.png",
+      "splashtag": "assets/faces/78f3842f0201-tag.png"
+    },
+    {
       "name": "Matcha ☆",
       "splats": 1,
       "first": "2026-08-14T23:47:38+00:00",
@@ -9020,6 +9303,48 @@
       },
       "avatar": "assets/faces/873facc4c1c8.png",
       "splashtag": "assets/faces/873facc4c1c8-tag.png"
+    },
+    {
+      "name": "NOfreefeet",
+      "splats": 1,
+      "first": "2026-08-21T21:34:54+00:00",
+      "last": "2026-08-21T21:34:54+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 5.0,
+        "avg_points": 1048
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 8,
+        "their_best": 8,
+        "their_splats": 8.0,
+        "their_deaths": 4.0,
+        "avg_points": 1129
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:31:58+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:36:26+00:00",
+          "map": "Humpback Pump Track",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/c4cdfda15923.png",
+      "splashtag": "assets/faces/c4cdfda15923-tag.png"
     },
     {
       "name": "Octagon!",
@@ -10699,6 +11024,48 @@
       "splashtag": "assets/faces/3fc37875052a-tag.png"
     },
     {
+      "name": "octokid",
+      "splats": 1,
+      "first": "2026-08-21T21:44:06+00:00",
+      "last": "2026-08-21T21:44:06+00:00",
+      "matches": 1,
+      "best_match": 1,
+      "versus": {
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "splats": 4,
+        "their_best": 4,
+        "their_splats": 4.0,
+        "their_deaths": 1.0,
+        "avg_points": 610
+      },
+      "alongside": {
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "splats": 2,
+        "their_best": 2,
+        "their_splats": 2.0,
+        "their_deaths": 2.0,
+        "avg_points": 777
+      },
+      "met": {
+        "first": {
+          "at": "2026-08-21T21:42:28+00:00",
+          "map": "Sturgeon Shipyard",
+          "side": "against"
+        },
+        "last": {
+          "at": "2026-08-21T21:46:53+00:00",
+          "map": "Humpback Pump Track",
+          "side": "with"
+        }
+      },
+      "avatar": "assets/faces/5a629cfe6e6f.png",
+      "splashtag": "assets/faces/5a629cfe6e6f-tag.png"
+    },
+    {
       "name": "oli!!",
       "splats": 1,
       "first": "2026-08-15T21:27:17+00:00",
@@ -11547,40 +11914,88 @@
   ],
   "recent": [
     {
-      "name": "MΔÐVŁLΛIΠΥ",
-      "ts": "2026-08-19T04:00:11+00:00"
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:49:48+00:00"
     },
     {
-      "name": "IÐ MigueI",
-      "ts": "2026-08-19T04:00:05+00:00"
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:49:36+00:00"
     },
     {
-      "name": "IÐ MigueI",
-      "ts": "2026-08-19T03:59:52+00:00"
+      "name": "GIaceon",
+      "ts": "2026-08-21T21:49:16+00:00"
     },
     {
-      "name": "∴Rain_Ame∵",
-      "ts": "2026-08-19T03:59:16+00:00"
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:48:43+00:00"
     },
     {
-      "name": "∴Rain_Ame∵",
-      "ts": "2026-08-19T03:58:59+00:00"
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:48:13+00:00"
     },
     {
-      "name": "∴Rain_Ame∵",
-      "ts": "2026-08-19T03:58:08+00:00"
+      "name": "Master",
+      "ts": "2026-08-21T21:47:56+00:00"
     },
     {
-      "name": "∴Rain_Ame∵",
-      "ts": "2026-08-19T03:57:40+00:00"
+      "name": "pIaygirI",
+      "ts": "2026-08-21T21:47:33+00:00"
     },
     {
-      "name": "Fakexgrief",
-      "ts": "2026-08-19T03:57:36+00:00"
+      "name": "GIaceon",
+      "ts": "2026-08-21T21:47:28+00:00"
     },
     {
-      "name": "MΔÐVŁLΛIΠΥ",
-      "ts": "2026-08-19T03:57:33+00:00"
+      "name": "pIaygirI",
+      "ts": "2026-08-21T21:45:00+00:00"
+    },
+    {
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:44:58+00:00"
+    },
+    {
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:44:23+00:00"
+    },
+    {
+      "name": "octokid",
+      "ts": "2026-08-21T21:44:06+00:00"
+    },
+    {
+      "name": "Fruit Boy",
+      "ts": "2026-08-21T21:38:34+00:00"
+    },
+    {
+      "name": "Rei",
+      "ts": "2026-08-21T21:38:16+00:00"
+    },
+    {
+      "name": "Rei",
+      "ts": "2026-08-21T21:38:04+00:00"
+    },
+    {
+      "name": "Fruit Boy",
+      "ts": "2026-08-21T21:37:29+00:00"
+    },
+    {
+      "name": "Rei",
+      "ts": "2026-08-21T21:36:50+00:00"
+    },
+    {
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:34:59+00:00"
+    },
+    {
+      "name": "NOfreefeet",
+      "ts": "2026-08-21T21:34:54+00:00"
+    },
+    {
+      "name": "JLYFISHFIN",
+      "ts": "2026-08-21T21:34:50+00:00"
+    },
+    {
+      "name": "FRIENDS :)",
+      "ts": "2026-08-21T21:34:19+00:00"
     },
     {
       "name": "CutoffOrc",
